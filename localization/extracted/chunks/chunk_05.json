@@ -1,0 +1,567 @@
+[
+ {
+  "en": "Max orange sigil upgrades",
+  "ids": [
+   "s0457"
+  ]
+ },
+ {
+  "en": "Max yellow sigil upgrades",
+  "ids": [
+   "s0458"
+  ]
+ },
+ {
+  "en": "Tomes",
+  "ids": [
+   "s0459"
+  ]
+ },
+ {
+  "en": "Convert your knowledge into a tome",
+  "ids": [
+   "s0461"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs",
+  "ids": [
+   "s0462"
+  ]
+ },
+ {
+  "en": "Convert max tomes",
+  "ids": [
+   "s0463"
+  ]
+ },
+ {
+  "en": "Increase ISP gain by ^1.30",
+  "ids": [
+   "s0464"
+  ]
+ },
+ {
+  "en": "Costs 1 tome",
+  "ids": [
+   "s0465",
+   "s0468"
+  ]
+ },
+ {
+  "en": "Total tomes multiply PSP gain",
+  "ids": [
+   "s0466"
+  ]
+ },
+ {
+  "en": "Double knowledge gain from trades",
+  "ids": [
+   "s0469"
+  ]
+ },
+ {
+  "en": "Costs 2 tomes",
+  "ids": [
+   "s0470",
+   "s0472"
+  ]
+ },
+ {
+  "en": "Platinum increases gold/second again",
+  "ids": [
+   "s0471"
+  ]
+ },
+ {
+  "en": "Tome cost increases more slowly",
+  "ids": [
+   "s0473"
+  ]
+ },
+ {
+  "en": "Costs 4 tomes",
+  "ids": [
+   "s0474"
+  ]
+ },
+ {
+  "en": "blue fire",
+  "ids": [
+   "s0475",
+   "s0501",
+   "s0504",
+   "s0507",
+   "s0510",
+   "s0513",
+   "s0516",
+   "s0519",
+   "s1427"
+  ]
+ },
+ {
+  "en": "Costs 20 tomes",
+  "ids": [
+   "s0476"
+  ]
+ },
+ {
+  "en": "Total tomes multiply knowledge gain",
+  "ids": [
+   "s0477"
+  ]
+ },
+ {
+  "en": "Costs 75 tomes",
+  "ids": [
+   "s0479"
+  ]
+ },
+ {
+  "en": "Tome cost increases more slowly again",
+  "ids": [
+   "s0480"
+  ]
+ },
+ {
+  "en": "Costs 175 tomes",
+  "ids": [
+   "s0481"
+  ]
+ },
+ {
+  "en": "Unlock 3 more blue fire upgrades",
+  "ids": [
+   "s0482"
+  ]
+ },
+ {
+  "en": "Costs 500 tomes",
+  "ids": [
+   "s0483"
+  ]
+ },
+ {
+  "en": "Total tomes multiply blue fire gain",
+  "ids": [
+   "s0484"
+  ]
+ },
+ {
+  "en": "Costs 1,000 tomes",
+  "ids": [
+   "s0486"
+  ]
+ },
+ {
+  "en": "Blood increases gold gain in hell",
+  "ids": [
+   "s0487"
+  ]
+ },
+ {
+  "en": "Costs 1,500 tomes",
+  "ids": [
+   "s0489"
+  ]
+ },
+ {
+  "en": "Plutonium",
+  "ids": [
+   "s0490",
+   "s1432"
+  ]
+ },
+ {
+  "en": "Costs 2,250 tomes",
+  "ids": [
+   "s0491"
+  ]
+ },
+ {
+  "en": "Requires dark magic upgrade 11",
+  "ids": [
+   "s0492"
+  ]
+ },
+ {
+  "en": "Red sigils",
+  "ids": [
+   "s0493",
+   "s0557"
+  ]
+ },
+ {
+  "en": "Costs 2,800 tomes",
+  "ids": [
+   "s0494"
+  ]
+ },
+ {
+  "en": "Requires plutonium",
+  "ids": [
+   "s0495"
+  ]
+ },
+ {
+  "en": "2 more hell layers",
+  "ids": [
+   "s0496"
+  ]
+ },
+ {
+  "en": "Costs 7,500 tomes",
+  "ids": [
+   "s0497"
+  ]
+ },
+ {
+  "en": "Blue fire upgrades",
+  "ids": [
+   "s0499"
+  ]
+ },
+ {
+  "en": "/s) (Blue fire gain is based on fire amount)",
+  "ids": [
+   "s0502"
+  ]
+ },
+ {
+  "en": "Multiply blue fire production",
+  "ids": [
+   "s0503"
+  ]
+ },
+ {
+  "en": "Increase magic hardcap",
+  "ids": [
+   "s0512"
+  ]
+ },
+ {
+  "en": "Multiply dragon time spent cap",
+  "ids": [
+   "s0515"
+  ]
+ },
+ {
+  "en": "Blood",
+  "ids": [
+   "s0523",
+   "s1430"
+  ]
+ },
+ {
+  "en": "Your blood is multiplying sigil gain by",
+  "ids": [
+   "s0525"
+  ]
+ },
+ {
+  "en": "DRAGONKIND IS DEAD",
+  "ids": [
+   "s0526"
+  ]
+ },
+ {
+  "en": "BLOOD IS FUEL",
+  "ids": [
+   "s0527"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;HELL IS FULL",
+  "ids": [
+   "s0528"
+  ]
+ },
+ {
+  "en": "Entering hell will sigil reset and place various nerfs upon you, but while in hell you will gain blood based on your gold. Deeper layers reward more blood, but have stronger nerfs.",
+  "ids": [
+   "s0529"
+  ]
+ },
+ {
+  "en": "Current hell layer:",
+  "ids": [
+   "s0530"
+  ]
+ },
+ {
+  "en": "Limbo (I)",
+  "ids": [
+   "s0531"
+  ]
+ },
+ {
+  "en": "Lust (II)",
+  "ids": [
+   "s0532"
+  ]
+ },
+ {
+  "en": "Gluttony (III)",
+  "ids": [
+   "s0533"
+  ]
+ },
+ {
+  "en": "Nerfs for this layer (",
+  "ids": [
+   "s0534"
+  ]
+ },
+ {
+  "en": "Enter hell",
+  "ids": [
+   "s0535",
+   "s0986",
+   "s1573"
+  ]
+ },
+ {
+  "en": "Alchemy III",
+  "ids": [
+   "s0536"
+  ]
+ },
+ {
+  "en": "Convert all uranium into",
+  "ids": [
+   "s0537"
+  ]
+ },
+ {
+  "en": "plutonium (",
+  "ids": [
+   "s0538"
+  ]
+ },
+ {
+  "en": "extra plutonium per second :O",
+  "ids": [
+   "s0541"
+  ]
+ },
+ {
+  "en": "Plutonium upgrades are kept on magic resets.",
+  "ids": [
+   "s0542"
+  ]
+ },
+ {
+  "en": "Increase plutonium gain by 5% (additive) (",
+  "ids": [
+   "s0543"
+  ]
+ },
+ {
+  "en": "Costs 200 plutonium",
+  "ids": [
+   "s0544"
+  ]
+ },
+ {
+  "en": "Increase magic effect (",
+  "ids": [
+   "s0545"
+  ]
+ },
+ {
+  "en": "Costs 400 plutonium",
+  "ids": [
+   "s0547"
+  ]
+ },
+ {
+  "en": "Plutonium increases sigil gain (",
+  "ids": [
+   "s0548"
+  ]
+ },
+ {
+  "en": "Costs 800 plutonium",
+  "ids": [
+   "s0550"
+  ]
+ },
+ {
+  "en": "Increase blue fire gain by 50% (multiplicative)",
+  "ids": [
+   "s0551"
+  ]
+ },
+ {
+  "en": "Costs 5,000 plutonium",
+  "ids": [
+   "s0552"
+  ]
+ },
+ {
+  "en": "Increase blue fire gain by another 25%",
+  "ids": [
+   "s0553"
+  ]
+ },
+ {
+  "en": "(multiplicative) (",
+  "ids": [
+   "s0554"
+  ]
+ },
+ {
+  "en": "Costs 50,000 plutonium",
+  "ids": [
+   "s0555"
+  ]
+ },
+ {
+  "en": "red sigils",
+  "ids": [
+   "s0559",
+   "s0562",
+   "s1433"
+  ]
+ },
+ {
+  "en": "Red sigils are unaffected by pre-red sigil multipliers and \"Gain 10% of potential sigils per second\"",
+  "ids": [
+   "s0564"
+  ]
+ },
+ {
+  "en": "red sigil power (RSP) (",
+  "ids": [
+   "s0566"
+  ]
+ },
+ {
+  "en": "Increase RSP gain",
+  "ids": [
+   "s0567"
+  ]
+ },
+ {
+  "en": "Increase blue fire gain",
+  "ids": [
+   "s0569",
+   "s0808"
+  ]
+ },
+ {
+  "en": "Increase blood gain",
+  "ids": [
+   "s0571"
+  ]
+ },
+ {
+  "en": "orange sigils",
+  "ids": [
+   "s0573",
+   "s0577",
+   "s0580",
+   "s1435"
+  ]
+ },
+ {
+  "en": "Costs 10,000,000 RSP",
+  "ids": [
+   "s0574"
+  ]
+ },
+ {
+  "en": "Orange sigils",
+  "ids": [
+   "s0575"
+  ]
+ },
+ {
+  "en": "orange sigil power (OSP) (",
+  "ids": [
+   "s0583"
+  ]
+ },
+ {
+  "en": "Increase OSP gain",
+  "ids": [
+   "s0584"
+  ]
+ },
+ {
+  "en": "Increase red sigil gain",
+  "ids": [
+   "s0586"
+  ]
+ },
+ {
+  "en": "Increase blood gain again",
+  "ids": [
+   "s0588",
+   "s0620"
+  ]
+ },
+ {
+  "en": "yellow sigils",
+  "ids": [
+   "s0590",
+   "s0609",
+   "s0612",
+   "s1437"
+  ]
+ },
+ {
+  "en": "Costs 10,000,000 OSP",
+  "ids": [
+   "s0591"
+  ]
+ },
+ {
+  "en": "v1.0.1 (THE FINAL UPDATE)",
+  "ids": [
+   "s0592"
+  ]
+ },
+ {
+  "en": "Created by",
+  "ids": [
+   "s0593"
+  ]
+ },
+ {
+  "en": "Co-developed by",
+  "ids": [
+   "s0594"
+  ]
+ },
+ {
+  "en": "Additional spriting by",
+  "ids": [
+   "s0595"
+  ]
+ },
+ {
+  "en": "Move around by clicking and dragging.",
+  "ids": [
+   "s0596"
+  ]
+ },
+ {
+  "en": "If you find the text is too small,",
+  "ids": [
+   "s0597"
+  ]
+ },
+ {
+  "en": "you might want to zoom in the window :)",
+  "ids": [
+   "s0598"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Time played:",
+  "ids": [
+   "s0599"
+  ]
+ }
+]

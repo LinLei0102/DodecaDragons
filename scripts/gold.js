@@ -31,10 +31,10 @@ function buyMaxMiners() {
 function minerAutoBuyMax() {
   if (!game.minerAutoBuyMax) {
     game.minerAutoBuyMax = true
-    document.getElementById("minerAutoBuyMaxButton").innerHTML = "Auto buy max: On"
+    document.getElementById("minerAutoBuyMaxButton").innerHTML = "自动批量购买：开"
   }
   else {
     game.minerAutoBuyMax = false
-    document.getElementById("minerAutoBuyMaxButton").innerHTML = "Auto buy max: Off"
+    document.getElementById("minerAutoBuyMaxButton").innerHTML = "自动批量购买：关"
   }
 }

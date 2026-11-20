@@ -181,11 +181,11 @@ function fireMaxAll() {
 function fireAutoMaxAll() {
   if (!game.fireAutoMaxAll) {
     game.fireAutoMaxAll = true
-    document.getElementById("fireAutoMaxAllButton").innerHTML = "Auto max all: On"
+    document.getElementById("fireAutoMaxAllButton").innerHTML = "自动全满：开"
   }
   else {
     game.fireAutoMaxAll = false
-    document.getElementById("fireAutoMaxAllButton").innerHTML = "Auto max all: Off"
+    document.getElementById("fireAutoMaxAllButton").innerHTML = "自动全部最大化：关"
   }
 }
 
@@ -222,11 +222,11 @@ function blueFireMaxAll() {
 function blueFireAutoMaxAll() {
   if (!game.blueFireAutoMaxAll) {
     game.blueFireAutoMaxAll = true
-    document.getElementById("blueFireAutoMaxAllButton").innerHTML = "Auto max all: On"
+    document.getElementById("blueFireAutoMaxAllButton").innerHTML = "自动全满：开"
   }
   else {
     game.blueFireAutoMaxAll = false
-    document.getElementById("blueFireAutoMaxAllButton").innerHTML = "Auto max all: Off"
+    document.getElementById("blueFireAutoMaxAllButton").innerHTML = "自动全部最大化：关"
   }
 }
 
@@ -260,10 +260,10 @@ function holyFireMaxAll() {
 function holyFireAutoMaxAll() {
   if (!game.holyFireAutoMaxAll) {
     game.holyFireAutoMaxAll = true
-    document.getElementById("holyFireAutoMaxAllButton").innerHTML = "Auto max all: On"
+    document.getElementById("holyFireAutoMaxAllButton").innerHTML = "自动全满：开"
   }
   else {
     game.holyFireAutoMaxAll = false
-    document.getElementById("holyFireAutoMaxAllButton").innerHTML = "Auto max all: Off"
+    document.getElementById("holyFireAutoMaxAllButton").innerHTML = "自动全部最大化：关"
   }
 }

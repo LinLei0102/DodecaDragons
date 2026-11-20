@@ -1,20 +1,20 @@
 //Confirmation popups for magic resets\
 function sigilCheck(x) {
   if (game[sigilColours[x - 1] + "SigilsToGet"].eq(0)) {
-    if (confirm("Woah, hold on! You won't gain any sigils! Are you sure you want to perform a sigil reset?")) sigilReset(x)
+    if (confirm("哇哦，等等！你不会获得任何符印！确定要执行符印重置吗？")) sigilReset(x)
   }
   else if (game.confirmations[1]) {
-    if (confirm("Are you sure you want to perform a sigil reset?")) sigilReset(x)
+    if (confirm("确定要执行符印重置吗？")) sigilReset(x)
   }
   else {sigilReset(x)}
 }
 
 function sigilReset(x, triggerLayer = "sigil") {
   if (x<=8 && x>0) {
-    let sigilName = sigilColours[x - 1] + "Sigils";
+    let sigilName = sigilColours[x - 1] + "符印";
     let sigilsGained = game[sigilName + "ToGet"];
     if (sigilsGained.isNan()) {
-      console.error("Warning! Sigil reset is attempting to reset for NaN!")
+      console.error("警告！符印重置正尝试重置为 NaN！")
       return;
     }
     game[sigilName] = game[sigilName].add(sigilsGained);
@@ -653,15 +653,15 @@ function updateSigilResetter(modeHasChanged = false) {
   let newMode = document.getElementById("sigilResetterMode").value;
   game.sigilResetterMode = sigilResetterModesFull.indexOf(newMode);
   switch (newMode) {
-    case "Potential Sigil Amount":
+    case "潜在符印数量":
       if (!modeHasChanged && !newValue.isNan() && newValue.gte(1)) game.sigilResetterAmount = newValue.round();
       document.getElementById("sigilResetterAmount").value = game.sigilResetterAmount.toString();
       break;
-    case "Gold Amount":
+    case "金币数量":
       if (!modeHasChanged && !newValue.isNan() && newValue.gte(1)) game.sigilResetterGold = newValue.round();
       document.getElementById("sigilResetterAmount").value = game.sigilResetterGold.toString();
       break;
-    case "Seconds Since Reset":
+    case "距上次重置的秒数":
       if (!modeHasChanged && !newValue.isNan() && newValue.gte(0)) game.sigilResetterTime = newValue;
       document.getElementById("sigilResetterAmount").value = game.sigilResetterTime.toString();
       break;
@@ -694,7 +694,7 @@ function sigilAutoResetter() {
     case 2:
       let timeSinceReset = new Decimal((Date.now() - game.lastSigilReset) / 1000);
       if (game[currentColour + "SigilsToGet"].gte(1) && timeSinceReset.gte(game.sigilResetterTime)) {
-        console.log("auto sigil time")
+        console.log("自动符印时间")
         sigilReset(game.sigilResetterType + 1);
         resetConfirmed = true;
       }

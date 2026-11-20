@@ -1,0 +1,8511 @@
+[
+ {
+  "en": "DodecaDragons",
+  "ids": [
+   "s0000",
+   "s0001",
+   "s0774",
+   "s1224"
+  ]
+ },
+ {
+  "en": "You have",
+  "ids": [
+   "s0002",
+   "s0165",
+   "s0205",
+   "s0234",
+   "s0311",
+   "s0327",
+   "s0402",
+   "s0413",
+   "s0432",
+   "s0442",
+   "s0460",
+   "s0469",
+   "s0489",
+   "s0496",
+   "s0514",
+   "s0521",
+   "s0543",
+   "s0603",
+   "s0650",
+   "s0686",
+   "s0703",
+   "s0723",
+   "s0731",
+   "s0749",
+   "s0756",
+   "s0796",
+   "s0803",
+   "s0821",
+   "s0863",
+   "s0897",
+   "s0974",
+   "s0998",
+   "s1009",
+   "s1025",
+   "s1027",
+   "s1063",
+   "s1088",
+   "s1107",
+   "s1126",
+   "s1153",
+   "s1180",
+   "s1203"
+  ]
+ },
+ {
+  "en": "gold",
+  "ids": [
+   "s0003",
+   "s0008",
+   "s0409",
+   "s0439",
+   "s0468",
+   "s0495",
+   "s0520",
+   "s0729",
+   "s0755",
+   "s0802",
+   "s1023",
+   "s1033",
+   "s1168",
+   "s1209",
+   "s1214",
+   "s1218",
+   "s1676"
+  ]
+ },
+ {
+  "en": "/click)",
+  "ids": [
+   "s0004"
+  ]
+ },
+ {
+  "en": "Mine gold",
+  "ids": [
+   "s0005"
+  ]
+ },
+ {
+  "en": "Hire a gold miner",
+  "ids": [
+   "s0006"
+  ]
+ },
+ {
+  "en": "Costs",
+  "ids": [
+   "s0007",
+   "s0109",
+   "s0169",
+   "s0174",
+   "s0179",
+   "s0185",
+   "s0191",
+   "s0197",
+   "s0264",
+   "s0267",
+   "s0289",
+   "s0348",
+   "s0359",
+   "s0362",
+   "s0417",
+   "s0421",
+   "s0425",
+   "s0446",
+   "s0450",
+   "s0453",
+   "s0473",
+   "s0477",
+   "s0482",
+   "s0500",
+   "s0504",
+   "s0525",
+   "s0532",
+   "s0577",
+   "s0581",
+   "s0655",
+   "s0660",
+   "s0665",
+   "s0670",
+   "s0675",
+   "s0680",
+   "s0735",
+   "s0739",
+   "s0743",
+   "s0760",
+   "s0764",
+   "s0768",
+   "s0807",
+   "s0811",
+   "s0815",
+   "s0902",
+   "s0907",
+   "s0912",
+   "s0917",
+   "s0922",
+   "s0927",
+   "s0934",
+   "s0937",
+   "s0940",
+   "s0943",
+   "s1032",
+   "s1037",
+   "s1042",
+   "s1047",
+   "s1052",
+   "s1057",
+   "s1095",
+   "s1099",
+   "s1103",
+   "s1114",
+   "s1118",
+   "s1122",
+   "s1133",
+   "s1137",
+   "s1141",
+   "s1145",
+   "s1149",
+   "s1166",
+   "s1187",
+   "s1191",
+   "s1195",
+   "s1199",
+   "s1207",
+   "s1212",
+   "s1216"
+  ]
+ },
+ {
+  "en": "Buy",
+  "ids": [
+   "s0009"
+  ]
+ },
+ {
+  "en": "max",
+  "ids": [
+   "s0010"
+  ]
+ },
+ {
+  "en": "Auto buy max: On",
+  "ids": [
+   "s0011",
+   "s1756"
+  ]
+ },
+ {
+  "en": "Get a young dragon",
+  "ids": [
+   "s0012"
+  ]
+ },
+ {
+  "en": "Costs 200 gold",
+  "ids": [
+   "s0013"
+  ]
+ },
+ {
+  "en": "Unlock Alchemy",
+  "ids": [
+   "s0014"
+  ]
+ },
+ {
+  "en": "Costs 20,000,000 gold",
+  "ids": [
+   "s0015"
+  ]
+ },
+ {
+  "en": "Unlock",
+  "ids": [
+   "s0016",
+   "s0024",
+   "s0044",
+   "s0053",
+   "s0275",
+   "s0301",
+   "s0367",
+   "s0427",
+   "s0455",
+   "s0484",
+   "s0508",
+   "s0534",
+   "s0583",
+   "s0621",
+   "s0637",
+   "s0641",
+   "s0645",
+   "s0745",
+   "s0770",
+   "s0817",
+   "s0967",
+   "s0970"
+  ]
+ },
+ {
+  "en": "Magic",
+  "ids": [
+   "s0017",
+   "s0233",
+   "s0276",
+   "s1683"
+  ]
+ },
+ {
+  "en": "Costs 1.00e15 gold",
+  "ids": [
+   "s0018"
+  ]
+ },
+ {
+  "en": "Unlock more magic upgrades",
+  "ids": [
+   "s0019"
+  ]
+ },
+ {
+  "en": "Costs 200,000,000 magic,",
+  "ids": [
+   "s0020"
+  ]
+ },
+ {
+  "en": "Requires 150,000 magifolds",
+  "ids": [
+   "s0021"
+  ]
+ },
+ {
+  "en": "Gain more platinum and uranium upgrades",
+  "ids": [
+   "s0022"
+  ]
+ },
+ {
+  "en": "Costs 1.00e420 gold",
+  "ids": [
+   "s0023"
+  ]
+ },
+ {
+  "en": "Dark Magic Upgrades",
+  "ids": [
+   "s0025"
+  ]
+ },
+ {
+  "en": "You are gaining stronger control over your magic powers.",
+  "ids": [
+   "s0026"
+  ]
+ },
+ {
+  "en": "Costs 1.00e1,000 gold",
+  "ids": [
+   "s0027"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;UNLOCK BLOOD",
+  "ids": [
+   "s0028"
+  ]
+ },
+ {
+  "en": "Costs e5.00e14 gold",
+  "ids": [
+   "s0029"
+  ]
+ },
+ {
+  "en": "Unlock more dark magic upgrades",
+  "ids": [
+   "s0030"
+  ]
+ },
+ {
+  "en": "Costs e6.66e16 gold",
+  "ids": [
+   "s0031"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Unlock",
+  "ids": [
+   "s0032",
+   "s0036",
+   "s0047",
+   "s0050"
+  ]
+ },
+ {
+  "en": "Void Magic Upgrades",
+  "ids": [
+   "s0033"
+  ]
+ },
+ {
+  "en": "You are mastering control of your magic powers.",
+  "ids": [
+   "s0034"
+  ]
+ },
+ {
+  "en": "Costs e1.00e100 gold and 100,000,000 holy fire",
+  "ids": [
+   "s0035"
+  ]
+ },
+ {
+  "en": "Planets",
+  "ids": [
+   "s0037",
+   "s0997"
+  ]
+ },
+ {
+  "en": "Costs e1.00e400 gold",
+  "ids": [
+   "s0038"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Something unseeable looms over you. A powerful presence has taken",
+  "ids": [
+   "s0039"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;an interest in your actions. Perhaps it may show itself if you acquire more gold.",
+  "ids": [
+   "s0040"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Unlock the",
+  "ids": [
+   "s0041"
+  ]
+ },
+ {
+  "en": "Light and Dark Essences",
+  "ids": [
+   "s0042"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs ee500,000 gold",
+  "ids": [
+   "s0043"
+  ]
+ },
+ {
+  "en": "Death Essence",
+  "ids": [
+   "s0045"
+  ]
+ },
+ {
+  "en": "Costs ee1,500,000 gold",
+  "ids": [
+   "s0046"
+  ]
+ },
+ {
+  "en": "Nuclear Pasta",
+  "ids": [
+   "s0048"
+  ]
+ },
+ {
+  "en": "Costs ee3,500,000 gold",
+  "ids": [
+   "s0049"
+  ]
+ },
+ {
+  "en": "Finality Essence",
+  "ids": [
+   "s0051"
+  ]
+ },
+ {
+  "en": "Costs ee150,000,000 gold",
+  "ids": [
+   "s0052"
+  ]
+ },
+ {
+  "en": "Finality Cubes",
+  "ids": [
+   "s0054",
+   "s1202"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs ee7.50e9 gold",
+  "ids": [
+   "s0055"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Become the omniverse.",
+  "ids": [
+   "s0056"
+  ]
+ },
+ {
+  "en": "Costs ee1.00e12 gold",
+  "ids": [
+   "s0057"
+  ]
+ },
+ {
+  "en": "Settings",
+  "ids": [
+   "s0058",
+   "s1230"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Manual save",
+  "ids": [
+   "s0059"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Hard reset",
+  "ids": [
+   "s0060"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Export",
+  "ids": [
+   "s0061"
+  ]
+ },
+ {
+  "en": "Import",
+  "ids": [
+   "s0062"
+  ]
+ },
+ {
+  "en": "paste import string here",
+  "ids": [
+   "s0063"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Background pattern: On",
+  "ids": [
+   "s0064"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Confirmation popups",
+  "ids": [
+   "s0065"
+  ]
+ },
+ {
+  "en": "Resources",
+  "ids": [
+   "s0066",
+   "s1229"
+  ]
+ },
+ {
+  "en": "Gold:",
+  "ids": [
+   "s0067"
+  ]
+ },
+ {
+  "en": "Miners:",
+  "ids": [
+   "s0068"
+  ]
+ },
+ {
+  "en": "Fire:",
+  "ids": [
+   "s0069"
+  ]
+ },
+ {
+  "en": "Platinum:",
+  "ids": [
+   "s0070"
+  ]
+ },
+ {
+  "en": "Magic:",
+  "ids": [
+   "s0071"
+  ]
+ },
+ {
+  "en": "Magifolds:",
+  "ids": [
+   "s0072"
+  ]
+ },
+ {
+  "en": "Uranium:",
+  "ids": [
+   "s0073"
+  ]
+ },
+ {
+  "en": "Cyan sigils:",
+  "ids": [
+   "s0074"
+  ]
+ },
+ {
+  "en": "Blue sigils:",
+  "ids": [
+   "s0075"
+  ]
+ },
+ {
+  "en": "Indigo sigils:",
+  "ids": [
+   "s0076"
+  ]
+ },
+ {
+  "en": "Violet sigils:",
+  "ids": [
+   "s0077"
+  ]
+ },
+ {
+  "en": "Pink sigils:",
+  "ids": [
+   "s0078"
+  ]
+ },
+ {
+  "en": "Knowledge:",
+  "ids": [
+   "s0079"
+  ]
+ },
+ {
+  "en": "Tomes:",
+  "ids": [
+   "s0080"
+  ]
+ },
+ {
+  "en": "Blue fire:",
+  "ids": [
+   "s0081"
+  ]
+ },
+ {
+  "en": "Blood:",
+  "ids": [
+   "s0082"
+  ]
+ },
+ {
+  "en": "Plutonium:",
+  "ids": [
+   "s0083"
+  ]
+ },
+ {
+  "en": "Red sigils:",
+  "ids": [
+   "s0084"
+  ]
+ },
+ {
+  "en": "Orange sigils:",
+  "ids": [
+   "s0085"
+  ]
+ },
+ {
+  "en": "Yellow sigils:",
+  "ids": [
+   "s0086"
+  ]
+ },
+ {
+  "en": "Holy tetrahedrons:",
+  "ids": [
+   "s0087"
+  ]
+ },
+ {
+  "en": "Holy octahedrons:",
+  "ids": [
+   "s0088"
+  ]
+ },
+ {
+  "en": "Holy fire:",
+  "ids": [
+   "s0089"
+  ]
+ },
+ {
+  "en": "Holy dodecahedrons:",
+  "ids": [
+   "s0090"
+  ]
+ },
+ {
+  "en": "Planets:",
+  "ids": [
+   "s0091"
+  ]
+ },
+ {
+  "en": "Cosmic plague:",
+  "ids": [
+   "s0092"
+  ]
+ },
+ {
+  "en": "Oganesson:",
+  "ids": [
+   "s0093"
+  ]
+ },
+ {
+  "en": "Light essence:",
+  "ids": [
+   "s0094"
+  ]
+ },
+ {
+  "en": "Dark essence:",
+  "ids": [
+   "s0095"
+  ]
+ },
+ {
+  "en": "Death essence:",
+  "ids": [
+   "s0096"
+  ]
+ },
+ {
+  "en": "Nuclear pasta:",
+  "ids": [
+   "s0097"
+  ]
+ },
+ {
+  "en": "Finality essence:",
+  "ids": [
+   "s0098"
+  ]
+ },
+ {
+  "en": "Finality cubes:",
+  "ids": [
+   "s0099"
+  ]
+ },
+ {
+  "en": "Dragon",
+  "ids": [
+   "s0100"
+  ]
+ },
+ {
+  "en": "You have a",
+  "ids": [
+   "s0101"
+  ]
+ },
+ {
+  "en": "Young",
+  "ids": [
+   "s0102"
+  ]
+ },
+ {
+  "en": "dragon",
+  "ids": [
+   "s0103",
+   "s0354",
+   "s0480"
+  ]
+ },
+ {
+  "en": "Set your dragon's name here!",
+  "ids": [
+   "s0104"
+  ]
+ },
+ {
+  "en": "Your wild young dragon produces fire for you. It enjoys playing",
+  "ids": [
+   "s0105"
+  ]
+ },
+ {
+  "en": "around on your gold stash.",
+  "ids": [
+   "s0106"
+  ]
+ },
+ {
+  "en": "Your fire is multiplying miner production by",
+  "ids": [
+   "s0107"
+  ]
+ },
+ {
+  "en": "Unlock fire upgrades",
+  "ids": [
+   "s0108"
+  ]
+ },
+ {
+  "en": "5,000 gold",
+  "ids": [
+   "s0110"
+  ]
+ },
+ {
+  "en": "Age your",
+  "ids": [
+   "s0111",
+   "s0115"
+  ]
+ },
+ {
+  "en": "dragon into an adult",
+  "ids": [
+   "s0112"
+  ]
+ },
+ {
+  "en": "Multiplies fire gain by 100",
+  "ids": [
+   "s0113",
+   "s0117"
+  ]
+ },
+ {
+  "en": "Costs 2,500,000 gold",
+  "ids": [
+   "s0114"
+  ]
+ },
+ {
+  "en": "dragon into an elder",
+  "ids": [
+   "s0116"
+  ]
+ },
+ {
+  "en": "Costs 1.00e12 gold",
+  "ids": [
+   "s0118"
+  ]
+ },
+ {
+  "en": "Corrupt your",
+  "ids": [
+   "s0119"
+  ]
+ },
+ {
+  "en": "dragon with the power of darkness",
+  "ids": [
+   "s0120"
+  ]
+ },
+ {
+  "en": "Multiplies fire gain by 10,000",
+  "ids": [
+   "s0121"
+  ]
+ },
+ {
+  "en": "Costs 1.00e25 gold",
+  "ids": [
+   "s0122"
+  ]
+ },
+ {
+  "en": "Infuse your",
+  "ids": [
+   "s0123"
+  ]
+ },
+ {
+  "en": "dragon with the power of light",
+  "ids": [
+   "s0124"
+  ]
+ },
+ {
+  "en": "Multiplies fire gain by 10,000,000",
+  "ids": [
+   "s0125"
+  ]
+ },
+ {
+  "en": "Costs 1.00e150 gold",
+  "ids": [
+   "s0126"
+  ]
+ },
+ {
+  "en": "Enhance your dragon with incomprehensible machinery",
+  "ids": [
+   "s0127"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiplies blue fire gain by 100",
+  "ids": [
+   "s0128"
+  ]
+ },
+ {
+  "en": "Costs e1.50e11 gold",
+  "ids": [
+   "s0129"
+  ]
+ },
+ {
+  "en": "Ascend your dragon with the power of the heavens themselves!",
+  "ids": [
+   "s0130"
+  ]
+ },
+ {
+  "en": "Multiplies blue fire gain by 1.00e50",
+  "ids": [
+   "s0131"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs e1.00e55 gold",
+  "ids": [
+   "s0132"
+  ]
+ },
+ {
+  "en": "Fuse your dragon with versions of itself from other dimensions",
+  "ids": [
+   "s0133"
+  ]
+ },
+ {
+  "en": "Multiplies holy fire gain by 1.00e10",
+  "ids": [
+   "s0134"
+  ]
+ },
+ {
+  "en": "Costs e1.00e200 gold",
+  "ids": [
+   "s0135"
+  ]
+ },
+ {
+  "en": "Infuse your dragon with the cosmic plague and gain corrupted power",
+  "ids": [
+   "s0136"
+  ]
+ },
+ {
+  "en": "Multiplies cosmic plague gain by 100",
+  "ids": [
+   "s0137"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs ee35,000 gold",
+  "ids": [
+   "s0138"
+  ]
+ },
+ {
+  "en": "Infuse your dragon with the essences of light, dark and death",
+  "ids": [
+   "s0139"
+  ]
+ },
+ {
+  "en": "Multiplies light/dark essence gain by 1,000",
+  "ids": [
+   "s0140"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs ee1,750,000 gold",
+  "ids": [
+   "s0141"
+  ]
+ },
+ {
+  "en": "Infuse your dragon with the essence of finality",
+  "ids": [
+   "s0142"
+  ]
+ },
+ {
+  "en": "Multiplies death and finality essence gain by 100",
+  "ids": [
+   "s0143"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs ee1.50e9 gold",
+  "ids": [
+   "s0144"
+  ]
+ },
+ {
+  "en": "Your dragon is seeking affection!",
+  "ids": [
+   "s0145"
+  ]
+ },
+ {
+  "en": "(You cannot do anything with your dragon while inside challenges)",
+  "ids": [
+   "s0146"
+  ]
+ },
+ {
+  "en": "Spend time with your dragon",
+  "ids": [
+   "s0147"
+  ]
+ },
+ {
+  "en": "You are unable to enter challenges for the next 30 seconds",
+  "ids": [
+   "s0148"
+  ]
+ },
+ {
+  "en": "You have spent time with your dragon",
+  "ids": [
+   "s0149"
+  ]
+ },
+ {
+  "en": "times, increasing gold gain by ^",
+  "ids": [
+   "s0150"
+  ]
+ },
+ {
+  "en": "Feed your dragon",
+  "ids": [
+   "s0151"
+  ]
+ },
+ {
+  "en": "Turns all your score and magifolds into dragon food",
+  "ids": [
+   "s0152"
+  ]
+ },
+ {
+  "en": "Next feed requires",
+  "ids": [
+   "s0153"
+  ]
+ },
+ {
+  "en": "magifolds",
+  "ids": [
+   "s0154",
+   "s1684"
+  ]
+ },
+ {
+  "en": "You have fed your dragon",
+  "ids": [
+   "s0155"
+  ]
+ },
+ {
+  "en": "times, increasing fire gain by ^",
+  "ids": [
+   "s0156"
+  ]
+ },
+ {
+  "en": "Pet your dragon!",
+  "ids": [
+   "s0157"
+  ]
+ },
+ {
+  "en": "Why does this cost, you ask? Stop asking so many questions!",
+  "ids": [
+   "s0158"
+  ]
+ },
+ {
+  "en": "Next pet costs 250",
+  "ids": [
+   "s0159"
+  ]
+ },
+ {
+  "en": "cyan",
+  "ids": [
+   "s0160"
+  ]
+ },
+ {
+  "en": "sigils",
+  "ids": [
+   "s0161"
+  ]
+ },
+ {
+  "en": "You have petted your dragon",
+  "ids": [
+   "s0162"
+  ]
+ },
+ {
+  "en": "times, multiplying sigil gain by",
+  "ids": [
+   "s0163"
+  ]
+ },
+ {
+  "en": "Fire upgrades",
+  "ids": [
+   "s0164"
+  ]
+ },
+ {
+  "en": "fire",
+  "ids": [
+   "s0166",
+   "s0170",
+   "s0175",
+   "s0180",
+   "s0186",
+   "s0192",
+   "s0198",
+   "s1678"
+  ]
+ },
+ {
+  "en": "Increase fire production",
+  "ids": [
+   "s0167",
+   "s0658"
+  ]
+ },
+ {
+  "en": "Currently",
+  "ids": [
+   "s0168",
+   "s0654",
+   "s0659",
+   "s0664",
+   "s0669",
+   "s0674",
+   "s0679",
+   "s0901",
+   "s0906",
+   "s0911",
+   "s0916",
+   "s0921",
+   "s0926"
+  ]
+ },
+ {
+  "en": "Buy max",
+  "ids": [
+   "s0171",
+   "s0176",
+   "s0181",
+   "s0187",
+   "s0193",
+   "s0199",
+   "s0304",
+   "s0400",
+   "s0648",
+   "s0657",
+   "s0662",
+   "s0667",
+   "s0672",
+   "s0677",
+   "s0682",
+   "s0904",
+   "s0909",
+   "s0914",
+   "s0919",
+   "s0924",
+   "s0929",
+   "s1003",
+   "s1039",
+   "s1044",
+   "s1049",
+   "s1054",
+   "s1059"
+  ]
+ },
+ {
+  "en": "Increase fire effect",
+  "ids": [
+   "s0172"
+  ]
+ },
+ {
+  "en": "Currently x",
+  "ids": [
+   "s0173",
+   "s0178",
+   "s0184",
+   "s0190",
+   "s0196",
+   "s0222",
+   "s0226",
+   "s0242",
+   "s0251",
+   "s0254",
+   "s0258",
+   "s0293",
+   "s0376",
+   "s0379",
+   "s0384",
+   "s0389",
+   "s0392",
+   "s0416",
+   "s0420",
+   "s0445",
+   "s0449",
+   "s0472",
+   "s0481",
+   "s0499",
+   "s0524",
+   "s0576",
+   "s0613",
+   "s0625",
+   "s0632",
+   "s0714",
+   "s0734",
+   "s0738",
+   "s0742",
+   "s0759",
+   "s0763",
+   "s0767",
+   "s0806",
+   "s0810",
+   "s0814",
+   "s1036",
+   "s1041",
+   "s1056",
+   "s1071",
+   "s1082",
+   "s1085",
+   "s1094",
+   "s1098",
+   "s1113",
+   "s1117",
+   "s1121",
+   "s1132",
+   "s1136",
+   "s1144",
+   "s1148",
+   "s1186",
+   "s1198"
+  ]
+ },
+ {
+  "en": "Increase gold/click",
+  "ids": [
+   "s0177"
+  ]
+ },
+ {
+  "en": "Miners increase",
+  "ids": [
+   "s0182"
+  ]
+ },
+ {
+  "en": "gold/second",
+  "ids": [
+   "s0183"
+  ]
+ },
+ {
+  "en": "Gold increases",
+  "ids": [
+   "s0188"
+  ]
+ },
+ {
+  "en": "fire/second",
+  "ids": [
+   "s0189"
+  ]
+ },
+ {
+  "en": "Increase platinum",
+  "ids": [
+   "s0194"
+  ]
+ },
+ {
+  "en": "gain",
+  "ids": [
+   "s0195",
+   "s0292"
+  ]
+ },
+ {
+  "en": "Auto max all: On",
+  "ids": [
+   "s0200",
+   "s0587",
+   "s0683",
+   "s0930",
+   "s1060",
+   "s1750",
+   "s1752",
+   "s1754",
+   "s1787",
+   "s1814",
+   "s1825",
+   "s1827",
+   "s1829",
+   "s1831",
+   "s1833",
+   "s1835"
+  ]
+ },
+ {
+  "en": "Max all",
+  "ids": [
+   "s0201",
+   "s0232",
+   "s0345",
+   "s0586",
+   "s0684",
+   "s0721",
+   "s0931",
+   "s1061",
+   "s1105",
+   "s1124",
+   "s1151",
+   "s1201"
+  ]
+ },
+ {
+  "en": "Alchemy",
+  "ids": [
+   "s0202"
+  ]
+ },
+ {
+  "en": "Convert all gold into",
+  "ids": [
+   "s0203"
+  ]
+ },
+ {
+  "en": "platinum (",
+  "ids": [
+   "s0204"
+  ]
+ },
+ {
+  "en": "platinum",
+  "ids": [
+   "s0206",
+   "s1680"
+  ]
+ },
+ {
+  "en": "+ Gain",
+  "ids": [
+   "s0207",
+   "s0329",
+   "s0705"
+  ]
+ },
+ {
+  "en": "extra platinum per second :)",
+  "ids": [
+   "s0208"
+  ]
+ },
+ {
+  "en": "Gain 20% more gold/second (",
+  "ids": [
+   "s0209"
+  ]
+ },
+ {
+  "en": "Costs 200 platinum",
+  "ids": [
+   "s0210"
+  ]
+ },
+ {
+  "en": "Gain 20% more fire/second (",
+  "ids": [
+   "s0211"
+  ]
+ },
+ {
+  "en": "Costs 500 platinum",
+  "ids": [
+   "s0212"
+  ]
+ },
+ {
+  "en": "Unlock a new fire upgrade (",
+  "ids": [
+   "s0213"
+  ]
+ },
+ {
+  "en": "Costs 750 platinum",
+  "ids": [
+   "s0214"
+  ]
+ },
+ {
+  "en": "Miner cost scales 5% slower (",
+  "ids": [
+   "s0215"
+  ]
+ },
+ {
+  "en": "Costs 1,500 platinum",
+  "ids": [
+   "s0216"
+  ]
+ },
+ {
+  "en": "Automatically gain platinum every second without",
+  "ids": [
+   "s0217"
+  ]
+ },
+ {
+  "en": "resetting (",
+  "ids": [
+   "s0218"
+  ]
+ },
+ {
+  "en": "Costs 2,000 platinum",
+  "ids": [
+   "s0219"
+  ]
+ },
+ {
+  "en": "Platinum increases",
+  "ids": [
+   "s0220"
+  ]
+ },
+ {
+  "en": "gold/second (",
+  "ids": [
+   "s0221"
+  ]
+ },
+ {
+  "en": "Costs 15,000 platinum",
+  "ids": [
+   "s0223"
+  ]
+ },
+ {
+  "en": "Increase magic",
+  "ids": [
+   "s0224"
+  ]
+ },
+ {
+  "en": "effect (",
+  "ids": [
+   "s0225"
+  ]
+ },
+ {
+  "en": "Costs 1,000,000 platinum",
+  "ids": [
+   "s0227"
+  ]
+ },
+ {
+  "en": "Double uranium gain (",
+  "ids": [
+   "s0228"
+  ]
+ },
+ {
+  "en": "Costs 1.000e22 platinum",
+  "ids": [
+   "s0229"
+  ]
+ },
+ {
+  "en": "Fire upgrade 4 is boosted",
+  "ids": [
+   "s0230"
+  ]
+ },
+ {
+  "en": "Costs 1.000e30 platinum",
+  "ids": [
+   "s0231"
+  ]
+ },
+ {
+  "en": "magic",
+  "ids": [
+   "s0235",
+   "s0238",
+   "s0246",
+   "s0249",
+   "s0256",
+   "s0271",
+   "s0274",
+   "s0366",
+   "s1682"
+  ]
+ },
+ {
+  "en": "Reset all previous resources and upgrades",
+  "ids": [
+   "s0236"
+  ]
+ },
+ {
+  "en": "You will gain",
+  "ids": [
+   "s0237",
+   "s0825",
+   "s0867",
+   "s0978"
+  ]
+ },
+ {
+  "en": "Your magic is multiplying your gold gain by",
+  "ids": [
+   "s0239"
+  ]
+ },
+ {
+  "en": "Magic upgrades",
+  "ids": [
+   "s0240"
+  ]
+ },
+ {
+  "en": "Gold multiplies its own gain",
+  "ids": [
+   "s0241"
+  ]
+ },
+ {
+  "en": "Costs 2 magic",
+  "ids": [
+   "s0243"
+  ]
+ },
+ {
+  "en": "Increases magic gain by 50%",
+  "ids": [
+   "s0244"
+  ]
+ },
+ {
+  "en": "Costs 3",
+  "ids": [
+   "s0245"
+  ]
+ },
+ {
+  "en": "Multiply gold and fire gain by 55.5. Waow.",
+  "ids": [
+   "s0247"
+  ]
+ },
+ {
+  "en": "Costs 8",
+  "ids": [
+   "s0248"
+  ]
+ },
+ {
+  "en": "Magic multiplies its own gain",
+  "ids": [
+   "s0250"
+  ]
+ },
+ {
+  "en": "Costs 12 magic",
+  "ids": [
+   "s0252"
+  ]
+ },
+ {
+  "en": "Gold multiplies fire gain",
+  "ids": [
+   "s0253"
+  ]
+ },
+ {
+  "en": "Costs 30",
+  "ids": [
+   "s0255"
+  ]
+ },
+ {
+  "en": "Miners increase gold/second",
+  "ids": [
+   "s0257"
+  ]
+ },
+ {
+  "en": "Costs 100 magic",
+  "ids": [
+   "s0259"
+  ]
+ },
+ {
+  "en": "Double magic gain. Simple.",
+  "ids": [
+   "s0260"
+  ]
+ },
+ {
+  "en": "Costs 300 magic",
+  "ids": [
+   "s0261"
+  ]
+ },
+ {
+  "en": "Unlock a new platinum upgrade (kept on magic",
+  "ids": [
+   "s0262"
+  ]
+ },
+ {
+  "en": "reset)",
+  "ids": [
+   "s0263"
+  ]
+ },
+ {
+  "en": "1,500 magic",
+  "ids": [
+   "s0265"
+  ]
+ },
+ {
+  "en": "Fire upgrades 2 and 3 are severely boosted",
+  "ids": [
+   "s0266"
+  ]
+ },
+ {
+  "en": "4,000 magic",
+  "ids": [
+   "s0268"
+  ]
+ },
+ {
+  "en": "Magic upgrades 4 and 6 are boosted",
+  "ids": [
+   "s0269"
+  ]
+ },
+ {
+  "en": "Costs 20,000",
+  "ids": [
+   "s0270"
+  ]
+ },
+ {
+  "en": "Platinum upgrade 7 can be bought an extra 10 times",
+  "ids": [
+   "s0272"
+  ]
+ },
+ {
+  "en": "Costs 100,000",
+  "ids": [
+   "s0273"
+  ]
+ },
+ {
+  "en": "Challenges",
+  "ids": [
+   "s0277"
+  ]
+ },
+ {
+  "en": "Costs 400,000 magic",
+  "ids": [
+   "s0278"
+  ]
+ },
+ {
+  "en": "Challenge score gain is",
+  "ids": [
+   "s0279"
+  ]
+ },
+ {
+  "en": "doubled",
+  "ids": [
+   "s0280"
+  ]
+ },
+ {
+  "en": "Costs 100,000,000 magic",
+  "ids": [
+   "s0281"
+  ]
+ },
+ {
+  "en": "Fire upgrade 1 is",
+  "ids": [
+   "s0282"
+  ]
+ },
+ {
+  "en": "boosted",
+  "ids": [
+   "s0283"
+  ]
+ },
+ {
+  "en": "Costs 300,000,000 magic",
+  "ids": [
+   "s0284"
+  ]
+ },
+ {
+  "en": "Challenge B1's effect is",
+  "ids": [
+   "s0285"
+  ]
+ },
+ {
+  "en": "better",
+  "ids": [
+   "s0286"
+  ]
+ },
+ {
+  "en": "Costs 1.50e9 magic",
+  "ids": [
+   "s0287"
+  ]
+ },
+ {
+  "en": "Magic effect is squared",
+  "ids": [
+   "s0288"
+  ]
+ },
+ {
+  "en": "3.00e9 magic",
+  "ids": [
+   "s0290"
+  ]
+ },
+ {
+  "en": "Magifolds multiply score",
+  "ids": [
+   "s0291"
+  ]
+ },
+ {
+  "en": "Costs 1.00e11 magic",
+  "ids": [
+   "s0294"
+  ]
+ },
+ {
+  "en": "Triple magic gain again. Easy",
+  "ids": [
+   "s0295"
+  ]
+ },
+ {
+  "en": "peasy.",
+  "ids": [
+   "s0296"
+  ]
+ },
+ {
+  "en": "Costs 4.00e12 magic",
+  "ids": [
+   "s0297"
+  ]
+ },
+ {
+  "en": "Magifold effect is boosted from",
+  "ids": [
+   "s0298"
+  ]
+ },
+ {
+  "en": "(x^4) to (x^6)",
+  "ids": [
+   "s0299"
+  ]
+ },
+ {
+  "en": "Costs 1.00e13 magic",
+  "ids": [
+   "s0300"
+  ]
+ },
+ {
+  "en": "Uranium",
+  "ids": [
+   "s0302",
+   "s1687"
+  ]
+ },
+ {
+  "en": "Costs 1.00e16 magic",
+  "ids": [
+   "s0303"
+  ]
+ },
+ {
+  "en": "Magic challenges",
+  "ids": [
+   "s0305"
+  ]
+ },
+ {
+  "en": "HIGHEST SCORES:",
+  "ids": [
+   "s0306"
+  ]
+ },
+ {
+  "en": "1 challenge:",
+  "ids": [
+   "s0307"
+  ]
+ },
+ {
+  "en": "2 challenges:",
+  "ids": [
+   "s0308"
+  ]
+ },
+ {
+  "en": "3 challenges:",
+  "ids": [
+   "s0309"
+  ]
+ },
+ {
+  "en": "4 challenges:",
+  "ids": [
+   "s0310"
+  ]
+ },
+ {
+  "en": "magic manifolds",
+  "ids": [
+   "s0312"
+  ]
+ },
+ {
+  "en": "(magifolds),",
+  "ids": [
+   "s0313"
+  ]
+ },
+ {
+  "en": "which give",
+  "ids": [
+   "s0314"
+  ]
+ },
+ {
+  "en": "gold gain",
+  "ids": [
+   "s0315"
+  ]
+ },
+ {
+  "en": "Hover over a challenge to see what",
+  "ids": [
+   "s0316"
+  ]
+ },
+ {
+  "en": "it does!",
+  "ids": [
+   "s0317"
+  ]
+ },
+ {
+  "en": "You can select up to 4 challenges, and you will earn separate",
+  "ids": [
+   "s0318"
+  ]
+ },
+ {
+  "en": "scores for each amount of challenges you enter at once (1, 2, 3 and 4).",
+  "ids": [
+   "s0319"
+  ]
+ },
+ {
+  "en": "Bonuses",
+  "ids": [
+   "s0320"
+  ]
+ },
+ {
+  "en": "are based on the highest score achieved in each amount of challenges, multiplied together.",
+  "ids": [
+   "s0321"
+  ]
+ },
+ {
+  "en": "Enter challenges",
+  "ids": [
+   "s0322",
+   "s1883"
+  ]
+ },
+ {
+  "en": "You are not in any challenges!",
+  "ids": [
+   "s0323",
+   "s1809",
+   "s1844"
+  ]
+ },
+ {
+  "en": "Alchemy II",
+  "ids": [
+   "s0324"
+  ]
+ },
+ {
+  "en": "Convert all platinum into",
+  "ids": [
+   "s0325"
+  ]
+ },
+ {
+  "en": "uranium (",
+  "ids": [
+   "s0326"
+  ]
+ },
+ {
+  "en": "uranium",
+  "ids": [
+   "s0328",
+   "s1686"
+  ]
+ },
+ {
+  "en": "extra uranium per second :D",
+  "ids": [
+   "s0330"
+  ]
+ },
+ {
+  "en": "Uranium upgrades are kept on magic resets.",
+  "ids": [
+   "s0331"
+  ]
+ },
+ {
+  "en": "Increase platinum gain by 20%",
+  "ids": [
+   "s0332"
+  ]
+ },
+ {
+  "en": "(multiplicative)",
+  "ids": [
+   "s0333"
+  ]
+ },
+ {
+  "en": "Costs 100 uranium",
+  "ids": [
+   "s0334"
+  ]
+ },
+ {
+  "en": "Increase uranium gain by 10% (additive) (",
+  "ids": [
+   "s0335"
+  ]
+ },
+ {
+  "en": "Costs 300 uranium",
+  "ids": [
+   "s0336"
+  ]
+ },
+ {
+  "en": "Double score gain (",
+  "ids": [
+   "s0337"
+  ]
+ },
+ {
+  "en": "Costs 1,000 uranium",
+  "ids": [
+   "s0338"
+  ]
+ },
+ {
+  "en": "Platinum upgrade 6 is",
+  "ids": [
+   "s0339"
+  ]
+ },
+ {
+  "en": "boosted (",
+  "ids": [
+   "s0340"
+  ]
+ },
+ {
+  "en": "Costs 10,000 uranium",
+  "ids": [
+   "s0341"
+  ]
+ },
+ {
+  "en": "Increase platinum gain",
+  "ids": [
+   "s0342",
+   "s0448",
+   "s0663"
+  ]
+ },
+ {
+  "en": "tenfold (",
+  "ids": [
+   "s0343"
+  ]
+ },
+ {
+  "en": "Costs 50,000 uranium",
+  "ids": [
+   "s0344"
+  ]
+ },
+ {
+  "en": "Dark magic upgrades",
+  "ids": [
+   "s0346"
+  ]
+ },
+ {
+  "en": "Score gain is increased by ^1.30",
+  "ids": [
+   "s0347"
+  ]
+ },
+ {
+  "en": "1.00e110 magic",
+  "ids": [
+   "s0349"
+  ]
+ },
+ {
+  "en": "Uranium increases magic gain",
+  "ids": [
+   "s0350"
+  ]
+ },
+ {
+  "en": "Currently ^",
+  "ids": [
+   "s0351",
+   "s0424",
+   "s0476",
+   "s0503",
+   "s0531",
+   "s0580",
+   "s0635",
+   "s0711",
+   "s1046",
+   "s1051",
+   "s1068",
+   "s1079",
+   "s1102",
+   "s1140",
+   "s1190",
+   "s1194"
+  ]
+ },
+ {
+  "en": "Costs 1.00e125 magic",
+  "ids": [
+   "s0352"
+  ]
+ },
+ {
+  "en": "You gain 10x as much time spent with your",
+  "ids": [
+   "s0353"
+  ]
+ },
+ {
+  "en": "Costs 1.00e165 magic",
+  "ids": [
+   "s0355"
+  ]
+ },
+ {
+  "en": "Magifold effect is boosted again to",
+  "ids": [
+   "s0356"
+  ]
+ },
+ {
+  "en": "Costs 1.00e240 magic",
+  "ids": [
+   "s0357"
+  ]
+ },
+ {
+  "en": "Multiply uranium gain by 100",
+  "ids": [
+   "s0358"
+  ]
+ },
+ {
+  "en": "1.00e285 magic",
+  "ids": [
+   "s0360"
+  ]
+ },
+ {
+  "en": "Fire upgrade 2 is boosted again",
+  "ids": [
+   "s0361"
+  ]
+ },
+ {
+  "en": "1.00e320 magic",
+  "ids": [
+   "s0363"
+  ]
+ },
+ {
+  "en": "Score gain is doubled",
+  "ids": [
+   "s0364"
+  ]
+ },
+ {
+  "en": "Costs 1.00e360",
+  "ids": [
+   "s0365"
+  ]
+ },
+ {
+  "en": "Sigils",
+  "ids": [
+   "s0368",
+   "s0429",
+   "s0457",
+   "s0486",
+   "s0510",
+   "s1778",
+   "s1779",
+   "s1780",
+   "s1781",
+   "s1782",
+   "s1783",
+   "s1784",
+   "s1785",
+   "s1786",
+   "s1913"
+  ]
+ },
+ {
+  "en": "Costs 1.00e450 magic",
+  "ids": [
+   "s0369"
+  ]
+ },
+ {
+  "en": "Triple cyan and blue",
+  "ids": [
+   "s0370"
+  ]
+ },
+ {
+  "en": "sigil gain",
+  "ids": [
+   "s0371"
+  ]
+ },
+ {
+  "en": "Costs e120,000 magic",
+  "ids": [
+   "s0372"
+  ]
+ },
+ {
+  "en": "Increase magic gain by",
+  "ids": [
+   "s0373"
+  ]
+ },
+ {
+  "en": "Costs e140,000 magic",
+  "ids": [
+   "s0374"
+  ]
+ },
+ {
+  "en": "Blood multiplies blue fire gain",
+  "ids": [
+   "s0375"
+  ]
+ },
+ {
+  "en": "Costs e300,000,000 magic",
+  "ids": [
+   "s0377"
+  ]
+ },
+ {
+  "en": "Blood multiplies its own gain",
+  "ids": [
+   "s0378"
+  ]
+ },
+ {
+  "en": "Costs e450,000,000 magic",
+  "ids": [
+   "s0380"
+  ]
+ },
+ {
+  "en": "Platinum gain is increased by ^666",
+  "ids": [
+   "s0381"
+  ]
+ },
+ {
+  "en": "Costs e500,000,000 magic",
+  "ids": [
+   "s0382"
+  ]
+ },
+ {
+  "en": "Plutonium multiplies blood gain",
+  "ids": [
+   "s0383"
+  ]
+ },
+ {
+  "en": "Costs e600,000,000 magic",
+  "ids": [
+   "s0385"
+  ]
+ },
+ {
+  "en": "Multiply plutonium gain by 10",
+  "ids": [
+   "s0386"
+  ]
+ },
+ {
+  "en": "Costs e675,000,000 magic",
+  "ids": [
+   "s0387"
+  ]
+ },
+ {
+  "en": "Blue fire multiplies red sigil gain",
+  "ids": [
+   "s0388"
+  ]
+ },
+ {
+  "en": "Costs e800,000,000 magic",
+  "ids": [
+   "s0390"
+  ]
+ },
+ {
+  "en": "Blood multiplies orange sigil gain",
+  "ids": [
+   "s0391"
+  ]
+ },
+ {
+  "en": "Costs e1.20e9 magic",
+  "ids": [
+   "s0393"
+  ]
+ },
+ {
+  "en": "Plutonium multiplies yellow sigil gain (Currently x",
+  "ids": [
+   "s0394"
+  ]
+ },
+ {
+  "en": "Costs e1.45e9 magic",
+  "ids": [
+   "s0395"
+  ]
+ },
+ {
+  "en": "Square plutonium gain",
+  "ids": [
+   "s0396"
+  ]
+ },
+ {
+  "en": "Costs e1.60e9 magic",
+  "ids": [
+   "s0397"
+  ]
+ },
+ {
+  "en": "Multiply YSP gain by 1,000",
+  "ids": [
+   "s0398"
+  ]
+ },
+ {
+  "en": "Costs e1.65e9 magic",
+  "ids": [
+   "s0399"
+  ]
+ },
+ {
+  "en": "Cyan sigils",
+  "ids": [
+   "s0401"
+  ]
+ },
+ {
+  "en": "cyan sigils",
+  "ids": [
+   "s0403",
+   "s0407",
+   "s1688"
+  ]
+ },
+ {
+  "en": "Multiplying magic and score",
+  "ids": [
+   "s0404",
+   "s0434",
+   "s0462"
+  ]
+ },
+ {
+  "en": "gain by",
+  "ids": [
+   "s0405",
+   "s0435",
+   "s0463"
+  ]
+ },
+ {
+  "en": "Reset all previous progress for",
+  "ids": [
+   "s0406",
+   "s0436",
+   "s0464",
+   "s0492",
+   "s0517",
+   "s0726",
+   "s0752",
+   "s0799"
+  ]
+ },
+ {
+  "en": "Next at",
+  "ids": [
+   "s0408",
+   "s0438",
+   "s0494",
+   "s0519",
+   "s0728",
+   "s0754",
+   "s0801"
+  ]
+ },
+ {
+  "en": "Sigil resets erase almost all upgrades and resources, but",
+  "ids": [
+   "s0410"
+  ]
+ },
+ {
+  "en": "you keep unlocks",
+  "ids": [
+   "s0411"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;(and your dragon, because it's linked to your soul)",
+  "ids": [
+   "s0412"
+  ]
+ },
+ {
+  "en": "cyan sigil power (CSP) (",
+  "ids": [
+   "s0414"
+  ]
+ },
+ {
+  "en": "Increase CSP gain",
+  "ids": [
+   "s0415"
+  ]
+ },
+ {
+  "en": "CSP",
+  "ids": [
+   "s0418",
+   "s0422",
+   "s0426"
+  ]
+ },
+ {
+  "en": "Increase uranium gain",
+  "ids": [
+   "s0419",
+   "s0579",
+   "s1139"
+  ]
+ },
+ {
+  "en": "Increase gold per second",
+  "ids": [
+   "s0423"
+  ]
+ },
+ {
+  "en": "blue",
+  "ids": [
+   "s0428"
+  ]
+ },
+ {
+  "en": "Costs 20,000 CSP",
+  "ids": [
+   "s0430"
+  ]
+ },
+ {
+  "en": "Blue sigils",
+  "ids": [
+   "s0431"
+  ]
+ },
+ {
+  "en": "blue sigils",
+  "ids": [
+   "s0433",
+   "s0437",
+   "s1690"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;(Sigil resets don't erase your other sigils",
+  "ids": [
+   "s0440"
+  ]
+ },
+ {
+  "en": "or sigil upgrades)",
+  "ids": [
+   "s0441"
+  ]
+ },
+ {
+  "en": "blue sigil power (BSP) (",
+  "ids": [
+   "s0443"
+  ]
+ },
+ {
+  "en": "Increase BSP gain",
+  "ids": [
+   "s0444"
+  ]
+ },
+ {
+  "en": "BSP",
+  "ids": [
+   "s0447",
+   "s0451",
+   "s0454"
+  ]
+ },
+ {
+  "en": "Cyan sigil requirement is lower (",
+  "ids": [
+   "s0452"
+  ]
+ },
+ {
+  "en": "Indigo",
+  "ids": [
+   "s0456"
+  ]
+ },
+ {
+  "en": "Costs 10,000 BSP",
+  "ids": [
+   "s0458"
+  ]
+ },
+ {
+  "en": "Indigo sigils",
+  "ids": [
+   "s0459"
+  ]
+ },
+ {
+  "en": "indigo sigils",
+  "ids": [
+   "s0461",
+   "s0465",
+   "s1692"
+  ]
+ },
+ {
+  "en": "Next",
+  "ids": [
+   "s0466"
+  ]
+ },
+ {
+  "en": "at",
+  "ids": [
+   "s0467"
+  ]
+ },
+ {
+  "en": "indigo sigil power (ISP) (",
+  "ids": [
+   "s0470"
+  ]
+ },
+ {
+  "en": "Increase ISP gain",
+  "ids": [
+   "s0471"
+  ]
+ },
+ {
+  "en": "ISP",
+  "ids": [
+   "s0474",
+   "s0478",
+   "s0483"
+  ]
+ },
+ {
+  "en": "Increase CSP gain again",
+  "ids": [
+   "s0475"
+  ]
+ },
+ {
+  "en": "Gain more time with your",
+  "ids": [
+   "s0479"
+  ]
+ },
+ {
+  "en": "Violet",
+  "ids": [
+   "s0485"
+  ]
+ },
+ {
+  "en": "Costs 20,000 ISP",
+  "ids": [
+   "s0487"
+  ]
+ },
+ {
+  "en": "Violet sigils",
+  "ids": [
+   "s0488"
+  ]
+ },
+ {
+  "en": "violet sigils",
+  "ids": [
+   "s0490",
+   "s0493",
+   "s1694"
+  ]
+ },
+ {
+  "en": "Multiplying magic and score gain by",
+  "ids": [
+   "s0491",
+   "s0516",
+   "s0725",
+   "s0751",
+   "s0798"
+  ]
+ },
+ {
+  "en": "violet sigil power (VSP) (",
+  "ids": [
+   "s0497"
+  ]
+ },
+ {
+  "en": "Increase VSP gain",
+  "ids": [
+   "s0498"
+  ]
+ },
+ {
+  "en": "VSP",
+  "ids": [
+   "s0501",
+   "s0505"
+  ]
+ },
+ {
+  "en": "Increase BSP gain again",
+  "ids": [
+   "s0502"
+  ]
+ },
+ {
+  "en": "Magifold effect is boosted again",
+  "ids": [
+   "s0506"
+  ]
+ },
+ {
+  "en": "Costs 5,000 VSP",
+  "ids": [
+   "s0507"
+  ]
+ },
+ {
+  "en": "Pink",
+  "ids": [
+   "s0509"
+  ]
+ },
+ {
+  "en": "Costs 10,000,000 VSP",
+  "ids": [
+   "s0511"
+  ]
+ },
+ {
+  "en": "LIVE HORROR CAM",
+  "ids": [
+   "s0512"
+  ]
+ },
+ {
+  "en": "Pink sigils",
+  "ids": [
+   "s0513"
+  ]
+ },
+ {
+  "en": "pink sigils",
+  "ids": [
+   "s0515",
+   "s0518",
+   "s1696"
+  ]
+ },
+ {
+  "en": "pink sigil power (PSP) (",
+  "ids": [
+   "s0522"
+  ]
+ },
+ {
+  "en": "Increase PSP gain",
+  "ids": [
+   "s0523"
+  ]
+ },
+ {
+  "en": "PSP",
+  "ids": [
+   "s0526",
+   "s0533"
+  ]
+ },
+ {
+  "en": "Unlock 2 new dark magic upgrades (kept",
+  "ids": [
+   "s0527"
+  ]
+ },
+ {
+  "en": "on sigil reset)",
+  "ids": [
+   "s0528"
+  ]
+ },
+ {
+  "en": "Costs 100,000 PSP",
+  "ids": [
+   "s0529"
+  ]
+ },
+ {
+  "en": "Increase score gain",
+  "ids": [
+   "s0530"
+  ]
+ },
+ {
+  "en": "knowledge",
+  "ids": [
+   "s0535",
+   "s0544",
+   "s0578",
+   "s0582",
+   "s0608",
+   "s1698"
+  ]
+ },
+ {
+  "en": "Costs 100,000,000 PSP",
+  "ids": [
+   "s0536"
+  ]
+ },
+ {
+  "en": "Achievements",
+  "ids": [
+   "s0537",
+   "s1231"
+  ]
+ },
+ {
+  "en": "Achievement name",
+  "ids": [
+   "s0538",
+   "s0541"
+  ]
+ },
+ {
+  "en": "Acquire X of resource Y",
+  "ids": [
+   "s0539"
+  ]
+ },
+ {
+  "en": "Achievement unlocked!",
+  "ids": [
+   "s0540"
+  ]
+ },
+ {
+  "en": "Knowledge",
+  "ids": [
+   "s0542"
+  ]
+ },
+ {
+  "en": "Highest ever:",
+  "ids": [
+   "s0545"
+  ]
+ },
+ {
+  "en": "Your highest knowledge is multiplying sigil gain by",
+  "ids": [
+   "s0546"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Knowledge trades give you knowledge, at the cost of some of your sigils.",
+  "ids": [
+   "s0547"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;A higher trade level gives you more knowledge, at the cost of more sigils.",
+  "ids": [
+   "s0548"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;If you change the trade level, it won't apply until you purchase a trade!",
+  "ids": [
+   "s0549"
+  ]
+ },
+ {
+  "en": "Trade level:",
+  "ids": [
+   "s0550"
+  ]
+ },
+ {
+  "en": "Knowledge trade 1",
+  "ids": [
+   "s0551"
+  ]
+ },
+ {
+  "en": "Lv1 - 1 knowledge",
+  "ids": [
+   "s0552",
+   "s0559",
+   "s0566"
+  ]
+ },
+ {
+  "en": "Costs:",
+  "ids": [
+   "s0553",
+   "s0560",
+   "s0567"
+  ]
+ },
+ {
+  "en": "100,000 cyan sigils",
+  "ids": [
+   "s0554",
+   "s0561",
+   "s0568"
+  ]
+ },
+ {
+  "en": "40,000 blue sigils",
+  "ids": [
+   "s0555",
+   "s0562",
+   "s0569"
+  ]
+ },
+ {
+  "en": "10,000 indigo sigils",
+  "ids": [
+   "s0556",
+   "s0563",
+   "s0570"
+  ]
+ },
+ {
+  "en": "Purchase",
+  "ids": [
+   "s0557",
+   "s0564",
+   "s0571"
+  ]
+ },
+ {
+  "en": "Knowledge trade 2",
+  "ids": [
+   "s0558"
+  ]
+ },
+ {
+  "en": "Knowledge trade 3",
+  "ids": [
+   "s0565"
+  ]
+ },
+ {
+  "en": "Reset trades to level 1 (use if stuck!)",
+  "ids": [
+   "s0572"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Trade cost ranges for this trade level:",
+  "ids": [
+   "s0573"
+  ]
+ },
+ {
+  "en": "Knowledge reward range for this trade level:",
+  "ids": [
+   "s0574"
+  ]
+ },
+ {
+  "en": "Multiply knowledge gain from trades",
+  "ids": [
+   "s0575",
+   "s0678"
+  ]
+ },
+ {
+  "en": "tomes",
+  "ids": [
+   "s0584",
+   "s0604"
+  ]
+ },
+ {
+  "en": "Costs 100,000 knowledge",
+  "ids": [
+   "s0585"
+  ]
+ },
+ {
+  "en": "Sigil Automation",
+  "ids": [
+   "s0588"
+  ]
+ },
+ {
+  "en": "Automatic sigil resetter",
+  "ids": [
+   "s0589"
+  ]
+ },
+ {
+  "en": "Enabled",
+  "ids": [
+   "s0590"
+  ]
+ },
+ {
+  "en": "Colour:",
+  "ids": [
+   "s0591"
+  ]
+ },
+ {
+  "en": "Cycle Colour on Reset",
+  "ids": [
+   "s0592"
+  ]
+ },
+ {
+  "en": "Cycle between Red/Orange/Yellow only",
+  "ids": [
+   "s0593"
+  ]
+ },
+ {
+  "en": "Mode:",
+  "ids": [
+   "s0594"
+  ]
+ },
+ {
+  "en": "Potential Sigil Amount",
+  "ids": [
+   "s0595",
+   "s1265",
+   "s1915"
+  ]
+ },
+ {
+  "en": "Gold Amount",
+  "ids": [
+   "s0596",
+   "s1266",
+   "s1916"
+  ]
+ },
+ {
+  "en": "Seconds Since Reset",
+  "ids": [
+   "s0597",
+   "s1267",
+   "s1917"
+  ]
+ },
+ {
+  "en": "Max cyan to pink sigil upgrades",
+  "ids": [
+   "s0598"
+  ]
+ },
+ {
+  "en": "Max red sigil upgrades",
+  "ids": [
+   "s0599"
+  ]
+ },
+ {
+  "en": "Max orange sigil upgrades",
+  "ids": [
+   "s0600"
+  ]
+ },
+ {
+  "en": "Max yellow sigil upgrades",
+  "ids": [
+   "s0601"
+  ]
+ },
+ {
+  "en": "Tomes",
+  "ids": [
+   "s0602"
+  ]
+ },
+ {
+  "en": "Total:",
+  "ids": [
+   "s0605"
+  ]
+ },
+ {
+  "en": "Convert your knowledge into a tome",
+  "ids": [
+   "s0606"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs",
+  "ids": [
+   "s0607"
+  ]
+ },
+ {
+  "en": "Convert max tomes",
+  "ids": [
+   "s0609"
+  ]
+ },
+ {
+  "en": "Increase ISP gain by ^1.30",
+  "ids": [
+   "s0610"
+  ]
+ },
+ {
+  "en": "Costs 1 tome",
+  "ids": [
+   "s0611",
+   "s0614"
+  ]
+ },
+ {
+  "en": "Total tomes multiply PSP gain",
+  "ids": [
+   "s0612"
+  ]
+ },
+ {
+  "en": "Double knowledge gain from trades",
+  "ids": [
+   "s0615"
+  ]
+ },
+ {
+  "en": "Costs 2 tomes",
+  "ids": [
+   "s0616",
+   "s0618"
+  ]
+ },
+ {
+  "en": "Platinum increases gold/second again",
+  "ids": [
+   "s0617"
+  ]
+ },
+ {
+  "en": "Tome cost increases more slowly",
+  "ids": [
+   "s0619"
+  ]
+ },
+ {
+  "en": "Costs 4 tomes",
+  "ids": [
+   "s0620"
+  ]
+ },
+ {
+  "en": "blue fire",
+  "ids": [
+   "s0622",
+   "s0651",
+   "s0656",
+   "s0661",
+   "s0666",
+   "s0671",
+   "s0676",
+   "s0681",
+   "s1702"
+  ]
+ },
+ {
+  "en": "Costs 20 tomes",
+  "ids": [
+   "s0623"
+  ]
+ },
+ {
+  "en": "Total tomes multiply knowledge gain",
+  "ids": [
+   "s0624"
+  ]
+ },
+ {
+  "en": "Costs 75 tomes",
+  "ids": [
+   "s0626"
+  ]
+ },
+ {
+  "en": "Tome cost increases more slowly again",
+  "ids": [
+   "s0627"
+  ]
+ },
+ {
+  "en": "Costs 175 tomes",
+  "ids": [
+   "s0628"
+  ]
+ },
+ {
+  "en": "Unlock 3 more blue fire upgrades",
+  "ids": [
+   "s0629"
+  ]
+ },
+ {
+  "en": "Costs 500 tomes",
+  "ids": [
+   "s0630"
+  ]
+ },
+ {
+  "en": "Total tomes multiply blue fire gain",
+  "ids": [
+   "s0631"
+  ]
+ },
+ {
+  "en": "Costs 1,000 tomes",
+  "ids": [
+   "s0633"
+  ]
+ },
+ {
+  "en": "Blood increases gold gain in hell",
+  "ids": [
+   "s0634"
+  ]
+ },
+ {
+  "en": "Costs 1,500 tomes",
+  "ids": [
+   "s0636"
+  ]
+ },
+ {
+  "en": "Plutonium",
+  "ids": [
+   "s0638",
+   "s1707"
+  ]
+ },
+ {
+  "en": "Costs 2,250 tomes",
+  "ids": [
+   "s0639"
+  ]
+ },
+ {
+  "en": "Requires dark magic upgrade 11",
+  "ids": [
+   "s0640"
+  ]
+ },
+ {
+  "en": "Red sigils",
+  "ids": [
+   "s0642",
+   "s0722"
+  ]
+ },
+ {
+  "en": "Costs 2,800 tomes",
+  "ids": [
+   "s0643"
+  ]
+ },
+ {
+  "en": "Requires plutonium",
+  "ids": [
+   "s0644"
+  ]
+ },
+ {
+  "en": "2 more hell layers",
+  "ids": [
+   "s0646"
+  ]
+ },
+ {
+  "en": "Costs 7,500 tomes",
+  "ids": [
+   "s0647"
+  ]
+ },
+ {
+  "en": "Blue fire upgrades",
+  "ids": [
+   "s0649"
+  ]
+ },
+ {
+  "en": "/s) (Blue fire gain is based on fire amount)",
+  "ids": [
+   "s0652"
+  ]
+ },
+ {
+  "en": "Multiply blue fire production",
+  "ids": [
+   "s0653"
+  ]
+ },
+ {
+  "en": "Increase magic hardcap",
+  "ids": [
+   "s0668"
+  ]
+ },
+ {
+  "en": "Multiply dragon time spent cap",
+  "ids": [
+   "s0673"
+  ]
+ },
+ {
+  "en": "Blood",
+  "ids": [
+   "s0685",
+   "s1705"
+  ]
+ },
+ {
+  "en": "blood",
+  "ids": [
+   "s0687",
+   "s1704"
+  ]
+ },
+ {
+  "en": "Your blood is multiplying sigil gain by",
+  "ids": [
+   "s0688"
+  ]
+ },
+ {
+  "en": "DRAGONKIND IS DEAD",
+  "ids": [
+   "s0689"
+  ]
+ },
+ {
+  "en": "BLOOD IS FUEL",
+  "ids": [
+   "s0690"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;HELL IS FULL",
+  "ids": [
+   "s0691"
+  ]
+ },
+ {
+  "en": "Entering hell will sigil reset and place various nerfs upon you, but while in hell you will gain blood based on your gold. Deeper layers reward more blood, but have stronger nerfs.",
+  "ids": [
+   "s0692"
+  ]
+ },
+ {
+  "en": "Current hell layer:",
+  "ids": [
+   "s0693"
+  ]
+ },
+ {
+  "en": "Limbo (I)",
+  "ids": [
+   "s0694"
+  ]
+ },
+ {
+  "en": "Lust (II)",
+  "ids": [
+   "s0695"
+  ]
+ },
+ {
+  "en": "Gluttony (III)",
+  "ids": [
+   "s0696"
+  ]
+ },
+ {
+  "en": "Nerfs for this layer (",
+  "ids": [
+   "s0697"
+  ]
+ },
+ {
+  "en": "limbo",
+  "ids": [
+   "s0698",
+   "s1268"
+  ]
+ },
+ {
+  "en": "Enter hell",
+  "ids": [
+   "s0699",
+   "s1264",
+   "s1848"
+  ]
+ },
+ {
+  "en": "Alchemy III",
+  "ids": [
+   "s0700"
+  ]
+ },
+ {
+  "en": "Convert all uranium into",
+  "ids": [
+   "s0701"
+  ]
+ },
+ {
+  "en": "plutonium (",
+  "ids": [
+   "s0702"
+  ]
+ },
+ {
+  "en": "plutonium",
+  "ids": [
+   "s0704",
+   "s1706"
+  ]
+ },
+ {
+  "en": "extra plutonium per second :O",
+  "ids": [
+   "s0706"
+  ]
+ },
+ {
+  "en": "Plutonium upgrades are kept on magic resets.",
+  "ids": [
+   "s0707"
+  ]
+ },
+ {
+  "en": "Increase plutonium gain by 5% (additive) (",
+  "ids": [
+   "s0708"
+  ]
+ },
+ {
+  "en": "Costs 200 plutonium",
+  "ids": [
+   "s0709"
+  ]
+ },
+ {
+  "en": "Increase magic effect (",
+  "ids": [
+   "s0710"
+  ]
+ },
+ {
+  "en": "Costs 400 plutonium",
+  "ids": [
+   "s0712"
+  ]
+ },
+ {
+  "en": "Plutonium increases sigil gain (",
+  "ids": [
+   "s0713"
+  ]
+ },
+ {
+  "en": "Costs 800 plutonium",
+  "ids": [
+   "s0715"
+  ]
+ },
+ {
+  "en": "Increase blue fire gain by 50% (multiplicative)",
+  "ids": [
+   "s0716"
+  ]
+ },
+ {
+  "en": "Costs 5,000 plutonium",
+  "ids": [
+   "s0717"
+  ]
+ },
+ {
+  "en": "Increase blue fire gain by another 25%",
+  "ids": [
+   "s0718"
+  ]
+ },
+ {
+  "en": "(multiplicative) (",
+  "ids": [
+   "s0719"
+  ]
+ },
+ {
+  "en": "Costs 50,000 plutonium",
+  "ids": [
+   "s0720"
+  ]
+ },
+ {
+  "en": "red sigils",
+  "ids": [
+   "s0724",
+   "s0727",
+   "s1708"
+  ]
+ },
+ {
+  "en": "Red sigils are unaffected by pre-red sigil multipliers and \"Gain 10% of potential sigils per second\"",
+  "ids": [
+   "s0730"
+  ]
+ },
+ {
+  "en": "red sigil power (RSP) (",
+  "ids": [
+   "s0732"
+  ]
+ },
+ {
+  "en": "Increase RSP gain",
+  "ids": [
+   "s0733"
+  ]
+ },
+ {
+  "en": "RSP",
+  "ids": [
+   "s0736",
+   "s0740",
+   "s0744"
+  ]
+ },
+ {
+  "en": "Increase blue fire gain",
+  "ids": [
+   "s0737",
+   "s1045"
+  ]
+ },
+ {
+  "en": "Increase blood gain",
+  "ids": [
+   "s0741"
+  ]
+ },
+ {
+  "en": "orange sigils",
+  "ids": [
+   "s0746",
+   "s0750",
+   "s0753",
+   "s1710"
+  ]
+ },
+ {
+  "en": "Costs 10,000,000 RSP",
+  "ids": [
+   "s0747"
+  ]
+ },
+ {
+  "en": "Orange sigils",
+  "ids": [
+   "s0748"
+  ]
+ },
+ {
+  "en": "orange sigil power (OSP) (",
+  "ids": [
+   "s0757"
+  ]
+ },
+ {
+  "en": "Increase OSP gain",
+  "ids": [
+   "s0758"
+  ]
+ },
+ {
+  "en": "OSP",
+  "ids": [
+   "s0761",
+   "s0765",
+   "s0769"
+  ]
+ },
+ {
+  "en": "Increase red sigil gain",
+  "ids": [
+   "s0762"
+  ]
+ },
+ {
+  "en": "Increase blood gain again",
+  "ids": [
+   "s0766",
+   "s0813"
+  ]
+ },
+ {
+  "en": "yellow sigils",
+  "ids": [
+   "s0771",
+   "s0797",
+   "s0800",
+   "s1712"
+  ]
+ },
+ {
+  "en": "Costs 10,000,000 OSP",
+  "ids": [
+   "s0772"
+  ]
+ },
+ {
+  "en": "Info/credits",
+  "ids": [
+   "s0773",
+   "s1232"
+  ]
+ },
+ {
+  "en": "v1.0.1 (THE FINAL UPDATE)",
+  "ids": [
+   "s0775"
+  ]
+ },
+ {
+  "en": "Changelog",
+  "ids": [
+   "s0776"
+  ]
+ },
+ {
+  "en": "Created by",
+  "ids": [
+   "s0777"
+  ]
+ },
+ {
+  "en": "Demonin",
+  "ids": [
+   "s0778"
+  ]
+ },
+ {
+  "en": "Co-developed by",
+  "ids": [
+   "s0779"
+  ]
+ },
+ {
+  "en": "Cornucanis",
+  "ids": [
+   "s0780"
+  ]
+ },
+ {
+  "en": "Additional spriting by",
+  "ids": [
+   "s0781"
+  ]
+ },
+ {
+  "en": "Zaxolotl",
+  "ids": [
+   "s0782"
+  ]
+ },
+ {
+  "en": "Move around by clicking and dragging.",
+  "ids": [
+   "s0783"
+  ]
+ },
+ {
+  "en": "If you find the text is too small,",
+  "ids": [
+   "s0784"
+  ]
+ },
+ {
+  "en": "you might want to zoom in the window :)",
+  "ids": [
+   "s0785"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Time played:",
+  "ids": [
+   "s0786"
+  ]
+ },
+ {
+  "en": "Hotkeys",
+  "ids": [
+   "s0787"
+  ]
+ },
+ {
+  "en": "You can also press/hold enter to repeat the last button you pressed!",
+  "ids": [
+   "s0788"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Want to discuss or suggest for",
+  "ids": [
+   "s0789"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;the game? Feel free to join our",
+  "ids": [
+   "s0790"
+  ]
+ },
+ {
+  "en": "discord community!",
+  "ids": [
+   "s0791"
+  ]
+ },
+ {
+  "en": "Want to get early access to",
+  "ids": [
+   "s0792"
+  ]
+ },
+ {
+  "en": "future updates? Consider",
+  "ids": [
+   "s0793"
+  ]
+ },
+ {
+  "en": "supporting me on Patreon! :)",
+  "ids": [
+   "s0794"
+  ]
+ },
+ {
+  "en": "Yellow sigils",
+  "ids": [
+   "s0795"
+  ]
+ },
+ {
+  "en": "yellow sigil power (YSP) (",
+  "ids": [
+   "s0804"
+  ]
+ },
+ {
+  "en": "Increase YSP gain",
+  "ids": [
+   "s0805"
+  ]
+ },
+ {
+  "en": "YSP",
+  "ids": [
+   "s0808",
+   "s0812",
+   "s0816"
+  ]
+ },
+ {
+  "en": "Increase orange sigil gain",
+  "ids": [
+   "s0809"
+  ]
+ },
+ {
+  "en": "HOLY TETRAHEDRONS",
+  "ids": [
+   "s0818"
+  ]
+ },
+ {
+  "en": "Costs 1.00e12 YSP",
+  "ids": [
+   "s0819"
+  ]
+ },
+ {
+  "en": "Holy tetrahedrons",
+  "ids": [
+   "s0820"
+  ]
+ },
+ {
+  "en": "holy tetrahedrons",
+  "ids": [
+   "s0822",
+   "s0826",
+   "s1714"
+  ]
+ },
+ {
+  "en": "Reset all previous progress and",
+  "ids": [
+   "s0823",
+   "s0865",
+   "s0976"
+  ]
+ },
+ {
+  "en": "ASCEND",
+  "ids": [
+   "s0824",
+   "s0866",
+   "s0977"
+  ]
+ },
+ {
+  "en": "Holy tetrahedron tree",
+  "ids": [
+   "s0827"
+  ]
+ },
+ {
+  "en": "Blue fire gain is",
+  "ids": [
+   "s0828"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;squared",
+  "ids": [
+   "s0829",
+   "s0832",
+   "s0850"
+  ]
+ },
+ {
+  "en": "Costs 1 tetrahedron",
+  "ids": [
+   "s0830",
+   "s0833",
+   "s0835",
+   "s0838"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Score gain is",
+  "ids": [
+   "s0831",
+   "s0885"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiply cyan sigil gain by 1.00e50",
+  "ids": [
+   "s0834"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiply R-O-Y sigil",
+  "ids": [
+   "s0836"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;gain by 10",
+  "ids": [
+   "s0837"
+  ]
+ },
+ {
+  "en": "Multiply platinum",
+  "ids": [
+   "s0839"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;gain by 1e20",
+  "ids": [
+   "s0840"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 2 tetrahedrons",
+  "ids": [
+   "s0841",
+   "s0843",
+   "s0845"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiply uranium gain by 100",
+  "ids": [
+   "s0842"
+  ]
+ },
+ {
+  "en": "Blood gain is always at least",
+  "ids": [
+   "s0844"
+  ]
+ },
+ {
+  "en": "Multiply knowledge",
+  "ids": [
+   "s0846",
+   "s0893"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;gain by 1.00e150",
+  "ids": [
+   "s0847"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 5 tetrahedrons",
+  "ids": [
+   "s0848",
+   "s0851"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Pink sigil gain is",
+  "ids": [
+   "s0849"
+  ]
+ },
+ {
+  "en": "Fire gain is",
+  "ids": [
+   "s0852"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;increased by",
+  "ids": [
+   "s0853"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 15 tetrahedrons",
+  "ids": [
+   "s0854"
+  ]
+ },
+ {
+  "en": "Unlock HOLY OCTAHEDRONS",
+  "ids": [
+   "s0855"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 50 tetrahedrons",
+  "ids": [
+   "s0856"
+  ]
+ },
+ {
+  "en": "Unlock Holy Fire",
+  "ids": [
+   "s0857"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 2,000",
+  "ids": [
+   "s0858"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;tetrahedrons",
+  "ids": [
+   "s0859"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiply holy fire gain by 100",
+  "ids": [
+   "s0860"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 50,000 tetras",
+  "ids": [
+   "s0861"
+  ]
+ },
+ {
+  "en": "Holy octahedrons",
+  "ids": [
+   "s0862"
+  ]
+ },
+ {
+  "en": "holy octahedrons",
+  "ids": [
+   "s0864",
+   "s0868",
+   "s1716"
+  ]
+ },
+ {
+  "en": "Holy octahedron tree",
+  "ids": [
+   "s0869"
+  ]
+ },
+ {
+  "en": "Tetrahedrons",
+  "ids": [
+   "s0870"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;multiply R-O-Y sigil gain",
+  "ids": [
+   "s0871",
+   "s0982"
+  ]
+ },
+ {
+  "en": "Costs 1 octahedron",
+  "ids": [
+   "s0872",
+   "s0875",
+   "s0879"
+  ]
+ },
+ {
+  "en": "Multiply gold gain",
+  "ids": [
+   "s0873"
+  ]
+ },
+ {
+  "en": "in hell by 1.00e250",
+  "ids": [
+   "s0874"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiply blood gain",
+  "ids": [
+   "s0876"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;by 1.00e9^(hell",
+  "ids": [
+   "s0877"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;layer)",
+  "ids": [
+   "s0878"
+  ]
+ },
+ {
+  "en": "Multiply blue fire gain by 1e250",
+  "ids": [
+   "s0880"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 2 octahedrons",
+  "ids": [
+   "s0881",
+   "s0887"
+  ]
+ },
+ {
+  "en": "Gain 1 free tetrahedron per",
+  "ids": [
+   "s0882"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;second",
+  "ids": [
+   "s0883"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 4 octahedrons",
+  "ids": [
+   "s0884"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;increased by ^10",
+  "ids": [
+   "s0886"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Plutonium^0.5 multiplies blue fire gain",
+  "ids": [
+   "s0888"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 50 octahedrons",
+  "ids": [
+   "s0889"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Octahedrons",
+  "ids": [
+   "s0890"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;multiply holy fire gain",
+  "ids": [
+   "s0891",
+   "s0995"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 750 octahedrons",
+  "ids": [
+   "s0892"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;gain by 1.00e3,000",
+  "ids": [
+   "s0894"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 25,000 octas",
+  "ids": [
+   "s0895"
+  ]
+ },
+ {
+  "en": "Holy fire upgrades",
+  "ids": [
+   "s0896"
+  ]
+ },
+ {
+  "en": "holy fire",
+  "ids": [
+   "s0898",
+   "s0903",
+   "s0908",
+   "s0913",
+   "s0918",
+   "s0923",
+   "s0928",
+   "s1718"
+  ]
+ },
+ {
+  "en": "/s) (Holy fire gain is based on blue fire amount)",
+  "ids": [
+   "s0899"
+  ]
+ },
+ {
+  "en": "Multiply holy fire production",
+  "ids": [
+   "s0900"
+  ]
+ },
+ {
+  "en": "Multiply holy tetrahedron gain",
+  "ids": [
+   "s0905"
+  ]
+ },
+ {
+  "en": "Multiply dragon time spent cap again",
+  "ids": [
+   "s0910"
+  ]
+ },
+ {
+  "en": "Increase plutonium gain",
+  "ids": [
+   "s0915",
+   "s1193"
+  ]
+ },
+ {
+  "en": "Multiply holy octahedron gain",
+  "ids": [
+   "s0920"
+  ]
+ },
+ {
+  "en": "Multiply holy dodecahedron gain",
+  "ids": [
+   "s0925"
+  ]
+ },
+ {
+  "en": "Void magic upgrades",
+  "ids": [
+   "s0932"
+  ]
+ },
+ {
+  "en": "Multiply holy octahedron gain by 10",
+  "ids": [
+   "s0933"
+  ]
+ },
+ {
+  "en": "e1.25e10 magic",
+  "ids": [
+   "s0935"
+  ]
+ },
+ {
+  "en": "Multiply OSP gain by 1.00e20",
+  "ids": [
+   "s0936"
+  ]
+ },
+ {
+  "en": "e1.40e10 magic",
+  "ids": [
+   "s0938"
+  ]
+ },
+ {
+  "en": "Increase CSP gain by ^2.00",
+  "ids": [
+   "s0939"
+  ]
+ },
+ {
+  "en": "e1.55e10 magic",
+  "ids": [
+   "s0941"
+  ]
+ },
+ {
+  "en": "Unlock HOLY DODECAHEDRONS",
+  "ids": [
+   "s0942"
+  ]
+ },
+ {
+  "en": "e1.65e10 magic",
+  "ids": [
+   "s0944"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;FIRE EQUALIZER I - Fire gain is always equal to gold^(1.00e-10)",
+  "ids": [
+   "s0945"
+  ]
+ },
+ {
+  "en": "Costs e2.00e10 magic",
+  "ids": [
+   "s0946"
+  ]
+ },
+ {
+  "en": "FIRE EQUALIZER II - Fire gain is always equal to gold",
+  "ids": [
+   "s0947"
+  ]
+ },
+ {
+  "en": "Costs e3.00e10 magic",
+  "ids": [
+   "s0948"
+  ]
+ },
+ {
+  "en": "BLOOD EQUALIZER - Blood gain is always equal to log10(gold)",
+  "ids": [
+   "s0949"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs e4.00e10 magic",
+  "ids": [
+   "s0950"
+  ]
+ },
+ {
+  "en": "Unlock a new holy fire upgrade",
+  "ids": [
+   "s0951"
+  ]
+ },
+ {
+  "en": "Costs e6.50e10 magic",
+  "ids": [
+   "s0952"
+  ]
+ },
+ {
+  "en": "Multiply dragon time spent cap by 10,000",
+  "ids": [
+   "s0953"
+  ]
+ },
+ {
+  "en": "Costs e9.60e10 magic",
+  "ids": [
+   "s0954"
+  ]
+ },
+ {
+  "en": "Increase holy octahedron gain by ^1.25",
+  "ids": [
+   "s0955"
+  ]
+ },
+ {
+  "en": "Costs e1.20e11 magic",
+  "ids": [
+   "s0956"
+  ]
+ },
+ {
+  "en": "Planets multiply holy polyhedron gain (x^1.5)",
+  "ids": [
+   "s0957"
+  ]
+ },
+ {
+  "en": "Costs e2.25e11 magic",
+  "ids": [
+   "s0958"
+  ]
+ },
+ {
+  "en": "Multiply knowledge gain by e12,000",
+  "ids": [
+   "s0959"
+  ]
+ },
+ {
+  "en": "Costs e3.40e11 magic",
+  "ids": [
+   "s0960"
+  ]
+ },
+ {
+  "en": "Increase uranium gain by ^1.00e30",
+  "ids": [
+   "s0961"
+  ]
+ },
+ {
+  "en": "Costs e4.60e11 magic",
+  "ids": [
+   "s0962"
+  ]
+ },
+ {
+  "en": "Multiply planet effect by 1.2",
+  "ids": [
+   "s0963"
+  ]
+ },
+ {
+  "en": "Costs e5.25e12 magic",
+  "ids": [
+   "s0964"
+  ]
+ },
+ {
+  "en": "Supercluster effect is improved",
+  "ids": [
+   "s0965"
+  ]
+ },
+ {
+  "en": "Costs e2.00e13 magic",
+  "ids": [
+   "s0966"
+  ]
+ },
+ {
+  "en": "Cosmic Plague",
+  "ids": [
+   "s0968"
+  ]
+ },
+ {
+  "en": "Costs e4.25e13 magic",
+  "ids": [
+   "s0969"
+  ]
+ },
+ {
+  "en": "Oganesson",
+  "ids": [
+   "s0971"
+  ]
+ },
+ {
+  "en": "Costs e3.75e16 magic",
+  "ids": [
+   "s0972"
+  ]
+ },
+ {
+  "en": "Holy dodecahedrons",
+  "ids": [
+   "s0973"
+  ]
+ },
+ {
+  "en": "holy dodecahedrons",
+  "ids": [
+   "s0975",
+   "s0979",
+   "s1720"
+  ]
+ },
+ {
+  "en": "Holy dodecahedron tree",
+  "ids": [
+   "s0980"
+  ]
+ },
+ {
+  "en": "Octahedrons",
+  "ids": [
+   "s0981"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 1 dodecahedron",
+  "ids": [
+   "s0983"
+  ]
+ },
+ {
+  "en": "Dodecahedrons",
+  "ids": [
+   "s0984",
+   "s0994"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;multiply blood gain",
+  "ids": [
+   "s0985"
+  ]
+ },
+ {
+  "en": "Costs 2 dodecahedrons",
+  "ids": [
+   "s0986"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiply plutonium gain by 1.00e20",
+  "ids": [
+   "s0987"
+  ]
+ },
+ {
+  "en": "Costs 6 dodecahedrons",
+  "ids": [
+   "s0988"
+  ]
+ },
+ {
+  "en": "Multiply red sigil gain by 1.00e20",
+  "ids": [
+   "s0989"
+  ]
+ },
+ {
+  "en": "Costs 12 dodecahedrons",
+  "ids": [
+   "s0990"
+  ]
+ },
+ {
+  "en": "Red sigils increase",
+  "ids": [
+   "s0991"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;gold gain",
+  "ids": [
+   "s0992"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 1,000 dodecahedrons",
+  "ids": [
+   "s0993"
+  ]
+ },
+ {
+  "en": "Costs 150,000 dodecas",
+  "ids": [
+   "s0996"
+  ]
+ },
+ {
+  "en": "planets",
+  "ids": [
+   "s0999",
+   "s1014",
+   "s1722"
+  ]
+ },
+ {
+  "en": "Increasing blue fire and holy fire gain by ^",
+  "ids": [
+   "s1000"
+  ]
+ },
+ {
+  "en": "Form",
+  "ids": [
+   "s1001",
+   "s1004",
+   "s1006"
+  ]
+ },
+ {
+  "en": "holy tetrahedrons into a planet",
+  "ids": [
+   "s1002"
+  ]
+ },
+ {
+  "en": "holy octahedrons into a planet",
+  "ids": [
+   "s1005"
+  ]
+ },
+ {
+  "en": "holy dodecahedrons into a planet",
+  "ids": [
+   "s1007"
+  ]
+ },
+ {
+  "en": "Dodecahedrons can be formed up to 1.00e200. Octahedrons can be formed up to 1.00e500. Tetrahedrons can be formed indefinitely.",
+  "ids": [
+   "s1008"
+  ]
+ },
+ {
+  "en": "superclusters",
+  "ids": [
+   "s1010"
+  ]
+ },
+ {
+  "en": "Multiplying planet effect by",
+  "ids": [
+   "s1011"
+  ]
+ },
+ {
+  "en": "Gain a supercluster",
+  "ids": [
+   "s1012"
+  ]
+ },
+ {
+  "en": "Requires",
+  "ids": [
+   "s1013"
+  ]
+ },
+ {
+  "en": "THE OMNIVERSAL HYPERGODS",
+  "ids": [
+   "s1015"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD I:",
+  "ids": [
+   "s1016"
+  ]
+ },
+ {
+  "en": "KARUTH",
+  "ids": [
+   "s1017"
+  ]
+ },
+ {
+  "en": "Your ravenous growth is causing destruction in the omniverse, creature. As the high",
+  "ids": [
+   "s1018"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;ruler of this section of the omniverse, I command you to cease immediately.",
+  "ids": [
+   "s1019"
+  ]
+ },
+ {
+  "en": "Defeat this hypergod and claim a section of the omniverse",
+  "ids": [
+   "s1020"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Requires",
+  "ids": [
+   "s1021"
+  ]
+ },
+ {
+  "en": "ee20,000",
+  "ids": [
+   "s1022"
+  ]
+ },
+ {
+  "en": "Cosmic plague",
+  "ids": [
+   "s1024"
+  ]
+ },
+ {
+  "en": "cosmic plague",
+  "ids": [
+   "s1026"
+  ]
+ },
+ {
+  "en": "spores",
+  "ids": [
+   "s1028"
+  ]
+ },
+ {
+  "en": "Your spores are producing",
+  "ids": [
+   "s1029"
+  ]
+ },
+ {
+  "en": "plague/s",
+  "ids": [
+   "s1030"
+  ]
+ },
+ {
+  "en": "Gain a spore",
+  "ids": [
+   "s1031"
+  ]
+ },
+ {
+  "en": "Gain max",
+  "ids": [
+   "s1034",
+   "s1210"
+  ]
+ },
+ {
+  "en": "Multiply plague gain",
+  "ids": [
+   "s1035"
+  ]
+ },
+ {
+  "en": "plague",
+  "ids": [
+   "s1038",
+   "s1043",
+   "s1048",
+   "s1053",
+   "s1058"
+  ]
+ },
+ {
+  "en": "Multiply planet effect",
+  "ids": [
+   "s1040"
+  ]
+ },
+ {
+  "en": "Increase holy fire gain",
+  "ids": [
+   "s1050",
+   "s1189"
+  ]
+ },
+ {
+  "en": "Increase oganesson gain",
+  "ids": [
+   "s1055"
+  ]
+ },
+ {
+  "en": "Alchemy IV",
+  "ids": [
+   "s1062"
+  ]
+ },
+ {
+  "en": "oganesson",
+  "ids": [
+   "s1064"
+  ]
+ },
+ {
+  "en": "You are gaining",
+  "ids": [
+   "s1065",
+   "s1091",
+   "s1110",
+   "s1129",
+   "s1183"
+  ]
+ },
+ {
+  "en": "oganesson per second (based on plutonium amount), to save your fingers from clicking!",
+  "ids": [
+   "s1066"
+  ]
+ },
+ {
+  "en": "Increase plutonium gain (",
+  "ids": [
+   "s1067"
+  ]
+ },
+ {
+  "en": "Costs 100 oganesson",
+  "ids": [
+   "s1069"
+  ]
+ },
+ {
+  "en": "Increase cosmic plague gain (",
+  "ids": [
+   "s1070"
+  ]
+ },
+ {
+  "en": "Costs 1,000 oganesson",
+  "ids": [
+   "s1072"
+  ]
+ },
+ {
+  "en": "Increase planet effect (",
+  "ids": [
+   "s1073"
+  ]
+ },
+ {
+  "en": "Currently +",
+  "ids": [
+   "s1074"
+  ]
+ },
+ {
+  "en": "Costs 2,000 oganesson",
+  "ids": [
+   "s1075"
+  ]
+ },
+ {
+  "en": "Gain a new cosmic plague upgrade (",
+  "ids": [
+   "s1076"
+  ]
+ },
+ {
+  "en": "Costs 5,000 oganesson",
+  "ids": [
+   "s1077"
+  ]
+ },
+ {
+  "en": "Increase blue fire gain based on oganesson (",
+  "ids": [
+   "s1078"
+  ]
+ },
+ {
+  "en": "Costs 10,000 oganesson",
+  "ids": [
+   "s1080"
+  ]
+ },
+ {
+  "en": "Increase cosmic plague gain again (",
+  "ids": [
+   "s1081"
+  ]
+ },
+ {
+  "en": "Costs 100,000 oganesson",
+  "ids": [
+   "s1083"
+  ]
+ },
+ {
+  "en": "Increase essence gain (",
+  "ids": [
+   "s1084"
+  ]
+ },
+ {
+  "en": "Costs 5,000,000 oganesson",
+  "ids": [
+   "s1086"
+  ]
+ },
+ {
+  "en": "Light essence",
+  "ids": [
+   "s1087"
+  ]
+ },
+ {
+  "en": "light essence",
+  "ids": [
+   "s1089",
+   "s1096",
+   "s1100",
+   "s1104"
+  ]
+ },
+ {
+  "en": "Multiplying dark essence gain by",
+  "ids": [
+   "s1090"
+  ]
+ },
+ {
+  "en": "light essence per second",
+  "ids": [
+   "s1092"
+  ]
+ },
+ {
+  "en": "Multiply light essence gain",
+  "ids": [
+   "s1093"
+  ]
+ },
+ {
+  "en": "Multiply cosmic plague gain",
+  "ids": [
+   "s1097"
+  ]
+ },
+ {
+  "en": "Increase pink sigil gain",
+  "ids": [
+   "s1101"
+  ]
+ },
+ {
+  "en": "Dark essence",
+  "ids": [
+   "s1106"
+  ]
+ },
+ {
+  "en": "dark essence",
+  "ids": [
+   "s1108",
+   "s1115",
+   "s1119",
+   "s1123"
+  ]
+ },
+ {
+  "en": "Multiplying light essence gain by",
+  "ids": [
+   "s1109"
+  ]
+ },
+ {
+  "en": "dark essence per second",
+  "ids": [
+   "s1111"
+  ]
+ },
+ {
+  "en": "Multiply dark essence gain",
+  "ids": [
+   "s1112"
+  ]
+ },
+ {
+  "en": "Multiply oganesson gain",
+  "ids": [
+   "s1116"
+  ]
+ },
+ {
+  "en": "Multiply knowledge gain",
+  "ids": [
+   "s1120"
+  ]
+ },
+ {
+  "en": "Death essence",
+  "ids": [
+   "s1125"
+  ]
+ },
+ {
+  "en": "death essence",
+  "ids": [
+   "s1127",
+   "s1134",
+   "s1138",
+   "s1142",
+   "s1146",
+   "s1150"
+  ]
+ },
+ {
+  "en": "Multiplying light and dark essence gain by",
+  "ids": [
+   "s1128"
+  ]
+ },
+ {
+  "en": "death essence per second (based on light and dark essence)",
+  "ids": [
+   "s1130"
+  ]
+ },
+ {
+  "en": "Multiply death essence gain",
+  "ids": [
+   "s1131"
+  ]
+ },
+ {
+  "en": "Multiply cyan sigil gain",
+  "ids": [
+   "s1135"
+  ]
+ },
+ {
+  "en": "Multiply cosmic plague gain again",
+  "ids": [
+   "s1143"
+  ]
+ },
+ {
+  "en": "Multiply light/dark essence gain",
+  "ids": [
+   "s1147"
+  ]
+ },
+ {
+  "en": "Nuclear pasta",
+  "ids": [
+   "s1152"
+  ]
+ },
+ {
+  "en": "nuclear pasta",
+  "ids": [
+   "s1154"
+  ]
+ },
+ {
+  "en": "Current pasta state:",
+  "ids": [
+   "s1155"
+  ]
+ },
+ {
+  "en": "Gnocchi",
+  "ids": [
+   "s1156",
+   "s1306"
+  ]
+ },
+ {
+  "en": "Positive effect:",
+  "ids": [
+   "s1157"
+  ]
+ },
+ {
+  "en": "Boost to light/dark essence gain",
+  "ids": [
+   "s1158",
+   "s1312"
+  ]
+ },
+ {
+  "en": "Current effect:",
+  "ids": [
+   "s1159"
+  ]
+ },
+ {
+  "en": "Negative effect:",
+  "ids": [
+   "s1160"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Zero death essence gain",
+  "ids": [
+   "s1161",
+   "s1317"
+  ]
+ },
+ {
+  "en": "Next state change in",
+  "ids": [
+   "s1162"
+  ]
+ },
+ {
+  "en": "20 seconds",
+  "ids": [
+   "s1163"
+  ]
+ },
+ {
+  "en": "Extend this state by 60 seconds",
+  "ids": [
+   "s1164"
+  ]
+ },
+ {
+  "en": "Gain a nuclear pasta",
+  "ids": [
+   "s1165"
+  ]
+ },
+ {
+  "en": "ee3,500,000",
+  "ids": [
+   "s1167"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Gain max",
+  "ids": [
+   "s1169"
+  ]
+ },
+ {
+  "en": "Gnocchi positive effect is permanent, and replace gnocchi with a new pasta state",
+  "ids": [
+   "s1170"
+  ]
+ },
+ {
+  "en": "Costs ee7,500,000 gold",
+  "ids": [
+   "s1171"
+  ]
+ },
+ {
+  "en": "Spaghetti positive effect is permanent, and replace spaghetti with a new pasta state",
+  "ids": [
+   "s1172"
+  ]
+ },
+ {
+  "en": "Costs ee120,000,000 gold",
+  "ids": [
+   "s1173"
+  ]
+ },
+ {
+  "en": "Waffles positive effect is permanent",
+  "ids": [
+   "s1174"
+  ]
+ },
+ {
+  "en": "Costs ee250,000,000 gold",
+  "ids": [
+   "s1175"
+  ]
+ },
+ {
+  "en": "Lasagna and antispaghetti positive effects are permanent, with no more negative effects",
+  "ids": [
+   "s1176"
+  ]
+ },
+ {
+  "en": "Costs ee750,000,000 gold",
+  "ids": [
+   "s1177"
+  ]
+ },
+ {
+  "en": "Test text",
+  "ids": [
+   "s1178"
+  ]
+ },
+ {
+  "en": "Finality essence",
+  "ids": [
+   "s1179"
+  ]
+ },
+ {
+  "en": "finality essence",
+  "ids": [
+   "s1181",
+   "s1188",
+   "s1192",
+   "s1196",
+   "s1200"
+  ]
+ },
+ {
+  "en": "Multiplying death essence gain by",
+  "ids": [
+   "s1182"
+  ]
+ },
+ {
+  "en": "finality essence per second (also based on light essence)",
+  "ids": [
+   "s1184"
+  ]
+ },
+ {
+  "en": "Multiply finality essence gain",
+  "ids": [
+   "s1185"
+  ]
+ },
+ {
+  "en": "Increase light/dark essence gain",
+  "ids": [
+   "s1197"
+  ]
+ },
+ {
+  "en": "finality cubes",
+  "ids": [
+   "s1204"
+  ]
+ },
+ {
+  "en": "The size of a small galaxy, made of pure finality essence and perfectly smooth to the touch, the finality cubes act as beacons to boost your power.",
+  "ids": [
+   "s1205"
+  ]
+ },
+ {
+  "en": "Gain a finality cube",
+  "ids": [
+   "s1206"
+  ]
+ },
+ {
+  "en": "ee7.50e9",
+  "ids": [
+   "s1208"
+  ]
+ },
+ {
+  "en": "Boost your finality cubes",
+  "ids": [
+   "s1211"
+  ]
+ },
+ {
+  "en": "ee2.50e10",
+  "ids": [
+   "s1213"
+  ]
+ },
+ {
+  "en": "Boost your finality cube boosts",
+  "ids": [
+   "s1215"
+  ]
+ },
+ {
+  "en": "ee1.50e11",
+  "ids": [
+   "s1217"
+  ]
+ },
+ {
+  "en": "Your finality cubes are multiplying all essence gain  by",
+  "ids": [
+   "s1219"
+  ]
+ },
+ {
+  "en": "(Maxes at 1.00e100! The omniverse can only hold so much power)",
+  "ids": [
+   "s1220"
+  ]
+ },
+ {
+  "en": "WARNING",
+  "ids": [
+   "s1221"
+  ]
+ },
+ {
+  "en": "WARNING: AUTO SAVE NOT DETECTED IN THE LAST 60 SECONDS. IF THIS MESSAGE PERSISTS, SOMETHING HAS LIKELY GONE WRONG SO YOU SHOULD EXPORT YOUR SAVE AS A BACKUP!",
+  "ids": [
+   "s1222"
+  ]
+ },
+ {
+  "en": "Error code:",
+  "ids": [
+   "s1223"
+  ]
+ },
+ {
+  "en": "Game completed",
+  "ids": [
+   "s1225"
+  ]
+ },
+ {
+  "en": "Your dragon has become the omniverse itself.",
+  "ids": [
+   "s1226"
+  ]
+ },
+ {
+  "en": "Your total time was",
+  "ids": [
+   "s1227"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Reset game",
+  "ids": [
+   "s1228"
+  ]
+ },
+ {
+  "en": "Peep the horror",
+  "ids": [
+   "s1233"
+  ]
+ },
+ {
+  "en": "If this loading screen persists, something may have gone wrong!",
+  "ids": [
+   "s1234"
+  ]
+ },
+ {
+  "en": "Hello world",
+  "ids": [
+   "s1235"
+  ]
+ },
+ {
+  "en": "inset -1px -1px #0a0a0a,inset 1px 1px #dfdfdf,inset -2px -2px grey,inset 2px 2px #fff",
+  "ids": [
+   "s1236"
+  ]
+ },
+ {
+  "en": "<p style='margin-top: 11px; color: #6ff'><span style='font-size: 22px'>",
+  "ids": [
+   "s1237"
+  ]
+ },
+ {
+  "en": "</span><br>",
+  "ids": [
+   "s1238",
+   "s1241",
+   "s1813"
+  ]
+ },
+ {
+  "en": "</p>",
+  "ids": [
+   "s1239",
+   "s1242",
+   "s1248",
+   "s1250",
+   "s1252",
+   "s1773"
+  ]
+ },
+ {
+  "en": "<p style='margin-top: 11px'><span style='font-size: 22px'>",
+  "ids": [
+   "s1240"
+  ]
+ },
+ {
+  "en": "4px solid ",
+  "ids": [
+   "s1243"
+  ]
+ },
+ {
+  "en": "<br>",
+  "ids": [
+   "s1244"
+  ]
+ },
+ {
+  "en": "<p style='font-size: 22px; line-height: 22px; margin: 4px; color: #bbb'>Achievement name</p>",
+  "ids": [
+   "s1245"
+  ]
+ },
+ {
+  "en": "<p style='color: #bbb'>Mouse over an achievement for more info!</p>",
+  "ids": [
+   "s1246"
+  ]
+ },
+ {
+  "en": "<p style='font-size: 22px; line-height: 22px; margin: 4px'>",
+  "ids": [
+   "s1247"
+  ]
+ },
+ {
+  "en": "<p>Obtain ",
+  "ids": [
+   "s1249"
+  ]
+ },
+ {
+  "en": "<p style='color: #8ff'>Reward: ",
+  "ids": [
+   "s1251"
+  ]
+ },
+ {
+  "en": "<b>Feed your dragon</b><br>Turns some of your score and magifolds into dragon food<br>Next feed requires <a id=\"dragonFeedCost\">",
+  "ids": [
+   "s1253"
+  ]
+ },
+ {
+  "en": "</a> magifolds",
+  "ids": [
+   "s1254",
+   "s1256"
+  ]
+ },
+ {
+  "en": "<b>Feed your dragon</b><br>Next feed requires <a id=\"dragonFeedCost\">",
+  "ids": [
+   "s1255"
+  ]
+ },
+ {
+  "en": "left 800ms ease-in-out",
+  "ids": [
+   "s1257",
+   "s1262"
+  ]
+ },
+ {
+  "en": "<b>",
+  "ids": [
+   "s1258"
+  ]
+ },
+ {
+  "en": "</b> - Obtain ",
+  "ids": [
+   "s1259"
+  ]
+ },
+ {
+  "en": "<br><br><span style='color: #088; font-size: 16px; font-weight: bold; margin-right: 2px'>Reward gained: ",
+  "ids": [
+   "s1260"
+  ]
+ },
+ {
+  "en": "</span>",
+  "ids": [
+   "s1261"
+  ]
+ },
+ {
+  "en": "Exit hell",
+  "ids": [
+   "s1263",
+   "s1847"
+  ]
+ },
+ {
+  "en": "lust",
+  "ids": [
+   "s1269"
+  ]
+ },
+ {
+  "en": "gluttony",
+  "ids": [
+   "s1270"
+  ]
+ },
+ {
+  "en": "greed",
+  "ids": [
+   "s1271"
+  ]
+ },
+ {
+  "en": "wrath",
+  "ids": [
+   "s1272"
+  ]
+ },
+ {
+  "en": "heresy",
+  "ids": [
+   "s1273"
+  ]
+ },
+ {
+  "en": "violence",
+  "ids": [
+   "s1274"
+  ]
+ },
+ {
+  "en": "fraud",
+  "ids": [
+   "s1275"
+  ]
+ },
+ {
+  "en": "treachery",
+  "ids": [
+   "s1276"
+  ]
+ },
+ {
+  "en": "-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^5)<br>-<a style='color: #bff'>Platinum</a> gain is ^0.1<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is ^0.1",
+  "ids": [
+   "s1277"
+  ]
+ },
+ {
+  "en": "-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^2)<br>-<a style='color: #f80'>Fire</a> gain is severely reduced (log(x))<br>-<a style='color: #bff'>Platinum</a> gain is ^0.01<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is ^0.01<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless",
+  "ids": [
+   "s1278"
+  ]
+ },
+ {
+  "en": "-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x))<br>-<a style='color: #f80'>Fire</a> gain is severely reduced (log(x))<br>-<a style='color: #bff'>Platinum</a> gain is severely reduced (log(x))<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is severely reduced (log(x))<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless",
+  "ids": [
+   "s1279"
+  ]
+ },
+ {
+  "en": "-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^0.5)<br>-<a style='color: #f80'>Fire</a> gain is always 0<br>-<a style='color: #bff'>Platinum</a> gain is severely reduced (log(x))<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is severely reduced (log(x))<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless",
+  "ids": [
+   "s1280"
+  ]
+ },
+ {
+  "en": "-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^0.2)<br>-<a style='color: #f80'>Fire</a> gain is always 0<br>-<a style='color: #bff'>Platinum</a> gain is severely reduced (log(x)^0.5)<br>-<a style='color: #90d'>Magic</a> amount is severely reduced (log(x))<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is severely reduced (log(x)^0.5)<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless",
+  "ids": [
+   "s1281"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD I:<br>KARUTH",
+  "ids": [
+   "s1282"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD II:<br>TOMI",
+  "ids": [
+   "s1283"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD III:<br>DOLKHOR",
+  "ids": [
+   "s1284"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD IV:<br>BELKIKO",
+  "ids": [
+   "s1285"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD V:<br>SHOU",
+  "ids": [
+   "s1286"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD VI:<br>COANGRUATOR",
+  "ids": [
+   "s1287"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD VII:<br>EXILTIK",
+  "ids": [
+   "s1288"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD VIII:<br>Tom",
+  "ids": [
+   "s1289"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD IX:<br>ALUSTRO",
+  "ids": [
+   "s1290"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD X:<br>IKOR",
+  "ids": [
+   "s1291"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD XI:<br>WITHLORN",
+  "ids": [
+   "s1292"
+  ]
+ },
+ {
+  "en": "OMNIVERSAL HYPERGOD XII:<br>FINALIKUS",
+  "ids": [
+   "s1293"
+  ]
+ },
+ {
+  "en": "Your ravenous growth is causing destruction in the omniverse, creature. As the high<br>&#8202;&#8202;ruler of this section of the omniverse, I command you to cease immediately.",
+  "ids": [
+   "s1294"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;End your mindless chaos and destruction this instant! You have no idea what you're doing to the fabric of reality!",
+  "ids": [
+   "s1295"
+  ]
+ },
+ {
+  "en": "Another greedy soul. You will be disposed of, like all those that came before you.",
+  "ids": [
+   "s1296"
+  ]
+ },
+ {
+  "en": "I wish you would reconsider your actions. ...I suppose it's too late for that now though. The fighting won't stop until either you're gone or all of us are.",
+  "ids": [
+   "s1297"
+  ]
+ },
+ {
+  "en": "Ogghh. You dare wake me from my slumber? This better be important, mortal creature.",
+  "ids": [
+   "s1298"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Nuh uh!",
+  "ids": [
+   "s1299"
+  ]
+ },
+ {
+  "en": "You! Can you even begin to fathom the utter destruction you've caused!? The fabric of spacetime is imploding, trillions upon trillions dead under your ignorant foot, and for<br>&#8202;&#8202;what!? I implore you to cease this, organic being!",
+  "ids": [
+   "s1300"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Hey mate, not cool, what you're doing. You better back off, bud.",
+  "ids": [
+   "s1301"
+  ]
+ },
+ {
+  "en": "You think you can surpass my power? I will crush you like the insignificant being you<br>&#8202;&#8202;are!",
+  "ids": [
+   "s1302"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Bringer of destruction. It is clear I cannot stop you, but I have no choice but to try.<br>&#8202;&#8202;Because there's no telling what will happen to the omniverse if you continue.",
+  "ids": [
+   "s1303"
+  ]
+ },
+ {
+  "en": "You've killed off my bretheren, but the worst is yet to come for you! I'll show you the true power of the hypergods!",
+  "ids": [
+   "s1304"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Well, I think that's that. I am the last remaining hypergod. Destroyer of gods, ruler of<br>&#8202;&#8202;everything, the omniverse is now yours and yours alone. Farewell.",
+  "ids": [
+   "s1305"
+  ]
+ },
+ {
+  "en": "Spaghetti",
+  "ids": [
+   "s1307"
+  ]
+ },
+ {
+  "en": "Waffles",
+  "ids": [
+   "s1308"
+  ]
+ },
+ {
+  "en": "Lasagna",
+  "ids": [
+   "s1309"
+  ]
+ },
+ {
+  "en": "Antispaghetti",
+  "ids": [
+   "s1310"
+  ]
+ },
+ {
+  "en": "Antignocchi",
+  "ids": [
+   "s1311"
+  ]
+ },
+ {
+  "en": "Boost to death essence gain",
+  "ids": [
+   "s1313"
+  ]
+ },
+ {
+  "en": "Boost to cosmic plague gain",
+  "ids": [
+   "s1314"
+  ]
+ },
+ {
+  "en": "Boost to supercluster effect",
+  "ids": [
+   "s1315"
+  ]
+ },
+ {
+  "en": "Boost to oganesson gain",
+  "ids": [
+   "s1316"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Gold amount does not increase",
+  "ids": [
+   "s1318",
+   "s1321"
+  ]
+ },
+ {
+  "en": "Zero dark/light essence gain",
+  "ids": [
+   "s1319"
+  ]
+ },
+ {
+  "en": "Zero cosmic plague gain",
+  "ids": [
+   "s1320"
+  ]
+ },
+ {
+  "en": "Starting strong",
+  "ids": [
+   "s1322"
+  ]
+ },
+ {
+  "en": "Growing stronger",
+  "ids": [
+   "s1323"
+  ]
+ },
+ {
+  "en": "The heap",
+  "ids": [
+   "s1324"
+  ]
+ },
+ {
+  "en": "Motherlode",
+  "ids": [
+   "s1325"
+  ]
+ },
+ {
+  "en": "BEZOS BEZOS BEZOS",
+  "ids": [
+   "s1326"
+  ]
+ },
+ {
+  "en": "Unending mound of cash",
+  "ids": [
+   "s1327"
+  ]
+ },
+ {
+  "en": "Multiversal",
+  "ids": [
+   "s1328"
+  ]
+ },
+ {
+  "en": "Endless realm of coins",
+  "ids": [
+   "s1329"
+  ]
+ },
+ {
+  "en": "Loaded",
+  "ids": [
+   "s1330"
+  ]
+ },
+ {
+  "en": "Mega-loaded (???)",
+  "ids": [
+   "s1331"
+  ]
+ },
+ {
+  "en": "Sbiisics",
+  "ids": [
+   "s1332"
+  ]
+ },
+ {
+  "en": "On my dime!",
+  "ids": [
+   "s1333"
+  ]
+ },
+ {
+  "en": "Spicy",
+  "ids": [
+   "s1334"
+  ]
+ },
+ {
+  "en": "Burning hands",
+  "ids": [
+   "s1335"
+  ]
+ },
+ {
+  "en": "The great fire",
+  "ids": [
+   "s1336"
+  ]
+ },
+ {
+  "en": "Towering inferno",
+  "ids": [
+   "s1337"
+  ]
+ },
+ {
+  "en": "Hell pit",
+  "ids": [
+   "s1338"
+  ]
+ },
+ {
+  "en": "Carolina reapers",
+  "ids": [
+   "s1339"
+  ]
+ },
+ {
+  "en": "Tartarus",
+  "ids": [
+   "s1340"
+  ]
+ },
+ {
+  "en": "Pandemonium",
+  "ids": [
+   "s1341"
+  ]
+ },
+ {
+  "en": "Infernal overlord",
+  "ids": [
+   "s1342"
+  ]
+ },
+ {
+  "en": "Unfortunate events",
+  "ids": [
+   "s1343"
+  ]
+ },
+ {
+  "en": "Global warming",
+  "ids": [
+   "s1344"
+  ]
+ },
+ {
+  "en": "The end of everything",
+  "ids": [
+   "s1345"
+  ]
+ },
+ {
+  "en": "Alchemagoria",
+  "ids": [
+   "s1346"
+  ]
+ },
+ {
+  "en": "Jeweller",
+  "ids": [
+   "s1347"
+  ]
+ },
+ {
+  "en": "Putting in the work",
+  "ids": [
+   "s1348"
+  ]
+ },
+ {
+  "en": "Magnum opus",
+  "ids": [
+   "s1349"
+  ]
+ },
+ {
+  "en": "Simple chemistry",
+  "ids": [
+   "s1350"
+  ]
+ },
+ {
+  "en": "Mirror polish",
+  "ids": [
+   "s1351"
+  ]
+ },
+ {
+  "en": "Silver skyscrapers",
+  "ids": [
+   "s1352"
+  ]
+ },
+ {
+  "en": "Advanced chemistry",
+  "ids": [
+   "s1353"
+  ]
+ },
+ {
+  "en": "God of transmutation",
+  "ids": [
+   "s1354"
+  ]
+ },
+ {
+  "en": "Platisynthesis",
+  "ids": [
+   "s1355"
+  ]
+ },
+ {
+  "en": "Mystical barista",
+  "ids": [
+   "s1356"
+  ]
+ },
+ {
+  "en": "Completing the work",
+  "ids": [
+   "s1357"
+  ]
+ },
+ {
+  "en": "Funny wizard hat",
+  "ids": [
+   "s1358"
+  ]
+ },
+ {
+  "en": "Sorcery",
+  "ids": [
+   "s1359"
+  ]
+ },
+ {
+  "en": "Magiccery!",
+  "ids": [
+   "s1360"
+  ]
+ },
+ {
+  "en": "THE BIGGER HAT",
+  "ids": [
+   "s1361"
+  ]
+ },
+ {
+  "en": "Thaumaturgy",
+  "ids": [
+   "s1362"
+  ]
+ },
+ {
+  "en": "Spells galore",
+  "ids": [
+   "s1363"
+  ]
+ },
+ {
+  "en": "Reshape the Earth",
+  "ids": [
+   "s1364"
+  ]
+ },
+ {
+  "en": "Unlimited potential",
+  "ids": [
+   "s1365"
+  ]
+ },
+ {
+  "en": "Star shatterer",
+  "ids": [
+   "s1366"
+  ]
+ },
+ {
+  "en": "Endless grimoires",
+  "ids": [
+   "s1367"
+  ]
+ },
+ {
+  "en": "Void tapping",
+  "ids": [
+   "s1368"
+  ]
+ },
+ {
+  "en": "Threshold memories",
+  "ids": [
+   "s1369"
+  ]
+ },
+ {
+  "en": "4-dimensional",
+  "ids": [
+   "s1370"
+  ]
+ },
+ {
+  "en": "10-dimensional",
+  "ids": [
+   "s1371"
+  ]
+ },
+ {
+  "en": "Superstring theory",
+  "ids": [
+   "s1372"
+  ]
+ },
+ {
+  "en": "Infinitely folding",
+  "ids": [
+   "s1373"
+  ]
+ },
+ {
+  "en": "Incomprehensible",
+  "ids": [
+   "s1374"
+  ]
+ },
+ {
+  "en": "Megafolds",
+  "ids": [
+   "s1375"
+  ]
+ },
+ {
+  "en": "GIGAFOLDS",
+  "ids": [
+   "s1376"
+  ]
+ },
+ {
+  "en": "Spacetime origami",
+  "ids": [
+   "s1377"
+  ]
+ },
+ {
+  "en": "Nonagon Infinity",
+  "ids": [
+   "s1378"
+  ]
+ },
+ {
+  "en": "Holonomy breakdown",
+  "ids": [
+   "s1379"
+  ]
+ },
+ {
+  "en": "Simplex complex",
+  "ids": [
+   "s1380"
+  ]
+ },
+ {
+  "en": "Basket case",
+  "ids": [
+   "s1381"
+  ]
+ },
+ {
+  "en": "Ionizing",
+  "ids": [
+   "s1382"
+  ]
+ },
+ {
+  "en": "Radiating",
+  "ids": [
+   "s1383"
+  ]
+ },
+ {
+  "en": "Neutralizing",
+  "ids": [
+   "s1384"
+  ]
+ },
+ {
+  "en": "Terrifying",
+  "ids": [
+   "s1385"
+  ]
+ },
+ {
+  "en": "Devastating",
+  "ids": [
+   "s1386"
+  ]
+ },
+ {
+  "en": "Decaying",
+  "ids": [
+   "s1387"
+  ]
+ },
+ {
+  "en": "Annihilating",
+  "ids": [
+   "s1388"
+  ]
+ },
+ {
+  "en": "Obliterating",
+  "ids": [
+   "s1389"
+  ]
+ },
+ {
+  "en": "Glowing",
+  "ids": [
+   "s1390"
+  ]
+ },
+ {
+  "en": "Reducing",
+  "ids": [
+   "s1391"
+  ]
+ },
+ {
+  "en": "Inspiring",
+  "ids": [
+   "s1392"
+  ]
+ },
+ {
+  "en": "Ending",
+  "ids": [
+   "s1393"
+  ]
+ },
+ {
+  "en": "Chromatic",
+  "ids": [
+   "s1394"
+  ]
+ },
+ {
+  "en": "Chaotic",
+  "ids": [
+   "s1395"
+  ]
+ },
+ {
+  "en": "Colorific",
+  "ids": [
+   "s1396"
+  ]
+ },
+ {
+  "en": "Catastrophic",
+  "ids": [
+   "s1397"
+  ]
+ },
+ {
+  "en": "Catatonic",
+  "ids": [
+   "s1398"
+  ]
+ },
+ {
+  "en": "Chromatic II",
+  "ids": [
+   "s1399"
+  ]
+ },
+ {
+  "en": "Chaotic II",
+  "ids": [
+   "s1400"
+  ]
+ },
+ {
+  "en": "Colorific II",
+  "ids": [
+   "s1401"
+  ]
+ },
+ {
+  "en": "Catastrophic II",
+  "ids": [
+   "s1402"
+  ]
+ },
+ {
+  "en": "Catatonic II",
+  "ids": [
+   "s1403"
+  ]
+ },
+ {
+  "en": "Chromatic III",
+  "ids": [
+   "s1404"
+  ]
+ },
+ {
+  "en": "Chaotic III",
+  "ids": [
+   "s1405"
+  ]
+ },
+ {
+  "en": "Bichromatic",
+  "ids": [
+   "s1406"
+  ]
+ },
+ {
+  "en": "Basic",
+  "ids": [
+   "s1407"
+  ]
+ },
+ {
+  "en": "Biologic",
+  "ids": [
+   "s1408"
+  ]
+ },
+ {
+  "en": "Barbaric",
+  "ids": [
+   "s1409"
+  ]
+ },
+ {
+  "en": "Balsamic",
+  "ids": [
+   "s1410"
+  ]
+ },
+ {
+  "en": "Bichromatic II",
+  "ids": [
+   "s1411"
+  ]
+ },
+ {
+  "en": "Basic II",
+  "ids": [
+   "s1412"
+  ]
+ },
+ {
+  "en": "Biologic II",
+  "ids": [
+   "s1413"
+  ]
+ },
+ {
+  "en": "Barbaric II",
+  "ids": [
+   "s1414"
+  ]
+ },
+ {
+  "en": "Balsamic II",
+  "ids": [
+   "s1415"
+  ]
+ },
+ {
+  "en": "Bichromatic III",
+  "ids": [
+   "s1416"
+  ]
+ },
+ {
+  "en": "Basic III",
+  "ids": [
+   "s1417"
+  ]
+ },
+ {
+  "en": "Interdynamic",
+  "ids": [
+   "s1418"
+  ]
+ },
+ {
+  "en": "Idealistic",
+  "ids": [
+   "s1419"
+  ]
+ },
+ {
+  "en": "Isotropic",
+  "ids": [
+   "s1420"
+  ]
+ },
+ {
+  "en": "Isotonic",
+  "ids": [
+   "s1421"
+  ]
+ },
+ {
+  "en": "Idyllic",
+  "ids": [
+   "s1422"
+  ]
+ },
+ {
+  "en": "Interdynamic II",
+  "ids": [
+   "s1423"
+  ]
+ },
+ {
+  "en": "Idealistic II",
+  "ids": [
+   "s1424"
+  ]
+ },
+ {
+  "en": "Isotropic II",
+  "ids": [
+   "s1425"
+  ]
+ },
+ {
+  "en": "Isotonic II",
+  "ids": [
+   "s1426"
+  ]
+ },
+ {
+  "en": "Idyllic II",
+  "ids": [
+   "s1427"
+  ]
+ },
+ {
+  "en": "Interdynamic III",
+  "ids": [
+   "s1428"
+  ]
+ },
+ {
+  "en": "Idealistic III",
+  "ids": [
+   "s1429"
+  ]
+ },
+ {
+  "en": "Volcanic",
+  "ids": [
+   "s1430"
+  ]
+ },
+ {
+  "en": "Volumetric",
+  "ids": [
+   "s1431"
+  ]
+ },
+ {
+  "en": "Vitriolic",
+  "ids": [
+   "s1432"
+  ]
+ },
+ {
+  "en": "Voltaic",
+  "ids": [
+   "s1433"
+  ]
+ },
+ {
+  "en": "Vinic",
+  "ids": [
+   "s1434"
+  ]
+ },
+ {
+  "en": "Volcanic II",
+  "ids": [
+   "s1435"
+  ]
+ },
+ {
+  "en": "Volumetric II",
+  "ids": [
+   "s1436"
+  ]
+ },
+ {
+  "en": "Vitrolic II",
+  "ids": [
+   "s1437"
+  ]
+ },
+ {
+  "en": "Voltaic II",
+  "ids": [
+   "s1438"
+  ]
+ },
+ {
+  "en": "Vinic II",
+  "ids": [
+   "s1439"
+  ]
+ },
+ {
+  "en": "Volcanic III",
+  "ids": [
+   "s1440"
+  ]
+ },
+ {
+  "en": "Volumetric III",
+  "ids": [
+   "s1441"
+  ]
+ },
+ {
+  "en": "Panchromatic",
+  "ids": [
+   "s1442"
+  ]
+ },
+ {
+  "en": "Psychotic",
+  "ids": [
+   "s1443"
+  ]
+ },
+ {
+  "en": "Pathogenic",
+  "ids": [
+   "s1444"
+  ]
+ },
+ {
+  "en": "Particularistic",
+  "ids": [
+   "s1445"
+  ]
+ },
+ {
+  "en": "Platonic",
+  "ids": [
+   "s1446"
+  ]
+ },
+ {
+  "en": "Panchromatic II",
+  "ids": [
+   "s1447"
+  ]
+ },
+ {
+  "en": "Psychotic II",
+  "ids": [
+   "s1448"
+  ]
+ },
+ {
+  "en": "Pathogenic II",
+  "ids": [
+   "s1449"
+  ]
+ },
+ {
+  "en": "Particularistic II",
+  "ids": [
+   "s1450"
+  ]
+ },
+ {
+  "en": "Platonic II",
+  "ids": [
+   "s1451"
+  ]
+ },
+ {
+  "en": "Panchromatic III",
+  "ids": [
+   "s1452"
+  ]
+ },
+ {
+  "en": "Psychotic III",
+  "ids": [
+   "s1453"
+  ]
+ },
+ {
+  "en": "Big brain moment",
+  "ids": [
+   "s1454"
+  ]
+ },
+ {
+  "en": "Deep thought",
+  "ids": [
+   "s1455"
+  ]
+ },
+ {
+  "en": "Immaterialistic",
+  "ids": [
+   "s1456"
+  ]
+ },
+ {
+  "en": "Planning ahead",
+  "ids": [
+   "s1457"
+  ]
+ },
+ {
+  "en": "I conject",
+  "ids": [
+   "s1458"
+  ]
+ },
+ {
+  "en": "Megamind",
+  "ids": [
+   "s1459"
+  ]
+ },
+ {
+  "en": "Incremental IQ",
+  "ids": [
+   "s1460"
+  ]
+ },
+ {
+  "en": "Shared Brainpower",
+  "ids": [
+   "s1461"
+  ]
+ },
+ {
+  "en": "Think tank",
+  "ids": [
+   "s1462"
+  ]
+ },
+ {
+  "en": "Intelligence singularity",
+  "ids": [
+   "s1463"
+  ]
+ },
+ {
+  "en": "The thinker",
+  "ids": [
+   "s1464"
+  ]
+ },
+ {
+  "en": "Epistemological",
+  "ids": [
+   "s1465"
+  ]
+ },
+ {
+  "en": "History locked away",
+  "ids": [
+   "s1466"
+  ]
+ },
+ {
+  "en": "The mystical bookshelf",
+  "ids": [
+   "s1467"
+  ]
+ },
+ {
+  "en": "Necronomicon",
+  "ids": [
+   "s1468"
+  ]
+ },
+ {
+  "en": "Fully legible",
+  "ids": [
+   "s1469"
+  ]
+ },
+ {
+  "en": "Biblical",
+  "ids": [
+   "s1470"
+  ]
+ },
+ {
+  "en": "Rune rooms",
+  "ids": [
+   "s1471"
+  ]
+ },
+ {
+  "en": "Library of babel",
+  "ids": [
+   "s1472"
+  ]
+ },
+ {
+  "en": "Recursive knowledge",
+  "ids": [
+   "s1473"
+  ]
+ },
+ {
+  "en": "No longer lost",
+  "ids": [
+   "s1474"
+  ]
+ },
+ {
+  "en": "Athenaeum",
+  "ids": [
+   "s1475"
+  ]
+ },
+ {
+  "en": "Bibliotech",
+  "ids": [
+   "s1476"
+  ]
+ },
+ {
+  "en": "The face book",
+  "ids": [
+   "s1477"
+  ]
+ },
+ {
+  "en": "Burning cold",
+  "ids": [
+   "s1478"
+  ]
+ },
+ {
+  "en": "Frostbite",
+  "ids": [
+   "s1479"
+  ]
+ },
+ {
+  "en": "Tundra",
+  "ids": [
+   "s1480"
+  ]
+ },
+ {
+  "en": "The burn that cures",
+  "ids": [
+   "s1481"
+  ]
+ },
+ {
+  "en": "Hell frozen over",
+  "ids": [
+   "s1482"
+  ]
+ },
+ {
+  "en": "Absolute Zero",
+  "ids": [
+   "s1483"
+  ]
+ },
+ {
+  "en": "What's cooler than being cool?",
+  "ids": [
+   "s1484"
+  ]
+ },
+ {
+  "en": "Kamchatka",
+  "ids": [
+   "s1485"
+  ]
+ },
+ {
+  "en": "Superfluid",
+  "ids": [
+   "s1486"
+  ]
+ },
+ {
+  "en": "Ice V",
+  "ids": [
+   "s1487"
+  ]
+ },
+ {
+  "en": "You're pretty cool",
+  "ids": [
+   "s1488"
+  ]
+ },
+ {
+  "en": "Endless blue flame",
+  "ids": [
+   "s1489"
+  ]
+ },
+ {
+  "en": "Coagulation",
+  "ids": [
+   "s1490"
+  ]
+ },
+ {
+  "en": "Brutal",
+  "ids": [
+   "s1491"
+  ]
+ },
+ {
+  "en": "Rivers of red",
+  "ids": [
+   "s1492"
+  ]
+ },
+ {
+  "en": "Ultraviolent",
+  "ids": [
+   "s1493"
+  ]
+ },
+ {
+  "en": "Turbo killer",
+  "ids": [
+   "s1494"
+  ]
+ },
+ {
+  "en": "When the imposter is sus!",
+  "ids": [
+   "s1495"
+  ]
+ },
+ {
+  "en": "Hellstar Remina",
+  "ids": [
+   "s1496"
+  ]
+ },
+ {
+  "en": "Fresh",
+  "ids": [
+   "s1497"
+  ]
+ },
+ {
+  "en": "Hemocytes",
+  "ids": [
+   "s1498"
+  ]
+ },
+ {
+  "en": "Bloody brilliant",
+  "ids": [
+   "s1499"
+  ]
+ },
+ {
+  "en": "Vampirism",
+  "ids": [
+   "s1500"
+  ]
+ },
+ {
+  "en": "Unending bloodlust",
+  "ids": [
+   "s1501"
+  ]
+ },
+ {
+  "en": "Ionizing II",
+  "ids": [
+   "s1502"
+  ]
+ },
+ {
+  "en": "Radiating II",
+  "ids": [
+   "s1503"
+  ]
+ },
+ {
+  "en": "Neutralizing II",
+  "ids": [
+   "s1504"
+  ]
+ },
+ {
+  "en": "Terrifying II",
+  "ids": [
+   "s1505"
+  ]
+ },
+ {
+  "en": "Devastating II",
+  "ids": [
+   "s1506"
+  ]
+ },
+ {
+  "en": "Decaying II",
+  "ids": [
+   "s1507"
+  ]
+ },
+ {
+  "en": "Annihilating II",
+  "ids": [
+   "s1508"
+  ]
+ },
+ {
+  "en": "Obliterating II",
+  "ids": [
+   "s1509"
+  ]
+ },
+ {
+  "en": "Glowing II",
+  "ids": [
+   "s1510"
+  ]
+ },
+ {
+  "en": "Reducing II",
+  "ids": [
+   "s1511"
+  ]
+ },
+ {
+  "en": "Inspiring II",
+  "ids": [
+   "s1512"
+  ]
+ },
+ {
+  "en": "Ending II",
+  "ids": [
+   "s1513"
+  ]
+ },
+ {
+  "en": "Rhythmic",
+  "ids": [
+   "s1514"
+  ]
+ },
+ {
+  "en": "Realistic",
+  "ids": [
+   "s1515"
+  ]
+ },
+ {
+  "en": "Robotic",
+  "ids": [
+   "s1516"
+  ]
+ },
+ {
+  "en": "Romantic",
+  "ids": [
+   "s1517"
+  ]
+ },
+ {
+  "en": "Relativistic",
+  "ids": [
+   "s1518"
+  ]
+ },
+ {
+  "en": "Rhythmic II",
+  "ids": [
+   "s1519"
+  ]
+ },
+ {
+  "en": "Realistic II",
+  "ids": [
+   "s1520"
+  ]
+ },
+ {
+  "en": "Robotic II",
+  "ids": [
+   "s1521"
+  ]
+ },
+ {
+  "en": "Romantic II",
+  "ids": [
+   "s1522"
+  ]
+ },
+ {
+  "en": "Relativistic II",
+  "ids": [
+   "s1523"
+  ]
+ },
+ {
+  "en": "Rhythmic III",
+  "ids": [
+   "s1524"
+  ]
+ },
+ {
+  "en": "Realistic III",
+  "ids": [
+   "s1525"
+  ]
+ },
+ {
+  "en": "Organic",
+  "ids": [
+   "s1526"
+  ]
+ },
+ {
+  "en": "Orthographic",
+  "ids": [
+   "s1527"
+  ]
+ },
+ {
+  "en": "Overenergetic",
+  "ids": [
+   "s1528"
+  ]
+ },
+ {
+  "en": "Orthochromatic",
+  "ids": [
+   "s1529"
+  ]
+ },
+ {
+  "en": "Overchromatic",
+  "ids": [
+   "s1530"
+  ]
+ },
+ {
+  "en": "Organic II",
+  "ids": [
+   "s1531"
+  ]
+ },
+ {
+  "en": "Orthographic II",
+  "ids": [
+   "s1532"
+  ]
+ },
+ {
+  "en": "Overenergetic II",
+  "ids": [
+   "s1533"
+  ]
+ },
+ {
+  "en": "Orthochromatic II",
+  "ids": [
+   "s1534"
+  ]
+ },
+ {
+  "en": "Overchromatic II",
+  "ids": [
+   "s1535"
+  ]
+ },
+ {
+  "en": "Organic III",
+  "ids": [
+   "s1536"
+  ]
+ },
+ {
+  "en": "Orthographic III",
+  "ids": [
+   "s1537"
+  ]
+ },
+ {
+  "en": "Yellow",
+  "ids": [
+   "s1538"
+  ]
+ },
+ {
+  "en": "Very yellow",
+  "ids": [
+   "s1539"
+  ]
+ },
+ {
+  "en": "Extremely yellow",
+  "ids": [
+   "s1540"
+  ]
+ },
+ {
+  "en": "Super yellow",
+  "ids": [
+   "s1541"
+  ]
+ },
+ {
+  "en": "Hyper yellow",
+  "ids": [
+   "s1542"
+  ]
+ },
+ {
+  "en": "Yellow II",
+  "ids": [
+   "s1543"
+  ]
+ },
+ {
+  "en": "Very yellow II",
+  "ids": [
+   "s1544"
+  ]
+ },
+ {
+  "en": "Extremely yellow II",
+  "ids": [
+   "s1545"
+  ]
+ },
+ {
+  "en": "Super yellow II",
+  "ids": [
+   "s1546"
+  ]
+ },
+ {
+  "en": "Hyper yellow II",
+  "ids": [
+   "s1547"
+  ]
+ },
+ {
+  "en": "Yellow III",
+  "ids": [
+   "s1548"
+  ]
+ },
+ {
+  "en": "Very yellow III",
+  "ids": [
+   "s1549"
+  ]
+ },
+ {
+  "en": "｢Made in Heaven｣",
+  "ids": [
+   "s1550"
+  ]
+ },
+ {
+  "en": "Resets all the way down",
+  "ids": [
+   "s1551"
+  ]
+ },
+ {
+  "en": "Cloudy with a chance of numbers",
+  "ids": [
+   "s1552"
+  ]
+ },
+ {
+  "en": "God rays",
+  "ids": [
+   "s1553"
+  ]
+ },
+ {
+  "en": "Heaven sent",
+  "ids": [
+   "s1554"
+  ]
+ },
+ {
+  "en": "Convex complex",
+  "ids": [
+   "s1555"
+  ]
+ },
+ {
+  "en": "Irreducable",
+  "ids": [
+   "s1556"
+  ]
+ },
+ {
+  "en": "Non-Euclidean",
+  "ids": [
+   "s1557"
+  ]
+ },
+ {
+  "en": "Pyraminx",
+  "ids": [
+   "s1558"
+  ]
+ },
+ {
+  "en": "Alien architecture",
+  "ids": [
+   "s1559"
+  ]
+ },
+ {
+  "en": "Caution: sharp",
+  "ids": [
+   "s1560"
+  ]
+ },
+ {
+  "en": "Tetramazing",
+  "ids": [
+   "s1561"
+  ]
+ },
+ {
+  "en": "Dual",
+  "ids": [
+   "s1562"
+  ]
+ },
+ {
+  "en": "Empyrean",
+  "ids": [
+   "s1563"
+  ]
+ },
+ {
+  "en": "Ramiel",
+  "ids": [
+   "s1564"
+  ]
+ },
+ {
+  "en": "Precisely the point",
+  "ids": [
+   "s1565"
+  ]
+ },
+ {
+  "en": "Flesh prison",
+  "ids": [
+   "s1566"
+  ]
+ },
+ {
+  "en": "Octal",
+  "ids": [
+   "s1567"
+  ]
+ },
+ {
+  "en": "Magic 8-hedron",
+  "ids": [
+   "s1568"
+  ]
+ },
+ {
+  "en": "Octagintillionaire",
+  "ids": [
+   "s1569"
+  ]
+ },
+ {
+  "en": "No stop signs",
+  "ids": [
+   "s1570"
+  ]
+ },
+ {
+  "en": "Unexplainable",
+  "ids": [
+   "s1571"
+  ]
+ },
+ {
+  "en": "Unidentified floating and spinning object",
+  "ids": [
+   "s1572"
+  ]
+ },
+ {
+  "en": "Octerrific",
+  "ids": [
+   "s1573"
+  ]
+ },
+ {
+  "en": "White hot",
+  "ids": [
+   "s1574"
+  ]
+ },
+ {
+  "en": "God's wrath",
+  "ids": [
+   "s1575"
+  ]
+ },
+ {
+  "en": "Archangels",
+  "ids": [
+   "s1576"
+  ]
+ },
+ {
+  "en": "Paradiso",
+  "ids": [
+   "s1577"
+  ]
+ },
+ {
+  "en": "Orbital laser",
+  "ids": [
+   "s1578"
+  ]
+ },
+ {
+  "en": "Sunfire",
+  "ids": [
+   "s1579"
+  ]
+ },
+ {
+  "en": "10 trillion degrees",
+  "ids": [
+   "s1580"
+  ]
+ },
+ {
+  "en": "Pistol star",
+  "ids": [
+   "s1581"
+  ]
+ },
+ {
+  "en": "Plasmatic",
+  "ids": [
+   "s1582"
+  ]
+ },
+ {
+  "en": "Quarks and Gluons",
+  "ids": [
+   "s1583"
+  ]
+ },
+ {
+  "en": "Burn everything",
+  "ids": [
+   "s1584"
+  ]
+ },
+ {
+  "en": "What is it you see in the glow?",
+  "ids": [
+   "s1585"
+  ]
+ },
+ {
+  "en": "Hey, it's like the name of the game! :O",
+  "ids": [
+   "s1586"
+  ]
+ },
+ {
+  "en": "Dodecadamned",
+  "ids": [
+   "s1587"
+  ]
+ },
+ {
+  "en": "Dodecadimensional",
+  "ids": [
+   "s1588"
+  ]
+ },
+ {
+  "en": "Dodecalculus",
+  "ids": [
+   "s1589"
+  ]
+ },
+ {
+  "en": "Dodecadeadly",
+  "ids": [
+   "s1590"
+  ]
+ },
+ {
+  "en": "Dodecadangerous",
+  "ids": [
+   "s1591"
+  ]
+ },
+ {
+  "en": "Dodecalculated",
+  "ids": [
+   "s1592"
+  ]
+ },
+ {
+  "en": "Dodechaotic",
+  "ids": [
+   "s1593"
+  ]
+ },
+ {
+  "en": "Dodecadivine",
+  "ids": [
+   "s1594"
+  ]
+ },
+ {
+  "en": "Dodecadestructive",
+  "ids": [
+   "s1595"
+  ]
+ },
+ {
+  "en": "Dodecades of work",
+  "ids": [
+   "s1596"
+  ]
+ },
+ {
+  "en": "Dodecomplete",
+  "ids": [
+   "s1597"
+  ]
+ },
+ {
+  "en": "Mr. Worldwide",
+  "ids": [
+   "s1598"
+  ]
+ },
+ {
+  "en": "The system",
+  "ids": [
+   "s1599"
+  ]
+ },
+ {
+  "en": "Spacetime jumping",
+  "ids": [
+   "s1600"
+  ]
+ },
+ {
+  "en": "Extreme acceleration",
+  "ids": [
+   "s1601"
+  ]
+ },
+ {
+  "en": "Super Jupiter",
+  "ids": [
+   "s1602"
+  ]
+ },
+ {
+  "en": "Brown dwarf",
+  "ids": [
+   "s1603"
+  ]
+ },
+ {
+  "en": "Dyson spheres",
+  "ids": [
+   "s1604"
+  ]
+ },
+ {
+  "en": "Dark matter pockets",
+  "ids": [
+   "s1605"
+  ]
+ },
+ {
+  "en": "Non-Euclidean planets",
+  "ids": [
+   "s1606"
+  ]
+ },
+ {
+  "en": "Fat Earth theory",
+  "ids": [
+   "s1607"
+  ]
+ },
+ {
+  "en": "Type IV civilisation",
+  "ids": [
+   "s1608"
+  ]
+ },
+ {
+  "en": "SuperUltraHyperverse",
+  "ids": [
+   "s1609"
+  ]
+ },
+ {
+  "en": "This is the final achievement row.",
+  "ids": [
+   "s1610"
+  ]
+ },
+ {
+  "en": "You have come an incredibly long way.",
+  "ids": [
+   "s1611"
+  ]
+ },
+ {
+  "en": "Your desire for power is unending.",
+  "ids": [
+   "s1612"
+  ]
+ },
+ {
+  "en": "All who have tried to stop you have failed.",
+  "ids": [
+   "s1613"
+  ]
+ },
+ {
+  "en": "There mustn't be long to go now.",
+  "ids": [
+   "s1614"
+  ]
+ },
+ {
+  "en": "How large really is the omniverse?",
+  "ids": [
+   "s1615"
+  ]
+ },
+ {
+  "en": "You begin to feel the laws of physics break down around you.",
+  "ids": [
+   "s1616"
+  ]
+ },
+ {
+  "en": "What drives you?",
+  "ids": [
+   "s1617"
+  ]
+ },
+ {
+  "en": "What is your final goal? Do you ever intend to stop?",
+  "ids": [
+   "s1618"
+  ]
+ },
+ {
+  "en": "There is only so much of reality to claim.",
+  "ids": [
+   "s1619"
+  ]
+ },
+ {
+  "en": "When all is said and done...",
+  "ids": [
+   "s1620"
+  ]
+ },
+ {
+  "en": "C'est fini",
+  "ids": [
+   "s1621"
+  ]
+ },
+ {
+  "en": "Unlock Max All button for platinum upgrades!",
+  "ids": [
+   "s1622"
+  ]
+ },
+ {
+  "en": "Unlock autobuyer for miners! Also allows you to keep 1 miner when resetting.",
+  "ids": [
+   "s1623"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max buttons for magic and dark magic upgrades!",
+  "ids": [
+   "s1624"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max buttons for fire upgrades!",
+  "ids": [
+   "s1625"
+  ]
+ },
+ {
+  "en": "Unlock Max All button for fire upgrades!",
+  "ids": [
+   "s1626"
+  ]
+ },
+ {
+  "en": "Keep all platinum upgrades on magic reset!",
+  "ids": [
+   "s1627"
+  ]
+ },
+ {
+  "en": "Gain 1% of potential magic per second!",
+  "ids": [
+   "s1628"
+  ]
+ },
+ {
+  "en": "Gain 100% of potential magic per second!",
+  "ids": [
+   "s1629"
+  ]
+ },
+ {
+  "en": "Unlock Max All button for uranium upgrades!",
+  "ids": [
+   "s1630"
+  ]
+ },
+ {
+  "en": "Automatically gain uranium without resetting!",
+  "ids": [
+   "s1631"
+  ]
+ },
+ {
+  "en": "Automatically spend time with your dragon when available! Also allows you to enter challenges while on cooldown.",
+  "ids": [
+   "s1632"
+  ]
+ },
+ {
+  "en": "Feeding your dragon reduces scores by ^0.5 instead of resetting them!",
+  "ids": [
+   "s1633"
+  ]
+ },
+ {
+  "en": "Automatically max all fire upgrades!",
+  "ids": [
+   "s1634"
+  ]
+ },
+ {
+  "en": "Feeding your dragon no longer reduces challenge scores!",
+  "ids": [
+   "s1635"
+  ]
+ },
+ {
+  "en": "Gain challenge score without entering challenges! Also, sigil resets no longer reduce challenge scores.",
+  "ids": [
+   "s1636"
+  ]
+ },
+ {
+  "en": "Keep platinum upgrades on sigil resets!",
+  "ids": [
+   "s1637"
+  ]
+ },
+ {
+  "en": "Keep uranium upgrades on magic and sigil resets!",
+  "ids": [
+   "s1638"
+  ]
+ },
+ {
+  "en": "Unlock the ability to pet your dragon! :O",
+  "ids": [
+   "s1639"
+  ]
+ },
+ {
+  "en": "Automatically feed your dragon when available!",
+  "ids": [
+   "s1640"
+  ]
+ },
+ {
+  "en": "Unlock Max All button for sigil upgrades!",
+  "ids": [
+   "s1641"
+  ]
+ },
+ {
+  "en": "Keep all magic and dark magic upgrades on sigil reset!",
+  "ids": [
+   "s1642"
+  ]
+ },
+ {
+  "en": "Unlock some automation for sigil resets!",
+  "ids": [
+   "s1643"
+  ]
+ },
+ {
+  "en": "Automatically max all knowledge upgrades!",
+  "ids": [
+   "s1644"
+  ]
+ },
+ {
+  "en": "Unlock Max All button for knowledge upgrades!",
+  "ids": [
+   "s1645"
+  ]
+ },
+ {
+  "en": "Gain 10% of potential sigils per second!",
+  "ids": [
+   "s1646"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max buttons for blue fire upgrades!",
+  "ids": [
+   "s1647"
+  ]
+ },
+ {
+  "en": "Unlock Max All and Auto Max All for blue fire upgrades!",
+  "ids": [
+   "s1648"
+  ]
+ },
+ {
+  "en": "Automatically gain max tomes, at no cost!",
+  "ids": [
+   "s1649"
+  ]
+ },
+ {
+  "en": "Automatically gain knowledge, at no cost!",
+  "ids": [
+   "s1650"
+  ]
+ },
+ {
+  "en": "Automatically gain plutonium without resetting!",
+  "ids": [
+   "s1651"
+  ]
+ },
+ {
+  "en": "An option for auto resetter to cycle only Red/Orange/Yellow sigils",
+  "ids": [
+   "s1652"
+  ]
+ },
+ {
+  "en": "Unlock Max All button for plutonium upgrades!",
+  "ids": [
+   "s1653"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max button for tome upgrades!",
+  "ids": [
+   "s1654"
+  ]
+ },
+ {
+  "en": "Keep tome upgrades on holy resets!",
+  "ids": [
+   "s1655"
+  ]
+ },
+ {
+  "en": "Automatically max all sigil upgrades!",
+  "ids": [
+   "s1656"
+  ]
+ },
+ {
+  "en": "Keep alchemy upgrades on holy resets!",
+  "ids": [
+   "s1657"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max buttons for holy fire upgrades!",
+  "ids": [
+   "s1658"
+  ]
+ },
+ {
+  "en": "Unlock Max All and Auto Max All for holy fire upgrades!",
+  "ids": [
+   "s1659"
+  ]
+ },
+ {
+  "en": "Keep magic and dark magic upgrades on holy resets!",
+  "ids": [
+   "s1660"
+  ]
+ },
+ {
+  "en": "Gain 100% of potential R-O-Y sigils per second!",
+  "ids": [
+   "s1661"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max for planet forming!",
+  "ids": [
+   "s1662"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max buttons for cosmic plague upgrades!",
+  "ids": [
+   "s1663"
+  ]
+ },
+ {
+  "en": "Gain 100% of potential polyhedrons per second! And a 5x plague gain multiplier.",
+  "ids": [
+   "s1664"
+  ]
+ },
+ {
+  "en": "Another 5x plague gain multiplier :)",
+  "ids": [
+   "s1665"
+  ]
+ },
+ {
+  "en": "Automatically buy max planets! And a 10x oganesson gain multiplier.",
+  "ids": [
+   "s1666"
+  ]
+ },
+ {
+  "en": "A 5x light/dark essence gain multiplier!",
+  "ids": [
+   "s1667"
+  ]
+ },
+ {
+  "en": "A 10x death essence gain multiplier!",
+  "ids": [
+   "s1668"
+  ]
+ },
+ {
+  "en": "Unlock Max All and Auto Max All for cosmic plague upgrades!",
+  "ids": [
+   "s1669"
+  ]
+ },
+ {
+  "en": "Unlock Max Alls for light, dark and death essence upgrades!",
+  "ids": [
+   "s1670"
+  ]
+ },
+ {
+  "en": "Unlock Max All for finality essence upgrades!",
+  "ids": [
+   "s1671"
+  ]
+ },
+ {
+  "en": "A 100x finality essence gain multiplier!",
+  "ids": [
+   "s1672"
+  ]
+ },
+ {
+  "en": "Automatically gain max nuclear pasta! And another 100x finality essence gain multiplier.",
+  "ids": [
+   "s1673"
+  ]
+ },
+ {
+  "en": "A 10,000,000x finality essence gain multiplier!",
+  "ids": [
+   "s1674"
+  ]
+ },
+ {
+  "en": "Unlock something.",
+  "ids": [
+   "s1675"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Gold",
+  "ids": [
+   "s1677"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Fire",
+  "ids": [
+   "s1679"
+  ]
+ },
+ {
+  "en": "Platinum",
+  "ids": [
+   "s1681"
+  ]
+ },
+ {
+  "en": "Magifolds",
+  "ids": [
+   "s1685"
+  ]
+ },
+ {
+  "en": "C-sigils",
+  "ids": [
+   "s1689"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;B-sigils",
+  "ids": [
+   "s1691"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;I-sigils",
+  "ids": [
+   "s1693"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;V-sigils",
+  "ids": [
+   "s1695"
+  ]
+ },
+ {
+  "en": "P-sigils",
+  "ids": [
+   "s1697"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Knwlege",
+  "ids": [
+   "s1699"
+  ]
+ },
+ {
+  "en": "total tomes",
+  "ids": [
+   "s1700"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Tomes",
+  "ids": [
+   "s1701"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;B-fire",
+  "ids": [
+   "s1703"
+  ]
+ },
+ {
+  "en": "R-sigils",
+  "ids": [
+   "s1709"
+  ]
+ },
+ {
+  "en": "O-sigils",
+  "ids": [
+   "s1711"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Y-sigils",
+  "ids": [
+   "s1713"
+  ]
+ },
+ {
+  "en": "Tetra",
+  "ids": [
+   "s1715"
+  ]
+ },
+ {
+  "en": "Octa",
+  "ids": [
+   "s1717"
+  ]
+ },
+ {
+  "en": "H-fire",
+  "ids": [
+   "s1719"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Dodeca",
+  "ids": [
+   "s1721"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Planets",
+  "ids": [
+   "s1723"
+  ]
+ },
+ {
+  "en": "defeated hypergods",
+  "ids": [
+   "s1724"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Omni",
+  "ids": [
+   "s1725"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have an</a><br>Adult dragon",
+  "ids": [
+   "s1726",
+   "s1854"
+  ]
+ },
+ {
+  "en": "Your large dragon friend inspires awe and fear, and spews fire for you.",
+  "ids": [
+   "s1727",
+   "s1855"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have an</a><br>Elder dragon",
+  "ids": [
+   "s1728",
+   "s1856"
+  ]
+ },
+ {
+  "en": "Your strong and wise dragon friend rests upon your mountain of gold, and defends it with inferno-like breath.",
+  "ids": [
+   "s1729",
+   "s1857"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Dark dragon",
+  "ids": [
+   "s1730",
+   "s1858"
+  ]
+ },
+ {
+  "en": "Your menacing dark dragon calls upon the power of the void itself to defend your empire.",
+  "ids": [
+   "s1731",
+   "s1859"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Light dragon",
+  "ids": [
+   "s1732",
+   "s1860"
+  ]
+ },
+ {
+  "en": "Your heavenly light dragon focuses the power of the gods themselves to protect your people from harm. It can also fire lightning out of its claws, because it's cool like that.",
+  "ids": [
+   "s1733",
+   "s1861"
+  ]
+ },
+ {
+  "en": " (capped)",
+  "ids": [
+   "s1734",
+   "s1747",
+   "s1862"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Machine dragon",
+  "ids": [
+   "s1735",
+   "s1863"
+  ]
+ },
+ {
+  "en": "Despite being filled with immense eldrich technology spiralling inwards forever, a million billion tiny cogs quietly ticking away, your dragon feels like merely a cog itself. Perhaps... it is still imperfect.",
+  "ids": [
+   "s1736",
+   "s1864"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Holy dragon",
+  "ids": [
+   "s1737",
+   "s1865"
+  ]
+ },
+ {
+  "en": "Your dragon channels boundless energy through itself, a being of near-infinite strength. One even the gods fear. How did we get here?",
+  "ids": [
+   "s1738",
+   "s1866"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Multidimensional dragon",
+  "ids": [
+   "s1739",
+   "s1867"
+  ]
+ },
+ {
+  "en": "Your dragon can view countless universes at once and channel all of their combined power.",
+  "ids": [
+   "s1740",
+   "s1868"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Plague dragon",
+  "ids": [
+   "s1741",
+   "s1869"
+  ]
+ },
+ {
+  "en": "Dripping with the most dangerous substance in the omniverse, your dragon is completely unkillable.",
+  "ids": [
+   "s1742",
+   "s1870"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Death dragon",
+  "ids": [
+   "s1743",
+   "s1871"
+  ]
+ },
+ {
+  "en": "Your dragon embodies death itself. It seems you have killed Death and taken his place as the taker of souls.",
+  "ids": [
+   "s1744",
+   "s1872"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Finality dragon",
+  "ids": [
+   "s1745",
+   "s1873"
+  ]
+ },
+ {
+  "en": "Your dragon is now composed of the essence of the omniverse itself. It is physically impossible to become any stronger. Unless...?",
+  "ids": [
+   "s1746",
+   "s1874"
+  ]
+ },
+ {
+  "en": "You have petted your dragon sufficiently.",
+  "ids": [
+   "s1748",
+   "s1837"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;There are no more hypergods to defeat!",
+  "ids": [
+   "s1749",
+   "s1853"
+  ]
+ },
+ {
+  "en": "Auto max all: Off",
+  "ids": [
+   "s1751",
+   "s1753",
+   "s1755",
+   "s1788",
+   "s1815",
+   "s1826",
+   "s1828",
+   "s1830",
+   "s1832",
+   "s1834",
+   "s1836"
+  ]
+ },
+ {
+  "en": "Auto buy max: Off",
+  "ids": [
+   "s1757"
+  ]
+ },
+ {
+  "en": "Woah, hold on! You won't gain any holy tetrahedrons! Are you sure you want to ascend?",
+  "ids": [
+   "s1758"
+  ]
+ },
+ {
+  "en": "Are you sure you want to ascend?",
+  "ids": [
+   "s1759",
+   "s1761",
+   "s1763"
+  ]
+ },
+ {
+  "en": "Woah, hold on! You won't gain any holy octahedrons! Are you sure you want to ascend?",
+  "ids": [
+   "s1760"
+  ]
+ },
+ {
+  "en": "Woah, hold on! You won't gain any holy dodecahedrons! Are you sure you want to ascend?",
+  "ids": [
+   "s1762"
+  ]
+ },
+ {
+  "en": "<p style=\"font-weight: bold\">Shift+S - manual save",
+  "ids": [
+   "s1764"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #288\">P - platinum</a>",
+  "ids": [
+   "s1765"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #90d\">M - magic</a>",
+  "ids": [
+   "s1766"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #60d\">1, 2, 3, 4 - activate/deactivate magic challenges</a><br><a style=\"color: #60d\">C - enter/exit magic challenges</a>",
+  "ids": [
+   "s1767"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #282\">U - uranium</a>",
+  "ids": [
+   "s1768"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #06b\">Shift+1 - cyan sigils</a>, <a style=\"color: #00b\">Shift+2 - blue sigils</a>, et cetera",
+  "ids": [
+   "s1769"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #965\">T - convert max tomes</a>",
+  "ids": [
+   "s1770"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #f00\">H - enter/exit hell</a>",
+  "ids": [
+   "s1771"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #25e\">Shift+P - plutonium</a>",
+  "ids": [
+   "s1772"
+  ]
+ },
+ {
+  "en": " knowledge<br>Costs:<br><img src='img/iconSigil",
+  "ids": [
+   "s1774"
+  ]
+ },
+ {
+  "en": " sigils<br><img src='img/iconSigil",
+  "ids": [
+   "s1775",
+   "s1776"
+  ]
+ },
+ {
+  "en": " sigils",
+  "ids": [
+   "s1777"
+  ]
+ },
+ {
+  "en": "Greed (IV)",
+  "ids": [
+   "s1789",
+   "s1849"
+  ]
+ },
+ {
+  "en": "Wrath (V)",
+  "ids": [
+   "s1790",
+   "s1850"
+  ]
+ },
+ {
+  "en": "Woah, hold on! You won't gain any magic! Are you sure you want to perform a magic reset?",
+  "ids": [
+   "s1791"
+  ]
+ },
+ {
+  "en": "Are you sure you want to perform a magic reset?",
+  "ids": [
+   "s1792"
+  ]
+ },
+ {
+  "en": " (hardcapped)",
+  "ids": [
+   "s1793",
+   "s1888",
+   "s1890",
+   "s1895",
+   "s1897"
+  ]
+ },
+ {
+  "en": "<a style='color: #606'>Hover over a challenge to see what it does!</a><br><a style='color: #060'>You can select up to 4 challenges, and you will earn separate scores for each amount of challenges you enter at once (1, 2, 3 and 4).</a><a style='color: #046'> Bonuses are based on the highest score achieved in each amount of challenges, multiplied together.</a>",
+  "ids": [
+   "s1794",
+   "s1804"
+  ]
+ },
+ {
+  "en": "A1 - Magic fail",
+  "ids": [
+   "s1795"
+  ]
+ },
+ {
+  "en": "magic effect is ^0.2 then /1.000e25.",
+  "ids": [
+   "s1796"
+  ]
+ },
+ {
+  "en": "A2 - Market crash",
+  "ids": [
+   "s1797"
+  ]
+ },
+ {
+  "en": "Gold and platinum gain are severely reduced (^0.25).",
+  "ids": [
+   "s1798"
+  ]
+ },
+ {
+  "en": "B1 - Freezing",
+  "ids": [
+   "s1799"
+  ]
+ },
+ {
+  "en": "Fire gain is severely reduced (^0.3).",
+  "ids": [
+   "s1800"
+  ]
+ },
+ {
+  "en": "Fire gain is severely reduced (^0.1).",
+  "ids": [
+   "s1801"
+  ]
+ },
+ {
+  "en": "B2 - Awful alchemy",
+  "ids": [
+   "s1802"
+  ]
+ },
+ {
+  "en": "Platinum upgrade 6's effect is /1.000e25 and gold/click is always 20.",
+  "ids": [
+   "s1803"
+  ]
+ },
+ {
+  "en": "Challenges active: ",
+  "ids": [
+   "s1805",
+   "s1840"
+  ]
+ },
+ {
+  "en": "A1 ",
+  "ids": [
+   "s1806",
+   "s1841"
+  ]
+ },
+ {
+  "en": "A2 ",
+  "ids": [
+   "s1807",
+   "s1842"
+  ]
+ },
+ {
+  "en": "B1 ",
+  "ids": [
+   "s1808",
+   "s1843"
+  ]
+ },
+ {
+  "en": "<b>Pasta states:</b><br>",
+  "ids": [
+   "s1810"
+  ]
+ },
+ {
+  "en": " - <span style='color: #080'>",
+  "ids": [
+   "s1811"
+  ]
+ },
+ {
+  "en": "</span> - <span style='color: #b00'>",
+  "ids": [
+   "s1812"
+  ]
+ },
+ {
+  "en": "px ",
+  "ids": [
+   "s1816",
+   "s1817"
+  ]
+ },
+ {
+  "en": "auto tab pan attempted with invalid parameter: ",
+  "ids": [
+   "s1818"
+  ]
+ },
+ {
+  "en": " fps",
+  "ids": [
+   "s1819"
+  ]
+ },
+ {
+  "en": "Unnamed dragon",
+  "ids": [
+   "s1820"
+  ]
+ },
+ {
+  "en": "Are you sure you want to reset? You will lose everything!",
+  "ids": [
+   "s1821"
+  ]
+ },
+ {
+  "en": "Copied to clipboard!",
+  "ids": [
+   "s1822"
+  ]
+ },
+ {
+  "en": "Invalid input.",
+  "ids": [
+   "s1823"
+  ]
+ },
+ {
+  "en": "Background Pattern: Off",
+  "ids": [
+   "s1824",
+   "s1904"
+  ]
+ },
+ {
+  "en": "2px solid red",
+  "ids": [
+   "s1838",
+   "s1845",
+   "s1851",
+   "s1898",
+   "s1900",
+   "s1902"
+  ]
+ },
+ {
+  "en": "2px solid #0f0",
+  "ids": [
+   "s1839",
+   "s1846",
+   "s1852",
+   "s1899",
+   "s1901",
+   "s1903"
+  ]
+ },
+ {
+  "en": "<a style='color:#0ff'>!</a> You are in magic challenges<br>",
+  "ids": [
+   "s1875"
+  ]
+ },
+ {
+  "en": "<a style='color:#0ff'>!</a> You are in hell<br>",
+  "ids": [
+   "s1876"
+  ]
+ },
+ {
+  "en": "<a style='color:#0ff'>!</a> Sigil resetter is enabled<br>",
+  "ids": [
+   "s1877"
+  ]
+ },
+ {
+  "en": "Next magic at ",
+  "ids": [
+   "s1878"
+  ]
+ },
+ {
+  "en": " gold<br>",
+  "ids": [
+   "s1879"
+  ]
+ },
+ {
+  "en": " (softcapped)",
+  "ids": [
+   "s1880",
+   "s1889",
+   "s1891",
+   "s1894",
+   "s1896"
+  ]
+ },
+ {
+  "en": "Exit challenges for ",
+  "ids": [
+   "s1881"
+  ]
+ },
+ {
+  "en": " score",
+  "ids": [
+   "s1882"
+  ]
+ },
+ {
+  "en": "Next at ",
+  "ids": [
+   "s1884",
+   "s1886",
+   "s1892"
+  ]
+ },
+ {
+  "en": " gold",
+  "ids": [
+   "s1885",
+   "s1887",
+   "s1893"
+  ]
+ },
+ {
+  "en": "Background Pattern: On",
+  "ids": [
+   "s1905"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>DodecaDragon",
+  "ids": [
+   "s1906"
+  ]
+ },
+ {
+  "en": "opacity 1.5s",
+  "ids": [
+   "s1907"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Purple robot dragon",
+  "ids": [
+   "s1908"
+  ]
+ },
+ {
+  "en": "Your dragon has a strange affinity for large numbers. An easter egg for a certain someone!",
+  "ids": [
+   "s1909"
+  ]
+ },
+ {
+  "en": "Hmm? For what reason did you click on me? You want to battle me? I'm sorry young one, but I don't think that's a wise idea.\\n\\nDo you feel safe, out there in ",
+  "ids": [
+   "s1910"
+  ]
+ },
+ {
+  "en": "Woah, hold on! You won't gain any sigils! Are you sure you want to perform a sigil reset?",
+  "ids": [
+   "s1911"
+  ]
+ },
+ {
+  "en": "Are you sure you want to perform a sigil reset?",
+  "ids": [
+   "s1912"
+  ]
+ },
+ {
+  "en": "Warning! Sigil reset is attempting to reset for NaN!",
+  "ids": [
+   "s1914"
+  ]
+ },
+ {
+  "en": "auto sigil time",
+  "ids": [
+   "s1918"
+  ]
+ }
+]

@@ -1,0 +1,563 @@
+[
+ {
+  "en": "Death essence",
+  "ids": [
+   "s0875"
+  ]
+ },
+ {
+  "en": "death essence",
+  "ids": [
+   "s0877",
+   "s0883",
+   "s0886",
+   "s0889",
+   "s0892",
+   "s0895"
+  ]
+ },
+ {
+  "en": "Multiplying light and dark essence gain by",
+  "ids": [
+   "s0878"
+  ]
+ },
+ {
+  "en": "death essence per second (based on light and dark essence)",
+  "ids": [
+   "s0880"
+  ]
+ },
+ {
+  "en": "Multiply death essence gain",
+  "ids": [
+   "s0881"
+  ]
+ },
+ {
+  "en": "Multiply cyan sigil gain",
+  "ids": [
+   "s0884"
+  ]
+ },
+ {
+  "en": "Multiply cosmic plague gain again",
+  "ids": [
+   "s0890"
+  ]
+ },
+ {
+  "en": "Multiply light/dark essence gain",
+  "ids": [
+   "s0893"
+  ]
+ },
+ {
+  "en": "Nuclear pasta",
+  "ids": [
+   "s0897"
+  ]
+ },
+ {
+  "en": "nuclear pasta",
+  "ids": [
+   "s0899"
+  ]
+ },
+ {
+  "en": "Current pasta state:",
+  "ids": [
+   "s0900"
+  ]
+ },
+ {
+  "en": "Positive effect:",
+  "ids": [
+   "s0901"
+  ]
+ },
+ {
+  "en": "Boost to light/dark essence gain",
+  "ids": [
+   "s0902",
+   "s1037"
+  ]
+ },
+ {
+  "en": "Current effect:",
+  "ids": [
+   "s0903"
+  ]
+ },
+ {
+  "en": "Negative effect:",
+  "ids": [
+   "s0904"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Zero death essence gain",
+  "ids": [
+   "s0905",
+   "s1042"
+  ]
+ },
+ {
+  "en": "Next state change in",
+  "ids": [
+   "s0906"
+  ]
+ },
+ {
+  "en": "20 seconds",
+  "ids": [
+   "s0907"
+  ]
+ },
+ {
+  "en": "Extend this state by 60 seconds",
+  "ids": [
+   "s0908"
+  ]
+ },
+ {
+  "en": "Gain a nuclear pasta",
+  "ids": [
+   "s0909"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Gain max",
+  "ids": [
+   "s0910"
+  ]
+ },
+ {
+  "en": "Gnocchi positive effect is permanent, and replace gnocchi with a new pasta state",
+  "ids": [
+   "s0911"
+  ]
+ },
+ {
+  "en": "Costs ee7,500,000 gold",
+  "ids": [
+   "s0912"
+  ]
+ },
+ {
+  "en": "Spaghetti positive effect is permanent, and replace spaghetti with a new pasta state",
+  "ids": [
+   "s0913"
+  ]
+ },
+ {
+  "en": "Costs ee120,000,000 gold",
+  "ids": [
+   "s0914"
+  ]
+ },
+ {
+  "en": "Waffles positive effect is permanent",
+  "ids": [
+   "s0915"
+  ]
+ },
+ {
+  "en": "Costs ee250,000,000 gold",
+  "ids": [
+   "s0916"
+  ]
+ },
+ {
+  "en": "Lasagna and antispaghetti positive effects are permanent, with no more negative effects",
+  "ids": [
+   "s0917"
+  ]
+ },
+ {
+  "en": "Costs ee750,000,000 gold",
+  "ids": [
+   "s0918"
+  ]
+ },
+ {
+  "en": "Test text",
+  "ids": [
+   "s0919"
+  ]
+ },
+ {
+  "en": "Finality essence",
+  "ids": [
+   "s0920"
+  ]
+ },
+ {
+  "en": "finality essence",
+  "ids": [
+   "s0922",
+   "s0928",
+   "s0931",
+   "s0934",
+   "s0937"
+  ]
+ },
+ {
+  "en": "Multiplying death essence gain by",
+  "ids": [
+   "s0923"
+  ]
+ },
+ {
+  "en": "finality essence per second (also based on light essence)",
+  "ids": [
+   "s0925"
+  ]
+ },
+ {
+  "en": "Multiply finality essence gain",
+  "ids": [
+   "s0926"
+  ]
+ },
+ {
+  "en": "Increase light/dark essence gain",
+  "ids": [
+   "s0935"
+  ]
+ },
+ {
+  "en": "finality cubes",
+  "ids": [
+   "s0941"
+  ]
+ },
+ {
+  "en": "The size of a small galaxy, made of pure finality essence and perfectly smooth to the touch, the finality cubes act as beacons to boost your power.",
+  "ids": [
+   "s0942"
+  ]
+ },
+ {
+  "en": "Gain a finality cube",
+  "ids": [
+   "s0943"
+  ]
+ },
+ {
+  "en": "Boost your finality cubes",
+  "ids": [
+   "s0945"
+  ]
+ },
+ {
+  "en": "Boost your finality cube boosts",
+  "ids": [
+   "s0946"
+  ]
+ },
+ {
+  "en": "Your finality cubes are multiplying all essence gain  by",
+  "ids": [
+   "s0947"
+  ]
+ },
+ {
+  "en": "(Maxes at 1.00e100! The omniverse can only hold so much power)",
+  "ids": [
+   "s0948"
+  ]
+ },
+ {
+  "en": "WARNING: AUTO SAVE NOT DETECTED IN THE LAST 60 SECONDS. IF THIS MESSAGE PERSISTS, SOMETHING HAS LIKELY GONE WRONG SO YOU SHOULD EXPORT YOUR SAVE AS A BACKUP!",
+  "ids": [
+   "s0949"
+  ]
+ },
+ {
+  "en": "Error code:",
+  "ids": [
+   "s0950"
+  ]
+ },
+ {
+  "en": "Game completed",
+  "ids": [
+   "s0951"
+  ]
+ },
+ {
+  "en": "Your dragon has become the omniverse itself.",
+  "ids": [
+   "s0952"
+  ]
+ },
+ {
+  "en": "Your total time was",
+  "ids": [
+   "s0953"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Reset game",
+  "ids": [
+   "s0954"
+  ]
+ },
+ {
+  "en": "Peep the horror",
+  "ids": [
+   "s0955"
+  ]
+ },
+ {
+  "en": "If this loading screen persists, something may have gone wrong!",
+  "ids": [
+   "s0956"
+  ]
+ },
+ {
+  "en": "Hello world",
+  "ids": [
+   "s0957"
+  ]
+ },
+ {
+  "en": "inset -1px -1px #0a0a0a,inset 1px 1px #dfdfdf,inset -2px -2px grey,inset 2px 2px #fff",
+  "ids": [
+   "s0958"
+  ]
+ },
+ {
+  "en": "<p style='margin-top: 11px; color: #6ff'><span style='font-size: 22px'>",
+  "ids": [
+   "s0959"
+  ]
+ },
+ {
+  "en": "</span><br>",
+  "ids": [
+   "s0960",
+   "s0963",
+   "s1538"
+  ]
+ },
+ {
+  "en": "</p>",
+  "ids": [
+   "s0961",
+   "s0964",
+   "s0970",
+   "s0972",
+   "s0974",
+   "s1498"
+  ]
+ },
+ {
+  "en": "<p style='margin-top: 11px'><span style='font-size: 22px'>",
+  "ids": [
+   "s0962"
+  ]
+ },
+ {
+  "en": "4px solid ",
+  "ids": [
+   "s0965"
+  ]
+ },
+ {
+  "en": "<br>",
+  "ids": [
+   "s0966"
+  ]
+ },
+ {
+  "en": "<p style='font-size: 22px; line-height: 22px; margin: 4px; color: #bbb'>Achievement name</p>",
+  "ids": [
+   "s0967"
+  ]
+ },
+ {
+  "en": "<p style='color: #bbb'>Mouse over an achievement for more info!</p>",
+  "ids": [
+   "s0968"
+  ]
+ },
+ {
+  "en": "<p style='font-size: 22px; line-height: 22px; margin: 4px'>",
+  "ids": [
+   "s0969"
+  ]
+ },
+ {
+  "en": "<p>Obtain ",
+  "ids": [
+   "s0971"
+  ]
+ },
+ {
+  "en": "<p style='color: #8ff'>Reward: ",
+  "ids": [
+   "s0973"
+  ]
+ },
+ {
+  "en": "<b>Feed your dragon</b><br>Turns some of your score and magifolds into dragon food<br>Next feed requires <a id=\"dragonFeedCost\">",
+  "ids": [
+   "s0975"
+  ]
+ },
+ {
+  "en": "</a> magifolds",
+  "ids": [
+   "s0976",
+   "s0978"
+  ]
+ },
+ {
+  "en": "<b>Feed your dragon</b><br>Next feed requires <a id=\"dragonFeedCost\">",
+  "ids": [
+   "s0977"
+  ]
+ },
+ {
+  "en": "left 800ms ease-in-out",
+  "ids": [
+   "s0979",
+   "s0984"
+  ]
+ },
+ {
+  "en": "<b>",
+  "ids": [
+   "s0980"
+  ]
+ },
+ {
+  "en": "</b> - Obtain ",
+  "ids": [
+   "s0981"
+  ]
+ },
+ {
+  "en": "<br><br><span style='color: #088; font-size: 16px; font-weight: bold; margin-right: 2px'>Reward gained: ",
+  "ids": [
+   "s0982"
+  ]
+ },
+ {
+  "en": "</span>",
+  "ids": [
+   "s0983"
+  ]
+ },
+ {
+  "en": "Exit hell",
+  "ids": [
+   "s0985",
+   "s1572"
+  ]
+ },
+ {
+  "en": "Amount",
+  "ids": [
+   "s0987"
+  ]
+ },
+ {
+  "en": "Gold",
+  "ids": [
+   "s0988"
+  ]
+ },
+ {
+  "en": "Time",
+  "ids": [
+   "s0989"
+  ]
+ },
+ {
+  "en": "limbo",
+  "ids": [
+   "s0993"
+  ]
+ },
+ {
+  "en": "lust",
+  "ids": [
+   "s0994"
+  ]
+ },
+ {
+  "en": "gluttony",
+  "ids": [
+   "s0995"
+  ]
+ },
+ {
+  "en": "greed",
+  "ids": [
+   "s0996"
+  ]
+ },
+ {
+  "en": "wrath",
+  "ids": [
+   "s0997"
+  ]
+ },
+ {
+  "en": "heresy",
+  "ids": [
+   "s0998"
+  ]
+ },
+ {
+  "en": "violence",
+  "ids": [
+   "s0999"
+  ]
+ },
+ {
+  "en": "fraud",
+  "ids": [
+   "s1000"
+  ]
+ },
+ {
+  "en": "treachery",
+  "ids": [
+   "s1001"
+  ]
+ },
+ {
+  "en": "-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^5)<br>-<a style='color: #bff'>Platinum</a> gain is ^0.1<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is ^0.1",
+  "ids": [
+   "s1002"
+  ]
+ },
+ {
+  "en": "-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^2)<br>-<a style='color: #f80'>Fire</a> gain is severely reduced (log(x))<br>-<a style='color: #bff'>Platinum</a> gain is ^0.01<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is ^0.01<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless",
+  "ids": [
+   "s1003"
+  ]
+ },
+ {
+  "en": "-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x))<br>-<a style='color: #f80'>Fire</a> gain is severely reduced (log(x))<br>-<a style='color: #bff'>Platinum</a> gain is severely reduced (log(x))<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is severely reduced (log(x))<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless",
+  "ids": [
+   "s1004"
+  ]
+ },
+ {
+  "en": "-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^0.5)<br>-<a style='color: #f80'>Fire</a> gain is always 0<br>-<a style='color: #bff'>Platinum</a> gain is severely reduced (log(x))<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is severely reduced (log(x))<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless",
+  "ids": [
+   "s1005"
+  ]
+ },
+ {
+  "en": "-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^0.2)<br>-<a style='color: #f80'>Fire</a> gain is always 0<br>-<a style='color: #bff'>Platinum</a> gain is severely reduced (log(x)^0.5)<br>-<a style='color: #90d'>Magic</a> amount is severely reduced (log(x))<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is severely reduced (log(x)^0.5)<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless",
+  "ids": [
+   "s1006"
+  ]
+ }
+]

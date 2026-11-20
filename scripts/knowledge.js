@@ -57,7 +57,7 @@ function resetKnowledgeTrades() {
 }
 
 function loadKnowledgeTrade(trade) {
-  document.getElementsByClassName("knowledgeTradeInfo")[trade-1].innerHTML = "Lv" + format(game.knowledgeTradeLevel, 0) + " - " + format(game["knowledgeTrade" + trade + "Reward"], 0) + " knowledge<br>Costs:<br><img src='img/iconSigil" + (game["knowledgeTrade" + trade + "SigilTypes"][0]) + ".png'> " + format(game["knowledgeTrade" + trade + "Amounts"][0], 0) + " " + sigilColours[game["knowledgeTrade" + trade + "SigilTypes"][0]-1] + " sigils<br><img src='img/iconSigil" + (game["knowledgeTrade" + trade + "SigilTypes"][1]) + ".png'> " + format(game["knowledgeTrade" + trade + "Amounts"][1], 0) + " " + sigilColours[game["knowledgeTrade" + trade + "SigilTypes"][1]-1] + " sigils<br><img src='img/iconSigil" + (game["knowledgeTrade" + trade + "SigilTypes"][2]) + ".png'> " + format(game["knowledgeTrade" + trade + "Amounts"][2], 0) + " " + sigilColours[game["knowledgeTrade" + trade + "SigilTypes"][2]-1] + " sigils"
+  document.getElementsByClassName("knowledgeTradeInfo")[trade-1].innerHTML = "Lv" + format(game.knowledgeTradeLevel, 0) + " - " + format(game["knowledgeTrade" + trade + "Reward"], 0) + " 知识<br>花费：<br><img src='img/iconSigil" + (game["knowledgeTrade" + trade + "SigilTypes"][0]) + ".png'> " + format(game["knowledgeTrade" + trade + "Amounts"][0], 0) + " " + SIGIL_COLOURS_ZH[game["knowledgeTrade" + trade + "SigilTypes"][0]-1] + " 符印<br><img src='img/iconSigil" + (game["knowledgeTrade" + trade + "SigilTypes"][1]) + ".png'> " + format(game["knowledgeTrade" + trade + "Amounts"][1], 0) + " " + SIGIL_COLOURS_ZH[game["knowledgeTrade" + trade + "SigilTypes"][1]-1] + " 符印<br><img src='img/iconSigil" + (game["knowledgeTrade" + trade + "SigilTypes"][2]) + ".png'> " + format(game["knowledgeTrade" + trade + "Amounts"][2], 0) + " " + SIGIL_COLOURS_ZH[game["knowledgeTrade" + trade + "SigilTypes"][2]-1] + " 符印"
 }
 
 function updateKnowledgeTradeLevel(x) {
@@ -92,12 +92,12 @@ function purchaseKnowledgeTrade(trade) {
   sigilColour1 = sigilColours[game["knowledgeTrade" + trade + "SigilTypes"][0]-1]
   sigilColour2 = sigilColours[game["knowledgeTrade" + trade + "SigilTypes"][1]-1]
   sigilColour3 = sigilColours[game["knowledgeTrade" + trade + "SigilTypes"][2]-1]
-  if (game[sigilColour1 + "Sigils"].gte(game["knowledgeTrade" + trade + "Amounts"][0]) && game[sigilColour2 + "Sigils"].gte(game["knowledgeTrade" + trade + "Amounts"][1]) && game[sigilColour3 + "Sigils"].gte(game["knowledgeTrade" + trade + "Amounts"][2])) {
+  if (game[sigilColour1 + "符印"].gte(game["knowledgeTrade" + trade + "Amounts"][0]) && game[sigilColour2 + "符印"].gte(game["knowledgeTrade" + trade + "Amounts"][1]) && game[sigilColour3 + "符印"].gte(game["knowledgeTrade" + trade + "Amounts"][2])) {
     game.knowledge = game.knowledge.add(game["knowledgeTrade" + trade + "Reward"])
     if (game.knowledge.gte(game.highestKnowledge)) game.highestKnowledge = game.knowledge
-    game[sigilColour1 + "Sigils"] = game[sigilColour1 + "Sigils"].sub(game["knowledgeTrade" + trade + "Amounts"][0])
-    game[sigilColour2 + "Sigils"] = game[sigilColour2 + "Sigils"].sub(game["knowledgeTrade" + trade + "Amounts"][1])
-    game[sigilColour3 + "Sigils"] = game[sigilColour3 + "Sigils"].sub(game["knowledgeTrade" + trade + "Amounts"][2])
+    game[sigilColour1 + "符印"] = game[sigilColour1 + "符印"].sub(game["knowledgeTrade" + trade + "Amounts"][0])
+    game[sigilColour2 + "符印"] = game[sigilColour2 + "符印"].sub(game["knowledgeTrade" + trade + "Amounts"][1])
+    game[sigilColour3 + "符印"] = game[sigilColour3 + "符印"].sub(game["knowledgeTrade" + trade + "Amounts"][2])
     randomizeKnowledgeTrade(trade)
   }
 }
@@ -157,11 +157,11 @@ function knowledgeMaxAll() {
 function knowledgeAutoMaxAll() {
   if (!game.knowledgeAutoMaxAll) {
     game.knowledgeAutoMaxAll = true
-    document.getElementById("knowledgeAutoMaxAllButton").innerHTML = "Auto max all: On"
+    document.getElementById("knowledgeAutoMaxAllButton").innerHTML = "自动全满：开"
   }
   else {
     game.knowledgeAutoMaxAll = false
-    document.getElementById("knowledgeAutoMaxAllButton").innerHTML = "Auto max all: Off"
+    document.getElementById("knowledgeAutoMaxAllButton").innerHTML = "自动全部最大化：关"
   }
 }
 
@@ -252,10 +252,10 @@ function buyTomeUpgrade(x) {
     }
     if (x==14) {
       newHellLayer = document.createElement("option")
-      newHellLayer.text = "Greed (IV)"
+      newHellLayer.text = "贪婪（IV）"
       document.getElementById("hellLayer").add(newHellLayer)
       newHellLayer = document.createElement("option")
-      newHellLayer.text = "Wrath (V)"
+      newHellLayer.text = "愤怒（V）"
       document.getElementById("hellLayer").add(newHellLayer)
     }
   }

@@ -24,13 +24,13 @@ function enterExitHell() {
       game.inHell = true
       sigilReset(666)
       document.getElementById("hellLayer").disabled = true
-      document.getElementById("enterHellButton").innerHTML = "Exit hell"
+      document.getElementById("enterHellButton").innerHTML = "离开地狱"
     }
     else {
       game.inHell = false
       sigilReset(666)
       document.getElementById("hellLayer").disabled = false
-      document.getElementById("enterHellButton").innerHTML = "Enter hell"
+      document.getElementById("enterHellButton").innerHTML = "进入地狱"
     }
   }
 }

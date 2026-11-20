@@ -348,7 +348,7 @@ async function panTo(endX,endY) {
 }
 
 function panToTab(tab) {
-  if (tabData[tab] === undefined) {console.warn("auto tab pan attempted with invalid parameter: " + tab); return;}
+  if (tabData[tab] === undefined) {console.warn("自动标签页切换尝试使用无效参数： " + tab); return;}
   panTo(-tabData[tab][0]+(window.innerWidth/2),
     -tabData[tab][1]+(window.innerHeight/2))
 }

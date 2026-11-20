@@ -43,10 +43,10 @@ function plagueMaxAll() {
 function plagueAutoMaxAll() {
   if (!game.plagueAutoMaxAll) {
     game.plagueAutoMaxAll = true
-    document.getElementById("plagueAutoMaxAllButton").innerHTML = "Auto max all: On"
+    document.getElementById("plagueAutoMaxAllButton").innerHTML = "自动全满：开"
   }
   else {
     game.plagueAutoMaxAll = false
-    document.getElementById("plagueAutoMaxAllButton").innerHTML = "Auto max all: Off"
+    document.getElementById("plagueAutoMaxAllButton").innerHTML = "自动全部最大化：关"
   }
 }

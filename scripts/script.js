@@ -103,7 +103,7 @@ function reset() {
     confirmations: [true, true, true],
     achievementFlashActive: false,
     currentTab: 1,
-    dragonName: "Unnamed dragon",
+    dragonName: "未命名龙",
 
     sigilResetterActive: false,
     sigilResetterType: 0,
@@ -443,7 +443,7 @@ reset()
 
 //If the user confirms the hard reset, resets all variables, saves and refreshes the page
 function hardReset() {
-  if (confirm("Are you sure you want to reset? You will lose everything!")) {
+  if (confirm("确定要重置吗？你会失去一切！")) {
     reset()
     save()
     location.reload()
@@ -486,7 +486,7 @@ function exportGame() {
   }
   inputField.select();
   document.execCommand('copy');
-  alert("Copied to clipboard!");
+  alert("已复制到剪贴板！");
 }
 
 function importGame() {
@@ -498,7 +498,7 @@ function importGame() {
     save()
   }
   else {
-    alert("Invalid input.")
+    alert("输入无效。")
   }
 }
 
@@ -554,7 +554,7 @@ function loadGame(loadgame) {
   if (game.confirmations[1] != true && game.confirmations[1] != false) game.confirmations[1] = true
   //Disables the background pattern if the toggle is off
   if (!game.backgroundPatternOn) {
-    document.getElementById("backgroundPatternButton").textContent = "Background Pattern: Off"
+    document.getElementById("backgroundPatternButton").textContent = "背景图案：关"
     document.body.style.backgroundImage = "none"
   }
 
@@ -568,19 +568,19 @@ function loadGame(loadgame) {
   game.achievementFlashActive = false; // make sure flash isn't still set to true through reload
   game.currentTab = 1; // reset current tab to 1 to ensure achievement flash properly triggers
   if (game.dragonName !== undefined) document.getElementById("dragonNameBox").value = game.dragonName
-  if (game.fireAutoMaxAll) {document.getElementById("fireAutoMaxAllButton").textContent = "Auto max all: On"} //Toggle the fire auto max all button
-  else {document.getElementById("fireAutoMaxAllButton").textContent = "Auto max all: Off"}
-  if (game.blueFireAutoMaxAll) {document.getElementById("blueFireAutoMaxAllButton").textContent = "Auto max all: On"} //Toggle the blue fire auto max all button
-  else {document.getElementById("blueFireAutoMaxAllButton").textContent = "Auto max all: Off"}
-	if (game.holyFireAutoMaxAll) {document.getElementById("holyFireAutoMaxAllButton").textContent = "Auto max all: On"} //Toggle the holy fire auto max all button
-  else {document.getElementById("holyFireAutoMaxAllButton").textContent = "Auto max all: Off"}
-	if (game.plagueAutoMaxAll) {document.getElementById("plagueAutoMaxAllButton").textContent = "Auto max all: On"} //Toggle the holy fire auto max all button
-  else {document.getElementById("plagueAutoMaxAllButton").textContent = "Auto max all: Off"}
-  if (game.minerAutoBuyMax) {document.getElementById("minerAutoBuyMaxButton").textContent = "Auto max all: On"}
-  else {document.getElementById("minerAutoBuyMaxButton").textContent = "Auto max all: Off"}
-  if (game.knowledgeAutoMaxAll) {document.getElementById("knowledgeAutoMaxAllButton").textContent = "Auto max all: On"}
-  else {document.getElementById("knowledgeAutoMaxAllButton").textContent = "Auto max all: Off"}
-  if (game.dragonPets >= 5) {document.getElementById("dragonPetButton").textContent = "You have petted your dragon sufficiently."}
+  if (game.fireAutoMaxAll) {document.getElementById("fireAutoMaxAllButton").textContent = "自动全满：开"} //Toggle the fire auto max all button
+  else {document.getElementById("fireAutoMaxAllButton").textContent = "自动全部最大化：关"}
+  if (game.blueFireAutoMaxAll) {document.getElementById("blueFireAutoMaxAllButton").textContent = "自动全满：开"} //Toggle the blue fire auto max all button
+  else {document.getElementById("blueFireAutoMaxAllButton").textContent = "自动全部最大化：关"}
+	if (game.holyFireAutoMaxAll) {document.getElementById("holyFireAutoMaxAllButton").textContent = "自动全满：开"} //Toggle the holy fire auto max all button
+  else {document.getElementById("holyFireAutoMaxAllButton").textContent = "自动全部最大化：关"}
+	if (game.plagueAutoMaxAll) {document.getElementById("plagueAutoMaxAllButton").textContent = "自动全满：开"} //Toggle the holy fire auto max all button
+  else {document.getElementById("plagueAutoMaxAllButton").textContent = "自动全部最大化：关"}
+  if (game.minerAutoBuyMax) {document.getElementById("minerAutoBuyMaxButton").textContent = "自动全满：开"}
+  else {document.getElementById("minerAutoBuyMaxButton").textContent = "自动全部最大化：关"}
+  if (game.knowledgeAutoMaxAll) {document.getElementById("knowledgeAutoMaxAllButton").textContent = "自动全满：开"}
+  else {document.getElementById("knowledgeAutoMaxAllButton").textContent = "自动全部最大化：关"}
+  if (game.dragonPets >= 5) {document.getElementById("dragonPetButton").textContent = "你已经充分抚摸过你的龙了。"}
   else if (game.dragonPets >= 4) {document.getElementById("dragonPetRequirement").textContent = "pink"}
   else if (game.dragonPets >= 3) {document.getElementById("dragonPetRequirement").textContent = "violet"}
   else if (game.dragonPets >= 2) {document.getElementById("dragonPetRequirement").textContent = "indigo"}
@@ -696,8 +696,8 @@ function loadGame(loadgame) {
       if (game.selectedChallenges[i]) {document.getElementsByClassName("magicChallenge")[i].style.color = "#0f0"}
       else {document.getElementsByClassName("magicChallenge")[i].style.color = "white"}
     }
-    if (game.challengesActive) {document.getElementById("activeChallenges").textContent = "Challenges active: " + (game.selectedChallenges[0] ? 'A1 ' : '') + (game.selectedChallenges[1] ? 'A2 ' : '') + (game.selectedChallenges[2] ? 'B1 ' : '') + (game.selectedChallenges[3] ? 'B2' : '') + " (" + game.noOfSelectedChallenges + ")"}
-    else {document.getElementById("activeChallenges").textContent = "You are not in any challenges!"}
+    if (game.challengesActive) {document.getElementById("activeChallenges").textContent = "已激活挑战： " + (game.selectedChallenges[0] ? 'A1 ' : '') + (game.selectedChallenges[1] ? 'A2 ' : '') + (game.selectedChallenges[2] ? 'B1 ' : '') + (game.selectedChallenges[3] ? 'B2' : '') + " (" + game.noOfSelectedChallenges + ")"}
+    else {document.getElementById("activeChallenges").textContent = "你当前未参与任何挑战！"}
   }
   //More magic upgrade stuff
   if (game.unlocks < 6) document.getElementsByClassName("box")[7].style.height = "350px"
@@ -903,18 +903,18 @@ function loadGame(loadgame) {
     for (i=10;i<14;i++) document.getElementsByClassName("tomeUpgrade")[i].style.display = "block"
     if (game.inHell) {
       document.getElementById("hellLayer").disabled = true
-      document.getElementById("enterHellButton").textContent = "Exit hell"
+      document.getElementById("enterHellButton").textContent = "离开地狱"
     }
     else {
       document.getElementById("hellLayer").disabled = false
-      document.getElementById("enterHellButton").textContent = "Enter hell"
+      document.getElementById("enterHellButton").textContent = "进入地狱"
     }
     if (game.tomeUpgradesBought[13]) {
       newHellLayer = document.createElement("option")
-      newHellLayer.text = "Greed (IV)"
+      newHellLayer.text = "贪婪（IV）"
       document.getElementById("hellLayer").add(newHellLayer)
       newHellLayer = document.createElement("option")
-      newHellLayer.text = "Wrath (V)"
+      newHellLayer.text = "愤怒（V）"
       document.getElementById("hellLayer").add(newHellLayer)
     }
     document.getElementById("hellLayer").selectedIndex = game.currentHellLayer - 1
@@ -1057,7 +1057,7 @@ function loadGame(loadgame) {
 		if (game.hypergodsDefeated == 12) {
 			document.getElementById("hypergodImage").style.display = "none"
 			document.getElementById("hypergodName").style.display = "none"
-			document.getElementById("hypergodText").innerHTML = "&#8202;&#8202;There are no more hypergods to defeat!"
+			document.getElementById("hypergodText").innerHTML = "&#8202;&#8202;再没有超神可供击败了！"
 			document.getElementById("hypergodButton").style.display = "none"
 			document.getElementById("bigFinishButton").style.display = "block"
 		}
@@ -1155,22 +1155,22 @@ function loadGame(loadgame) {
     document.getElementsByClassName("upgradeDragonButton")[0].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[1].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon2.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Adult dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your large dragon friend inspires awe and fear, and spews fire for you."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>成年龙"
+    document.getElementById("dragonInfo").innerHTML = "你那庞大的龙之友令人敬畏又恐惧，还会为你喷吐火焰。"
   }
   if (game.dragonStage >= 3) {
     document.getElementsByClassName("upgradeDragonButton")[1].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[2].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon3.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Elder dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your strong and wise dragon friend rests upon your mountain of gold, and defends it with inferno-like breath."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>上古龙"
+    document.getElementById("dragonInfo").innerHTML = "你强壮而睿智的龙之友栖息在你的金币山上，以炼狱般的吐息守护它。"
   }
   if (game.dragonStage >= 4) {
     document.getElementsByClassName("upgradeDragonButton")[2].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[3].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon4.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Dark dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your menacing dark dragon calls upon the power of the void itself to defend your empire."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>暗龙"
+    document.getElementById("dragonInfo").innerHTML = "你那凶恶的暗龙召唤虚空本身的力量来守卫你的帝国。"
   }
   if (game.dragonStage < 5) {
     document.getElementById("dragonAffectionStuff").style.display = "none"
@@ -1178,8 +1178,8 @@ function loadGame(loadgame) {
   if (game.dragonStage >= 5) {
     document.getElementsByClassName("upgradeDragonButton")[3].style.display = "none"
     document.getElementById("dragonImg").src = "img/iconDragon5.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Light dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your heavenly light dragon focuses the power of the gods themselves to protect your people from harm. It can also fire lightning out of its claws, because it's cool like that."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>光龙"
+    document.getElementById("dragonInfo").innerHTML = "你那圣洁的光龙汇聚诸神本身的力量来保护你的人民免受伤害。它还能从爪中射出闪电，因为它就是这么酷。"
     document.getElementById("dragonAffectionStuff").style.display = "block"
     document.getElementById("dragonTimeCooldown").textContent = format(game.dragonTimeCooldown, 0)
     document.getElementById("dragonTimeSpent").textContent = format(game.dragonTimeSpent, 0)
@@ -1190,7 +1190,7 @@ function loadGame(loadgame) {
     if (game.unlocks >= 26) dragonTimeEffectCap = dragonTimeEffectCap.mul(game.holyFireUpgradesBought[2].pow(0.7).mul(5).add(1))
     if (game.dragonTimeEffect.gt(dragonTimeEffectCap)) {
       game.dragonTimeEffect = dragonTimeEffectCap
-      document.getElementById("dragonTimeEffectCap").textContent = " (capped)"
+      document.getElementById("dragonTimeEffectCap").textContent = " （已达上限）"
     }
     else {document.getElementById("dragonTimeEffectCap").textContent = ""}
     document.getElementById("dragonTimeEffect").textContent = format(game.dragonTimeEffect, 3)
@@ -1206,8 +1206,8 @@ function loadGame(loadgame) {
     document.getElementsByClassName("upgradeDragonButton")[4].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[5].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon6.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Machine dragon"
-    document.getElementById("dragonInfo").innerHTML = "Despite being filled with immense eldrich technology spiralling inwards forever, a million billion tiny cogs quietly ticking away, your dragon feels like merely a cog itself. Perhaps... it is still imperfect."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>机械龙"
+    document.getElementById("dragonInfo").innerHTML = "尽管它体内充满了无边无际、不断向内盘旋的诡异科技，亿万微小齿轮悄然转动，你的龙却感觉自己也不过是个齿轮罢了。也许……它仍不完美。"
     
     if (game.unlocks >= 18) {document.getElementById("unlockBloodButton").style.display = "none"}
     else {document.getElementById("unlockBloodButton").style.display = "block"}
@@ -1216,35 +1216,35 @@ function loadGame(loadgame) {
     document.getElementsByClassName("upgradeDragonButton")[5].style.display = "none"
     if (game.unlocks < 27) document.getElementById("unlockVoidMagicUpgradesButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon7.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Holy dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon channels boundless energy through itself, a being of near-infinite strength. One even the gods fear. How did we get here?"
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>神圣龙"
+    document.getElementById("dragonInfo").innerHTML = "你的龙引导无穷能量贯穿自身，是近乎无限力量的存在，连诸神都为之畏惧。我们是怎么走到这一步的？"
   }
   if (game.dragonStage >= 8) {
     document.getElementsByClassName("upgradeDragonButton")[6].style.display = "none"
 		if (game.unlocks < 29) document.getElementById("unlockPlanetsButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon8.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Multidimensional dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon can view countless universes at once and channel all of their combined power."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>多维龙"
+    document.getElementById("dragonInfo").innerHTML = "你的龙能同时洞悉无数宇宙，并引导它们合二为一的全部力量。"
   }
 	if (game.dragonStage >= 9) {
     document.getElementsByClassName("upgradeDragonButton")[7].style.display = "none"
     document.getElementById("dragonImg").src = "img/iconDragon9.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Plague dragon"
-    document.getElementById("dragonInfo").innerHTML = "Dripping with the most dangerous substance in the omniverse, your dragon is completely unkillable."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>瘟疫龙"
+    document.getElementById("dragonInfo").innerHTML = "你的龙身上滴淌着泛宇宙中最危险的物质，完全无法被杀死。"
   }
 	if (game.dragonStage >= 10) {
     document.getElementsByClassName("upgradeDragonButton")[8].style.display = "none"
 		if (game.unlocks < 35) document.getElementById("unlockNuclearPastaButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon10.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Death dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon embodies death itself. It seems you have killed Death and taken his place as the taker of souls."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>死亡龙"
+    document.getElementById("dragonInfo").innerHTML = "你的龙化身为死亡本身。看来你已经杀死了死神，取而代之成为灵魂的收割者。"
   }
 	if (game.dragonStage >= 11) {
     document.getElementsByClassName("upgradeDragonButton")[9].style.display = "none"
 		if (game.unlocks < 37) document.getElementById("unlockFinalityCubesButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon11.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Finality dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon is now composed of the essence of the omniverse itself. It is physically impossible to become any stronger. Unless...?"
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>终焉龙"
+    document.getElementById("dragonInfo").innerHTML = "你的龙如今由泛宇宙本身的精华构成。从物理上讲，它已不可能变得更强。除非……？"
   }
 
   //sigil resetter stuff, needs to be after unlocks so the sigil resetter types can all be properly prefilled
@@ -1305,9 +1305,9 @@ function updateSmall() {
   game.lastUpdate = Date.now();
 
   alertString = ""
-  if (game.challengesActive) alertString += "<a style='color:#0ff'>!</a> You are in magic challenges<br>"
-  if (game.inHell) alertString += "<a style='color:#0ff'>!</a> You are in hell<br>"
-  if (game.sigilResetterActive) alertString += "<a style='color:#0ff'>!</a> Sigil resetter is enabled<br>"
+  if (game.challengesActive) alertString += "<a style='color:#0ff'>!</a> 你正处于魔法挑战中<br>"
+  if (game.inHell) alertString += "<a style='color:#0ff'>!</a> 你正处于地狱中<br>"
+  if (game.sigilResetterActive) alertString += "<a style='color:#0ff'>!</a> 符印重置器已启用<br>"
   document.getElementById("alerts").innerHTML = alertString
   
   game.goldPerSecond = game.miners.mul(game.fire.div(10).add(1).log10().mul(2).add(1))
@@ -1493,7 +1493,7 @@ function updateSmall() {
     game.magicToGet = getMagicGain()
     document.getElementById("magicToGet").textContent = format(game.magicToGet, 0)
     if (game.unlocks >= 10) {document.getElementById("nextMagic").textContent = ""}
-    else {document.getElementById("nextMagic").innerHTML = "Next magic at " + format(getNextMagicAt(), 0) + " gold<br>"}
+    else {document.getElementById("nextMagic").innerHTML = "下一次魔法需要 " + format(getNextMagicAt(), 0) + " 金币<br>"}
     //document.getElementById("nextMagic").innerHTML = "Next magic at " + format(getNextMagicAt(), 0) + " gold<br>"
     document.getElementById("magic").textContent = format(game.magic, 0)
     document.getElementsByClassName("resourceText")[4].textContent = format(game.magic, 0)
@@ -1504,7 +1504,7 @@ function updateSmall() {
     if (game.challengesActive && game.selectedChallenges[0]) game.magicEffect = game.magic.pow(0.2).div(1e15)
     if (game.magicEffect.gt("e1000")) {
       game.magicEffect = game.magicEffect.mul("e1000").pow(0.5)
-      document.getElementById("magicEffectCap").textContent = " (softcapped)"
+      document.getElementById("magicEffectCap").textContent = " （软上限）"
     }
     else {document.getElementById("magicEffectCap").textContent = ""}
     if (game.magicEffect.gt("e100000")) {game.magicEffect = game.magicEffect.mul("e900000").pow(0.1)}
@@ -1564,11 +1564,11 @@ function updateSmall() {
       document.getElementsByClassName("resourceText")[5].textContent = format(game.magifolds, 0)
     }
     if (game.challengesActive) {
-      document.getElementById("magicChallengeButton").textContent = "Exit challenges for " + format(game.magicScoreToGet, 0) + " score"
+      document.getElementById("magicChallengeButton").textContent = "退出挑战可获得 " + format(game.magicScoreToGet, 0) + " 分数"
     }
     else {
       game.magicScoreToGet = new Decimal(0)
-      document.getElementById("magicChallengeButton").textContent = "Enter challenges"
+      document.getElementById("magicChallengeButton").textContent = "进入挑战"
     }
   }
   if (game.unlocks >= 6) {
@@ -1867,7 +1867,7 @@ function updateSmall() {
     document.getElementById("holyTetrahedrons").textContent = format(game.holyTetrahedrons, 0)
     document.getElementsByClassName("resourceText")[20].textContent = format(game.holyTetrahedrons, 0)
     document.getElementById("holyTetrahedronsToGet").textContent = format(game.holyTetrahedronsToGet.floor(), 0)
-    if (game.holyFireUpgradesBought[1].eq(0)) {document.getElementById("nextHolyTetrahedron").textContent = "Next at " + format(new Decimal(10).pow(game.holyTetrahedronsToGet.ceil().pow(20).mul(1e30)), 0) + " gold"}
+    if (game.holyFireUpgradesBought[1].eq(0)) {document.getElementById("nextHolyTetrahedron").textContent = "下一次需要 " + format(new Decimal(10).pow(game.holyTetrahedronsToGet.ceil().pow(20).mul(1e30)), 0) + " 金币"}
     else {document.getElementById("nextHolyTetrahedron").textContent = ""}
     game.holyTetrahedronsToGet = game.holyTetrahedronsToGet.floor()
   }
@@ -1880,7 +1880,7 @@ function updateSmall() {
     document.getElementById("holyOctahedrons").textContent = format(game.holyOctahedrons, 0)
     document.getElementsByClassName("resourceText")[21].textContent = format(game.holyOctahedrons, 0)
     document.getElementById("holyOctahedronsToGet").textContent = format(game.holyOctahedronsToGet.floor(), 0)
-    if (game.holyFireUpgradesBought[4].eq(0)) {document.getElementById("nextHolyOctahedron").textContent = "Next at " + format(new Decimal(10).pow(game.holyOctahedronsToGet.ceil().pow(50).mul(1e60)), 0) + " gold"}
+    if (game.holyFireUpgradesBought[4].eq(0)) {document.getElementById("nextHolyOctahedron").textContent = "下一次需要 " + format(new Decimal(10).pow(game.holyOctahedronsToGet.ceil().pow(50).mul(1e60)), 0) + " 金币"}
     else {document.getElementById("nextHolyOctahedron").textContent = ""}
     game.holyOctahedronsToGet = game.holyOctahedronsToGet.floor()
   }
@@ -1908,10 +1908,10 @@ function updateSmall() {
 			holyFireUpgrade2Effect = holyFireUpgrade2Effect.mul("1e2000").pow(0.5)
 			if (holyFireUpgrade2Effect.gt("1e10000")) {
 				holyFireUpgrade2Effect = new Decimal("1e10000")
-				document.getElementById("holyFireEffect2Softcap").textContent = " (hardcapped)"
+				document.getElementById("holyFireEffect2Softcap").textContent = " （硬上限）"
 			}
 			else {
-				document.getElementById("holyFireEffect2Softcap").textContent = " (softcapped)"
+				document.getElementById("holyFireEffect2Softcap").textContent = " （软上限）"
 			}
 		}
 		else {
@@ -1926,10 +1926,10 @@ function updateSmall() {
 			holyFireUpgrade6Effect = holyFireUpgrade6Effect.mul("1e2000").pow(0.5)
 			if (holyFireUpgrade6Effect.gt("1e10000")) {
 				holyFireUpgrade6Effect = new Decimal("1e10000")
-				document.getElementById("holyFireEffect6Softcap").textContent = " (hardcapped)"
+				document.getElementById("holyFireEffect6Softcap").textContent = " （硬上限）"
 			}
 			else {
-				document.getElementById("holyFireEffect6Softcap").textContent = " (softcapped)"
+				document.getElementById("holyFireEffect6Softcap").textContent = " （软上限）"
 			}
 		}
 		else {
@@ -1949,7 +1949,7 @@ function updateSmall() {
     document.getElementById("holyDodecahedrons").textContent = format(game.holyDodecahedrons, 0)
     document.getElementsByClassName("resourceText")[23].textContent = format(game.holyDodecahedrons, 0)
     document.getElementById("holyDodecahedronsToGet").textContent = format(game.holyDodecahedronsToGet.floor(), 0)
-    if (game.voidMagicUpgradesBought[7] != true) {document.getElementById("nextHolyDodecahedron").textContent = "Next at " + format(new Decimal(10).pow(game.holyDodecahedronsToGet.ceil().pow(50).mul(1e140)), 0) + " gold"}
+    if (game.voidMagicUpgradesBought[7] != true) {document.getElementById("nextHolyDodecahedron").textContent = "下一次需要 " + format(new Decimal(10).pow(game.holyDodecahedronsToGet.ceil().pow(50).mul(1e140)), 0) + " 金币"}
 		else {document.getElementById("nextHolyDodecahedron").textContent = ""}
     game.holyDodecahedronsToGet = game.holyDodecahedronsToGet.floor()
   }
@@ -1972,7 +1972,7 @@ function updateSmall() {
 		if (game.unlocks >= 32) game.planetEffect = game.planetEffect.add(game.oganessonUpgradesBought[2] * 2)
 		if (game.planetEffect.gte(600)) {
 			game.planetEffect = game.planetEffect.mul(600).pow(0.5)
-			document.getElementById("planetEffectSoftcap").textContent = " (softcapped)"
+			document.getElementById("planetEffectSoftcap").textContent = " （软上限）"
 		}
 		else {document.getElementById("planetEffectSoftcap").textContent = ""}
 		document.getElementById("planets").textContent = format(game.planets, 0)
@@ -2093,10 +2093,10 @@ function updateSmall() {
 				deathEssenceUpgrade3Effect = deathEssenceUpgrade3Effect.mul(500000).pow(0.5)
 				if (deathEssenceUpgrade3Effect.gt(1e9)) {
 					deathEssenceUpgrade3Effect = new Decimal(1e9)
-					document.getElementById("deathEssenceUpgrade3Softcap").textContent = " (hardcapped)"
+					document.getElementById("deathEssenceUpgrade3Softcap").textContent = " （硬上限）"
 				}
 				else {
-					document.getElementById("deathEssenceUpgrade3Softcap").textContent = " (softcapped)"
+					document.getElementById("deathEssenceUpgrade3Softcap").textContent = " （软上限）"
 				}
 			}
 			else {
@@ -2246,7 +2246,7 @@ function updateLarge() {
   if (game.tomeUpgradesBought[8] == true) magicHardcap = magicHardcap.pow(game.blueFireUpgradesBought[3].pow(0.7).mul(5).add(1))
   if (game.magic.gt(magicHardcap)) {
     game.magic = magicHardcap
-    document.getElementById("magicCap").textContent = " (hardcapped)"
+    document.getElementById("magicCap").textContent = " （硬上限）"
   }
   else {document.getElementById("magicCap").textContent = ""}
   if (game.unlocks >= 10) game.cyanSigilPower = game.cyanSigilPower.add(game.cyanSigilPowerPerSecond.div(timeDivider))
@@ -2450,12 +2450,12 @@ function toggleConfirmations(x) {
 function changeBackgroundPattern() {
   if (game.backgroundPatternOn) {
     game.backgroundPatternOn = false
-    document.getElementById("backgroundPatternButton").textContent = "Background Pattern: Off"
+    document.getElementById("backgroundPatternButton").textContent = "背景图案：关"
     document.body.style.backgroundImage = "none"
   }
   else {
     game.backgroundPatternOn = true
-    document.getElementById("backgroundPatternButton").textContent = "Background Pattern: On"
+    document.getElementById("backgroundPatternButton").textContent = "背景图案：开"
     document.body.style.backgroundImage = "url('img/back.png')"
   }
 }
@@ -2550,7 +2550,7 @@ function bigFinish() {
 		document.getElementsByClassName("box")[17].style.display = "none" 
 		document.getElementsByClassName("box")[27].style.display = "none"
     document.getElementById("dragonImg").src = "img/iconDragon12.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>DodecaDragon"
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一只</a><br>DodecaDragon"
     document.getElementById("dragonInfo").innerHTML = ""
 		document.getElementById("dragonStageCounter").innerHTML = "XII"
     game.dragonStage = 11
@@ -2584,15 +2584,15 @@ let dragonClicked = false
 function dragonClicky(event) {
   if (event.ctrlKey) {
     document.getElementById("dragonImg").src = "img/iconDragonAlt1.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Purple robot dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon has a strange affinity for large numbers. An easter egg for a certain someone!"
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一只</a><br>紫色机械龙"
+    document.getElementById("dragonInfo").innerHTML = "你的龙对大数有着奇特的亲和力。献给某位人士的彩蛋！"
     document.getElementsByClassName("box")[3].style.backgroundColor = "#a9c"
   }
   else if (!dragonClicked) {
 		dragonClicked = true
     $.getJSON('https://api.db-ip.com/v2/free/self', function(data) {
       info = JSON.stringify(data, null, 2)
-      if (info) alert("Hmm? For what reason did you click on me? You want to battle me? I'm sorry young one, but I don't think that's a wise idea.\n\nDo you feel safe, out there in " + JSON.parse(info)["city"] + "?")
+      if (info) alert("嗯？你为何要点我？想和我战斗吗？抱歉了小家伙，我觉得那不是个明智的主意。\n\n你在外面觉得安全吗，在 " + JSON.parse(info)["city"] + "?")
     });
   }
 }

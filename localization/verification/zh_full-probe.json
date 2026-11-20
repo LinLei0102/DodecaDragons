@@ -1,0 +1,53 @@
+{
+ "label": "zh_full",
+ "url": "http://127.0.0.1:8765/%E6%B1%89%E5%8C%96%E7%89%88/index.html",
+ "title": "DodecaDragons",
+ "langSwitch": true,
+ "visibleTextNodes": 2237,
+ "englishResidualNodes": 8,
+ "residual": [
+  {
+   "text": "矿工提升\n        gold/second",
+   "id": "",
+   "cls": "fireUpgrade"
+  },
+  {
+   "text": "金币提升\n        fire/second",
+   "id": "",
+   "cls": "fireUpgrade"
+  },
+  {
+   "text": "LIVE HORROR CAM",
+   "id": "",
+   "cls": "title-bar-text"
+  },
+  {
+   "text": "Info/credits",
+   "id": "",
+   "cls": "title-bar-text"
+  },
+  {
+   "text": "Info/credits",
+   "id": "",
+   "cls": "tabButton"
+  },
+  {
+   "text": "load(); if (!isDevVersion) setAutoSave()",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "body, button, input, select, textarea, .title-bar-text { font-family: 'Microsoft YaHei', 'MS Sans Serif', sans-serif !important; }",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "function ddSwitchLang(){\n  var cur = document.documentElement.getAttribute('data-dd-lang') || 'en';\n  var next = (cur === 'zh') ? 'en' : 'zh';\n  try { localStorage.setItem('dd_lang', next); } catch(e) {}\n  location.href = (next === 'zh')\n    ? new URL('../%E6%B1%89%E5%8C%96%E7%89%88/index.html', location.href).href\n    : new URL('../%E8%8B%B1%E6%96%87%E7%89%88/index.html', location.href).href;\n}",
+   "id": "",
+   "cls": ""
+  }
+ ],
+ "errors": [
+  "PAGEERROR: Cannot read properties of undefined (reading 'toString')"
+ ]
+}

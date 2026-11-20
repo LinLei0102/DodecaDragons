@@ -11,19 +11,22 @@ const magicUpgradeCosts = [2, 3, 8, 12, 30, 100, 300, 1500, 4000, 20000, 100000,
 const darkMagicUpgradeCosts = ["e110", "e125", "e165", "e240", "e285", "e320", "e360", "e450", "e120000", "e140000", "e3e8", "e4.5e8", "e5e8", "e6e8", "e6.75e8", "e8e8", "e1.2e9", "e1.45e9", "e1.6e9", "e1.65e9"]
 const voidMagicUpgradeCosts = ["e1.25e10", "e1.4e10", "e1.55e10", "e1.65e10", "e2e10", "e3e10", "e4e10", "e6.5e10", "e9.6e10", "e1.2e11", "e2.25e11", "e3.4e11", "e4.6e11", "e5.25e12", "e2e13", "e4.25e13", "e3.75e16"]
 const sigilColours = ["cyan", "blue", "indigo", "violet", "pink", "red", "orange", "yellow"]
+// display-only localized sigil colour names (code keys stay English)
+const SIGIL_COLOURS_ZH = ["青色", "蓝色", "靛色", "紫色", "粉色", "红色", "橙色", "黄色"];
+
 const sigilColoursMode1 = ["red", "orange", "yellow"]
 const sigilResetterModes = ["Amount","Gold","Time"]
-const sigilResetterModesFull = ["Potential Sigil Amount", "Gold Amount", "Seconds Since Reset"]
+const sigilResetterModesFull = ["潜在符印数量", "金币数量", "距上次重置的秒数"]
 const knowledgeMultipliers = [450, 112.5, 18.75, 10, 1]
 const tomeUpgradeCosts = [1, 1, 2, 2, 4, 20, 75, 175, 500, 1000, 1500, 2250, 2800, 7500]
 const blueFireUpgradeInitialCosts = [0, 500, 1000, 50000, 5e7, 1.5e8, 1e11]
 const blueFireUpgradeBase = [0, 1.8, 2, 2.5, 1.8, 2.2, 2]
-const hellLayerNames = ["limbo", "lust", "gluttony", "greed", "wrath", "heresy", "violence", "fraud", "treachery"]
-const hellLayerEffects = ["-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^5)<br>-<a style='color: #bff'>Platinum</a> gain is ^0.1<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is ^0.1",
-"-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^2)<br>-<a style='color: #f80'>Fire</a> gain is severely reduced (log(x))<br>-<a style='color: #bff'>Platinum</a> gain is ^0.01<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is ^0.01<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless",
-"-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x))<br>-<a style='color: #f80'>Fire</a> gain is severely reduced (log(x))<br>-<a style='color: #bff'>Platinum</a> gain is severely reduced (log(x))<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is severely reduced (log(x))<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless",
-"-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^0.5)<br>-<a style='color: #f80'>Fire</a> gain is always 0<br>-<a style='color: #bff'>Platinum</a> gain is severely reduced (log(x))<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is severely reduced (log(x))<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless",
-"-<a style='color: #fd0'>Gold</a> gain is severely reduced (log(x)^0.2)<br>-<a style='color: #f80'>Fire</a> gain is always 0<br>-<a style='color: #bff'>Platinum</a> gain is severely reduced (log(x)^0.5)<br>-<a style='color: #90d'>Magic</a> amount is severely reduced (log(x))<br>-<a style='color: #60d'>Magifold</a> amount is always 1<br>-<a style='color: #8f8'>Uranium</a> gain is severely reduced (log(x)^0.5)<br>-<a style='color: #06b'>Cyan sigil</a> upgrade 3 is useless"
+const hellLayerNames = ["灵薄狱", "色欲", "暴食", "贪婪", "愤怒", "异端", "暴力", "欺诈", "背叛"]
+const hellLayerEffects = ["-<a style='color: #fd0'>金币</a>获取大幅降低（log(x)^5）<br>-<a style='color: #bff'>铂金</a>获取变为 ^0.1<br>-<a style='color: #60d'>魔法流形</a>数量恒为 1<br>-<a style='color: #8f8'>铀</a>获取变为 ^0.1",
+"-<a style='color: #fd0'>金币</a>获取大幅降低（log(x)^2）<br>-<a style='color: #f80'>火焰</a>获取大幅降低（log(x)）<br>-<a style='color: #bff'>铂金</a>获取变为 ^0.01<br>-<a style='color: #60d'>魔法流形</a>数量恒为 1<br>-<a style='color: #8f8'>铀</a>获取变为 ^0.01<br>-<a style='color: #06b'>青色符印</a>升级 3 无效",
+"-<a style='color: #fd0'>金币</a>获取大幅降低（log(x)）<br>-<a style='color: #f80'>火焰</a>获取大幅降低（log(x)）<br>-<a style='color: #bff'>铂金</a>获取大幅降低（log(x)）<br>-<a style='color: #60d'>魔法流形</a>数量恒为 1<br>-<a style='color: #8f8'>铀</a>获取大幅降低（log(x)）<br>-<a style='color: #06b'>青色符印</a>升级 3 无效",
+"-<a style='color: #fd0'>金币</a>获取大幅降低（log(x)^0.5）<br>-<a style='color: #f80'>火焰</a>获取恒为 0<br>-<a style='color: #bff'>铂金</a>获取大幅降低（log(x)）<br>-<a style='color: #60d'>魔法流形</a>数量恒为 1<br>-<a style='color: #8f8'>铀</a>获取大幅降低（log(x)）<br>-<a style='color: #06b'>青色符印</a>升级 3 无效",
+"-<a style='color: #fd0'>金币</a>获取大幅降低（log(x)^0.2）<br>-<a style='color: #f80'>火焰</a>获取恒为 0<br>-<a style='color: #bff'>铂金</a>获取大幅降低（log(x)^0.5）<br>-<a style='color: #90d'>魔法</a>数量大幅降低（log(x)）<br>-<a style='color: #60d'>魔法流形</a>数量恒为 1<br>-<a style='color: #8f8'>铀</a>获取大幅降低（log(x)^0.5）<br>-<a style='color: #06b'>青色符印</a>升级 3 无效"
 ]
 const holyTetrahedronUpgradeCosts = [1, 1, 1, 1, 2, 2, 2, 5, 5, 15, 50, 2000, 50000]
 const holyOctahedronUpgradeCosts = [1, 1, 1, 2, 4, 2, 50, 750, 25000]
@@ -32,9 +35,9 @@ const holyFireUpgradeInitialCosts = [0, 500, 1000, 10000, 50000, 1e7, 1e45]
 const holyFireUpgradeBase = [0, 1.8, 2, 3, 2, 2.5, 3]
 const plagueUpgradeInitialCosts = [0, 25, 100, 100000, 1e6, 1e13]
 const plagueUpgradeBase = [0, 2, 2.5, 3, 5, 3]
-const hypergodNames = ["OMNIVERSAL HYPERGOD I:<br>KARUTH", "OMNIVERSAL HYPERGOD II:<br>TOMI", "OMNIVERSAL HYPERGOD III:<br>DOLKHOR", "OMNIVERSAL HYPERGOD IV:<br>BELKIKO", "OMNIVERSAL HYPERGOD V:<br>SHOU", "OMNIVERSAL HYPERGOD VI:<br>COANGRUATOR", "OMNIVERSAL HYPERGOD VII:<br>EXILTIK", "OMNIVERSAL HYPERGOD VIII:<br>Tom", "OMNIVERSAL HYPERGOD IX:<br>ALUSTRO", "OMNIVERSAL HYPERGOD X:<br>IKOR", "OMNIVERSAL HYPERGOD XI:<br>WITHLORN", "OMNIVERSAL HYPERGOD XII:<br>FINALIKUS"]
+const hypergodNames = ["全宇宙超神 I：<br>KARUTH", "全宇宙超神 II：<br>TOMI", "全宇宙超神 III：<br>DOLKHOR", "全宇宙超神 IV：<br>BELKIKO", "全宇宙超神 V：<br>SHOU", "全宇宙超神 VI：<br>COANGRUATOR", "全宇宙超神 VII：<br>EXILTIK", "全宇宙超神 VIII：<br>Tom", "全宇宙超神 IX：<br>ALUSTRO", "全宇宙超神 X：<br>IKOR", "全宇宙超神 XI：<br>WITHLORN", "全宇宙超神 XII：<br>FINALIKUS"]
 const hypergodDefeatCosts = ["ee20000", "ee160000", "ee400000", "ee1e6", "ee2.4e6", "ee1e7", "ee4e7", "ee7e8", "ee2e9", "ee1.5e10", "ee1e11", "ee7.5e11"]
-const hypergodText = ["Your ravenous growth is causing destruction in the omniverse, creature. As the high<br>&#8202;&#8202;ruler of this section of the omniverse, I command you to cease immediately.", "&#8202;&#8202;End your mindless chaos and destruction this instant! You have no idea what you're doing to the fabric of reality!", "Another greedy soul. You will be disposed of, like all those that came before you.", "I wish you would reconsider your actions. ...I suppose it's too late for that now though. The fighting won't stop until either you're gone or all of us are.", "Ogghh. You dare wake me from my slumber? This better be important, mortal creature.", "&#8202;&#8202;Nuh uh!", "You! Can you even begin to fathom the utter destruction you've caused!? The fabric of spacetime is imploding, trillions upon trillions dead under your ignorant foot, and for<br>&#8202;&#8202;what!? I implore you to cease this, organic being!", "&#8202;&#8202;Hey mate, not cool, what you're doing. You better back off, bud.", "You think you can surpass my power? I will crush you like the insignificant being you<br>&#8202;&#8202;are!", "&#8202;&#8202;Bringer of destruction. It is clear I cannot stop you, but I have no choice but to try.<br>&#8202;&#8202;Because there's no telling what will happen to the omniverse if you continue.", "You've killed off my bretheren, but the worst is yet to come for you! I'll show you the true power of the hypergods!", "&#8202;&#8202;Well, I think that's that. I am the last remaining hypergod. Destroyer of gods, ruler of<br>&#8202;&#8202;everything, the omniverse is now yours and yours alone. Farewell."]
+const hypergodText = ["你贪婪的成长正在全宇宙中造成破坏，生物啊。作为这片全宇宙的至高<br>&#8202;&#8202;统治者，我命令你立即停止。", "&#8202;&#8202;立刻停止你盲目的混沌与破坏！你根本不知道自己正在对现实的结构做些什么！", "又一个贪婪的灵魂。你会被清除，就像你之前的所有人一样。", "我希望你能重新考虑自己的行为。……不过我想现在为时已晚。战斗不会停止，直到要么你消失，要么我们全部消失。", "呃啊。你竟敢把我从沉睡中叫醒？这最好事关重大，凡俗之物。", "&#8202;&#8202;才不呢！", "你！你真能想象自己造成的彻底毁灭吗！？时空的结构正在内爆，数万亿数万亿的生命死于你无知的脚下，而为了<br>&#8202;&#8202;什么！？我恳求你住手吧，有机生命！", "&#8202;&#8202;嘿，伙计，你做的事可真不酷。你最好退开点，老兄。", "你以为你能超越我的力量？我要把你像你这种微不足道的<br>&#8202;&#8202;存在一样碾碎！", "&#8202;&#8202;毁灭的化身。显然我阻止不了你，但我别无选择只能一试。<br>&#8202;&#8202;因为若你继续下去，谁也无法预料全宇宙会发生什么。", "你杀光了我的同胞，但对你而言最糟的还在后头！我要让你见识超神真正的力量！", "&#8202;&#8202;好了，我想就到此为止了。我是仅存的超神。众神的毁灭者，<br>&#8202;&#8202;万物之主，如今全宇宙归你所有，只属于你。再会。"]
 const lightEssenceUpgradeInitialCosts = [0, 100, 600, 3000]
 const lightEssenceUpgradeBase = [0, 2, 3, 3]
 const darkEssenceUpgradeInitialCosts = [0, 100, 1000, 10000]
@@ -43,62 +46,62 @@ const deathEssenceUpgradeInitialCosts = [0, 1000, 10000, 200000, 1e7, 1e40]
 const deathEssenceUpgradeBase = [0, 2, 3, 3, 2.5, 4]
 const finalityEssenceUpgradeInitialCosts = [0, 1000, 4000, 1e15, 1e20]
 const finalityEssenceUpgradeBase = [0, 2, 5, 4, 4]
-const nuclearPastaNames = ["Gnocchi", "Spaghetti", "Waffles", "Lasagna", "Antispaghetti", "Antignocchi"]
-const nuclearPastaPositiveEffects = ["Boost to light/dark essence gain", "Boost to death essence gain", "Boost to cosmic plague gain", "Boost to supercluster effect", "Boost to oganesson gain"]
-const nuclearPastaNegativeEffects = ["&#8202;&#8202;Zero death essence gain", "&#8202;&#8202;Gold amount does not increase", "Zero dark/light essence gain", "Zero cosmic plague gain", "&#8202;&#8202;Gold amount does not increase"]
+const nuclearPastaNames = ["意式面疙瘩", "意大利面", "华夫饼", "千层面", "反意大利面", "反意式面疙瘩"]
+const nuclearPastaPositiveEffects = ["光明/黑暗精华获取加成", "提升死亡精华获取", "提升宇宙瘟疫获取", "超星系团效果提升", "提升鿫获取"]
+const nuclearPastaNegativeEffects = ["&#8202;&#8202;死亡精华获取归零", "&#8202;&#8202;金币数量不增加", "黑暗/光明精华获取归零", "宇宙瘟疫获取归零", "&#8202;&#8202;金币数量不增加"]
 const nuclearPastaUpgradeCosts = ["ee7.5e6", "ee1.2e8", "ee2.5e8", "ee7.5e8"]
 
 const achievementNames = [
   //Gold
-  ["Starting strong", "Growing stronger", "The heap", "Motherlode", "BEZOS BEZOS BEZOS", "Unending mound of cash", "Multiversal", "Endless realm of coins", "Loaded", "Mega-loaded (???)", "Sbiisics", "On my dime!"],
+  ["强劲开局", "愈加强大", "一大堆", "大金矿", "BEZOS BEZOS BEZOS", "源源不断的现金堆", "多元宇宙级", "无尽的金币国度", "腰缠万贯", "超级富有（???）", "Sbiisics", "我请客！"],
   //Fire
-  ["Spicy", "Burning hands", "The great fire", "Towering inferno", "Hell pit", "Carolina reapers", "Tartarus", "Pandemonium", "Infernal overlord", "Unfortunate events", "Global warming", "The end of everything"],
+  ["辛辣", "燃烧之手", "熊熊烈火", "滔天炼狱", "地狱坑", "Carolina reapers", "Tartarus", "Pandemonium", "地狱霸主", "不幸事件", "全球变暖", "万物终结"],
   //Platinum
-  ["Alchemagoria", "Jeweller", "Putting in the work", "Magnum opus", "Simple chemistry", "Mirror polish", "Silver skyscrapers", "Advanced chemistry", "God of transmutation", "Platisynthesis", "Mystical barista", "Completing the work"],
+  ["炼金奇境", "珠宝匠", "辛勤耕耘", "旷世巨作", "基础化学", "镜面抛光", "银色摩天楼", "高等化学", "嬗变之神", "铂合成", "神秘咖啡师", "大功告成"],
   //Magic
-  ["Funny wizard hat", "Sorcery", "Magiccery!", "THE BIGGER HAT", "Thaumaturgy", "Spells galore", "Reshape the Earth", "Unlimited potential", "Star shatterer", "Endless grimoires", "Void tapping", "Threshold memories"],
+  ["滑稽的巫师帽", "巫术", "魔法术！", "更大的帽子", "神迹术", "无数法术", "重塑地球", "无限潜能", "碎星者", "无尽魔典", "虚空汲取", "临界记忆"],
   //Magifolds
-  ["4-dimensional", "10-dimensional", "Superstring theory", "Infinitely folding", "Incomprehensible", "Megafolds", "GIGAFOLDS", "Spacetime origami", "Nonagon Infinity", "Holonomy breakdown", "Simplex complex", "Basket case"],
+  ["四维", "十维", "超弦理论", "无限折叠", "难以理解", "百万次折叠", "十亿次折叠", "时空折纸", "九边形无限", "和乐瓦解", "单纯形复合体", "彻底崩溃"],
   //Uranium
-  ["Ionizing", "Radiating", "Neutralizing", "Terrifying", "Devastating", "Decaying", "Annihilating", "Obliterating", "Glowing", "Reducing", "Inspiring", "Ending"],
+  ["电离", "辐射", "中和", "骇人", "毁灭", "衰变", "湮灭", "抹除", "发光", "还原", "激励", "终结"],
   //Cyan sigils
-  ["Chromatic", "Chaotic", "Colorific", "Catastrophic", "Catatonic", "Chromatic II", "Chaotic II", "Colorific II", "Catastrophic II", "Catatonic II", "Chromatic III", "Chaotic III"],
+  ["彩色", "混沌", "多彩", "灾难", "僵化", "彩色 II", "混沌 II", "多彩 II", "灾难 II", "僵化 II", "彩色 III", "混沌 III"],
   //Blue sigils
-  ["Bichromatic", "Basic", "Biologic", "Barbaric", "Balsamic", "Bichromatic II", "Basic II", "Biologic II", "Barbaric II", "Balsamic II", "Bichromatic III", "Basic III"],
+  ["双色", "基础", "生物", "野蛮", "香脂", "双色 II", "基础 II", "生物 II", "野蛮 II", "香脂 II", "双色 III", "基础 III"],
   //Indigo sigils
-  ["Interdynamic", "Idealistic", "Isotropic", "Isotonic", "Idyllic", "Interdynamic II", "Idealistic II", "Isotropic II", "Isotonic II", "Idyllic II", "Interdynamic III", "Idealistic III"],
+  ["交互动态", "理想主义", "各向同性", "等渗", "田园", "交互动态 II", "理想主义 II", "各向同性 II", "等渗 II", "田园 II", "交互动态 III", "理想主义 III"],
   //Violet sigils
-  ["Volcanic", "Volumetric", "Vitriolic", "Voltaic", "Vinic", "Volcanic II", "Volumetric II", "Vitrolic II", "Voltaic II", "Vinic II", "Volcanic III", "Volumetric III"],
+  ["火山", "容积", "硫酸", "伏打", "醇酒", "火山 II", "容积 II", "硫酸 II", "伏打 II", "醇酒 II", "火山 III", "容积 III"],
   //Pink sigils
-  ["Panchromatic", "Psychotic", "Pathogenic", "Particularistic", "Platonic", "Panchromatic II", "Psychotic II", "Pathogenic II", "Particularistic II", "Platonic II", "Panchromatic III", "Psychotic III"],
+  ["全色", "疯狂", "致病", "特殊性", "柏拉图式", "全色 II", "疯狂 II", "致病 II", "特殊性 II", "柏拉图式 II", "全色 III", "疯狂 III"],
   //Knowledge
-  ["Big brain moment", "Deep thought", "Immaterialistic", "Planning ahead", "I conject", "Megamind", "Incremental IQ", "Shared Brainpower", "Think tank", "Intelligence singularity", "The thinker", "Epistemological"],
+  ["脑力高光", "深思", "非物质", "未雨绸缪", "我推测", "巨脑", "递增智商", "共享脑力", "智库", "智能奇点", "思想者", "认识论的"],
   //Tomes
-  ["History locked away", "The mystical bookshelf", "Necronomicon", "Fully legible", "Biblical", "Rune rooms", "Library of babel", "Recursive knowledge", "No longer lost", "Athenaeum", "Bibliotech", "The face book"],
+  ["被封存的历史", "神秘书架", "死灵之书", "全然可读", "圣经般的", "符文室", "巴别图书馆", "递归知识", "不再迷失", "雅典娜神庙", "藏书馆", "脸书"],
   //Blue fire
-  ["Burning cold", "Frostbite", "Tundra", "The burn that cures", "Hell frozen over", "Absolute Zero", "What's cooler than being cool?", "Kamchatka", "Superfluid", "Ice V", "You're pretty cool", "Endless blue flame"],
+  ["燃烧的寒冷", "冻伤", "苔原", "以灼疗伤", "地狱冰封", "绝对零度", "还有什么比酷更酷？", "堪察加", "超流体", "冰V", "你真酷", "无尽蓝焰"],
   //Blood
-  ["Coagulation", "Brutal", "Rivers of red", "Ultraviolent", "Turbo killer", "When the imposter is sus!", "Hellstar Remina", "Fresh", "Hemocytes", "Bloody brilliant", "Vampirism", "Unending bloodlust"],
+  ["凝固", "残暴", "血河", "超暴力", "涡轮杀手", "当内鬼可疑时！", "地狱星雷米娜", "新鲜", "血细胞", "血色辉煌", "吸血鬼化", "无尽嗜血"],
   //Plutonium
-  ["Ionizing II", "Radiating II", "Neutralizing II", "Terrifying II", "Devastating II", "Decaying II", "Annihilating II", "Obliterating II", "Glowing II", "Reducing II", "Inspiring II", "Ending II"],
+  ["电离 II", "辐射 II", "中和 II", "恐怖 II", "毁灭 II", "衰变 II", "湮灭 II", "歼灭 II", "发光 II", "还原 II", "激励 II", "终结 II"],
   //Red sigils
-  ["Rhythmic", "Realistic", "Robotic", "Romantic", "Relativistic", "Rhythmic II", "Realistic II", "Robotic II", "Romantic II", "Relativistic II", "Rhythmic III", "Realistic III"],
+  ["有节奏的", "写实的", "机械的", "浪漫的", "相对论的", "有节奏的 II", "写实的 II", "机械的 II", "浪漫的 II", "相对论的 II", "有节奏的 III", "写实的 III"],
   //Orange sigils
-  ["Organic", "Orthographic", "Overenergetic", "Orthochromatic", "Overchromatic", "Organic II", "Orthographic II", "Overenergetic II", "Orthochromatic II", "Overchromatic II", "Organic III", "Orthographic III"],
+  ["有机的", "正字法的", "能量过剩的", "正色的", "超色的", "有机的 II", "正字法的 II", "能量过剩的 II", "正色的 II", "超色的 II", "有机的 III", "正字法的 III"],
   //Yellow sigils
-  ["Yellow", "Very yellow", "Extremely yellow", "Super yellow", "Hyper yellow", "Yellow II", "Very yellow II", "Extremely yellow II", "Super yellow II", "Hyper yellow II", "Yellow III", "Very yellow III"],
+  ["黄色", "非常黄", "极其黄", "超级黄", "超黄", "黄色 II", "非常黄 II", "极其黄 II", "超级黄 II", "超黄 II", "黄色 III", "非常黄 III"],
   //Holy tetrahedrons
-  ["｢Made in Heaven｣", "Resets all the way down", "Cloudy with a chance of numbers", "God rays", "Heaven sent", "Convex complex", "Irreducable", "Non-Euclidean", "Pyraminx", "Alien architecture", "Caution: sharp", "Tetramazing"],
+  ["｢天堂制造｣", "一路重置到底", "多云，可能有数字", "上帝之光", "天赐", "凸复形", "不可约", "非欧几里得", "金字塔魔方", "外星建筑", "小心：锋利", "四面惊奇"],
   //Holy octahedrons
-  ["Dual", "Empyrean", "Ramiel", "Precisely the point", "Flesh prison", "Octal", "Magic 8-hedron", "Octagintillionaire", "No stop signs", "Unexplainable", "Unidentified floating and spinning object", "Octerrific"],
+  ["对偶", "苍穹", "拉米埃尔", "切中要害", "血肉牢笼", "八进制", "魔法8面体", "八极巨富", "没有停车标志", "无法解释", "不明漂浮旋转物体", "八面惊人"],
   //Holy fire
-  ["White hot", "God's wrath", "Archangels", "Paradiso", "Orbital laser", "Sunfire", "10 trillion degrees", "Pistol star", "Plasmatic", "Quarks and Gluons", "Burn everything", "What is it you see in the glow?"],
+  ["白热", "神之愤怒", "大天使", "天堂", "轨道激光", "太阳火", "10万亿度", "手枪星", "等离子态", "夸克与胶子", "焚尽一切", "你在光芒中看到了什么？"],
   //Holy dodecahedrons
-  ["Hey, it's like the name of the game! :O", "Dodecadamned", "Dodecadimensional", "Dodecalculus", "Dodecadeadly", "Dodecadangerous", "Dodecalculated", "Dodechaotic", "Dodecadivine", "Dodecadestructive", "Dodecades of work", "Dodecomplete"],
+  ["嘿，这就像游戏的名字！:O", "十二该死", "十二维", "十二微积分", "十二致命", "十二危险", "十二算计", "十二混沌", "十二神圣", "十二毁灭", "十二载努力", "十二圆满"],
 	//Planets
-	["Mr. Worldwide", "The system", "Spacetime jumping", "Extreme acceleration", "Super Jupiter", "Brown dwarf", "Dyson spheres", "Dark matter pockets", "Non-Euclidean planets", "Fat Earth theory", "Type IV civilisation", "SuperUltraHyperverse"],
+	["世界先生", "系统", "时空跳跃", "极限加速", "超级木星", "褐矮星", "戴森球", "暗物质囊", "非欧几里得行星", "胖地球说", "IV型文明", "超级终极宇宙"],
 	//Omniversal hypergods
-	["This is the final achievement row.", "You have come an incredibly long way.", "Your desire for power is unending.", "All who have tried to stop you have failed.", "There mustn't be long to go now.", "How large really is the omniverse?", "You begin to feel the laws of physics break down around you.", "What drives you?", "What is your final goal? Do you ever intend to stop?", "There is only so much of reality to claim.", "When all is said and done...", "C'est fini"]
+	["这是最后一行成就。", "你已经走了难以置信的漫长道路。", "你对力量的渴望永无止境。", "所有试图阻止你的人都以失败告终。", "现在应该离终点不远了。", "泛宇宙究竟有多大？", "你开始感觉物理定律在身边崩塌。", "是什么在驱使你？", "你的最终目标是什么？你打算停下吗？", "现实可供你占据的只有这么多。", "当一切尘埃落定……", "完结"]
 ]
 const achievementRequirements = [
   //Gold
@@ -154,106 +157,106 @@ const achievementRequirements = [
 ]
 const achievementRewards = {
   //gold
-  ach0x4: "Unlock Max All button for platinum upgrades!",
-  ach0x8: "Unlock autobuyer for miners! Also allows you to keep 1 miner when resetting.",
-  ach0x10: "Unlock Buy Max buttons for magic and dark magic upgrades!",
+  ach0x4: "解锁铂金升级的全部最大化按钮！",
+  ach0x8: "解锁矿工自动购买器！重置时还可保留 1 名矿工。",
+  ach0x10: "解锁魔法与黑暗魔法升级的批量购买按钮！",
   //magic
-  ach3x0: "Unlock Buy Max buttons for fire upgrades!",
-  ach3x1: "Unlock Max All button for fire upgrades!",
-  ach3x4: "Keep all platinum upgrades on magic reset!",
-  ach3x5: "Gain 1% of potential magic per second!",
-  ach3x7: "Gain 100% of potential magic per second!",
+  ach3x0: "解锁火焰升级的批量购买按钮！",
+  ach3x1: "解锁火焰升级的全部最大化按钮！",
+  ach3x4: "魔法重置时保留所有铂金升级！",
+  ach3x5: "每秒获得潜在魔法的 1%！",
+  ach3x7: "每秒获得潜在魔法的 100%！",
   //uranium
-  ach5x2: "Unlock Max All button for uranium upgrades!",
-  ach5x3: "Automatically gain uranium without resetting!",
+  ach5x2: "解锁铀升级的全部最大化按钮！",
+  ach5x3: "无需重置即可自动获得铀！",
   //cyan sigils
-  ach6x0: "Automatically spend time with your dragon when available! Also allows you to enter challenges while on cooldown.",
-  ach6x1: "Feeding your dragon reduces scores by ^0.5 instead of resetting them!",
-  ach6x2: "Automatically max all fire upgrades!",
+  ach6x0: "有空时自动陪伴你的龙！还可在冷却期间进入挑战。",
+  ach6x1: "喂食你的龙会使分数按 ^0.5 缩减，而非重置！",
+  ach6x2: "自动最大化所有火焰升级！",
   //blue sigils
-  ach7x0: "Feeding your dragon no longer reduces challenge scores!",
-  ach7x1: "Gain challenge score without entering challenges! Also, sigil resets no longer reduce challenge scores.",
-  ach7x2: "Keep platinum upgrades on sigil resets!",
+  ach7x0: "喂食你的龙不再降低挑战分数！",
+  ach7x1: "无需进入挑战即可获得挑战分数！此外，符印重置不再降低挑战分数。",
+  ach7x2: "符印重置时保留铂金升级！",
   //indigo sigils
-  ach8x0: "Keep uranium upgrades on magic and sigil resets!",
+  ach8x0: "魔法与符印重置时保留铀升级！",
   //violet sigils
-  ach9x0: "Unlock the ability to pet your dragon! :O",
+  ach9x0: "解锁抚摸你的龙的能力！:O",
   //pink sigils
-  ach10x0: "Automatically feed your dragon when available!",
-  ach10x1: "Unlock Max All button for sigil upgrades!",
-  ach10x2: "Keep all magic and dark magic upgrades on sigil reset!",
+  ach10x0: "有空时自动喂食你的龙！",
+  ach10x1: "解锁符印升级的全部最大化按钮！",
+  ach10x2: "符印重置时保留所有魔法与黑暗魔法升级！",
   //knowledge
-  ach11x0: "Unlock some automation for sigil resets!",
-  ach11x7: "Automatically max all knowledge upgrades!",
+  ach11x0: "解锁符印重置的部分自动化功能！",
+  ach11x7: "自动最大化所有知识升级！",
   //Tomes
-  ach12x2: "Unlock Max All button for knowledge upgrades!",
+  ach12x2: "解锁知识升级的全部最大化按钮！",
   //Blue fire
-  ach13x0: "Gain 10% of potential sigils per second!",
-  ach13x2: "Unlock Buy Max buttons for blue fire upgrades!",
-  ach13x4: "Unlock Max All and Auto Max All for blue fire upgrades!",
+  ach13x0: "每秒获得潜在符印的 10%！",
+  ach13x2: "解锁蓝火升级的批量购买按钮！",
+  ach13x4: "解锁蓝火升级的全部最大化与自动全部最大化！",
   //Blood
-  ach14x1: "Automatically gain max tomes, at no cost!",
+  ach14x1: "自动免费获得最大量的典籍！",
   //Plutonium
-  ach15x0: "Automatically gain knowledge, at no cost!",
-  ach15x3: "Automatically gain plutonium without resetting!",
+  ach15x0: "自动免费获得知识！",
+  ach15x3: "无需重置即可自动获得钚！",
   //Yellow Sigils
-  ach18x2: "An option for auto resetter to cycle only Red/Orange/Yellow sigils",
+  ach18x2: "自动重置器仅循环红色、橙色、黄色符印的选项",
   //Holy tetrahedrons
-  ach19x0: "Unlock Max All button for plutonium upgrades!",
-  ach19x2: "Unlock Buy Max button for tome upgrades!",
-  ach19x4: "Keep tome upgrades on holy resets!",
+  ach19x0: "解锁钚升级的全部最大化按钮！",
+  ach19x2: "解锁典籍升级的批量购买按钮！",
+  ach19x4: "神圣重置时保留典籍升级！",
   //Holy octahedrons
-  ach20x0: "Automatically max all sigil upgrades!",
-  ach20x1: "Keep alchemy upgrades on holy resets!",
+  ach20x0: "自动最大化所有符印升级！",
+  ach20x1: "神圣重置时保留炼金升级！",
   //Holy fire
-  ach21x3: "Unlock Buy Max buttons for holy fire upgrades!",
-  ach21x7: "Unlock Max All and Auto Max All for holy fire upgrades!",
+  ach21x3: "解锁圣火升级的批量购买按钮！",
+  ach21x7: "解锁圣火升级的全部最大化与自动全部最大化！",
   //Holy dodecahedrons
-  ach22x0: "Keep magic and dark magic upgrades on holy resets!",
+  ach22x0: "神圣重置时保留魔法与黑暗魔法升级！",
 	//Planets
-  ach23x2: "Gain 100% of potential R-O-Y sigils per second!",
-	ach23x5: "Unlock Buy Max for planet forming!",
-	ach23x6: "Unlock Buy Max buttons for cosmic plague upgrades!",
+  ach23x2: "每秒获得潜在红、橙、黄符印的 100%！",
+	ach23x5: "解锁行星形成的批量购买！",
+	ach23x6: "解锁宇宙瘟疫升级的批量购买按钮！",
 	//Omniversal hypergods
-	ach24x0: "Gain 100% of potential polyhedrons per second! And a 5x plague gain multiplier.",
-	ach24x1: "Another 5x plague gain multiplier :)",
-	ach24x2: "Automatically buy max planets! And a 10x oganesson gain multiplier.",
-	ach24x3: "A 5x light/dark essence gain multiplier!",
-	ach24x4: "A 10x death essence gain multiplier!",
-	ach24x5: "Unlock Max All and Auto Max All for cosmic plague upgrades!",
-	ach24x6: "Unlock Max Alls for light, dark and death essence upgrades!",
-	ach24x7: "Unlock Max All for finality essence upgrades!",
-	ach24x8: "A 100x finality essence gain multiplier!",
-	ach24x9: "Automatically gain max nuclear pasta! And another 100x finality essence gain multiplier.",
-	ach24x10: "A 10,000,000x finality essence gain multiplier!",
-	ach24x11: "Unlock something.",
+	ach24x0: "每秒获得潜在多面体的 100%！并获得 5x 瘟疫获取乘数。",
+	ach24x1: "又一个 5x 瘟疫获取乘数 :)",
+	ach24x2: "自动批量购买行星！并获得 10x 鿫获取乘数。",
+	ach24x3: "5x 光明精华、黑暗精华获取乘数！",
+	ach24x4: "10x 死亡精华获取乘数！",
+	ach24x5: "解锁宇宙瘟疫升级的全部最大化与自动全部最大化！",
+	ach24x6: "解锁光明、黑暗与死亡精华升级的全部最大化！",
+	ach24x7: "解锁终焉精华升级的全部最大化！",
+	ach24x8: "100x 终焉精华获取乘数！",
+	ach24x9: "自动获得最大量核意面！并再获得 100x 终焉精华获取乘数。",
+	ach24x10: "10,000,000x 终焉精华获取乘数！",
+	ach24x11: "解锁某物。",
 }
 const achievementResources = [
-  {name:"gold", shortName:"&#8202;&#8202;Gold", internalName:"gold"},
-  {name:"fire", shortName:"&#8202;&#8202;Fire", internalName:"fire"},
-  {name:"platinum", shortName:"Platinum", internalName:"platinum"},
-  {name:"magic", shortName:"Magic", internalName:"magic"},
-  {name:"magifolds", shortName:"Magifolds", internalName:"magifolds"},
-  {name:"uranium", shortName:"Uranium", internalName:"uranium"},
-  {name:"cyan sigils", shortName:"C-sigils", internalName:"cyanSigils"},
-  {name:"blue sigils", shortName:"&#8202;&#8202;B-sigils", internalName:"blueSigils"},
-  {name:"indigo sigils", shortName:"&#8202;&#8202;I-sigils", internalName:"indigoSigils"},
-  {name:"violet sigils", shortName:"&#8202;&#8202;V-sigils", internalName:"violetSigils"},
-  {name:"pink sigils", shortName:"P-sigils", internalName:"pinkSigils"},
-  {name:"knowledge", shortName:"&#8202;&#8202;Knwlege", internalName:"knowledge"},
-  {name:"total tomes", shortName:"&#8202;&#8202;Tomes", internalName:"totalTomes"},
-  {name:"blue fire", shortName:"&#8202;&#8202;B-fire", internalName:"blueFire"},
-  {name:"blood", shortName:"Blood", internalName:"blood"},
-  {name:"plutonium", shortName:"Plutonium", internalName:"plutonium"},
-  {name:"red sigils", shortName:"R-sigils", internalName:"redSigils"},
-  {name:"orange sigils", shortName:"O-sigils", internalName:"orangeSigils"},
-  {name:"yellow sigils", shortName:"&#8202;&#8202;Y-sigils", internalName:"yellowSigils"},
-  {name:"holy tetrahedrons", shortName:"Tetra", internalName:"holyTetrahedrons"},
-  {name:"holy octahedrons", shortName:"Octa", internalName:"holyOctahedrons"},
-  {name:"holy fire", shortName:"H-fire", internalName:"holyFire"},
-  {name:"holy dodecahedrons", shortName:"&#8202;&#8202;Dodeca", internalName:"holyDodecahedrons"},
-	{name:"planets", shortName:"&#8202;&#8202;Planets", internalName:"planets"},
-	{name:"defeated hypergods", shortName:"&#8202;&#8202;Omni", internalName:"hypergodsDefeated"}
+  {name:"金币", shortName:"&#8202;&#8202;金币", internalName:"gold"},
+  {name:"火焰", shortName:"&#8202;&#8202;火焰", internalName:"fire"},
+  {name:"铂金", shortName:"铂金", internalName:"platinum"},
+  {name:"魔法", shortName:"魔法", internalName:"magic"},
+  {name:"魔法流形", shortName:"魔法流形", internalName:"magifolds"},
+  {name:"铀", shortName:"铀", internalName:"uranium"},
+  {name:"青色符印", shortName:"青色符印", internalName:"cyanSigils"},
+  {name:"蓝色符印", shortName:"&#8202;&#8202;蓝色符印", internalName:"blueSigils"},
+  {name:"靛色符印", shortName:"&#8202;&#8202;靛色符印", internalName:"indigoSigils"},
+  {name:"紫色符印", shortName:"&#8202;&#8202;紫色符印", internalName:"violetSigils"},
+  {name:"粉色符印", shortName:"粉色符印", internalName:"pinkSigils"},
+  {name:"知识", shortName:"&#8202;&#8202;知识", internalName:"knowledge"},
+  {name:"典籍总数", shortName:"&#8202;&#8202;典籍", internalName:"totalTomes"},
+  {name:"蓝火", shortName:"&#8202;&#8202;蓝火", internalName:"blueFire"},
+  {name:"血液", shortName:"血液", internalName:"blood"},
+  {name:"钚", shortName:"钚", internalName:"plutonium"},
+  {name:"红色符印", shortName:"红色符印", internalName:"redSigils"},
+  {name:"橙色符印", shortName:"橙色符印", internalName:"orangeSigils"},
+  {name:"黄色符印", shortName:"&#8202;&#8202;黄色符印", internalName:"yellowSigils"},
+  {name:"神圣四面体", shortName:"四面体", internalName:"holyTetrahedrons"},
+  {name:"神圣八面体", shortName:"八面体", internalName:"holyOctahedrons"},
+  {name:"圣火", shortName:"圣火", internalName:"holyFire"},
+  {name:"神圣十二面体", shortName:"&#8202;&#8202;十二面体", internalName:"holyDodecahedrons"},
+	{name:"行星", shortName:"&#8202;&#8202;行星", internalName:"planets"},
+	{name:"击败的超神", shortName:"&#8202;&#8202;泛宇宙", internalName:"hypergodsDefeated"}
 ]
 const achievementColours = ["#fd0", "#f80", "#bff", "#90d", "#60d", "#8f8", "#06b", "#00b", "#40b", "#60b", "#b0b", "#987", "#965", "#66f", "#f00", "#25e", "#b00", "#b60", "#bb0", "#6dd", "#d6d", "#ff9", "#d66", "#62b", "#44d"]
 //this array tells the display code when each achievement should be visible. each child array corresponds to a value of game.unlocks

@@ -1,0 +1,438 @@
+[
+ {
+  "en": "Are you sure you want to ascend?",
+  "ids": [
+   "s1484",
+   "s1486",
+   "s1488"
+  ]
+ },
+ {
+  "en": "Woah, hold on! You won't gain any holy octahedrons! Are you sure you want to ascend?",
+  "ids": [
+   "s1485"
+  ]
+ },
+ {
+  "en": "Woah, hold on! You won't gain any holy dodecahedrons! Are you sure you want to ascend?",
+  "ids": [
+   "s1487"
+  ]
+ },
+ {
+  "en": "<p style=\"font-weight: bold\">Shift+S - manual save",
+  "ids": [
+   "s1489"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #288\">P - platinum</a>",
+  "ids": [
+   "s1490"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #90d\">M - magic</a>",
+  "ids": [
+   "s1491"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #60d\">1, 2, 3, 4 - activate/deactivate magic challenges</a><br><a style=\"color: #60d\">C - enter/exit magic challenges</a>",
+  "ids": [
+   "s1492"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #282\">U - uranium</a>",
+  "ids": [
+   "s1493"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #06b\">Shift+1 - cyan sigils</a>, <a style=\"color: #00b\">Shift+2 - blue sigils</a>, et cetera",
+  "ids": [
+   "s1494"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #965\">T - convert max tomes</a>",
+  "ids": [
+   "s1495"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #f00\">H - enter/exit hell</a>",
+  "ids": [
+   "s1496"
+  ]
+ },
+ {
+  "en": "<br><a style=\"color: #25e\">Shift+P - plutonium</a>",
+  "ids": [
+   "s1497"
+  ]
+ },
+ {
+  "en": " knowledge<br>Costs:<br><img src='img/iconSigil",
+  "ids": [
+   "s1499"
+  ]
+ },
+ {
+  "en": " sigils<br><img src='img/iconSigil",
+  "ids": [
+   "s1500",
+   "s1501"
+  ]
+ },
+ {
+  "en": " sigils",
+  "ids": [
+   "s1502"
+  ]
+ },
+ {
+  "en": "Greed (IV)",
+  "ids": [
+   "s1514",
+   "s1574"
+  ]
+ },
+ {
+  "en": "Wrath (V)",
+  "ids": [
+   "s1515",
+   "s1575"
+  ]
+ },
+ {
+  "en": "Woah, hold on! You won't gain any magic! Are you sure you want to perform a magic reset?",
+  "ids": [
+   "s1516"
+  ]
+ },
+ {
+  "en": "Are you sure you want to perform a magic reset?",
+  "ids": [
+   "s1517"
+  ]
+ },
+ {
+  "en": " (hardcapped)",
+  "ids": [
+   "s1518",
+   "s1613",
+   "s1615",
+   "s1620",
+   "s1622"
+  ]
+ },
+ {
+  "en": "<a style='color: #606'>Hover over a challenge to see what it does!</a><br><a style='color: #060'>You can select up to 4 challenges, and you will earn separate scores for each amount of challenges you enter at once (1, 2, 3 and 4).</a><a style='color: #046'> Bonuses are based on the highest score achieved in each amount of challenges, multiplied together.</a>",
+  "ids": [
+   "s1519",
+   "s1529"
+  ]
+ },
+ {
+  "en": "A1 - Magic fail",
+  "ids": [
+   "s1520"
+  ]
+ },
+ {
+  "en": "magic effect is ^0.2 then /1.000e25.",
+  "ids": [
+   "s1521"
+  ]
+ },
+ {
+  "en": "A2 - Market crash",
+  "ids": [
+   "s1522"
+  ]
+ },
+ {
+  "en": "Gold and platinum gain are severely reduced (^0.25).",
+  "ids": [
+   "s1523"
+  ]
+ },
+ {
+  "en": "B1 - Freezing",
+  "ids": [
+   "s1524"
+  ]
+ },
+ {
+  "en": "Fire gain is severely reduced (^0.3).",
+  "ids": [
+   "s1525"
+  ]
+ },
+ {
+  "en": "Fire gain is severely reduced (^0.1).",
+  "ids": [
+   "s1526"
+  ]
+ },
+ {
+  "en": "B2 - Awful alchemy",
+  "ids": [
+   "s1527"
+  ]
+ },
+ {
+  "en": "Platinum upgrade 6's effect is /1.000e25 and gold/click is always 20.",
+  "ids": [
+   "s1528"
+  ]
+ },
+ {
+  "en": "Challenges active: ",
+  "ids": [
+   "s1530",
+   "s1565"
+  ]
+ },
+ {
+  "en": "A1 ",
+  "ids": [
+   "s1531",
+   "s1566"
+  ]
+ },
+ {
+  "en": "A2 ",
+  "ids": [
+   "s1532",
+   "s1567"
+  ]
+ },
+ {
+  "en": "B1 ",
+  "ids": [
+   "s1533",
+   "s1568"
+  ]
+ },
+ {
+  "en": "<b>Pasta states:</b><br>",
+  "ids": [
+   "s1535"
+  ]
+ },
+ {
+  "en": " - <span style='color: #080'>",
+  "ids": [
+   "s1536"
+  ]
+ },
+ {
+  "en": "</span> - <span style='color: #b00'>",
+  "ids": [
+   "s1537"
+  ]
+ },
+ {
+  "en": "px ",
+  "ids": [
+   "s1541",
+   "s1542"
+  ]
+ },
+ {
+  "en": "auto tab pan attempted with invalid parameter: ",
+  "ids": [
+   "s1543"
+  ]
+ },
+ {
+  "en": " fps",
+  "ids": [
+   "s1544"
+  ]
+ },
+ {
+  "en": "Unnamed dragon",
+  "ids": [
+   "s1545"
+  ]
+ },
+ {
+  "en": "Are you sure you want to reset? You will lose everything!",
+  "ids": [
+   "s1546"
+  ]
+ },
+ {
+  "en": "Copied to clipboard!",
+  "ids": [
+   "s1547"
+  ]
+ },
+ {
+  "en": "Invalid input.",
+  "ids": [
+   "s1548"
+  ]
+ },
+ {
+  "en": "Background Pattern: Off",
+  "ids": [
+   "s1549",
+   "s1629"
+  ]
+ },
+ {
+  "en": "2px solid red",
+  "ids": [
+   "s1563",
+   "s1570",
+   "s1576",
+   "s1623",
+   "s1625",
+   "s1627"
+  ]
+ },
+ {
+  "en": "2px solid #0f0",
+  "ids": [
+   "s1564",
+   "s1571",
+   "s1577",
+   "s1624",
+   "s1626",
+   "s1628"
+  ]
+ },
+ {
+  "en": "<a style='color:#0ff'>!</a> You are in magic challenges<br>",
+  "ids": [
+   "s1600"
+  ]
+ },
+ {
+  "en": "<a style='color:#0ff'>!</a> You are in hell<br>",
+  "ids": [
+   "s1601"
+  ]
+ },
+ {
+  "en": "<a style='color:#0ff'>!</a> Sigil resetter is enabled<br>",
+  "ids": [
+   "s1602"
+  ]
+ },
+ {
+  "en": "Next magic at ",
+  "ids": [
+   "s1603"
+  ]
+ },
+ {
+  "en": " gold<br>",
+  "ids": [
+   "s1604"
+  ]
+ },
+ {
+  "en": " (softcapped)",
+  "ids": [
+   "s1605",
+   "s1614",
+   "s1616",
+   "s1619",
+   "s1621"
+  ]
+ },
+ {
+  "en": "Exit challenges for ",
+  "ids": [
+   "s1606"
+  ]
+ },
+ {
+  "en": " score",
+  "ids": [
+   "s1607"
+  ]
+ },
+ {
+  "en": "Next at ",
+  "ids": [
+   "s1609",
+   "s1611",
+   "s1617"
+  ]
+ },
+ {
+  "en": " gold",
+  "ids": [
+   "s1610",
+   "s1612",
+   "s1618"
+  ]
+ },
+ {
+  "en": "Background Pattern: On",
+  "ids": [
+   "s1630"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>DodecaDragon",
+  "ids": [
+   "s1631"
+  ]
+ },
+ {
+  "en": "opacity 1.5s",
+  "ids": [
+   "s1632"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Purple robot dragon",
+  "ids": [
+   "s1633"
+  ]
+ },
+ {
+  "en": "Your dragon has a strange affinity for large numbers. An easter egg for a certain someone!",
+  "ids": [
+   "s1634"
+  ]
+ },
+ {
+  "en": "Hmm? For what reason did you click on me? You want to battle me? I'm sorry young one, but I don't think that's a wise idea.\\n\\nDo you feel safe, out there in ",
+  "ids": [
+   "s1635"
+  ]
+ },
+ {
+  "en": "Woah, hold on! You won't gain any sigils! Are you sure you want to perform a sigil reset?",
+  "ids": [
+   "s1636"
+  ]
+ },
+ {
+  "en": "Are you sure you want to perform a sigil reset?",
+  "ids": [
+   "s1637"
+  ]
+ },
+ {
+  "en": "Warning! Sigil reset is attempting to reset for NaN!",
+  "ids": [
+   "s1639"
+  ]
+ },
+ {
+  "en": "auto sigil time",
+  "ids": [
+   "s1643"
+  ]
+ }
+]

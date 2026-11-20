@@ -1,0 +1,594 @@
+[
+ {
+  "en": "You have",
+  "ids": [
+   "s0000",
+   "s0131",
+   "s0153",
+   "s0181",
+   "s0239",
+   "s0253",
+   "s0320",
+   "s0330",
+   "s0341",
+   "s0350",
+   "s0360",
+   "s0366",
+   "s0377",
+   "s0383",
+   "s0395",
+   "s0401",
+   "s0416",
+   "s0460",
+   "s0500",
+   "s0524",
+   "s0539",
+   "s0558",
+   "s0565",
+   "s0576",
+   "s0582",
+   "s0608",
+   "s0614",
+   "s0625",
+   "s0667",
+   "s0699",
+   "s0758",
+   "s0779",
+   "s0786",
+   "s0796",
+   "s0798",
+   "s0820",
+   "s0844",
+   "s0860",
+   "s0876",
+   "s0898",
+   "s0921",
+   "s0940"
+  ]
+ },
+ {
+  "en": "Mine gold",
+  "ids": [
+   "s0001"
+  ]
+ },
+ {
+  "en": "Hire a gold miner",
+  "ids": [
+   "s0002"
+  ]
+ },
+ {
+  "en": "Auto buy max: On",
+  "ids": [
+   "s0003",
+   "s1481"
+  ]
+ },
+ {
+  "en": "Get a young dragon",
+  "ids": [
+   "s0004"
+  ]
+ },
+ {
+  "en": "Costs 200 gold",
+  "ids": [
+   "s0005"
+  ]
+ },
+ {
+  "en": "Unlock Alchemy",
+  "ids": [
+   "s0006"
+  ]
+ },
+ {
+  "en": "Costs 20,000,000 gold",
+  "ids": [
+   "s0007"
+  ]
+ },
+ {
+  "en": "Magic",
+  "ids": [
+   "s0008",
+   "s0180",
+   "s0212",
+   "s1408"
+  ]
+ },
+ {
+  "en": "Costs 1.00e15 gold",
+  "ids": [
+   "s0009"
+  ]
+ },
+ {
+  "en": "Unlock more magic upgrades",
+  "ids": [
+   "s0010"
+  ]
+ },
+ {
+  "en": "Costs 200,000,000 magic,",
+  "ids": [
+   "s0011"
+  ]
+ },
+ {
+  "en": "Requires 150,000 magifolds",
+  "ids": [
+   "s0012"
+  ]
+ },
+ {
+  "en": "Gain more platinum and uranium upgrades",
+  "ids": [
+   "s0013"
+  ]
+ },
+ {
+  "en": "Costs 1.00e420 gold",
+  "ids": [
+   "s0014"
+  ]
+ },
+ {
+  "en": "Dark Magic Upgrades",
+  "ids": [
+   "s0015"
+  ]
+ },
+ {
+  "en": "You are gaining stronger control over your magic powers.",
+  "ids": [
+   "s0016"
+  ]
+ },
+ {
+  "en": "Costs 1.00e1,000 gold",
+  "ids": [
+   "s0017"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;UNLOCK BLOOD",
+  "ids": [
+   "s0018"
+  ]
+ },
+ {
+  "en": "Costs e5.00e14 gold",
+  "ids": [
+   "s0019"
+  ]
+ },
+ {
+  "en": "Unlock more dark magic upgrades",
+  "ids": [
+   "s0020"
+  ]
+ },
+ {
+  "en": "Costs e6.66e16 gold",
+  "ids": [
+   "s0021"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Unlock",
+  "ids": [
+   "s0022",
+   "s0026",
+   "s0036",
+   "s0039"
+  ]
+ },
+ {
+  "en": "Void Magic Upgrades",
+  "ids": [
+   "s0023"
+  ]
+ },
+ {
+  "en": "You are mastering control of your magic powers.",
+  "ids": [
+   "s0024"
+  ]
+ },
+ {
+  "en": "Costs e1.00e100 gold and 100,000,000 holy fire",
+  "ids": [
+   "s0025"
+  ]
+ },
+ {
+  "en": "Planets",
+  "ids": [
+   "s0027",
+   "s0778"
+  ]
+ },
+ {
+  "en": "Costs e1.00e400 gold",
+  "ids": [
+   "s0028"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Something unseeable looms over you. A powerful presence has taken",
+  "ids": [
+   "s0029"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;an interest in your actions. Perhaps it may show itself if you acquire more gold.",
+  "ids": [
+   "s0030"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Unlock the",
+  "ids": [
+   "s0031"
+  ]
+ },
+ {
+  "en": "Light and Dark Essences",
+  "ids": [
+   "s0032"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs ee500,000 gold",
+  "ids": [
+   "s0033"
+  ]
+ },
+ {
+  "en": "Death Essence",
+  "ids": [
+   "s0034"
+  ]
+ },
+ {
+  "en": "Costs ee1,500,000 gold",
+  "ids": [
+   "s0035"
+  ]
+ },
+ {
+  "en": "Nuclear Pasta",
+  "ids": [
+   "s0037"
+  ]
+ },
+ {
+  "en": "Costs ee3,500,000 gold",
+  "ids": [
+   "s0038"
+  ]
+ },
+ {
+  "en": "Finality Essence",
+  "ids": [
+   "s0040"
+  ]
+ },
+ {
+  "en": "Costs ee150,000,000 gold",
+  "ids": [
+   "s0041"
+  ]
+ },
+ {
+  "en": "Finality Cubes",
+  "ids": [
+   "s0042",
+   "s0939"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs ee7.50e9 gold",
+  "ids": [
+   "s0043"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Become the omniverse.",
+  "ids": [
+   "s0044"
+  ]
+ },
+ {
+  "en": "Costs ee1.00e12 gold",
+  "ids": [
+   "s0045"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Manual save",
+  "ids": [
+   "s0046"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Hard reset",
+  "ids": [
+   "s0047"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Export",
+  "ids": [
+   "s0048"
+  ]
+ },
+ {
+  "en": "Import",
+  "ids": [
+   "s0049"
+  ]
+ },
+ {
+  "en": "paste import string here",
+  "ids": [
+   "s0050"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Background pattern: On",
+  "ids": [
+   "s0051"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Confirmation popups",
+  "ids": [
+   "s0052"
+  ]
+ },
+ {
+  "en": "Cyan sigils:",
+  "ids": [
+   "s0053"
+  ]
+ },
+ {
+  "en": "Blue sigils:",
+  "ids": [
+   "s0054"
+  ]
+ },
+ {
+  "en": "Indigo sigils:",
+  "ids": [
+   "s0055"
+  ]
+ },
+ {
+  "en": "Violet sigils:",
+  "ids": [
+   "s0056"
+  ]
+ },
+ {
+  "en": "Pink sigils:",
+  "ids": [
+   "s0057"
+  ]
+ },
+ {
+  "en": "Blue fire:",
+  "ids": [
+   "s0058"
+  ]
+ },
+ {
+  "en": "Red sigils:",
+  "ids": [
+   "s0059"
+  ]
+ },
+ {
+  "en": "Orange sigils:",
+  "ids": [
+   "s0060"
+  ]
+ },
+ {
+  "en": "Yellow sigils:",
+  "ids": [
+   "s0061"
+  ]
+ },
+ {
+  "en": "Holy tetrahedrons:",
+  "ids": [
+   "s0062"
+  ]
+ },
+ {
+  "en": "Holy octahedrons:",
+  "ids": [
+   "s0063"
+  ]
+ },
+ {
+  "en": "Holy fire:",
+  "ids": [
+   "s0064"
+  ]
+ },
+ {
+  "en": "Holy dodecahedrons:",
+  "ids": [
+   "s0065"
+  ]
+ },
+ {
+  "en": "Cosmic plague:",
+  "ids": [
+   "s0066"
+  ]
+ },
+ {
+  "en": "Light essence:",
+  "ids": [
+   "s0067"
+  ]
+ },
+ {
+  "en": "Dark essence:",
+  "ids": [
+   "s0068"
+  ]
+ },
+ {
+  "en": "Death essence:",
+  "ids": [
+   "s0069"
+  ]
+ },
+ {
+  "en": "Nuclear pasta:",
+  "ids": [
+   "s0070"
+  ]
+ },
+ {
+  "en": "Finality essence:",
+  "ids": [
+   "s0071"
+  ]
+ },
+ {
+  "en": "Finality cubes:",
+  "ids": [
+   "s0072"
+  ]
+ },
+ {
+  "en": "You have a",
+  "ids": [
+   "s0073"
+  ]
+ },
+ {
+  "en": "Set your dragon's name here!",
+  "ids": [
+   "s0074"
+  ]
+ },
+ {
+  "en": "Your wild young dragon produces fire for you. It enjoys playing",
+  "ids": [
+   "s0075"
+  ]
+ },
+ {
+  "en": "around on your gold stash.",
+  "ids": [
+   "s0076"
+  ]
+ },
+ {
+  "en": "Your fire is multiplying miner production by",
+  "ids": [
+   "s0077"
+  ]
+ },
+ {
+  "en": "Unlock fire upgrades",
+  "ids": [
+   "s0078"
+  ]
+ },
+ {
+  "en": "5,000 gold",
+  "ids": [
+   "s0079"
+  ]
+ },
+ {
+  "en": "Age your",
+  "ids": [
+   "s0080",
+   "s0084"
+  ]
+ },
+ {
+  "en": "dragon into an adult",
+  "ids": [
+   "s0081"
+  ]
+ },
+ {
+  "en": "Multiplies fire gain by 100",
+  "ids": [
+   "s0082",
+   "s0086"
+  ]
+ },
+ {
+  "en": "Costs 2,500,000 gold",
+  "ids": [
+   "s0083"
+  ]
+ },
+ {
+  "en": "dragon into an elder",
+  "ids": [
+   "s0085"
+  ]
+ },
+ {
+  "en": "Costs 1.00e12 gold",
+  "ids": [
+   "s0087"
+  ]
+ },
+ {
+  "en": "Corrupt your",
+  "ids": [
+   "s0088"
+  ]
+ },
+ {
+  "en": "dragon with the power of darkness",
+  "ids": [
+   "s0089"
+  ]
+ },
+ {
+  "en": "Multiplies fire gain by 10,000",
+  "ids": [
+   "s0090"
+  ]
+ },
+ {
+  "en": "Costs 1.00e25 gold",
+  "ids": [
+   "s0091"
+  ]
+ },
+ {
+  "en": "Infuse your",
+  "ids": [
+   "s0092"
+  ]
+ },
+ {
+  "en": "dragon with the power of light",
+  "ids": [
+   "s0093"
+  ]
+ },
+ {
+  "en": "Multiplies fire gain by 10,000,000",
+  "ids": [
+   "s0094"
+  ]
+ }
+]

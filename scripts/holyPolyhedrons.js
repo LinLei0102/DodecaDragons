@@ -2,28 +2,28 @@
 function holyPolyhedronCheck(x) {
   if (x==1) {
     if (game.holyTetrahedronsToGet.eq(0)) {
-      if (confirm("Woah, hold on! You won't gain any holy tetrahedrons! Are you sure you want to ascend?")) holyPolyhedronReset(x)
+      if (confirm("哇，等等！你将无法获得任何神圣四面体！确定要飞升吗？")) holyPolyhedronReset(x)
     }
     else if (game.confirmations[2]) {
-      if (confirm("Are you sure you want to ascend?")) holyPolyhedronReset(x)
+      if (confirm("确定要飞升吗？")) holyPolyhedronReset(x)
     }
     else {holyPolyhedronReset(x)}
   }
   else if (x==2) {
     if (game.holyOctahedronsToGet.eq(0)) {
-      if (confirm("Woah, hold on! You won't gain any holy octahedrons! Are you sure you want to ascend?")) holyPolyhedronReset(x)
+      if (confirm("哇哦，等等！你不会获得任何神圣八面体！确定要飞升吗？")) holyPolyhedronReset(x)
     }
     else if (game.confirmations[2]) {
-      if (confirm("Are you sure you want to ascend?")) holyPolyhedronReset(x)
+      if (confirm("确定要飞升吗？")) holyPolyhedronReset(x)
     }
     else {holyPolyhedronReset(x)}
   }
   else if (x==3) {
     if (game.holyDodecahedronsToGet.eq(0)) {
-      if (confirm("Woah, hold on! You won't gain any holy dodecahedrons! Are you sure you want to ascend?")) holyPolyhedronReset(x)
+      if (confirm("哇哦，等等！你不会获得任何神圣十二面体！确定要飞升吗？")) holyPolyhedronReset(x)
     }
     else if (game.confirmations[2]) {
-      if (confirm("Are you sure you want to ascend?")) holyPolyhedronReset(x)
+      if (confirm("确定要飞升吗？")) holyPolyhedronReset(x)
     }
     else {holyPolyhedronReset(x)}
   }

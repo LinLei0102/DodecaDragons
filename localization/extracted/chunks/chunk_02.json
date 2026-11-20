@@ -1,0 +1,655 @@
+[
+ {
+  "en": "Costs 1.00e150 gold",
+  "ids": [
+   "s0095"
+  ]
+ },
+ {
+  "en": "Enhance your dragon with incomprehensible machinery",
+  "ids": [
+   "s0096"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiplies blue fire gain by 100",
+  "ids": [
+   "s0097"
+  ]
+ },
+ {
+  "en": "Costs e1.50e11 gold",
+  "ids": [
+   "s0098"
+  ]
+ },
+ {
+  "en": "Ascend your dragon with the power of the heavens themselves!",
+  "ids": [
+   "s0099"
+  ]
+ },
+ {
+  "en": "Multiplies blue fire gain by 1.00e50",
+  "ids": [
+   "s0100"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs e1.00e55 gold",
+  "ids": [
+   "s0101"
+  ]
+ },
+ {
+  "en": "Fuse your dragon with versions of itself from other dimensions",
+  "ids": [
+   "s0102"
+  ]
+ },
+ {
+  "en": "Multiplies holy fire gain by 1.00e10",
+  "ids": [
+   "s0103"
+  ]
+ },
+ {
+  "en": "Costs e1.00e200 gold",
+  "ids": [
+   "s0104"
+  ]
+ },
+ {
+  "en": "Infuse your dragon with the cosmic plague and gain corrupted power",
+  "ids": [
+   "s0105"
+  ]
+ },
+ {
+  "en": "Multiplies cosmic plague gain by 100",
+  "ids": [
+   "s0106"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs ee35,000 gold",
+  "ids": [
+   "s0107"
+  ]
+ },
+ {
+  "en": "Infuse your dragon with the essences of light, dark and death",
+  "ids": [
+   "s0108"
+  ]
+ },
+ {
+  "en": "Multiplies light/dark essence gain by 1,000",
+  "ids": [
+   "s0109"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs ee1,750,000 gold",
+  "ids": [
+   "s0110"
+  ]
+ },
+ {
+  "en": "Infuse your dragon with the essence of finality",
+  "ids": [
+   "s0111"
+  ]
+ },
+ {
+  "en": "Multiplies death and finality essence gain by 100",
+  "ids": [
+   "s0112"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs ee1.50e9 gold",
+  "ids": [
+   "s0113"
+  ]
+ },
+ {
+  "en": "Your dragon is seeking affection!",
+  "ids": [
+   "s0114"
+  ]
+ },
+ {
+  "en": "(You cannot do anything with your dragon while inside challenges)",
+  "ids": [
+   "s0115"
+  ]
+ },
+ {
+  "en": "Spend time with your dragon",
+  "ids": [
+   "s0116"
+  ]
+ },
+ {
+  "en": "You are unable to enter challenges for the next 30 seconds",
+  "ids": [
+   "s0117"
+  ]
+ },
+ {
+  "en": "You have spent time with your dragon",
+  "ids": [
+   "s0118"
+  ]
+ },
+ {
+  "en": "times, increasing gold gain by ^",
+  "ids": [
+   "s0119"
+  ]
+ },
+ {
+  "en": "Feed your dragon",
+  "ids": [
+   "s0120"
+  ]
+ },
+ {
+  "en": "Turns all your score and magifolds into dragon food",
+  "ids": [
+   "s0121"
+  ]
+ },
+ {
+  "en": "Next feed requires",
+  "ids": [
+   "s0122"
+  ]
+ },
+ {
+  "en": "You have fed your dragon",
+  "ids": [
+   "s0123"
+  ]
+ },
+ {
+  "en": "times, increasing fire gain by ^",
+  "ids": [
+   "s0124"
+  ]
+ },
+ {
+  "en": "Pet your dragon!",
+  "ids": [
+   "s0125"
+  ]
+ },
+ {
+  "en": "Why does this cost, you ask? Stop asking so many questions!",
+  "ids": [
+   "s0126"
+  ]
+ },
+ {
+  "en": "Next pet costs 250",
+  "ids": [
+   "s0127"
+  ]
+ },
+ {
+  "en": "You have petted your dragon",
+  "ids": [
+   "s0128"
+  ]
+ },
+ {
+  "en": "times, multiplying sigil gain by",
+  "ids": [
+   "s0129"
+  ]
+ },
+ {
+  "en": "Fire upgrades",
+  "ids": [
+   "s0130"
+  ]
+ },
+ {
+  "en": "Increase fire production",
+  "ids": [
+   "s0132",
+   "s0506"
+  ]
+ },
+ {
+  "en": "Buy max",
+  "ids": [
+   "s0133",
+   "s0136",
+   "s0139",
+   "s0142",
+   "s0145",
+   "s0148",
+   "s0232",
+   "s0318",
+   "s0498",
+   "s0505",
+   "s0508",
+   "s0511",
+   "s0514",
+   "s0517",
+   "s0520",
+   "s0704",
+   "s0707",
+   "s0710",
+   "s0713",
+   "s0716",
+   "s0719",
+   "s0782",
+   "s0804",
+   "s0807",
+   "s0810",
+   "s0813",
+   "s0816"
+  ]
+ },
+ {
+  "en": "Increase fire effect",
+  "ids": [
+   "s0134"
+  ]
+ },
+ {
+  "en": "Currently x",
+  "ids": [
+   "s0135",
+   "s0138",
+   "s0141",
+   "s0144",
+   "s0147",
+   "s0169",
+   "s0173",
+   "s0187",
+   "s0194",
+   "s0197",
+   "s0200",
+   "s0223",
+   "s0294",
+   "s0297",
+   "s0302",
+   "s0307",
+   "s0310",
+   "s0333",
+   "s0335",
+   "s0353",
+   "s0355",
+   "s0369",
+   "s0373",
+   "s0386",
+   "s0404",
+   "s0442",
+   "s0467",
+   "s0478",
+   "s0485",
+   "s0549",
+   "s0568",
+   "s0570",
+   "s0572",
+   "s0585",
+   "s0587",
+   "s0589",
+   "s0617",
+   "s0619",
+   "s0621",
+   "s0803",
+   "s0806",
+   "s0815",
+   "s0827",
+   "s0838",
+   "s0841",
+   "s0850",
+   "s0853",
+   "s0866",
+   "s0869",
+   "s0872",
+   "s0882",
+   "s0885",
+   "s0891",
+   "s0894",
+   "s0927",
+   "s0936"
+  ]
+ },
+ {
+  "en": "Increase gold/click",
+  "ids": [
+   "s0137"
+  ]
+ },
+ {
+  "en": "Miners increase",
+  "ids": [
+   "s0140"
+  ]
+ },
+ {
+  "en": "Gold increases",
+  "ids": [
+   "s0143"
+  ]
+ },
+ {
+  "en": "Increase platinum",
+  "ids": [
+   "s0146"
+  ]
+ },
+ {
+  "en": "Auto max all: On",
+  "ids": [
+   "s0149",
+   "s0447",
+   "s0521",
+   "s0720",
+   "s0817",
+   "s1475",
+   "s1477",
+   "s1479",
+   "s1512",
+   "s1539",
+   "s1550",
+   "s1552",
+   "s1554",
+   "s1556",
+   "s1558",
+   "s1560"
+  ]
+ },
+ {
+  "en": "Max all",
+  "ids": [
+   "s0150",
+   "s0179",
+   "s0269",
+   "s0446",
+   "s0522",
+   "s0556",
+   "s0721",
+   "s0818",
+   "s0858",
+   "s0874",
+   "s0896",
+   "s0938"
+  ]
+ },
+ {
+  "en": "Convert all gold into",
+  "ids": [
+   "s0151"
+  ]
+ },
+ {
+  "en": "platinum (",
+  "ids": [
+   "s0152"
+  ]
+ },
+ {
+  "en": "+ Gain",
+  "ids": [
+   "s0154",
+   "s0254",
+   "s0540"
+  ]
+ },
+ {
+  "en": "extra platinum per second :)",
+  "ids": [
+   "s0155"
+  ]
+ },
+ {
+  "en": "Gain 20% more gold/second (",
+  "ids": [
+   "s0156"
+  ]
+ },
+ {
+  "en": "Costs 200 platinum",
+  "ids": [
+   "s0157"
+  ]
+ },
+ {
+  "en": "Gain 20% more fire/second (",
+  "ids": [
+   "s0158"
+  ]
+ },
+ {
+  "en": "Costs 500 platinum",
+  "ids": [
+   "s0159"
+  ]
+ },
+ {
+  "en": "Unlock a new fire upgrade (",
+  "ids": [
+   "s0160"
+  ]
+ },
+ {
+  "en": "Costs 750 platinum",
+  "ids": [
+   "s0161"
+  ]
+ },
+ {
+  "en": "Miner cost scales 5% slower (",
+  "ids": [
+   "s0162"
+  ]
+ },
+ {
+  "en": "Costs 1,500 platinum",
+  "ids": [
+   "s0163"
+  ]
+ },
+ {
+  "en": "Automatically gain platinum every second without",
+  "ids": [
+   "s0164"
+  ]
+ },
+ {
+  "en": "resetting (",
+  "ids": [
+   "s0165"
+  ]
+ },
+ {
+  "en": "Costs 2,000 platinum",
+  "ids": [
+   "s0166"
+  ]
+ },
+ {
+  "en": "Platinum increases",
+  "ids": [
+   "s0167"
+  ]
+ },
+ {
+  "en": "gold/second (",
+  "ids": [
+   "s0168"
+  ]
+ },
+ {
+  "en": "Costs 15,000 platinum",
+  "ids": [
+   "s0170"
+  ]
+ },
+ {
+  "en": "Increase magic",
+  "ids": [
+   "s0171"
+  ]
+ },
+ {
+  "en": "effect (",
+  "ids": [
+   "s0172"
+  ]
+ },
+ {
+  "en": "Costs 1,000,000 platinum",
+  "ids": [
+   "s0174"
+  ]
+ },
+ {
+  "en": "Double uranium gain (",
+  "ids": [
+   "s0175"
+  ]
+ },
+ {
+  "en": "Costs 1.000e22 platinum",
+  "ids": [
+   "s0176"
+  ]
+ },
+ {
+  "en": "Fire upgrade 4 is boosted",
+  "ids": [
+   "s0177"
+  ]
+ },
+ {
+  "en": "Costs 1.000e30 platinum",
+  "ids": [
+   "s0178"
+  ]
+ },
+ {
+  "en": "Reset all previous resources and upgrades",
+  "ids": [
+   "s0182"
+  ]
+ },
+ {
+  "en": "You will gain",
+  "ids": [
+   "s0183",
+   "s0628",
+   "s0670",
+   "s0761"
+  ]
+ },
+ {
+  "en": "Your magic is multiplying your gold gain by",
+  "ids": [
+   "s0184"
+  ]
+ },
+ {
+  "en": "Magic upgrades",
+  "ids": [
+   "s0185"
+  ]
+ },
+ {
+  "en": "Gold multiplies its own gain",
+  "ids": [
+   "s0186"
+  ]
+ },
+ {
+  "en": "Costs 2 magic",
+  "ids": [
+   "s0188"
+  ]
+ },
+ {
+  "en": "Increases magic gain by 50%",
+  "ids": [
+   "s0189"
+  ]
+ },
+ {
+  "en": "Costs 3",
+  "ids": [
+   "s0190"
+  ]
+ },
+ {
+  "en": "Multiply gold and fire gain by 55.5. Waow.",
+  "ids": [
+   "s0191"
+  ]
+ },
+ {
+  "en": "Costs 8",
+  "ids": [
+   "s0192"
+  ]
+ },
+ {
+  "en": "Magic multiplies its own gain",
+  "ids": [
+   "s0193"
+  ]
+ },
+ {
+  "en": "Costs 12 magic",
+  "ids": [
+   "s0195"
+  ]
+ },
+ {
+  "en": "Gold multiplies fire gain",
+  "ids": [
+   "s0196"
+  ]
+ },
+ {
+  "en": "Costs 30",
+  "ids": [
+   "s0198"
+  ]
+ },
+ {
+  "en": "Miners increase gold/second",
+  "ids": [
+   "s0199"
+  ]
+ },
+ {
+  "en": "Costs 100 magic",
+  "ids": [
+   "s0201"
+  ]
+ },
+ {
+  "en": "Double magic gain. Simple.",
+  "ids": [
+   "s0202"
+  ]
+ },
+ {
+  "en": "Costs 300 magic",
+  "ids": [
+   "s0203"
+  ]
+ },
+ {
+  "en": "Unlock a new platinum upgrade (kept on magic",
+  "ids": [
+   "s0204"
+  ]
+ }
+]

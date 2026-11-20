@@ -178,18 +178,18 @@ function getHoveredAchievement() {
 function showAchievementInfo(x,y) {
   let newHtml = "";
   if (x === null) { //show default text if no hovered achievement is detected
-    newHtml += "<p style='font-size: 22px; line-height: 22px; margin: 4px; color: #bbb'>Achievement name</p>";
-    newHtml += "<p style='color: #bbb'>Mouse over an achievement for more info!</p>"
+    newHtml += "<p style='font-size: 22px; line-height: 22px; margin: 4px; color: #bbb'>成就名称</p>";
+    newHtml += "<p style='color: #bbb'>将鼠标悬停在成就上以查看详情！</p>"
     document.getElementById("achievementInfo").innerHTML = newHtml;
     return;
   }
   newHtml += "<p style='font-size: 22px; line-height: 22px; margin: 4px'>" + achievementNames[x][y] + "</p>" 
-  newHtml += "<p>Obtain " + format(achievementRequirements[x][y], 0) + " " + achievementResources[x].name + "."; //example: Obtain 1e10 fire
+  newHtml += "<p>获得 " + format(achievementRequirements[x][y], 0) + " " + achievementResources[x].name + "."; //example: Obtain 1e10 fire
   //if (game.unlockedAchievements[x] >= 12 && achievementStarRequirements[x][y]) newHtml += "<span style='color: #FFD700; text-shadow: 1px 1px #860'> Star requirement: Obtain " + format(achievementStarRequirements[x][y], 0) + " " + achievementResources[x].name + ".</span>"; //example: Star requirement: Obtain e1e10 fire
   newHtml += "</p>";
   let thisId = "ach" + x + "x" + y;
   if (Object.keys(achievementRewards).indexOf(thisId) > -1) { //check whether the acheivementRewards object has an entry for this id
-    newHtml += "<p style='color: #8ff'>Reward: " + achievementRewards[thisId] + "</p>" 
+    newHtml += "<p style='color: #8ff'>奖励： " + achievementRewards[thisId] + "</p>" 
   }
   /*
   switch (thisId) {
@@ -262,11 +262,11 @@ function processAchievementRewards() {
   //uranium rewards
   if (game.unlockedAchievements[5] > 2) document.getElementById("uraniumMaxAllButton").style.display = "block";
   //cyan sigil rewards
-  if (game.unlockedAchievements[6] > 1) document.getElementById("dragonFeedButton").innerHTML = '<b>Feed your dragon</b><br>Turns some of your score and magifolds into dragon food<br>Next feed requires <a id="dragonFeedCost">' + format(game.dragonFeedCost, 0) + '</a> magifolds'
+  if (game.unlockedAchievements[6] > 1) document.getElementById("dragonFeedButton").innerHTML = '<b>喂养你的龙</b><br>将部分分数与魔法流形转化为龙食<br>下次喂养需要 <a id="dragonFeedCost">' + format(game.dragonFeedCost, 0) + '</a> 魔法流形'
   if (game.unlockedAchievements[6] > 2) document.getElementById("fireAutoMaxAllButton").style.display = "block";
   
   //blue sigil rewards
-  if (game.unlockedAchievements[7] > 0) document.getElementById("dragonFeedButton").innerHTML = '<b>Feed your dragon</b><br>Next feed requires <a id="dragonFeedCost">' + format(game.dragonFeedCost, 0) + '</a> magifolds'
+  if (game.unlockedAchievements[7] > 0) document.getElementById("dragonFeedButton").innerHTML = '<b>喂养你的龙</b><br>下次喂养需要 <a id="dragonFeedCost">' + format(game.dragonFeedCost, 0) + '</a> 魔法流形'
   //violet sigil rewards
   if (game.unlockedAchievements[9] > 0) {document.getElementById("dragonPetStuff").style.display = "block"}
   //pink sigil rewards
@@ -317,10 +317,10 @@ function achievementBoxOpen(x,y) {
     document.getElementsByClassName("box")[18].style.transition = "left 800ms ease-in-out"
     document.getElementsByClassName("box")[18].style.left = "5px"
   }, 50)
-  document.getElementById("achievementBoxInfo").innerHTML = "<b>" + achievementNames[x][y] + "</b> - Obtain " + format(achievementRequirements[x][y], 0) + " " + achievementResources[x].name + "."
+  document.getElementById("achievementBoxInfo").innerHTML = "<b>" + achievementNames[x][y] + "</b> - 获得 " + format(achievementRequirements[x][y], 0) + " " + achievementResources[x].name + "."
   let thisId = "ach" + x + "x" + y;
   if (Object.keys(achievementRewards).indexOf(thisId) > -1) { //check whether the acheivementRewards object has an entry for this id
-    document.getElementById("achievementBoxInfo").innerHTML += "<br><br><span style='color: #088; font-size: 16px; font-weight: bold; margin-right: 2px'>Reward gained: " + achievementRewards[thisId] + "</span>" 
+    document.getElementById("achievementBoxInfo").innerHTML += "<br><br><span style='color: #088; font-size: 16px; font-weight: bold; margin-right: 2px'>已获得奖励： " + achievementRewards[thisId] + "</span>" 
   }
   setTimeout(achievementBoxClose, 6000)
 }

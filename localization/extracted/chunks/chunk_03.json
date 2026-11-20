@@ -1,0 +1,577 @@
+[
+ {
+  "en": "1,500 magic",
+  "ids": [
+   "s0205"
+  ]
+ },
+ {
+  "en": "Fire upgrades 2 and 3 are severely boosted",
+  "ids": [
+   "s0206"
+  ]
+ },
+ {
+  "en": "4,000 magic",
+  "ids": [
+   "s0207"
+  ]
+ },
+ {
+  "en": "Magic upgrades 4 and 6 are boosted",
+  "ids": [
+   "s0208"
+  ]
+ },
+ {
+  "en": "Costs 20,000",
+  "ids": [
+   "s0209"
+  ]
+ },
+ {
+  "en": "Platinum upgrade 7 can be bought an extra 10 times",
+  "ids": [
+   "s0210"
+  ]
+ },
+ {
+  "en": "Costs 100,000",
+  "ids": [
+   "s0211"
+  ]
+ },
+ {
+  "en": "Costs 400,000 magic",
+  "ids": [
+   "s0213"
+  ]
+ },
+ {
+  "en": "Challenge score gain is",
+  "ids": [
+   "s0214"
+  ]
+ },
+ {
+  "en": "Costs 100,000,000 magic",
+  "ids": [
+   "s0215"
+  ]
+ },
+ {
+  "en": "Fire upgrade 1 is",
+  "ids": [
+   "s0216"
+  ]
+ },
+ {
+  "en": "Costs 300,000,000 magic",
+  "ids": [
+   "s0217"
+  ]
+ },
+ {
+  "en": "Challenge B1's effect is",
+  "ids": [
+   "s0218"
+  ]
+ },
+ {
+  "en": "Costs 1.50e9 magic",
+  "ids": [
+   "s0219"
+  ]
+ },
+ {
+  "en": "Magic effect is squared",
+  "ids": [
+   "s0220"
+  ]
+ },
+ {
+  "en": "3.00e9 magic",
+  "ids": [
+   "s0221"
+  ]
+ },
+ {
+  "en": "Magifolds multiply score",
+  "ids": [
+   "s0222"
+  ]
+ },
+ {
+  "en": "Costs 1.00e11 magic",
+  "ids": [
+   "s0224"
+  ]
+ },
+ {
+  "en": "Triple magic gain again. Easy",
+  "ids": [
+   "s0225"
+  ]
+ },
+ {
+  "en": "Costs 4.00e12 magic",
+  "ids": [
+   "s0226"
+  ]
+ },
+ {
+  "en": "Magifold effect is boosted from",
+  "ids": [
+   "s0227"
+  ]
+ },
+ {
+  "en": "(x^4) to (x^6)",
+  "ids": [
+   "s0228"
+  ]
+ },
+ {
+  "en": "Costs 1.00e13 magic",
+  "ids": [
+   "s0229"
+  ]
+ },
+ {
+  "en": "Uranium",
+  "ids": [
+   "s0230",
+   "s1412"
+  ]
+ },
+ {
+  "en": "Costs 1.00e16 magic",
+  "ids": [
+   "s0231"
+  ]
+ },
+ {
+  "en": "Magic challenges",
+  "ids": [
+   "s0233"
+  ]
+ },
+ {
+  "en": "HIGHEST SCORES:",
+  "ids": [
+   "s0234"
+  ]
+ },
+ {
+  "en": "1 challenge:",
+  "ids": [
+   "s0235"
+  ]
+ },
+ {
+  "en": "2 challenges:",
+  "ids": [
+   "s0236"
+  ]
+ },
+ {
+  "en": "3 challenges:",
+  "ids": [
+   "s0237"
+  ]
+ },
+ {
+  "en": "4 challenges:",
+  "ids": [
+   "s0238"
+  ]
+ },
+ {
+  "en": "magic manifolds",
+  "ids": [
+   "s0240"
+  ]
+ },
+ {
+  "en": "which give",
+  "ids": [
+   "s0241"
+  ]
+ },
+ {
+  "en": "gold gain",
+  "ids": [
+   "s0242"
+  ]
+ },
+ {
+  "en": "Hover over a challenge to see what",
+  "ids": [
+   "s0243"
+  ]
+ },
+ {
+  "en": "it does!",
+  "ids": [
+   "s0244"
+  ]
+ },
+ {
+  "en": "You can select up to 4 challenges, and you will earn separate",
+  "ids": [
+   "s0245"
+  ]
+ },
+ {
+  "en": "scores for each amount of challenges you enter at once (1, 2, 3 and 4).",
+  "ids": [
+   "s0246"
+  ]
+ },
+ {
+  "en": "are based on the highest score achieved in each amount of challenges, multiplied together.",
+  "ids": [
+   "s0247"
+  ]
+ },
+ {
+  "en": "Enter challenges",
+  "ids": [
+   "s0248",
+   "s1608"
+  ]
+ },
+ {
+  "en": "You are not in any challenges!",
+  "ids": [
+   "s0249",
+   "s1534",
+   "s1569"
+  ]
+ },
+ {
+  "en": "Alchemy II",
+  "ids": [
+   "s0250"
+  ]
+ },
+ {
+  "en": "Convert all platinum into",
+  "ids": [
+   "s0251"
+  ]
+ },
+ {
+  "en": "uranium (",
+  "ids": [
+   "s0252"
+  ]
+ },
+ {
+  "en": "extra uranium per second :D",
+  "ids": [
+   "s0255"
+  ]
+ },
+ {
+  "en": "Uranium upgrades are kept on magic resets.",
+  "ids": [
+   "s0256"
+  ]
+ },
+ {
+  "en": "Increase platinum gain by 20%",
+  "ids": [
+   "s0257"
+  ]
+ },
+ {
+  "en": "Costs 100 uranium",
+  "ids": [
+   "s0258"
+  ]
+ },
+ {
+  "en": "Increase uranium gain by 10% (additive) (",
+  "ids": [
+   "s0259"
+  ]
+ },
+ {
+  "en": "Costs 300 uranium",
+  "ids": [
+   "s0260"
+  ]
+ },
+ {
+  "en": "Double score gain (",
+  "ids": [
+   "s0261"
+  ]
+ },
+ {
+  "en": "Costs 1,000 uranium",
+  "ids": [
+   "s0262"
+  ]
+ },
+ {
+  "en": "Platinum upgrade 6 is",
+  "ids": [
+   "s0263"
+  ]
+ },
+ {
+  "en": "boosted (",
+  "ids": [
+   "s0264"
+  ]
+ },
+ {
+  "en": "Costs 10,000 uranium",
+  "ids": [
+   "s0265"
+  ]
+ },
+ {
+  "en": "Increase platinum gain",
+  "ids": [
+   "s0266",
+   "s0354",
+   "s0509"
+  ]
+ },
+ {
+  "en": "tenfold (",
+  "ids": [
+   "s0267"
+  ]
+ },
+ {
+  "en": "Costs 50,000 uranium",
+  "ids": [
+   "s0268"
+  ]
+ },
+ {
+  "en": "Dark magic upgrades",
+  "ids": [
+   "s0270"
+  ]
+ },
+ {
+  "en": "Score gain is increased by ^1.30",
+  "ids": [
+   "s0271"
+  ]
+ },
+ {
+  "en": "1.00e110 magic",
+  "ids": [
+   "s0272"
+  ]
+ },
+ {
+  "en": "Uranium increases magic gain",
+  "ids": [
+   "s0273"
+  ]
+ },
+ {
+  "en": "Currently ^",
+  "ids": [
+   "s0274",
+   "s0337",
+   "s0371",
+   "s0388",
+   "s0409",
+   "s0444",
+   "s0488",
+   "s0546",
+   "s0809",
+   "s0812",
+   "s0824",
+   "s0835",
+   "s0856",
+   "s0888",
+   "s0930",
+   "s0933"
+  ]
+ },
+ {
+  "en": "Costs 1.00e125 magic",
+  "ids": [
+   "s0275"
+  ]
+ },
+ {
+  "en": "You gain 10x as much time spent with your",
+  "ids": [
+   "s0276"
+  ]
+ },
+ {
+  "en": "Costs 1.00e165 magic",
+  "ids": [
+   "s0277"
+  ]
+ },
+ {
+  "en": "Magifold effect is boosted again to",
+  "ids": [
+   "s0278"
+  ]
+ },
+ {
+  "en": "Costs 1.00e240 magic",
+  "ids": [
+   "s0279"
+  ]
+ },
+ {
+  "en": "Multiply uranium gain by 100",
+  "ids": [
+   "s0280"
+  ]
+ },
+ {
+  "en": "1.00e285 magic",
+  "ids": [
+   "s0281"
+  ]
+ },
+ {
+  "en": "Fire upgrade 2 is boosted again",
+  "ids": [
+   "s0282"
+  ]
+ },
+ {
+  "en": "1.00e320 magic",
+  "ids": [
+   "s0283"
+  ]
+ },
+ {
+  "en": "Score gain is doubled",
+  "ids": [
+   "s0284"
+  ]
+ },
+ {
+  "en": "Costs 1.00e360",
+  "ids": [
+   "s0285"
+  ]
+ },
+ {
+  "en": "Sigils",
+  "ids": [
+   "s0286",
+   "s0338",
+   "s0357",
+   "s0374",
+   "s0391",
+   "s1503",
+   "s1504",
+   "s1505",
+   "s1506",
+   "s1507",
+   "s1508",
+   "s1509",
+   "s1510",
+   "s1511",
+   "s1638"
+  ]
+ },
+ {
+  "en": "Costs 1.00e450 magic",
+  "ids": [
+   "s0287"
+  ]
+ },
+ {
+  "en": "Triple cyan and blue",
+  "ids": [
+   "s0288"
+  ]
+ },
+ {
+  "en": "sigil gain",
+  "ids": [
+   "s0289"
+  ]
+ },
+ {
+  "en": "Costs e120,000 magic",
+  "ids": [
+   "s0290"
+  ]
+ },
+ {
+  "en": "Increase magic gain by",
+  "ids": [
+   "s0291"
+  ]
+ },
+ {
+  "en": "Costs e140,000 magic",
+  "ids": [
+   "s0292"
+  ]
+ },
+ {
+  "en": "Blood multiplies blue fire gain",
+  "ids": [
+   "s0293"
+  ]
+ },
+ {
+  "en": "Costs e300,000,000 magic",
+  "ids": [
+   "s0295"
+  ]
+ },
+ {
+  "en": "Blood multiplies its own gain",
+  "ids": [
+   "s0296"
+  ]
+ },
+ {
+  "en": "Costs e450,000,000 magic",
+  "ids": [
+   "s0298"
+  ]
+ },
+ {
+  "en": "Platinum gain is increased by ^666",
+  "ids": [
+   "s0299"
+  ]
+ },
+ {
+  "en": "Costs e500,000,000 magic",
+  "ids": [
+   "s0300"
+  ]
+ },
+ {
+  "en": "Plutonium multiplies blood gain",
+  "ids": [
+   "s0301"
+  ]
+ },
+ {
+  "en": "Costs e600,000,000 magic",
+  "ids": [
+   "s0303"
+  ]
+ },
+ {
+  "en": "Multiply plutonium gain by 10",
+  "ids": [
+   "s0304"
+  ]
+ }
+]

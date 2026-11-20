@@ -17,8 +17,8 @@ function upgradeDragon(x) {
     document.getElementsByClassName("upgradeDragonButton")[0].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[1].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon2.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Adult dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your large dragon friend inspires awe and fear, and spews fire for you."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>成年龙"
+    document.getElementById("dragonInfo").innerHTML = "你那庞大的龙之友令人敬畏又恐惧，还会为你喷吐火焰。"
     game.dragonStage = 2
   }
   else if (x==2 && game.gold.gte(1e12)) {
@@ -26,8 +26,8 @@ function upgradeDragon(x) {
     document.getElementsByClassName("upgradeDragonButton")[1].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[2].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon3.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Elder dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your strong and wise dragon friend rests upon your mountain of gold, and defends it with inferno-like breath."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>上古龙"
+    document.getElementById("dragonInfo").innerHTML = "你强壮而睿智的龙之友栖息在你的金币山上，以炼狱般的吐息守护它。"
     game.dragonStage = 3
   }
   else if (x==3 && game.gold.gte(1e25)) {
@@ -35,16 +35,16 @@ function upgradeDragon(x) {
     document.getElementsByClassName("upgradeDragonButton")[2].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[3].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon4.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Dark dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your menacing dark dragon calls upon the power of the void itself to defend your empire."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>暗龙"
+    document.getElementById("dragonInfo").innerHTML = "你那凶恶的暗龙召唤虚空本身的力量来守卫你的帝国。"
     game.dragonStage = 4
   }
   else if (x==4 && game.gold.gte(1e150)) {
     game.gold = game.gold.sub(1e150)
     document.getElementsByClassName("upgradeDragonButton")[3].style.display = "none"
     document.getElementById("dragonImg").src = "img/iconDragon5.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Light dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your heavenly light dragon focuses the power of the gods themselves to protect your people from harm. It can also fire lightning out of its claws, because it's cool like that."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>光龙"
+    document.getElementById("dragonInfo").innerHTML = "你那圣洁的光龙汇聚诸神本身的力量来保护你的人民免受伤害。它还能从爪中射出闪电，因为它就是这么酷。"
     game.dragonStage = 5
     document.getElementById("dragonAffectionStuff").style.display = "block"
     document.getElementById("dragonTimeCooldown").innerHTML = game.dragonTimeCooldown
@@ -53,7 +53,7 @@ function upgradeDragon(x) {
     if (game.dragonTimeEffect.gt(2)) game.dragonTimeEffect = game.dragonTimeEffect.add(2).pow(0.5)
     if (game.dragonTimeEffect.gt(2.5)) {
       game.dragonTimeEffect = new Decimal(2.5)
-      document.getElementById("dragonTimeEffectCap").innerHTML = " (capped)"
+      document.getElementById("dragonTimeEffectCap").innerHTML = " （已达上限）"
     }
     else {document.getElementById("dragonTimeEffectCap").innerHTML = ""}
     document.getElementById("dragonTimeEffect").textContent = format(game.dragonTimeEffect, 3)
@@ -67,8 +67,8 @@ function upgradeDragon(x) {
     document.getElementsByClassName("upgradeDragonButton")[4].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[5].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon6.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Machine dragon"
-    document.getElementById("dragonInfo").innerHTML = "Despite being filled with immense eldrich technology spiralling inwards forever, a million billion tiny cogs quietly ticking away, your dragon feels like merely a cog itself. Perhaps... it is still imperfect."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>机械龙"
+    document.getElementById("dragonInfo").innerHTML = "尽管它体内充满了无边无际、不断向内盘旋的诡异科技，亿万微小齿轮悄然转动，你的龙却感觉自己也不过是个齿轮罢了。也许……它仍不完美。"
     game.dragonStage = 6
     document.getElementById("unlockBloodButton").style.display = "block"
   }
@@ -76,39 +76,39 @@ function upgradeDragon(x) {
     document.getElementsByClassName("upgradeDragonButton")[5].style.display = "none"
     document.getElementById("unlockVoidMagicUpgradesButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon7.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Holy dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon channels boundless energy through itself, a being of near-infinite strength. One even the gods fear. How did we get here?"
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>神圣龙"
+    document.getElementById("dragonInfo").innerHTML = "你的龙引导无穷能量贯穿自身，是近乎无限力量的存在，连诸神都为之畏惧。我们是怎么走到这一步的？"
     game.dragonStage = 7
   }
   else if (x==7 && game.gold.gte("e1e200")) {
     document.getElementsByClassName("upgradeDragonButton")[6].style.display = "none"
 		document.getElementById("unlockPlanetsButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon8.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Multidimensional dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon can view countless universes at once and channel all of their combined power."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>多维龙"
+    document.getElementById("dragonInfo").innerHTML = "你的龙能同时洞悉无数宇宙，并引导它们合二为一的全部力量。"
     game.dragonStage = 8
   }
 	else if (x==8 && game.gold.gte("ee35000")) {
     document.getElementsByClassName("upgradeDragonButton")[7].style.display = "none"
     document.getElementById("dragonImg").src = "img/iconDragon9.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Plague dragon"
-    document.getElementById("dragonInfo").innerHTML = "Dripping with the most dangerous substance in the omniverse, your dragon is completely unkillable."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>瘟疫龙"
+    document.getElementById("dragonInfo").innerHTML = "你的龙身上滴淌着泛宇宙中最危险的物质，完全无法被杀死。"
     game.dragonStage = 9
   }
 	else if (x==9 && game.gold.gte("ee1.75e6")) {
     document.getElementsByClassName("upgradeDragonButton")[8].style.display = "none"
 		document.getElementById("unlockNuclearPastaButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon10.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Death dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon embodies death itself. It seems you have killed Death and taken his place as the taker of souls."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>死亡龙"
+    document.getElementById("dragonInfo").innerHTML = "你的龙化身为死亡本身。看来你已经杀死了死神，取而代之成为灵魂的收割者。"
     game.dragonStage = 10
   }
 	else if (x==10 && game.gold.gte("ee1.5e9")) {
     document.getElementsByClassName("upgradeDragonButton")[9].style.display = "none"
 		document.getElementById("unlockFinalityCubesButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon11.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Finality dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon is now composed of the essence of the omniverse itself. It is physically impossible to become any stronger. Unless...?"
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>你拥有一条</a><br>终焉龙"
+    document.getElementById("dragonInfo").innerHTML = "你的龙如今由泛宇宙本身的精华构成。从物理上讲，它已不可能变得更强。除非……？"
     game.dragonStage = 11
   }
   document.getElementById("dragonStageCounter").innerHTML = romanNumerals[game.dragonStage - 1]
@@ -133,7 +133,7 @@ function dragonSpendTime() {
 		if (game.voidMagicUpgradesBought[8] == true) dragonTimeEffectCap = dragonTimeEffectCap.mul(10000)
     if (game.dragonTimeEffect.gt(dragonTimeEffectCap)) {
       game.dragonTimeEffect = dragonTimeEffectCap
-      document.getElementById("dragonTimeEffectCap").innerHTML = " (capped)"
+      document.getElementById("dragonTimeEffectCap").innerHTML = " （已达上限）"
     }
     else {document.getElementById("dragonTimeEffectCap").innerHTML = ""}
     document.getElementById("dragonTimeEffect").textContent = format(game.dragonTimeEffect, 3)
@@ -223,7 +223,7 @@ function dragonPet() {
   else if (game.dragonPets == 4 && game.pinkSigils.gte(250)) {
     game.pinkSigils = game.pinkSigils.sub(250)
     game.dragonPets++
-    document.getElementById("dragonPetButton").innerHTML = "You have petted your dragon sufficiently."
+    document.getElementById("dragonPetButton").innerHTML = "你已经充分抚摸过你的龙了。"
     document.getElementById("dragonPetButton").disabled = true
     document.getElementById("dragonPets").innerHTML = game.dragonPets
     document.getElementById("dragonPetEffect").textContent = format(new Decimal(5).pow(game.dragonPets ** 0.5), 2)
@@ -237,7 +237,7 @@ function defeatHypergod() {
 		if (game.hypergodsDefeated == 12) {
 			document.getElementById("hypergodImage").style.display = "none"
 			document.getElementById("hypergodName").style.display = "none"
-			document.getElementById("hypergodText").innerHTML = "&#8202;&#8202;There are no more hypergods to defeat!"
+			document.getElementById("hypergodText").innerHTML = "&#8202;&#8202;再没有超神可供击败了！"
 			document.getElementById("hypergodButton").style.display = "none"
 			document.getElementById("bigFinishButton").style.display = "block"
 		}

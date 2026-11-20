@@ -1,0 +1,571 @@
+[
+ {
+  "en": "You can also press/hold enter to repeat the last button you pressed!",
+  "ids": [
+   "s0600"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Want to discuss or suggest for",
+  "ids": [
+   "s0601"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;the game? Feel free to join our",
+  "ids": [
+   "s0602"
+  ]
+ },
+ {
+  "en": "discord community!",
+  "ids": [
+   "s0603"
+  ]
+ },
+ {
+  "en": "Want to get early access to",
+  "ids": [
+   "s0604"
+  ]
+ },
+ {
+  "en": "future updates? Consider",
+  "ids": [
+   "s0605"
+  ]
+ },
+ {
+  "en": "supporting me on Patreon! :)",
+  "ids": [
+   "s0606"
+  ]
+ },
+ {
+  "en": "Yellow sigils",
+  "ids": [
+   "s0607"
+  ]
+ },
+ {
+  "en": "yellow sigil power (YSP) (",
+  "ids": [
+   "s0615"
+  ]
+ },
+ {
+  "en": "Increase YSP gain",
+  "ids": [
+   "s0616"
+  ]
+ },
+ {
+  "en": "Increase orange sigil gain",
+  "ids": [
+   "s0618"
+  ]
+ },
+ {
+  "en": "HOLY TETRAHEDRONS",
+  "ids": [
+   "s0622"
+  ]
+ },
+ {
+  "en": "Costs 1.00e12 YSP",
+  "ids": [
+   "s0623"
+  ]
+ },
+ {
+  "en": "Holy tetrahedrons",
+  "ids": [
+   "s0624"
+  ]
+ },
+ {
+  "en": "holy tetrahedrons",
+  "ids": [
+   "s0626",
+   "s0629",
+   "s1439"
+  ]
+ },
+ {
+  "en": "Reset all previous progress and",
+  "ids": [
+   "s0627",
+   "s0669",
+   "s0760"
+  ]
+ },
+ {
+  "en": "Holy tetrahedron tree",
+  "ids": [
+   "s0630"
+  ]
+ },
+ {
+  "en": "Blue fire gain is",
+  "ids": [
+   "s0631"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;squared",
+  "ids": [
+   "s0632",
+   "s0635",
+   "s0654"
+  ]
+ },
+ {
+  "en": "Costs 1 tetrahedron",
+  "ids": [
+   "s0633",
+   "s0636",
+   "s0638",
+   "s0641"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Score gain is",
+  "ids": [
+   "s0634",
+   "s0687"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiply cyan sigil gain by 1.00e50",
+  "ids": [
+   "s0637"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiply R-O-Y sigil",
+  "ids": [
+   "s0639"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;gain by 10",
+  "ids": [
+   "s0640"
+  ]
+ },
+ {
+  "en": "Multiply platinum",
+  "ids": [
+   "s0642"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;gain by 1e20",
+  "ids": [
+   "s0643"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 2 tetrahedrons",
+  "ids": [
+   "s0644",
+   "s0646",
+   "s0649"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiply uranium gain by 100",
+  "ids": [
+   "s0645"
+  ]
+ },
+ {
+  "en": "Blood gain is always at least",
+  "ids": [
+   "s0647"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;1.00e9/s",
+  "ids": [
+   "s0648"
+  ]
+ },
+ {
+  "en": "Multiply knowledge",
+  "ids": [
+   "s0650",
+   "s0695"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;gain by 1.00e150",
+  "ids": [
+   "s0651"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 5 tetrahedrons",
+  "ids": [
+   "s0652",
+   "s0655"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Pink sigil gain is",
+  "ids": [
+   "s0653"
+  ]
+ },
+ {
+  "en": "Fire gain is",
+  "ids": [
+   "s0656"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;increased by",
+  "ids": [
+   "s0657"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 15 tetrahedrons",
+  "ids": [
+   "s0658"
+  ]
+ },
+ {
+  "en": "Unlock HOLY OCTAHEDRONS",
+  "ids": [
+   "s0659"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 50 tetrahedrons",
+  "ids": [
+   "s0660"
+  ]
+ },
+ {
+  "en": "Unlock Holy Fire",
+  "ids": [
+   "s0661"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 2,000",
+  "ids": [
+   "s0662"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;tetrahedrons",
+  "ids": [
+   "s0663"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiply holy fire gain by 100",
+  "ids": [
+   "s0664"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 50,000 tetras",
+  "ids": [
+   "s0665"
+  ]
+ },
+ {
+  "en": "Holy octahedrons",
+  "ids": [
+   "s0666"
+  ]
+ },
+ {
+  "en": "holy octahedrons",
+  "ids": [
+   "s0668",
+   "s0671",
+   "s1441"
+  ]
+ },
+ {
+  "en": "Holy octahedron tree",
+  "ids": [
+   "s0672"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;multiply R-O-Y sigil gain",
+  "ids": [
+   "s0673",
+   "s0764"
+  ]
+ },
+ {
+  "en": "Costs 1 octahedron",
+  "ids": [
+   "s0674",
+   "s0677",
+   "s0681"
+  ]
+ },
+ {
+  "en": "Multiply gold gain",
+  "ids": [
+   "s0675"
+  ]
+ },
+ {
+  "en": "in hell by 1.00e250",
+  "ids": [
+   "s0676"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Multiply blood gain",
+  "ids": [
+   "s0678"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;by 1.00e9^(hell",
+  "ids": [
+   "s0679"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;layer)",
+  "ids": [
+   "s0680"
+  ]
+ },
+ {
+  "en": "Multiply blue fire gain by 1e250",
+  "ids": [
+   "s0682"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 2 octahedrons",
+  "ids": [
+   "s0683",
+   "s0689"
+  ]
+ },
+ {
+  "en": "Gain 1 free tetrahedron per",
+  "ids": [
+   "s0684"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;second",
+  "ids": [
+   "s0685"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 4 octahedrons",
+  "ids": [
+   "s0686"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;increased by ^10",
+  "ids": [
+   "s0688"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Plutonium^0.5 multiplies blue fire gain",
+  "ids": [
+   "s0690"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 50 octahedrons",
+  "ids": [
+   "s0691"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Octahedrons",
+  "ids": [
+   "s0692"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;multiply holy fire gain",
+  "ids": [
+   "s0693",
+   "s0776"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 750 octahedrons",
+  "ids": [
+   "s0694"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;gain by 1.00e3,000",
+  "ids": [
+   "s0696"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Costs 25,000 octas",
+  "ids": [
+   "s0697"
+  ]
+ },
+ {
+  "en": "Holy fire upgrades",
+  "ids": [
+   "s0698"
+  ]
+ },
+ {
+  "en": "holy fire",
+  "ids": [
+   "s0700",
+   "s0703",
+   "s0706",
+   "s0709",
+   "s0712",
+   "s0715",
+   "s0718",
+   "s1443"
+  ]
+ },
+ {
+  "en": "/s) (Holy fire gain is based on blue fire amount)",
+  "ids": [
+   "s0701"
+  ]
+ },
+ {
+  "en": "Multiply holy fire production",
+  "ids": [
+   "s0702"
+  ]
+ },
+ {
+  "en": "Multiply holy tetrahedron gain",
+  "ids": [
+   "s0705"
+  ]
+ },
+ {
+  "en": "Multiply dragon time spent cap again",
+  "ids": [
+   "s0708"
+  ]
+ },
+ {
+  "en": "Increase plutonium gain",
+  "ids": [
+   "s0711",
+   "s0932"
+  ]
+ },
+ {
+  "en": "Multiply holy octahedron gain",
+  "ids": [
+   "s0714"
+  ]
+ },
+ {
+  "en": "Multiply holy dodecahedron gain",
+  "ids": [
+   "s0717"
+  ]
+ },
+ {
+  "en": "Void magic upgrades",
+  "ids": [
+   "s0722"
+  ]
+ },
+ {
+  "en": "Multiply holy octahedron gain by 10",
+  "ids": [
+   "s0723"
+  ]
+ },
+ {
+  "en": "e1.25e10 magic",
+  "ids": [
+   "s0724"
+  ]
+ },
+ {
+  "en": "Multiply OSP gain by 1.00e20",
+  "ids": [
+   "s0725"
+  ]
+ },
+ {
+  "en": "e1.40e10 magic",
+  "ids": [
+   "s0726"
+  ]
+ },
+ {
+  "en": "Increase CSP gain by ^2.00",
+  "ids": [
+   "s0727"
+  ]
+ },
+ {
+  "en": "e1.55e10 magic",
+  "ids": [
+   "s0728"
+  ]
+ },
+ {
+  "en": "Unlock HOLY DODECAHEDRONS",
+  "ids": [
+   "s0729"
+  ]
+ },
+ {
+  "en": "e1.65e10 magic",
+  "ids": [
+   "s0730"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;FIRE EQUALIZER I - Fire gain is always equal to gold^(1.00e-10)",
+  "ids": [
+   "s0731"
+  ]
+ },
+ {
+  "en": "Costs e2.00e10 magic",
+  "ids": [
+   "s0732"
+  ]
+ },
+ {
+  "en": "FIRE EQUALIZER II - Fire gain is always equal to gold",
+  "ids": [
+   "s0733"
+  ]
+ },
+ {
+  "en": "Costs e3.00e10 magic",
+  "ids": [
+   "s0734"
+  ]
+ },
+ {
+  "en": "BLOOD EQUALIZER - Blood gain is always equal to log10(gold)",
+  "ids": [
+   "s0735"
+  ]
+ }
+]

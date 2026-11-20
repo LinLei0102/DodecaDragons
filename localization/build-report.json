@@ -1,0 +1,92 @@
+{
+ "commit": "ref: refs/heads/main",
+ "source_md5_index": "d9d7816988db32ff7e985714d1397baa",
+ "dictionary_entries": 1325,
+ "apply_report": {
+  "index.html": {
+   "applied": 1201,
+   "unchanged": 35,
+   "total": 1236
+  },
+  "scripts/achievements.js": {
+   "applied": 10,
+   "unchanged": 17,
+   "total": 27
+  },
+  "scripts/blood.js": {
+   "applied": 2,
+   "unchanged": 0,
+   "total": 2
+  },
+  "scripts/constants.js": {
+   "applied": 456,
+   "unchanged": 5,
+   "total": 461
+  },
+  "scripts/dragon.js": {
+   "applied": 24,
+   "unchanged": 0,
+   "total": 24
+  },
+  "scripts/fire.js": {
+   "applied": 6,
+   "unchanged": 0,
+   "total": 6
+  },
+  "scripts/gold.js": {
+   "applied": 2,
+   "unchanged": 0,
+   "total": 2
+  },
+  "scripts/holyPolyhedrons.js": {
+   "applied": 6,
+   "unchanged": 0,
+   "total": 6
+  },
+  "scripts/hotkeys.js": {
+   "applied": 9,
+   "unchanged": 1,
+   "total": 10
+  },
+  "scripts/knowledge.js": {
+   "applied": 17,
+   "unchanged": 0,
+   "total": 17
+  },
+  "scripts/magic.js": {
+   "applied": 3,
+   "unchanged": 0,
+   "total": 3
+  },
+  "scripts/magicChallenges.js": {
+   "applied": 13,
+   "unchanged": 3,
+   "total": 16
+  },
+  "scripts/nuclearPasta.js": {
+   "applied": 1,
+   "unchanged": 3,
+   "total": 4
+  },
+  "scripts/plague.js": {
+   "applied": 2,
+   "unchanged": 0,
+   "total": 2
+  },
+  "scripts/render.js": {
+   "applied": 1,
+   "unchanged": 2,
+   "total": 3
+  },
+  "scripts/script.js": {
+   "applied": 75,
+   "unchanged": 17,
+   "total": 92
+  },
+  "scripts/sigils.js": {
+   "applied": 8,
+   "unchanged": 0,
+   "total": 8
+  }
+ }
+}

@@ -1,28 +1,28 @@
 function generateHotkeyText() {
-  let hotkeyText = '<p style="font-weight: bold">Shift+S - manual save';
+  let hotkeyText = '<p style="font-weight: bold">Shift+S - 手动保存';
   if (game.unlocks >= 3) {
-    hotkeyText += '<br><a style="color: #288">P - platinum</a>'
+    hotkeyText += '<br><a style="color: #288">P - 铂金</a>'
   }
   if (game.unlocks >= 4) {
-    hotkeyText += '<br><a style="color: #90d">M - magic</a>'
+    hotkeyText += '<br><a style="color: #90d">M - 魔法</a>'
   }
   if (game.unlocks >= 5) {
-    hotkeyText += '<br><a style="color: #60d">1, 2, 3, 4 - activate/deactivate magic challenges</a><br><a style="color: #60d">C - enter/exit magic challenges</a>'
+    hotkeyText += '<br><a style="color: #60d">1、2、3、4 - 启用/停用魔法挑战</a><br><a style="color: #60d">C - 进入/退出魔法挑战</a>'
   }
   if (game.unlocks >= 7) {
-    hotkeyText += '<br><a style="color: #282">U - uranium</a>'
+    hotkeyText += '<br><a style="color: #282">U - 铀</a>'
   }
   if (game.unlocks >= 10) {
-    hotkeyText += '<br><a style="color: #06b">Shift+1 - cyan sigils</a>, <a style="color: #00b">Shift+2 - blue sigils</a>, et cetera'
+    hotkeyText += '<br><a style="color: #06b">Shift+1 - 青色符印</a>、<a style="color: #00b">Shift+2 - 蓝色符印</a>等'
   }
   if (game.unlocks >= 16) {
-    hotkeyText += '<br><a style="color: #965">T - convert max tomes</a>'
+    hotkeyText += '<br><a style="color: #965">T - 转换最大典籍</a>'
   }
   if (game.unlocks >= 18) {
-    hotkeyText += '<br><a style="color: #f00">H - enter/exit hell</a>'
+    hotkeyText += '<br><a style="color: #f00">H - 进入/退出地狱</a>'
   }
   if (game.unlocks >= 20) {
-    hotkeyText += '<br><a style="color: #25e">Shift+P - plutonium</a>'
+    hotkeyText += '<br><a style="color: #25e">Shift+P - 钚</a>'
   }
   hotkeyText += '</p>'
   return hotkeyText

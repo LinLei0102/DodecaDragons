@@ -14,10 +14,10 @@ function unlockMagic() {
 //Confirmation popups for magic resets
 function magicCheck() {
   if (game.magicToGet.eq(0)) {
-    if (confirm("Woah, hold on! You won't gain any magic! Are you sure you want to perform a magic reset?")) magicReset()
+    if (confirm("哇哦，等等！你不会获得任何魔法！确定要执行魔法重置吗？")) magicReset()
   }
   else if (game.confirmations[0]) {
-    if (confirm("Are you sure you want to perform a magic reset?")) magicReset()
+    if (confirm("确定要执行魔法重置吗？")) magicReset()
   }
   else {magicReset()}
 }
@@ -70,7 +70,7 @@ function magicReset(triggerLayer = "magic") {
   if (game.tomeUpgradesBought[8] == true) magicHardcap = magicHardcap.pow(game.blueFireUpgradesBought[3].pow(0.7).mul(5).add(1))
   if (game.magic.gt(magicHardcap)) {
     game.magic = magicHardcap
-    document.getElementById("magicCap").innerHTML = " (hardcapped)"
+    document.getElementById("magicCap").innerHTML = " （硬上限）"
   }
   else {document.getElementById("magicCap").innerHTML = ""}
 }

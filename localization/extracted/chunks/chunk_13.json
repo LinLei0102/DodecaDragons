@@ -1,0 +1,576 @@
+[
+ {
+  "en": "Unlock Max All button for knowledge upgrades!",
+  "ids": [
+   "s1370"
+  ]
+ },
+ {
+  "en": "Gain 10% of potential sigils per second!",
+  "ids": [
+   "s1371"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max buttons for blue fire upgrades!",
+  "ids": [
+   "s1372"
+  ]
+ },
+ {
+  "en": "Unlock Max All and Auto Max All for blue fire upgrades!",
+  "ids": [
+   "s1373"
+  ]
+ },
+ {
+  "en": "Automatically gain max tomes, at no cost!",
+  "ids": [
+   "s1374"
+  ]
+ },
+ {
+  "en": "Automatically gain knowledge, at no cost!",
+  "ids": [
+   "s1375"
+  ]
+ },
+ {
+  "en": "Automatically gain plutonium without resetting!",
+  "ids": [
+   "s1376"
+  ]
+ },
+ {
+  "en": "An option for auto resetter to cycle only Red/Orange/Yellow sigils",
+  "ids": [
+   "s1377"
+  ]
+ },
+ {
+  "en": "Unlock Max All button for plutonium upgrades!",
+  "ids": [
+   "s1378"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max button for tome upgrades!",
+  "ids": [
+   "s1379"
+  ]
+ },
+ {
+  "en": "Keep tome upgrades on holy resets!",
+  "ids": [
+   "s1380"
+  ]
+ },
+ {
+  "en": "Automatically max all sigil upgrades!",
+  "ids": [
+   "s1381"
+  ]
+ },
+ {
+  "en": "Keep alchemy upgrades on holy resets!",
+  "ids": [
+   "s1382"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max buttons for holy fire upgrades!",
+  "ids": [
+   "s1383"
+  ]
+ },
+ {
+  "en": "Unlock Max All and Auto Max All for holy fire upgrades!",
+  "ids": [
+   "s1384"
+  ]
+ },
+ {
+  "en": "Keep magic and dark magic upgrades on holy resets!",
+  "ids": [
+   "s1385"
+  ]
+ },
+ {
+  "en": "Gain 100% of potential R-O-Y sigils per second!",
+  "ids": [
+   "s1386"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max for planet forming!",
+  "ids": [
+   "s1387"
+  ]
+ },
+ {
+  "en": "Unlock Buy Max buttons for cosmic plague upgrades!",
+  "ids": [
+   "s1388"
+  ]
+ },
+ {
+  "en": "Gain 100% of potential polyhedrons per second! And a 5x plague gain multiplier.",
+  "ids": [
+   "s1389"
+  ]
+ },
+ {
+  "en": "Another 5x plague gain multiplier :)",
+  "ids": [
+   "s1390"
+  ]
+ },
+ {
+  "en": "Automatically buy max planets! And a 10x oganesson gain multiplier.",
+  "ids": [
+   "s1391"
+  ]
+ },
+ {
+  "en": "A 5x light/dark essence gain multiplier!",
+  "ids": [
+   "s1392"
+  ]
+ },
+ {
+  "en": "A 10x death essence gain multiplier!",
+  "ids": [
+   "s1393"
+  ]
+ },
+ {
+  "en": "Unlock Max All and Auto Max All for cosmic plague upgrades!",
+  "ids": [
+   "s1394"
+  ]
+ },
+ {
+  "en": "Unlock Max Alls for light, dark and death essence upgrades!",
+  "ids": [
+   "s1395"
+  ]
+ },
+ {
+  "en": "Unlock Max All for finality essence upgrades!",
+  "ids": [
+   "s1396"
+  ]
+ },
+ {
+  "en": "A 100x finality essence gain multiplier!",
+  "ids": [
+   "s1397"
+  ]
+ },
+ {
+  "en": "Automatically gain max nuclear pasta! And another 100x finality essence gain multiplier.",
+  "ids": [
+   "s1398"
+  ]
+ },
+ {
+  "en": "A 10,000,000x finality essence gain multiplier!",
+  "ids": [
+   "s1399"
+  ]
+ },
+ {
+  "en": "Unlock something.",
+  "ids": [
+   "s1400"
+  ]
+ },
+ {
+  "en": "gold",
+  "ids": [
+   "s1401"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Gold",
+  "ids": [
+   "s1402"
+  ]
+ },
+ {
+  "en": "fire",
+  "ids": [
+   "s1403"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Fire",
+  "ids": [
+   "s1404"
+  ]
+ },
+ {
+  "en": "platinum",
+  "ids": [
+   "s1405"
+  ]
+ },
+ {
+  "en": "Platinum",
+  "ids": [
+   "s1406"
+  ]
+ },
+ {
+  "en": "magic",
+  "ids": [
+   "s1407"
+  ]
+ },
+ {
+  "en": "magifolds",
+  "ids": [
+   "s1409"
+  ]
+ },
+ {
+  "en": "Magifolds",
+  "ids": [
+   "s1410"
+  ]
+ },
+ {
+  "en": "uranium",
+  "ids": [
+   "s1411"
+  ]
+ },
+ {
+  "en": "C-sigils",
+  "ids": [
+   "s1414"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;B-sigils",
+  "ids": [
+   "s1416"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;I-sigils",
+  "ids": [
+   "s1418"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;V-sigils",
+  "ids": [
+   "s1420"
+  ]
+ },
+ {
+  "en": "P-sigils",
+  "ids": [
+   "s1422"
+  ]
+ },
+ {
+  "en": "knowledge",
+  "ids": [
+   "s1423"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Knwlege",
+  "ids": [
+   "s1424"
+  ]
+ },
+ {
+  "en": "total tomes",
+  "ids": [
+   "s1425"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Tomes",
+  "ids": [
+   "s1426"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;B-fire",
+  "ids": [
+   "s1428"
+  ]
+ },
+ {
+  "en": "blood",
+  "ids": [
+   "s1429"
+  ]
+ },
+ {
+  "en": "plutonium",
+  "ids": [
+   "s1431"
+  ]
+ },
+ {
+  "en": "R-sigils",
+  "ids": [
+   "s1434"
+  ]
+ },
+ {
+  "en": "O-sigils",
+  "ids": [
+   "s1436"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Y-sigils",
+  "ids": [
+   "s1438"
+  ]
+ },
+ {
+  "en": "Tetra",
+  "ids": [
+   "s1440"
+  ]
+ },
+ {
+  "en": "Octa",
+  "ids": [
+   "s1442"
+  ]
+ },
+ {
+  "en": "H-fire",
+  "ids": [
+   "s1444"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Dodeca",
+  "ids": [
+   "s1446"
+  ]
+ },
+ {
+  "en": "planets",
+  "ids": [
+   "s1447"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Planets",
+  "ids": [
+   "s1448"
+  ]
+ },
+ {
+  "en": "defeated hypergods",
+  "ids": [
+   "s1449"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Omni",
+  "ids": [
+   "s1450"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have an</a><br>Adult dragon",
+  "ids": [
+   "s1451",
+   "s1579"
+  ]
+ },
+ {
+  "en": "Your large dragon friend inspires awe and fear, and spews fire for you.",
+  "ids": [
+   "s1452",
+   "s1580"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have an</a><br>Elder dragon",
+  "ids": [
+   "s1453",
+   "s1581"
+  ]
+ },
+ {
+  "en": "Your strong and wise dragon friend rests upon your mountain of gold, and defends it with inferno-like breath.",
+  "ids": [
+   "s1454",
+   "s1582"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Dark dragon",
+  "ids": [
+   "s1455",
+   "s1583"
+  ]
+ },
+ {
+  "en": "Your menacing dark dragon calls upon the power of the void itself to defend your empire.",
+  "ids": [
+   "s1456",
+   "s1584"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Light dragon",
+  "ids": [
+   "s1457",
+   "s1585"
+  ]
+ },
+ {
+  "en": "Your heavenly light dragon focuses the power of the gods themselves to protect your people from harm. It can also fire lightning out of its claws, because it's cool like that.",
+  "ids": [
+   "s1458",
+   "s1586"
+  ]
+ },
+ {
+  "en": " (capped)",
+  "ids": [
+   "s1459",
+   "s1472",
+   "s1587"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Machine dragon",
+  "ids": [
+   "s1460",
+   "s1588"
+  ]
+ },
+ {
+  "en": "Despite being filled with immense eldrich technology spiralling inwards forever, a million billion tiny cogs quietly ticking away, your dragon feels like merely a cog itself. Perhaps... it is still imperfect.",
+  "ids": [
+   "s1461",
+   "s1589"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Holy dragon",
+  "ids": [
+   "s1462",
+   "s1590"
+  ]
+ },
+ {
+  "en": "Your dragon channels boundless energy through itself, a being of near-infinite strength. One even the gods fear. How did we get here?",
+  "ids": [
+   "s1463",
+   "s1591"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Multidimensional dragon",
+  "ids": [
+   "s1464",
+   "s1592"
+  ]
+ },
+ {
+  "en": "Your dragon can view countless universes at once and channel all of their combined power.",
+  "ids": [
+   "s1465",
+   "s1593"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Plague dragon",
+  "ids": [
+   "s1466",
+   "s1594"
+  ]
+ },
+ {
+  "en": "Dripping with the most dangerous substance in the omniverse, your dragon is completely unkillable.",
+  "ids": [
+   "s1467",
+   "s1595"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Death dragon",
+  "ids": [
+   "s1468",
+   "s1596"
+  ]
+ },
+ {
+  "en": "Your dragon embodies death itself. It seems you have killed Death and taken his place as the taker of souls.",
+  "ids": [
+   "s1469",
+   "s1597"
+  ]
+ },
+ {
+  "en": "<a style='font-size: 14px'>You have a</a><br>Finality dragon",
+  "ids": [
+   "s1470",
+   "s1598"
+  ]
+ },
+ {
+  "en": "Your dragon is now composed of the essence of the omniverse itself. It is physically impossible to become any stronger. Unless...?",
+  "ids": [
+   "s1471",
+   "s1599"
+  ]
+ },
+ {
+  "en": "You have petted your dragon sufficiently.",
+  "ids": [
+   "s1473",
+   "s1562"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;There are no more hypergods to defeat!",
+  "ids": [
+   "s1474",
+   "s1578"
+  ]
+ },
+ {
+  "en": "Auto max all: Off",
+  "ids": [
+   "s1476",
+   "s1478",
+   "s1480",
+   "s1513",
+   "s1540",
+   "s1551",
+   "s1553",
+   "s1555",
+   "s1557",
+   "s1559",
+   "s1561"
+  ]
+ },
+ {
+  "en": "Auto buy max: Off",
+  "ids": [
+   "s1482"
+  ]
+ },
+ {
+  "en": "Woah, hold on! You won't gain any holy tetrahedrons! Are you sure you want to ascend?",
+  "ids": [
+   "s1483"
+  ]
+ }
+]

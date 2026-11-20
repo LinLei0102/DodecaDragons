@@ -13,7 +13,7 @@ function unlockNuclearPasta() {
 function displayNuclearPastaInfo() {
 	game.nuclearPastaStateInfo = true
 	document.getElementById("nuclearPastaInfoWindow").style.display = "block"
-	document.getElementById("nuclearPastaInfoText").innerHTML = "<b>Pasta states:</b><br>"
+	document.getElementById("nuclearPastaInfoText").innerHTML = "<b>核意面状态：</b><br>"
 	let noOfPastaLines = 0
 	if (!game.nuclearPastaUpgradesBought[0]) {noOfPastaLines = 3}
 	else if (!game.nuclearPastaUpgradesBought[1]) {noOfPastaLines = 4}

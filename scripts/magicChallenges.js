@@ -3,28 +3,28 @@ function showMagicChallenge(x) {
   switch(x) {
     case 0:
       document.getElementById("magicChallengeTitle").innerHTML = ""
-      document.getElementById("magicChallengeInfo").innerHTML = "<a style='color: #606'>Hover over a challenge to see what it does!</a><br><a style='color: #060'>You can select up to 4 challenges, and you will earn separate scores for each amount of challenges you enter at once (1, 2, 3 and 4).</a><a style='color: #046'> Bonuses are based on the highest score achieved in each amount of challenges, multiplied together.</a>"
+      document.getElementById("magicChallengeInfo").innerHTML = "<a style='color: #606'>将鼠标悬停在挑战上可查看其效果！</a><br><a style='color: #060'>你最多可选择 4 个挑战，每次同时进入不同数量的挑战（1、2、3 和 4）会分别计分。</a><a style='color: #046'> 奖励基于每种挑战数量达到的最高分数相乘计算。</a>"
       break
     case 1:
-      document.getElementById("magicChallengeTitle").innerHTML = "A1 - Magic fail"
-      document.getElementById("magicChallengeInfo").innerHTML = "magic effect is ^0.2 then /1.000e25."
+      document.getElementById("magicChallengeTitle").innerHTML = "A1 - 魔法失败"
+      document.getElementById("magicChallengeInfo").innerHTML = "魔法效果为 ^0.2 然后 /1.000e25。"
       break
     case 2:
-      document.getElementById("magicChallengeTitle").innerHTML = "A2 - Market crash"
-      document.getElementById("magicChallengeInfo").innerHTML = "Gold and platinum gain are severely reduced (^0.25)."
+      document.getElementById("magicChallengeTitle").innerHTML = "A2 - 市场崩盘"
+      document.getElementById("magicChallengeInfo").innerHTML = "金币和铂金获取大幅减少（^0.25）。"
       break
     case 3:
-      document.getElementById("magicChallengeTitle").innerHTML = "B1 - Freezing"
-      if (game.magicUpgradesBought[14]) {document.getElementById("magicChallengeInfo").innerHTML = "Fire gain is severely reduced (^0.3)."}
-      else {document.getElementById("magicChallengeInfo").innerHTML = "Fire gain is severely reduced (^0.1)."}
+      document.getElementById("magicChallengeTitle").innerHTML = "B1 - 冰冻"
+      if (game.magicUpgradesBought[14]) {document.getElementById("magicChallengeInfo").innerHTML = "火焰获取大幅减少（^0.3）。"}
+      else {document.getElementById("magicChallengeInfo").innerHTML = "火焰获取大幅减少（^0.1）。"}
       break
     case 4:
-      document.getElementById("magicChallengeTitle").innerHTML = "B2 - Awful alchemy"
-      document.getElementById("magicChallengeInfo").innerHTML = "Platinum upgrade 6's effect is /1.000e25 and gold/click is always 20."
+      document.getElementById("magicChallengeTitle").innerHTML = "B2 - 糟糕的炼金术"
+      document.getElementById("magicChallengeInfo").innerHTML = "铂金升级 6 的效果为 /1.000e25，且金币/click 始终为 20。"
       break
     default:
       document.getElementById("magicChallengeTitle").innerHTML = ""
-      document.getElementById("magicChallengeInfo").innerHTML = "<a style='color: #606'>Hover over a challenge to see what it does!</a><br><a style='color: #060'>You can select up to 4 challenges, and you will earn separate scores for each amount of challenges you enter at once (1, 2, 3 and 4).</a><a style='color: #046'> Bonuses are based on the highest score achieved in each amount of challenges, multiplied together.</a>"
+      document.getElementById("magicChallengeInfo").innerHTML = "<a style='color: #606'>将鼠标悬停在挑战上可查看其效果！</a><br><a style='color: #060'>你最多可选择 4 个挑战，每次同时进入不同数量的挑战（1、2、3 和 4）会分别计分。</a><a style='color: #046'> 奖励基于每种挑战数量达到的最高分数相乘计算。</a>"
   }
 }
 
@@ -49,7 +49,7 @@ function enterExitMagicChallenges() {
     magicReset()
     game.challengesActive = true
     game.noOfSelectedChallenges = + game.selectedChallenges[0] + game.selectedChallenges[1] + game.selectedChallenges[2] + game.selectedChallenges[3]
-    document.getElementById("activeChallenges").innerHTML = "Challenges active: " + (game.selectedChallenges[0] ? 'A1 ' : '') + (game.selectedChallenges[1] ? 'A2 ' : '') + (game.selectedChallenges[2] ? 'B1 ' : '') + (game.selectedChallenges[3] ? 'B2' : '') + " (" + game.noOfSelectedChallenges + ")"
+    document.getElementById("activeChallenges").innerHTML = "已激活挑战： " + (game.selectedChallenges[0] ? 'A1 ' : '') + (game.selectedChallenges[1] ? 'A2 ' : '') + (game.selectedChallenges[2] ? 'B1 ' : '') + (game.selectedChallenges[3] ? 'B2' : '') + " (" + game.noOfSelectedChallenges + ")"
     updateSmall()
   }
   else if (game.challengesActive) {
@@ -77,6 +77,6 @@ function enterExitMagicChallenges() {
     magicReset()
     game.challengesActive = false
     game.noOfSelectedChallenges = + game.selectedChallenges[0] + game.selectedChallenges[1] + game.selectedChallenges[2] + game.selectedChallenges[3]
-    document.getElementById("activeChallenges").innerHTML = "You are not in any challenges!"
+    document.getElementById("activeChallenges").innerHTML = "你当前未参与任何挑战！"
   }
 }

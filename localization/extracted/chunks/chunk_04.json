@@ -1,0 +1,591 @@
+[
+ {
+  "en": "Costs e675,000,000 magic",
+  "ids": [
+   "s0305"
+  ]
+ },
+ {
+  "en": "Blue fire multiplies red sigil gain",
+  "ids": [
+   "s0306"
+  ]
+ },
+ {
+  "en": "Costs e800,000,000 magic",
+  "ids": [
+   "s0308"
+  ]
+ },
+ {
+  "en": "Blood multiplies orange sigil gain",
+  "ids": [
+   "s0309"
+  ]
+ },
+ {
+  "en": "Costs e1.20e9 magic",
+  "ids": [
+   "s0311"
+  ]
+ },
+ {
+  "en": "Plutonium multiplies yellow sigil gain (Currently x",
+  "ids": [
+   "s0312"
+  ]
+ },
+ {
+  "en": "Costs e1.45e9 magic",
+  "ids": [
+   "s0313"
+  ]
+ },
+ {
+  "en": "Square plutonium gain",
+  "ids": [
+   "s0314"
+  ]
+ },
+ {
+  "en": "Costs e1.60e9 magic",
+  "ids": [
+   "s0315"
+  ]
+ },
+ {
+  "en": "Multiply YSP gain by 1,000",
+  "ids": [
+   "s0316"
+  ]
+ },
+ {
+  "en": "Costs e1.65e9 magic",
+  "ids": [
+   "s0317"
+  ]
+ },
+ {
+  "en": "Cyan sigils",
+  "ids": [
+   "s0319"
+  ]
+ },
+ {
+  "en": "cyan sigils",
+  "ids": [
+   "s0321",
+   "s0325",
+   "s1413"
+  ]
+ },
+ {
+  "en": "Multiplying magic and score",
+  "ids": [
+   "s0322",
+   "s0343",
+   "s0362"
+  ]
+ },
+ {
+  "en": "gain by",
+  "ids": [
+   "s0323",
+   "s0344",
+   "s0363"
+  ]
+ },
+ {
+  "en": "Reset all previous progress for",
+  "ids": [
+   "s0324",
+   "s0345",
+   "s0364",
+   "s0380",
+   "s0398",
+   "s0561",
+   "s0579",
+   "s0611"
+  ]
+ },
+ {
+  "en": "Next at",
+  "ids": [
+   "s0326",
+   "s0347",
+   "s0382",
+   "s0400",
+   "s0563",
+   "s0581",
+   "s0613"
+  ]
+ },
+ {
+  "en": "Sigil resets erase almost all upgrades and resources, but",
+  "ids": [
+   "s0327"
+  ]
+ },
+ {
+  "en": "you keep unlocks",
+  "ids": [
+   "s0328"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;(and your dragon, because it's linked to your soul)",
+  "ids": [
+   "s0329"
+  ]
+ },
+ {
+  "en": "cyan sigil power (CSP) (",
+  "ids": [
+   "s0331"
+  ]
+ },
+ {
+  "en": "Increase CSP gain",
+  "ids": [
+   "s0332"
+  ]
+ },
+ {
+  "en": "Increase uranium gain",
+  "ids": [
+   "s0334",
+   "s0443",
+   "s0887"
+  ]
+ },
+ {
+  "en": "Increase gold per second",
+  "ids": [
+   "s0336"
+  ]
+ },
+ {
+  "en": "Costs 20,000 CSP",
+  "ids": [
+   "s0339"
+  ]
+ },
+ {
+  "en": "Blue sigils",
+  "ids": [
+   "s0340"
+  ]
+ },
+ {
+  "en": "blue sigils",
+  "ids": [
+   "s0342",
+   "s0346",
+   "s1415"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;(Sigil resets don't erase your other sigils",
+  "ids": [
+   "s0348"
+  ]
+ },
+ {
+  "en": "or sigil upgrades)",
+  "ids": [
+   "s0349"
+  ]
+ },
+ {
+  "en": "blue sigil power (BSP) (",
+  "ids": [
+   "s0351"
+  ]
+ },
+ {
+  "en": "Increase BSP gain",
+  "ids": [
+   "s0352"
+  ]
+ },
+ {
+  "en": "Cyan sigil requirement is lower (",
+  "ids": [
+   "s0356"
+  ]
+ },
+ {
+  "en": "Costs 10,000 BSP",
+  "ids": [
+   "s0358"
+  ]
+ },
+ {
+  "en": "Indigo sigils",
+  "ids": [
+   "s0359"
+  ]
+ },
+ {
+  "en": "indigo sigils",
+  "ids": [
+   "s0361",
+   "s0365",
+   "s1417"
+  ]
+ },
+ {
+  "en": "indigo sigil power (ISP) (",
+  "ids": [
+   "s0367"
+  ]
+ },
+ {
+  "en": "Increase ISP gain",
+  "ids": [
+   "s0368"
+  ]
+ },
+ {
+  "en": "Increase CSP gain again",
+  "ids": [
+   "s0370"
+  ]
+ },
+ {
+  "en": "Gain more time with your",
+  "ids": [
+   "s0372"
+  ]
+ },
+ {
+  "en": "Costs 20,000 ISP",
+  "ids": [
+   "s0375"
+  ]
+ },
+ {
+  "en": "Violet sigils",
+  "ids": [
+   "s0376"
+  ]
+ },
+ {
+  "en": "violet sigils",
+  "ids": [
+   "s0378",
+   "s0381",
+   "s1419"
+  ]
+ },
+ {
+  "en": "Multiplying magic and score gain by",
+  "ids": [
+   "s0379",
+   "s0397",
+   "s0560",
+   "s0578",
+   "s0610"
+  ]
+ },
+ {
+  "en": "violet sigil power (VSP) (",
+  "ids": [
+   "s0384"
+  ]
+ },
+ {
+  "en": "Increase VSP gain",
+  "ids": [
+   "s0385"
+  ]
+ },
+ {
+  "en": "Increase BSP gain again",
+  "ids": [
+   "s0387"
+  ]
+ },
+ {
+  "en": "Magifold effect is boosted again",
+  "ids": [
+   "s0389"
+  ]
+ },
+ {
+  "en": "Costs 5,000 VSP",
+  "ids": [
+   "s0390"
+  ]
+ },
+ {
+  "en": "Costs 10,000,000 VSP",
+  "ids": [
+   "s0392"
+  ]
+ },
+ {
+  "en": "LIVE HORROR CAM",
+  "ids": [
+   "s0393"
+  ]
+ },
+ {
+  "en": "Pink sigils",
+  "ids": [
+   "s0394"
+  ]
+ },
+ {
+  "en": "pink sigils",
+  "ids": [
+   "s0396",
+   "s0399",
+   "s1421"
+  ]
+ },
+ {
+  "en": "pink sigil power (PSP) (",
+  "ids": [
+   "s0402"
+  ]
+ },
+ {
+  "en": "Increase PSP gain",
+  "ids": [
+   "s0403"
+  ]
+ },
+ {
+  "en": "Unlock 2 new dark magic upgrades (kept",
+  "ids": [
+   "s0405"
+  ]
+ },
+ {
+  "en": "on sigil reset)",
+  "ids": [
+   "s0406"
+  ]
+ },
+ {
+  "en": "Costs 100,000 PSP",
+  "ids": [
+   "s0407"
+  ]
+ },
+ {
+  "en": "Increase score gain",
+  "ids": [
+   "s0408"
+  ]
+ },
+ {
+  "en": "Costs 100,000,000 PSP",
+  "ids": [
+   "s0410"
+  ]
+ },
+ {
+  "en": "Achievement name",
+  "ids": [
+   "s0411",
+   "s0414"
+  ]
+ },
+ {
+  "en": "Acquire X of resource Y",
+  "ids": [
+   "s0412"
+  ]
+ },
+ {
+  "en": "Achievement unlocked!",
+  "ids": [
+   "s0413"
+  ]
+ },
+ {
+  "en": "Knowledge",
+  "ids": [
+   "s0415"
+  ]
+ },
+ {
+  "en": "Highest ever:",
+  "ids": [
+   "s0417"
+  ]
+ },
+ {
+  "en": "Your highest knowledge is multiplying sigil gain by",
+  "ids": [
+   "s0418"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Knowledge trades give you knowledge, at the cost of some of your sigils.",
+  "ids": [
+   "s0419"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;A higher trade level gives you more knowledge, at the cost of more sigils.",
+  "ids": [
+   "s0420"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;If you change the trade level, it won't apply until you purchase a trade!",
+  "ids": [
+   "s0421"
+  ]
+ },
+ {
+  "en": "Trade level:",
+  "ids": [
+   "s0422"
+  ]
+ },
+ {
+  "en": "Knowledge trade 1",
+  "ids": [
+   "s0423"
+  ]
+ },
+ {
+  "en": "Lv1 - 1 knowledge",
+  "ids": [
+   "s0424",
+   "s0429",
+   "s0434"
+  ]
+ },
+ {
+  "en": "100,000 cyan sigils",
+  "ids": [
+   "s0425",
+   "s0430",
+   "s0435"
+  ]
+ },
+ {
+  "en": "40,000 blue sigils",
+  "ids": [
+   "s0426",
+   "s0431",
+   "s0436"
+  ]
+ },
+ {
+  "en": "10,000 indigo sigils",
+  "ids": [
+   "s0427",
+   "s0432",
+   "s0437"
+  ]
+ },
+ {
+  "en": "Knowledge trade 2",
+  "ids": [
+   "s0428"
+  ]
+ },
+ {
+  "en": "Knowledge trade 3",
+  "ids": [
+   "s0433"
+  ]
+ },
+ {
+  "en": "Reset trades to level 1 (use if stuck!)",
+  "ids": [
+   "s0438"
+  ]
+ },
+ {
+  "en": "&#8202;&#8202;Trade cost ranges for this trade level:",
+  "ids": [
+   "s0439"
+  ]
+ },
+ {
+  "en": "Knowledge reward range for this trade level:",
+  "ids": [
+   "s0440"
+  ]
+ },
+ {
+  "en": "Multiply knowledge gain from trades",
+  "ids": [
+   "s0441",
+   "s0518"
+  ]
+ },
+ {
+  "en": "Costs 100,000 knowledge",
+  "ids": [
+   "s0445"
+  ]
+ },
+ {
+  "en": "Sigil Automation",
+  "ids": [
+   "s0448"
+  ]
+ },
+ {
+  "en": "Automatic sigil resetter",
+  "ids": [
+   "s0449"
+  ]
+ },
+ {
+  "en": "Cycle Colour on Reset",
+  "ids": [
+   "s0450"
+  ]
+ },
+ {
+  "en": "Cycle between Red/Orange/Yellow only",
+  "ids": [
+   "s0451"
+  ]
+ },
+ {
+  "en": "Potential Sigil Amount",
+  "ids": [
+   "s0452",
+   "s0990",
+   "s1640"
+  ]
+ },
+ {
+  "en": "Gold Amount",
+  "ids": [
+   "s0453",
+   "s0991",
+   "s1641"
+  ]
+ },
+ {
+  "en": "Seconds Since Reset",
+  "ids": [
+   "s0454",
+   "s0992",
+   "s1642"
+  ]
+ },
+ {
+  "en": "Max cyan to pink sigil upgrades",
+  "ids": [
+   "s0455"
+  ]
+ },
+ {
+  "en": "Max red sigil upgrades",
+  "ids": [
+   "s0456"
+  ]
+ }
+]
