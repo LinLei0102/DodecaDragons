@@ -1316,6 +1316,17 @@
   <!--<div id="testdiv" class="window box"> 你好，世界 </div>-->
 
   <!--List o' scripts-->
+  <script>
+  /* 残局试玩：屏蔽存档写入，避免内置自动保存覆盖正式存档 */
+  (function(){
+    window.DD_DEMO = true;
+    var orig = Storage.prototype.setItem;
+    Storage.prototype.setItem = function(k, v){
+      if (k === 'dodecaSave' || k === 'dodecaLastSaved') return;
+      return orig.apply(this, arguments);
+    };
+  })();
+  </script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="scripts/break_eternity.js"></script>
   <script src="scripts/Mousetrap.js"></script>

@@ -1,0 +1,411 @@
+{
+ "label": "en-final",
+ "url": "http://127.0.0.1:8765/%E8%8B%B1%E6%96%87%E7%89%88/index.html",
+ "title": "DodecaDragons",
+ "langSwitch": false,
+ "visibleTextNodes": 1619,
+ "englishResidualNodes": 751,
+ "residual": [
+  {
+   "text": "Mine gold",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "Hire a gold miner",
+   "id": "buyMinerButton",
+   "cls": ""
+  },
+  {
+   "text": "Auto buy max: On",
+   "id": "minerAutoBuyMaxButton",
+   "cls": ""
+  },
+  {
+   "text": "Get a young dragon",
+   "id": "unlockDragonButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs 200 gold",
+   "id": "unlockDragonButton",
+   "cls": ""
+  },
+  {
+   "text": "Unlock Alchemy",
+   "id": "unlockAlchemyButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs 20,000,000 gold",
+   "id": "unlockAlchemyButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs 1.00e15 gold",
+   "id": "unlockMagicButton",
+   "cls": ""
+  },
+  {
+   "text": "Unlock more magic upgrades",
+   "id": "moreMagicUpgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs 200,000,000 magic,",
+   "id": "moreMagicUpgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Requires 150,000 magifolds",
+   "id": "moreMagicUpgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Gain more platinum and uranium upgrades",
+   "id": "morePUupgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs 1.00e420 gold",
+   "id": "morePUupgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Dark Magic Upgrades",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "You are gaining stronger control over your magic powers.",
+   "id": "unlockDarkMagicUpgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs 1.00e1,000 gold",
+   "id": "unlockDarkMagicUpgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "UNLOCK BLOOD",
+   "id": "unlockBloodButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs e5.00e14 gold",
+   "id": "unlockBloodButton",
+   "cls": ""
+  },
+  {
+   "text": "Unlock more dark magic upgrades",
+   "id": "moreDarkMagicUpgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs e6.66e16 gold",
+   "id": "moreDarkMagicUpgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Void Magic Upgrades",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "You are mastering control of your magic powers.",
+   "id": "unlockVoidMagicUpgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs e1.00e100 gold and 100,000,000 holy fire",
+   "id": "unlockVoidMagicUpgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs e1.00e400 gold",
+   "id": "unlockPlanetsButton",
+   "cls": ""
+  },
+  {
+   "text": "Something unseeable looms over you. A powerful presence has taken",
+   "id": "omniverseWarning",
+   "cls": ""
+  },
+  {
+   "text": "an interest in your actions. Perhaps it may show itself if you acquire more gold.",
+   "id": "omniverseWarning",
+   "cls": ""
+  },
+  {
+   "text": "Light and Dark Essences",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "Costs ee500,000 gold",
+   "id": "unlockEssencesButton",
+   "cls": ""
+  },
+  {
+   "text": "Death Essence",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "Costs ee1,500,000 gold",
+   "id": "unlockDeathEssenceButton",
+   "cls": ""
+  },
+  {
+   "text": "Nuclear Pasta",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "Costs ee3,500,000 gold",
+   "id": "unlockNuclearPastaButton",
+   "cls": ""
+  },
+  {
+   "text": "Finality Essence",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "Costs ee150,000,000 gold",
+   "id": "unlockFinalityEssenceButton",
+   "cls": ""
+  },
+  {
+   "text": "Finality Cubes",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "Costs ee7.50e9 gold",
+   "id": "unlockFinalityCubesButton",
+   "cls": ""
+  },
+  {
+   "text": "Become the omniverse.",
+   "id": "bigFinishButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs ee1.00e12 gold",
+   "id": "bigFinishButton",
+   "cls": ""
+  },
+  {
+   "text": "Autosave: on (every 5s, plus on exit)",
+   "id": "ddAutosaveStatus",
+   "cls": ""
+  },
+  {
+   "text": "Manual save",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "Hard reset",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "Background pattern: On",
+   "id": "backgroundPatternButton",
+   "cls": ""
+  },
+  {
+   "text": "Confirmation popups",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "Cyan sigils:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Blue sigils:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Indigo sigils:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Violet sigils:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Pink sigils:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Blue fire:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Red sigils:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Orange sigils:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Yellow sigils:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Holy tetrahedrons:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Holy octahedrons:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Holy fire:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Holy dodecahedrons:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Cosmic plague:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Light essence:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Dark essence:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Death essence:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Nuclear pasta:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Finality essence:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Finality cubes:",
+   "id": "",
+   "cls": "resourceRow"
+  },
+  {
+   "text": "Young\n          dragon",
+   "id": "dragonTitle",
+   "cls": "titleText"
+  },
+  {
+   "text": "Your wild young dragon produces fire for you. It enjoys playing\n        around on your gold stash.",
+   "id": "dragonInfo",
+   "cls": ""
+  },
+  {
+   "text": "Your fire is multiplying miner production by",
+   "id": "",
+   "cls": ""
+  },
+  {
+   "text": "Unlock fire upgrades",
+   "id": "buyFireUpgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Costs\n        5,000 gold",
+   "id": "buyFireUpgradesButton",
+   "cls": ""
+  },
+  {
+   "text": "Age your\n        dragon into an adult",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  },
+  {
+   "text": "Multiplies fire gain by 100",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  },
+  {
+   "text": "Costs 2,500,000 gold",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  },
+  {
+   "text": "Age your\n        dragon into an elder",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  },
+  {
+   "text": "Multiplies fire gain by 100",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  },
+  {
+   "text": "Costs 1.00e12 gold",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  },
+  {
+   "text": "Corrupt your\n        dragon with the power of darkness",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  },
+  {
+   "text": "Multiplies fire gain by 10,000",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  },
+  {
+   "text": "Costs 1.00e25 gold",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  },
+  {
+   "text": "Infuse your\n        dragon with the power of light",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  },
+  {
+   "text": "Multiplies fire gain by 10,000,000",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  },
+  {
+   "text": "Costs 1.00e150 gold",
+   "id": "",
+   "cls": "upgradeDragonButton"
+  }
+ ],
+ "errors": []
+}

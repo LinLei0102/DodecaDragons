@@ -42,6 +42,110 @@ body, button, input, select, textarea, .title-bar-text { font-family: 'Microsoft
 </style>
 """
 
+# Runtime-only safety net for saves. It does NOT touch any game source file:
+# the existing 5s autosave keeps running; this only adds an immediate flush on
+# page exit / tab hide, plus a small status line inside the Settings panel.
+AUTOSAVE_STATUS = {
+    True:  '<div id="ddAutosaveStatus" style="font-size:11px;margin:2px 0 4px;color:#444">'
+           '自动存档：开启（每 5 秒，关闭时补存）</div>',
+    False: '<div id="ddAutosaveStatus" style="font-size:11px;margin:2px 0 4px;color:#444">'
+           'Autosave: on (every 5s, plus on exit)</div>',
+}
+
+
+def autosave_guard_script(is_zh):
+    """Block save writes until load() has completed, and stop stale tabs."""
+    stale = ("检测到其他标签页更新了存档，本页已停止自动保存，请关闭本页。"
+             if is_zh else
+             "Another tab updated the save. Autosave stopped here; close this tab.")
+    return """<script>
+(function(){
+  if (window.DD_DEMO === true) return;
+  window.__ddLoaded = false;
+  window.__ddStale = false;
+  window.__ddGuardMsg = '';
+  var orig = Storage.prototype.setItem;
+  Storage.prototype.setItem = function(k, v){
+    if (k === 'dodecaSave' || k === 'dodecaLastSaved') {
+      if (!window.__ddLoaded || window.__ddStale) return;
+    }
+    return orig.apply(this, arguments);
+  };
+  window.addEventListener('storage', function(e){
+    if (e.key !== 'dodecaSave' || !e.newValue) return;
+    try {
+      var incoming = JSON.parse(e.newValue);
+      var mine = (typeof game !== 'undefined' && game && game.lastSave) || 0;
+      if (incoming.lastSave > mine) {
+        window.__ddStale = true;
+        window.__ddGuardMsg = %s;
+      }
+    } catch(err) {}
+  });
+})();
+</script>
+""" % json.dumps(stale, ensure_ascii=False)
+
+
+def autosave_script(is_zh):
+    saved = "已保存 {time}" if is_zh else "Saved {time}"
+    live = "自动存档：开启 · 上次保存 {time}" if is_zh else "Autosave: on · last {time}"
+    loadfail = "存档加载失败，已保留原档；请勿自动覆盖。" if is_zh else "Save load failed; original kept, autosave blocked."
+    stale = "检测到其他标签页更新了存档，本页已停止自动保存，请关闭本页。" if is_zh else "Another tab updated the save. Autosave stopped here; close this tab."
+    return """<script>
+(function(){
+  if (window.DD_DEMO === true || window.ddAutosaveShield) return;
+  window.ddAutosaveShield = true;
+  var SAVED = %s, LIVE = %s, LOADFAIL = %s, STALE = %s;
+  function stamp(ms){
+    var d = new Date(ms);
+    function p(n){ return n < 10 ? '0' + n : '' + n; }
+    return p(d.getHours()) + ':' + p(d.getMinutes()) + ':' + p(d.getSeconds());
+  }
+  function status(){
+    return document.getElementById('ddAutosaveStatus');
+  }
+  function show(text){
+    var el = status();
+    if (el && text) el.textContent = text;
+  }
+  function lastSaved(){
+    try { return parseInt(localStorage.getItem('dodecaLastSaved') || '0', 10) || 0; }
+    catch(e) { return 0; }
+  }
+  function flush(){
+    if (!window.__ddLoaded || window.__ddStale) return;
+    var now = Date.now();
+    if (now - lastSaved() < 1000) return;
+    try {
+      if (typeof save === 'function') save();
+      show(SAVED.replace('{time}', stamp(Date.now())));
+    } catch(e) {}
+  }
+  // Only allow save writes once load()/loadGame() has finished. If load()
+  // threw (malformed/old save), the guard stays on and the original is kept.
+  var cover = document.getElementById('loadingScreenCover');
+  if (cover && cover.style.display === 'none') {
+    window.__ddLoaded = true;
+  } else {
+    show(LOADFAIL);
+  }
+  window.addEventListener('pagehide', flush);
+  window.addEventListener('beforeunload', flush);
+  document.addEventListener('visibilitychange', function(){
+    if (document.visibilityState === 'hidden') flush();
+  });
+  setInterval(function(){
+    if (window.__ddStale) { show(window.__ddGuardMsg || STALE); return; }
+    if (!window.__ddLoaded) return;
+    var t = lastSaved();
+    if (t > 0) show(LIVE.replace('{time}', stamp(t)));
+  }, 2000);
+})();
+</script>
+""" % (json.dumps(saved, ensure_ascii=False), json.dumps(live, ensure_ascii=False),
+       json.dumps(loadfail, ensure_ascii=False), json.dumps(stale, ensure_ascii=False))
+
 
 def merge_dictionary():
     d = {}
@@ -150,6 +254,43 @@ def inject_switch(dst_root, is_zh):
         f.write(src)
 
 
+def inject_autosave(dst_root, is_zh):
+    """Add a runtime-only save safety net; game source files are untouched."""
+    path = os.path.join(dst_root, "index.html")
+    src = open(path, encoding="utf-8", newline="").read()
+    if "ddAutosaveShield" in src:
+        return
+    eol = "\r\n" if "\r\n" in src else "\n"
+
+    anchor = '<button style="width: 142px; margin-top: 4px" onclick="save()">'
+    q = src.find(anchor)
+    if q < 0:
+        print("settings save() anchor not found for autosave", path, file=sys.stderr)
+        sys.exit(5)
+    status = AUTOSAVE_STATUS[is_zh].replace("\n", eol)
+    src = src[:q] + status + eol + src[q:]
+
+    # Guard must run BEFORE game scripts so the built-in 5s interval cannot
+    # write a reset/empty save while a slow-loading page has not called load().
+    guard_anchor = "  <!--List o' scripts-->"
+    g = src.find(guard_anchor)
+    if g < 0:
+        print("script list anchor not found for autosave guard", path, file=sys.stderr)
+        sys.exit(7)
+    g += len(guard_anchor)
+    guard = autosave_guard_script(is_zh).replace("\n", eol)
+    src = src[:g] + eol + guard + src[g:]
+
+    script = autosave_script(is_zh).replace("\n", eol)
+    idx = src.rfind("</body>")
+    if idx < 0:
+        print("no </body> for autosave", path, file=sys.stderr)
+        sys.exit(6)
+    src = src[:idx] + script + src[idx:]
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(src)
+
+
 def patch_display_colours(dst_root):
     """Chinese sigil colour names in DISPLAY-only spots; keep code keys English."""
     # 1) define display array in constants.js (place it right after sigilColours)
@@ -191,6 +332,9 @@ def main():
     # then inject the language switch into both entries
     inject_switch(EN, False)
     inject_switch(ZH, True)
+    # runtime-only save safety net (no game source file is modified)
+    inject_autosave(EN, False)
+    inject_autosave(ZH, True)
     # localize sigil colour names in display-only spots (code keys stay English)
     patch_display_colours(ZH)
     print(json.dumps(report, ensure_ascii=False, indent=1))

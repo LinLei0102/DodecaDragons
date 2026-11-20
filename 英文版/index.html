@@ -62,6 +62,7 @@
     </div>
     <div class="window-body">
             <button style="width: 142px; margin-top: 4px" onclick="ddSwitchLang()" title="中文 / English">&#8202;&#8202;中文 / EN</button><br>
+<div id="ddAutosaveStatus" style="font-size:11px;margin:2px 0 4px;color:#444">Autosave: on (every 5s, plus on exit)</div>
 <button style="width: 142px; margin-top: 4px" onclick="save()">&#8202;&#8202;Manual save</button><br>
       <button style="width: 142px; background-color: #daa" onclick="hardReset()">&#8202;&#8202;Hard reset</button>
       <hr>
@@ -1316,6 +1317,33 @@
   <!--<div id="testdiv" class="window box"> Hello world </div>-->
 
   <!--List o' scripts-->
+<script>
+(function(){
+  if (window.DD_DEMO === true) return;
+  window.__ddLoaded = false;
+  window.__ddStale = false;
+  window.__ddGuardMsg = '';
+  var orig = Storage.prototype.setItem;
+  Storage.prototype.setItem = function(k, v){
+    if (k === 'dodecaSave' || k === 'dodecaLastSaved') {
+      if (!window.__ddLoaded || window.__ddStale) return;
+    }
+    return orig.apply(this, arguments);
+  };
+  window.addEventListener('storage', function(e){
+    if (e.key !== 'dodecaSave' || !e.newValue) return;
+    try {
+      var incoming = JSON.parse(e.newValue);
+      var mine = (typeof game !== 'undefined' && game && game.lastSave) || 0;
+      if (incoming.lastSave > mine) {
+        window.__ddStale = true;
+        window.__ddGuardMsg = "Another tab updated the save. Autosave stopped here; close this tab.";
+      }
+    } catch(err) {}
+  });
+})();
+</script>
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="scripts/break_eternity.js"></script>
   <script src="scripts/Mousetrap.js"></script>
@@ -1347,6 +1375,57 @@ function ddSwitchLang(){
   try { localStorage.setItem('dd_lang', next); } catch(e) {}
   location.href = new URL(next === 'zh' ? '../index.html' : 'index.html', location.href).href;
 }
+</script>
+<script>
+(function(){
+  if (window.DD_DEMO === true || window.ddAutosaveShield) return;
+  window.ddAutosaveShield = true;
+  var SAVED = "Saved {time}", LIVE = "Autosave: on · last {time}", LOADFAIL = "Save load failed; original kept, autosave blocked.", STALE = "Another tab updated the save. Autosave stopped here; close this tab.";
+  function stamp(ms){
+    var d = new Date(ms);
+    function p(n){ return n < 10 ? '0' + n : '' + n; }
+    return p(d.getHours()) + ':' + p(d.getMinutes()) + ':' + p(d.getSeconds());
+  }
+  function status(){
+    return document.getElementById('ddAutosaveStatus');
+  }
+  function show(text){
+    var el = status();
+    if (el && text) el.textContent = text;
+  }
+  function lastSaved(){
+    try { return parseInt(localStorage.getItem('dodecaLastSaved') || '0', 10) || 0; }
+    catch(e) { return 0; }
+  }
+  function flush(){
+    if (!window.__ddLoaded || window.__ddStale) return;
+    var now = Date.now();
+    if (now - lastSaved() < 1000) return;
+    try {
+      if (typeof save === 'function') save();
+      show(SAVED.replace('{time}', stamp(Date.now())));
+    } catch(e) {}
+  }
+  // Only allow save writes once load()/loadGame() has finished. If load()
+  // threw (malformed/old save), the guard stays on and the original is kept.
+  var cover = document.getElementById('loadingScreenCover');
+  if (cover && cover.style.display === 'none') {
+    window.__ddLoaded = true;
+  } else {
+    show(LOADFAIL);
+  }
+  window.addEventListener('pagehide', flush);
+  window.addEventListener('beforeunload', flush);
+  document.addEventListener('visibilitychange', function(){
+    if (document.visibilityState === 'hidden') flush();
+  });
+  setInterval(function(){
+    if (window.__ddStale) { show(window.__ddGuardMsg || STALE); return; }
+    if (!window.__ddLoaded) return;
+    var t = lastSaved();
+    if (t > 0) show(LIVE.replace('{time}', stamp(t)));
+  }, 2000);
+})();
 </script>
 </body>
 
