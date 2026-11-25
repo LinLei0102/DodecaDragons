@@ -464,44 +464,124 @@ function setAutoSave() {
 setAutoSave()
 //setInterval(save(), 5000)
 
+// ---- save codec + file saves (localization patch) ----
+// Pristine game does inputField.value = btoa(JSON.stringify(game)) and
+// JSON.parse(atob(...)). btoa() throws InvalidCharacterError the moment a
+// string holds anything outside Latin-1 — so a Chinese dragon name broke the
+// whole export (and the imported copy came back mojibake). Everything below is
+// UTF-8 safe, accepts raw JSON and URL-safe base64 too, and adds real file
+// based save export/import.
+function ddB64Encode(str) {
+  var bytes = new TextEncoder().encode(str);
+  var bin = "";
+  for (var i = 0; i < bytes.length; i += 0x8000) {
+    bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+  }
+  return btoa(bin);
+}
+function ddB64Decode(b64) {
+  var bin = atob(b64);
+  var bytes = new Uint8Array(bin.length);
+  for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  try { return new TextDecoder("utf-8", { fatal: true }).decode(bytes); }
+  catch (err) { return bin; }   // legacy save: raw Latin-1 JSON
+}
+function ddEncodeSave(obj) { return ddB64Encode(JSON.stringify(obj)); }
+function ddDecodeSave(text) {
+  var s = String(text == null ? "" : text);
+  s = s.split(/\r?\n/).filter(function (line) {
+    return line.indexOf("// ") !== 0 && line.charAt(0) !== "#";
+  }).join("\n").trim();
+  if (!s) throw new Error("empty save");
+  if (s.charAt(0) === "{" || s.charAt(0) === "[") return JSON.parse(s);   // raw JSON save file
+  s = s.replace(/\s+/g, "").replace(/-/g, "+").replace(/_/g, "/");        // url-safe base64
+  while (s.length % 4 !== 0) s += "=";
+  return JSON.parse(ddB64Decode(s));
+}
+function ddApplySave(loadgame) {
+  if (!loadgame || typeof loadgame !== "object") return false;
+  reset();
+  loadGame(loadgame);
+  save();
+  return true;
+}
 function exportGame() {
-  save()
-  let inputField = document.getElementById("exportField");
-  inputField.value = btoa(JSON.stringify(game));
+  save();
+  var inputField = document.getElementById("exportField");
+  try { inputField.value = ddEncodeSave(game); }
+  catch (err) { alert("Export failed: could not encode the save. Your progress is untouched."); return; }
   if (navigator.userAgent.match(/ipad|ipod|iphone/i)) {
-    let editable = inputField.contentEditable;
-    let readOnly = inputField.readOnly;
+    var editable = inputField.contentEditable;
+    var readOnly = inputField.readOnly;
     inputField.contentEditable = 'true';
     inputField.readOnly = 'false';
-    let range = document.createRange();
+    var range = document.createRange();
     range.selectNodeContents(inputField);
-    let sel = window.getSelection();
+    var sel = window.getSelection();
     sel.removeAllRanges();
     sel.addRange(range);
     inputField.setSelectionRange(0, 999999);
     inputField.contentEditable = editable;
     inputField.readOnly = readOnly;
-  } else {
-    inputField.select();
   }
   inputField.select();
-  document.execCommand('copy');
+  try { document.execCommand("copy"); } catch (err) {}
   alert("Copied to clipboard!");
 }
-
 function importGame() {
-  //loadgame = JSON.parse(atob(prompt("Input your save here:")))
-  let loadgame = JSON.parse(atob(document.getElementById("exportField").value));
-  if (loadgame && loadgame != null && loadgame != "") {
-    reset()
-    loadGame(loadgame)
-    save()
-  }
-  else {
-    alert("Invalid input.")
-  }
+  var box = document.getElementById("exportField");
+  var loadgame;
+  try { loadgame = ddDecodeSave(box.value); }
+  catch (err) { alert("Invalid input: this save could not be read."); return; }
+  if (!ddApplySave(loadgame)) { alert("Invalid input: this save could not be read."); return; }
+  box.value = "";
+  alert("Save imported!");
 }
-
+function ddSaveFileName() {
+  var d = new Date();
+  function p(n) { return n < 10 ? "0" + n : "" + n; }
+  return "dodecadragons-save" + "-" + d.getFullYear() + p(d.getMonth() + 1) + p(d.getDate())
+    + "-" + p(d.getHours()) + p(d.getMinutes()) + p(d.getSeconds()) + ".txt";
+}
+function ddDownloadSave() {
+  save();
+  var text;
+  try { text = ddEncodeSave(game); }
+  catch (err) { alert("Export failed: could not encode the save. Your progress is untouched."); return; }
+  var blob = new Blob([text + "\n"], { type: "text/plain;charset=utf-8" });
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement("a");
+  a.href = url;
+  a.download = ddSaveFileName();
+  a.style.display = "none";
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(function () { URL.revokeObjectURL(url); a.remove(); }, 5000);
+}
+function ddPickSaveFile() {
+  var el = document.getElementById("ddSaveFileInput");
+  if (!el) return;
+  el.value = "";
+  el.click();
+}
+function ddImportFile(input) {
+  var file = input && input.files ? input.files[0] : null;
+  if (!file) return;
+  var reader = new FileReader();
+  reader.onerror = function () { input.value = ""; alert("Invalid input: this save could not be read."); };
+  reader.onload = function () {
+    var loadgame;
+    try { loadgame = ddDecodeSave(reader.result); }
+    catch (err) { input.value = ""; alert("Invalid input: this save could not be read."); return; }
+    if (!loadgame || typeof loadgame !== "object") { input.value = ""; alert("Invalid input: this save could not be read."); return; }
+    if (confirm("Import this save file? Your current progress will be overwritten.")) {
+      try { ddApplySave(loadgame); alert("Save imported!"); }
+      catch (err) { alert("Invalid input: this save could not be read."); }
+    }
+    input.value = "";
+  };
+  reader.readAsText(file, "utf-8");
+}
 function load() {
 	reset()
 	let loadgame = JSON.parse(localStorage.getItem("dodecaSave"))

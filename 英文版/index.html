@@ -69,6 +69,9 @@
       <button style="min-width: 68px" onclick="exportGame()">&#8202;&#8202;Export</button>
       <button style="min-width: 68px" onclick="importGame()">Import</button><br>
       <input id="exportField" style="width: 142px; margin-left: 4px; margin-bottom: 4px" type="text" placeholder="paste import string here"></input>
+      <button style="min-width: 68px" onclick="ddDownloadSave()" title="Download the save as a .txt file">&#8202;&#8202;Export file</button>
+      <button style="min-width: 68px" onclick="ddPickSaveFile()" title="Import a save from a .txt / .json file">Import file</button><br>
+      <input id="ddSaveFileInput" type="file" accept=".txt,.json,.sav,.save,text/plain,application/json" style="display: none" onchange="ddImportFile(this)">
       <hr>
       <button id="backgroundPatternButton" style="width: 142px"
         onclick="changeBackgroundPattern()">&#8202;&#8202;Background pattern: On</button><br>

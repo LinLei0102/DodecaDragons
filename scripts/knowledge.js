@@ -92,12 +92,12 @@ function purchaseKnowledgeTrade(trade) {
   sigilColour1 = sigilColours[game["knowledgeTrade" + trade + "SigilTypes"][0]-1]
   sigilColour2 = sigilColours[game["knowledgeTrade" + trade + "SigilTypes"][1]-1]
   sigilColour3 = sigilColours[game["knowledgeTrade" + trade + "SigilTypes"][2]-1]
-  if (game[sigilColour1 + "符印"].gte(game["knowledgeTrade" + trade + "Amounts"][0]) && game[sigilColour2 + "符印"].gte(game["knowledgeTrade" + trade + "Amounts"][1]) && game[sigilColour3 + "符印"].gte(game["knowledgeTrade" + trade + "Amounts"][2])) {
+  if (game[sigilColour1 + "Sigils"].gte(game["knowledgeTrade" + trade + "Amounts"][0]) && game[sigilColour2 + "Sigils"].gte(game["knowledgeTrade" + trade + "Amounts"][1]) && game[sigilColour3 + "Sigils"].gte(game["knowledgeTrade" + trade + "Amounts"][2])) {
     game.knowledge = game.knowledge.add(game["knowledgeTrade" + trade + "Reward"])
     if (game.knowledge.gte(game.highestKnowledge)) game.highestKnowledge = game.knowledge
-    game[sigilColour1 + "符印"] = game[sigilColour1 + "符印"].sub(game["knowledgeTrade" + trade + "Amounts"][0])
-    game[sigilColour2 + "符印"] = game[sigilColour2 + "符印"].sub(game["knowledgeTrade" + trade + "Amounts"][1])
-    game[sigilColour3 + "符印"] = game[sigilColour3 + "符印"].sub(game["knowledgeTrade" + trade + "Amounts"][2])
+    game[sigilColour1 + "Sigils"] = game[sigilColour1 + "Sigils"].sub(game["knowledgeTrade" + trade + "Amounts"][0])
+    game[sigilColour2 + "Sigils"] = game[sigilColour2 + "Sigils"].sub(game["knowledgeTrade" + trade + "Amounts"][1])
+    game[sigilColour3 + "Sigils"] = game[sigilColour3 + "Sigils"].sub(game["knowledgeTrade" + trade + "Amounts"][2])
     randomizeKnowledgeTrade(trade)
   }
 }

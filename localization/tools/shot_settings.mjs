@@ -1,0 +1,22 @@
+import { chromium } from 'playwright-core';
+import fs from 'fs';
+const base='http://127.0.0.1:8799';
+const saveJson=Buffer.from(fs.readFileSync('残局存档.b64.txt','utf8').trim(),'base64').toString('utf8');
+const browser=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true,args:['--no-sandbox']});
+const ctx=await browser.newContext({viewport:{width:900,height:900}});
+await ctx.addInitScript((s)=>{try{localStorage.setItem('dodecaSave',s);}catch(e){}},saveJson);
+const page=await ctx.newPage();
+const errs=[];page.on('pageerror',e=>errs.push('PAGEERROR: '+e.message));
+page.on('dialog',d=>d.accept().catch(()=>{}));
+await page.goto(base+'/%E6%B1%89%E5%8C%96%E7%89%88/index.html',{waitUntil:'domcontentloaded'});
+await page.waitForTimeout(2000);
+await page.evaluate(()=>{
+  const w=[...document.querySelectorAll('.window.box')].find(x=>x.textContent.includes('手动保存'));
+  w.style.display='block'; w.style.position='fixed'; w.style.left='10px'; w.style.top='10px'; w.style.zIndex='99';
+});
+await page.waitForTimeout(300);
+const el = page.locator('.window.box').filter({ hasText: '手动保存' }).first();
+await el.screenshot({ path: 'verification/fix-settings.png' });
+await page.screenshot({ path: 'verification/fix-page.png' });
+await browser.close();
+console.log(JSON.stringify({errs, files:['verification/fix-settings.png','verification/fix-page.png'].map(f=>[f,fs.statSync(f).size])}));

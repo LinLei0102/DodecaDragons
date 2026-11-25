@@ -69,6 +69,9 @@
       <button style="min-width: 68px" onclick="exportGame()">&#8202;&#8202;导出</button>
       <button style="min-width: 68px" onclick="importGame()">导入</button><br>
       <input id="exportField" style="width: 142px; margin-left: 4px; margin-bottom: 4px" type="text" placeholder="在此粘贴导入字符串"></input>
+      <button style="min-width: 68px" onclick="ddDownloadSave()" title="把存档下载成 .txt 文件">&#8202;&#8202;导出文件</button>
+      <button style="min-width: 68px" onclick="ddPickSaveFile()" title="从 .txt / .json 文件导入存档">导入文件</button><br>
+      <input id="ddSaveFileInput" type="file" accept=".txt,.json,.sav,.save,text/plain,application/json" style="display: none" onchange="ddImportFile(this)">
       <hr>
       <button id="backgroundPatternButton" style="width: 142px"
         onclick="changeBackgroundPattern()">&#8202;&#8202;背景图案：开</button><br>

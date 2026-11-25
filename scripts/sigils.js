@@ -11,7 +11,7 @@ function sigilCheck(x) {
 
 function sigilReset(x, triggerLayer = "sigil") {
   if (x<=8 && x>0) {
-    let sigilName = sigilColours[x - 1] + "符印";
+    let sigilName = sigilColours[x - 1] + "Sigils";
     let sigilsGained = game[sigilName + "ToGet"];
     if (sigilsGained.isNan()) {
       console.error("警告！符印重置正尝试重置为 NaN！")

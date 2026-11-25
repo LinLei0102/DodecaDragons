@@ -316,6 +316,232 @@ def patch_display_colours(dst_root):
         print("display colour names localized:", n)
 
 
+
+def restore_code_keys(dst_root):
+    """Put back string literals that are code fragments, not display text.
+
+    '"Sigils"' is concatenated onto a colour name to build property keys such
+    as cyanSigils / cyanSigilsToGet. The dictionary translated it to "符印",
+    which turned every sigil reset and every knowledge trade into
+    game["cyan符印"] === undefined -> TypeError. That is exactly the reported
+    "sigil reset only works after switching to English" bug, so the fragment is
+    forced back to English on every build.
+    """
+    patterns = [
+        (r'(sigilColours\[x - 1\]|sigilColour[123]|currentColour) \+ "符印"', r'\1 + "Sigils"'),
+        (r'\+ "符印"\]', '+ "Sigils"]'),
+    ]
+    total = 0
+    sdir = os.path.join(dst_root, "scripts")
+    for fn in sorted(os.listdir(sdir)):
+        if not fn.endswith(".js"):
+            continue
+        path = os.path.join(sdir, fn)
+        src = open(path, encoding="utf-8", newline="").read()
+        out = src
+        for pat, rep in patterns:
+            out, n = re.subn(pat, rep, out)
+            total += n
+        if out != src:
+            with open(path, "w", encoding="utf-8", newline="") as f:
+                f.write(out)
+    print("code-key literals restored:", total)
+    return total
+
+
+SAVE_IO_JS = r'''// ---- save codec + file saves (localization patch) ----
+// Pristine game does inputField.value = btoa(JSON.stringify(game)) and
+// JSON.parse(atob(...)). btoa() throws InvalidCharacterError the moment a
+// string holds anything outside Latin-1 — so a Chinese dragon name broke the
+// whole export (and the imported copy came back mojibake). Everything below is
+// UTF-8 safe, accepts raw JSON and URL-safe base64 too, and adds real file
+// based save export/import.
+function ddB64Encode(str) {
+  var bytes = new TextEncoder().encode(str);
+  var bin = "";
+  for (var i = 0; i < bytes.length; i += 0x8000) {
+    bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+  }
+  return btoa(bin);
+}
+function ddB64Decode(b64) {
+  var bin = atob(b64);
+  var bytes = new Uint8Array(bin.length);
+  for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  try { return new TextDecoder("utf-8", { fatal: true }).decode(bytes); }
+  catch (err) { return bin; }   // legacy save: raw Latin-1 JSON
+}
+function ddEncodeSave(obj) { return ddB64Encode(JSON.stringify(obj)); }
+function ddDecodeSave(text) {
+  var s = String(text == null ? "" : text);
+  s = s.split(/\r?\n/).filter(function (line) {
+    return line.indexOf("// ") !== 0 && line.charAt(0) !== "#";
+  }).join("\n").trim();
+  if (!s) throw new Error("empty save");
+  if (s.charAt(0) === "{" || s.charAt(0) === "[") return JSON.parse(s);   // raw JSON save file
+  s = s.replace(/\s+/g, "").replace(/-/g, "+").replace(/_/g, "/");        // url-safe base64
+  while (s.length % 4 !== 0) s += "=";
+  return JSON.parse(ddB64Decode(s));
+}
+function ddApplySave(loadgame) {
+  if (!loadgame || typeof loadgame !== "object") return false;
+  reset();
+  loadGame(loadgame);
+  save();
+  return true;
+}
+function exportGame() {
+  save();
+  var inputField = document.getElementById("exportField");
+  try { inputField.value = ddEncodeSave(game); }
+  catch (err) { alert(@@EXPORT_FAIL@@); return; }
+  if (navigator.userAgent.match(/ipad|ipod|iphone/i)) {
+    var editable = inputField.contentEditable;
+    var readOnly = inputField.readOnly;
+    inputField.contentEditable = 'true';
+    inputField.readOnly = 'false';
+    var range = document.createRange();
+    range.selectNodeContents(inputField);
+    var sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+    inputField.setSelectionRange(0, 999999);
+    inputField.contentEditable = editable;
+    inputField.readOnly = readOnly;
+  }
+  inputField.select();
+  try { document.execCommand("copy"); } catch (err) {}
+  alert(@@COPIED@@);
+}
+function importGame() {
+  var box = document.getElementById("exportField");
+  var loadgame;
+  try { loadgame = ddDecodeSave(box.value); }
+  catch (err) { alert(@@INVALID@@); return; }
+  if (!ddApplySave(loadgame)) { alert(@@INVALID@@); return; }
+  box.value = "";
+  alert(@@IMPORTED@@);
+}
+function ddSaveFileName() {
+  var d = new Date();
+  function p(n) { return n < 10 ? "0" + n : "" + n; }
+  return @@PREFIX@@ + "-" + d.getFullYear() + p(d.getMonth() + 1) + p(d.getDate())
+    + "-" + p(d.getHours()) + p(d.getMinutes()) + p(d.getSeconds()) + ".txt";
+}
+function ddDownloadSave() {
+  save();
+  var text;
+  try { text = ddEncodeSave(game); }
+  catch (err) { alert(@@EXPORT_FAIL@@); return; }
+  var blob = new Blob([text + "\n"], { type: "text/plain;charset=utf-8" });
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement("a");
+  a.href = url;
+  a.download = ddSaveFileName();
+  a.style.display = "none";
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(function () { URL.revokeObjectURL(url); a.remove(); }, 5000);
+}
+function ddPickSaveFile() {
+  var el = document.getElementById("ddSaveFileInput");
+  if (!el) return;
+  el.value = "";
+  el.click();
+}
+function ddImportFile(input) {
+  var file = input && input.files ? input.files[0] : null;
+  if (!file) return;
+  var reader = new FileReader();
+  reader.onerror = function () { input.value = ""; alert(@@INVALID@@); };
+  reader.onload = function () {
+    var loadgame;
+    try { loadgame = ddDecodeSave(reader.result); }
+    catch (err) { input.value = ""; alert(@@INVALID@@); return; }
+    if (!loadgame || typeof loadgame !== "object") { input.value = ""; alert(@@INVALID@@); return; }
+    if (confirm(@@ASK_IMPORT@@)) {
+      try { ddApplySave(loadgame); alert(@@IMPORTED@@); }
+      catch (err) { alert(@@INVALID@@); }
+    }
+    input.value = "";
+  };
+  reader.readAsText(file, "utf-8");
+}
+'''
+
+SAVE_IO_TEXT_ZH = {
+    "EXPORT_FAIL": "导出失败：存档编码出错，进度没有被改动。",
+    "COPIED": "已复制到剪贴板！",
+    "INVALID": "输入无效：无法识别这份存档。",
+    "IMPORTED": "存档导入成功！",
+    "ASK_IMPORT": "确定要导入这个存档文件吗？当前进度会被覆盖。",
+    "PREFIX": "十二龙-存档",
+}
+SAVE_IO_TEXT_EN = {
+    "EXPORT_FAIL": "Export failed: could not encode the save. Your progress is untouched.",
+    "COPIED": "Copied to clipboard!",
+    "INVALID": "Invalid input: this save could not be read.",
+    "IMPORTED": "Save imported!",
+    "ASK_IMPORT": "Import this save file? Your current progress will be overwritten.",
+    "PREFIX": "dodecadragons-save",
+}
+
+
+def save_io_js(is_zh):
+    text = SAVE_IO_TEXT_ZH if is_zh else SAVE_IO_TEXT_EN
+    js = SAVE_IO_JS
+    for key, value in text.items():
+        js = js.replace("@@%s@@" % key, json.dumps(value, ensure_ascii=False))
+    return js
+
+
+SAVE_FILE_UI_ZH = """      <button style="min-width: 68px" onclick="ddDownloadSave()" title="把存档下载成 .txt 文件">&#8202;&#8202;导出文件</button>
+      <button style="min-width: 68px" onclick="ddPickSaveFile()" title="从 .txt / .json 文件导入存档">导入文件</button><br>
+      <input id="ddSaveFileInput" type="file" accept=".txt,.json,.sav,.save,text/plain,application/json" style="display: none" onchange="ddImportFile(this)">"""
+
+SAVE_FILE_UI_EN = """      <button style="min-width: 68px" onclick="ddDownloadSave()" title="Download the save as a .txt file">&#8202;&#8202;Export file</button>
+      <button style="min-width: 68px" onclick="ddPickSaveFile()" title="Import a save from a .txt / .json file">Import file</button><br>
+      <input id="ddSaveFileInput" type="file" accept=".txt,.json,.sav,.save,text/plain,application/json" style="display: none" onchange="ddImportFile(this)">"""
+
+
+def patch_save_io(dst_root, is_zh):
+    """UTF-8 safe save export/import + file based save export/import."""
+    path = os.path.join(dst_root, "scripts", "script.js")
+    src = open(path, encoding="utf-8", newline="").read()
+    if "ddEncodeSave" in src:
+        return
+    eol = "\r\n" if "\r\n" in src else "\n"
+    start = src.find("function exportGame() {")
+    end = src.find("function load() {")
+    if start < 0 or end < 0 or end < start:
+        print("exportGame/load anchors not found", path, file=sys.stderr)
+        sys.exit(11)
+    block = save_io_js(is_zh).replace("\n", eol)
+    if not block.endswith(eol):
+        block += eol
+    src = src[:start] + block + src[end:]
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(src)
+    print("save io patched:", os.path.basename(dst_root))
+
+
+def inject_save_file_ui(dst_root, is_zh):
+    """Add Export file / Import file buttons + hidden file input to Settings."""
+    path = os.path.join(dst_root, "index.html")
+    src = open(path, encoding="utf-8", newline="").read()
+    if "ddSaveFileInput" in src:
+        return
+    m = re.search(r'<input id="exportField"[^>]*></input>', src)
+    if not m:
+        print("exportField anchor not found", path, file=sys.stderr)
+        sys.exit(12)
+    eol = "\r\n" if "\r\n" in src else "\n"
+    row = (SAVE_FILE_UI_ZH if is_zh else SAVE_FILE_UI_EN).replace("\n", eol)
+    src = src[:m.end()] + eol + row + src[m.end():]
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(src)
+
+
 def md5(path):
     return hashlib.md5(open(path, "rb").read()).hexdigest()
 
@@ -337,6 +563,14 @@ def main():
     inject_autosave(ZH, True)
     # localize sigil colour names in display-only spots (code keys stay English)
     patch_display_colours(ZH)
+    # string fragments used as property keys must never stay translated
+    restore_code_keys(ZH)
+    # UTF-8 safe save codec + file-format save export/import (both builds:
+    # a Chinese dragon name breaks btoa() in the English build just the same)
+    patch_save_io(EN, False)
+    patch_save_io(ZH, True)
+    inject_save_file_ui(EN, False)
+    inject_save_file_ui(ZH, True)
     print(json.dumps(report, ensure_ascii=False, indent=1))
     # baseline record
     base = {

@@ -118,9 +118,99 @@ CODE_KEY_ARRAYS = {"sigilResetterModes"}
 CODE_KEY_SELECT_IDS = {"sigilResetterType"}
 
 
+def property_access_ranges(src):
+    """Spans of every [...] member access, e.g. game[colour + "Sigils"].
+
+    Anything inside such a bracket feeds a property lookup, so its string
+    literals are code. A bare fragment like "Sigils" that the array/select
+    whitelists miss lives here — that exact miss is what used to break the
+    sigil reset (game["cyan符印ToGet"] === undefined).
+    """
+    ranges = []
+    i, n = 0, len(src)
+    while i < n:
+        c = src[i]
+        if c in "'\"":
+            q = c
+            i += 1
+            while i < n:
+                if src[i] == "\\":
+                    i += 2
+                    continue
+                if src[i] == q:
+                    i += 1
+                    break
+                i += 1
+            continue
+        if c == "/" and i + 1 < n and src[i + 1] == "/":
+            while i < n and src[i] != "\n":
+                i += 1
+            continue
+        if c == "/" and i + 1 < n and src[i + 1] == "*":
+            i += 2
+            while i + 1 < n and not (src[i] == "*" and src[i + 1] == "/"):
+                i += 1
+            i += 2
+            continue
+        if c == "[":
+            j = i - 1
+            while j >= 0 and src[j] in " \t\r\n":
+                j -= 1
+            prev = src[j] if j >= 0 else ""
+            if prev and (prev.isalnum() or prev in "_$)]"):
+                depth, k = 0, i
+                while k < n:
+                    ch = src[k]
+                    if ch in "'\"":
+                        q2 = ch
+                        k += 1
+                        while k < n:
+                            if src[k] == "\\":
+                                k += 2
+                                continue
+                            if src[k] == q2:
+                                break
+                            k += 1
+                    elif ch == "[":
+                        depth += 1
+                    elif ch == "]":
+                        depth -= 1
+                        if depth == 0:
+                            break
+                    k += 1
+                ranges.append((i, k + 1))
+                i = k + 1
+                continue
+        i += 1
+    return ranges
+
+
+IDENT_FRAGMENT = re.compile(r"(['\"])([A-Za-z_$][\w$]*)\1")
+
+
+def identifier_fragment_ranges(src):
+    """Spans of identifier-shaped literals glued to a '+' (code fragments).
+
+    "Sigils", "fireUpgrade", "Cost" ... are property-name pieces. Display
+    fragments almost always carry spaces or punctuation, so requiring a bare
+    identifier AND a neighbouring '+' keeps the false positives out.
+    """
+    ranges = []
+    for m in IDENT_FRAGMENT.finditer(src):
+        before = src[:m.start()].rstrip()
+        after = src[m.end():].lstrip()
+        glued = before.endswith("+") or after.startswith("+")
+        compared = (after.startswith("===") or after.startswith("==") or after.startswith("!==")
+                    or after.startswith("!=") or before.endswith("===") or before.endswith("==")
+                    or before.endswith("!==") or before.endswith("!=") or before.endswith("case"))
+        if glued or compared:
+            ranges.append((m.start(2) - 1, m.end(2) + 1))
+    return ranges
+
+
 def code_key_ranges(src, fn):
     """Return (start,end) absolute ranges that must never be translated."""
-    ranges = []
+    ranges = property_access_ranges(src) + identifier_fragment_ranges(src)
     for m in re.finditer(r"\b(?:const|var|let)\s+([A-Za-z_$][\w$]*)\s*=\s*\[", src):
         if m.group(1) not in CODE_KEY_ARRAYS:
             continue
